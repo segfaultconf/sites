@@ -116,7 +116,7 @@ padding: 0;
   }
 }
 
-@media (max-width: 720px){
+@media (max-width: 768px){
   .masthead .claim{
     font-size: 1.5rem;
   }
@@ -140,6 +140,15 @@ padding: 0;
   }
   .content-section{
     padding-top: 1.5rem;
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 992px){
+  .portfolio-item h4 {
+    text-align: center;
+  }
+  .portfolio-item .lead{
+    text-align: center;
   }
 }
 
@@ -149,7 +158,7 @@ padding: 0;
   }
   .masthead h1 {
     font-size: 5.5rem;
-  }
+  } 
 }
 
 #sidebar-wrapper {
