@@ -1,0 +1,4 @@
+baseURL = "http://segfault.events/"
+languageCode = "pl"
+title = "SegFault - Konferencje IT"
+theme = "segfault"
