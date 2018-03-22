@@ -6,4 +6,6 @@ resources:
     name: "photo"
 ---
 
-Some page content
+# Bio
+
+Od 10 lat refaktoryzuję legacy e-commerce aplikacje w Ruby on Rails. Współautor 5 książek o programowaniu, które sprzedały się w tysiącach egzemplarzy. Miłośnik pracy zdalnej, gburek i muchomorek. 
