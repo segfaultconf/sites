@@ -112,9 +112,9 @@ Wierzymy, że tylko zrozumienie fundamentów umożliwia ciągły rozwój nie tyl
                   <p class="mb-0 lead to-left">bo nie samymi architekturami człowiek żyje. Porozmawiamy o&nbsp;nas, o&nbsp;tym jak się uczyć, jak rozwijać swoje umiejętności, jak skutecznie manewrować swoją karierą i&nbsp;rozwojem.</p>
               </div>
           </div>
-
         </div>
       </div>
+
     </section>
 
     <section class="content-section bg-light-gray text-center" id="speakers">
@@ -125,56 +125,18 @@ Wierzymy, że tylko zrozumienie fundamentów umożliwia ciągły rozwój nie tyl
         </div>
 
         <div class="row">
-
-          <div class="col-lg-6 mb-3 pb-5">
-              <div class="portfolio-item ">
-                <img class="img-fluid rounded mb-5 set-width" src="prelegenci/marcin_grzejeszczak.jpeg" alt="">
-                  <h4 class="dark-blue">Marcin Grzejszczak</h4>
-                  <p class="mb-0 lead ">Contract Tests in the Enterprise</p>
-              </div>
-          </div>
-
-          <div class="col-lg-6 mb-3 pb-5">
-              <div class="portfolio-item ">
-                <img class="img-fluid rounded mb-5 set-width" src="prelegenci/robert_pankowecki.jpg" alt="">
-                  <h4 class=" dark-blue">Robert Pankowiecki</h4>
-                  <p class="mb-0 lead ">5 lat z&nbsp;życia programisty języka dynamicznego w&nbsp;legacy projekcie: sinusoida meta-programowania</p>
-              </div>
-          </div>
-
-          <div class="col-lg-6 mb-3 pb-5">
-              <div class="portfolio-item ">
-                <img class="img-fluid rounded mb-5 set-width" src="prelegenci/michal_gruca.JPG" alt="">
-                  <h4 class=" dark-blue">Michał Gruca</h4>
-                  <p class="mb-0 lead ">Impostor syndrome, czyli dlaczego moje konto na Githubie jest puste</p>
-              </div>
-          </div>
-
-          <div class="col-lg-6 mb-3 pb-5">
-              <div class="portfolio-item ">
-                <img class="img-fluid rounded mb-5 set-width" src="prelegenci/norbert_wojtowicz.jpg" alt="">
-                  <h4 class=" dark-blue">Norbert Wójtowicz</h4>
-                  <p class="mb-0 lead ">Emergent properties of data: a&nbsp;retrospective</p>
-              </div>
-          </div>
-
-          <div class="col-lg-6 mb-3 pb-5">
-              <div class="portfolio-item ">
-                <img class="img-fluid rounded mb-5 set-width" src="prelegenci/tomek_kogut.jpg" alt="">
-                  <h4 class=" dark-blue">Tomek Kogut</h4>
-                  <p class="mb-0 lead ">Życie po batchu. Streaming i&nbsp;jego oblicza</p>
-              </div>
-          </div>
-
-          <div class="col-lg-6 mb-3 pb-5">
-              <div class="portfolio-item ">
-                <img class="img-fluid rounded mb-5 set-width" src="prelegenci/tomek_szymanski.jpg" alt="">
-                  <h4 class=" dark-blue">Tomek Szymański</h4>
-                  <p class="mb-0 lead ">Kryzys wieku średniego w&nbsp;IT</p>
-              </div>
-          </div>
+{{ range $speaker := where .Site.Pages "Section" "speakers" }}
+        <div class="col-lg-6 mb-3 pb-5">
+            <div class="portfolio-item ">
+              {{ with $speaker.Resources.GetMatch "photo" }}
+                  <img class="img-fluid rounded mb-5 set-width" src="{{ .RelPermalink }}" alt="">
+              {{ end }}
+                  <h4 class="dark-blue">{{$speaker.Params.speakername}}</h4>
+                  <p class="mb-0 lead ">{{$speaker.Params.presentationtitle}}</p>
+            </div>
         </div>
-
+{{end}}
+        </div>
       </div>
     </section>
 

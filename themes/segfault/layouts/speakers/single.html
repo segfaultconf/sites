@@ -1,0 +1,13 @@
+<html>
+{{.Params.speakername}}
+
+{{ .Params.presentationtitle }}
+{{ printf "%#v" . }}
+
+<img src="{{ (.Resources.GetMatch "photo").RelPermalink }}"/>
+{{ with .Resources.ByType "image" }}
+  {{range .}}
+    {{ .RelPermalink }}
+  {{end}}
+{{ end }}
+</html>
