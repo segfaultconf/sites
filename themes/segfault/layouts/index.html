@@ -149,9 +149,6 @@ Wierzymy, że tylko zrozumienie fundamentów umożliwia ciągły rozwój nie tyl
         </div>
 
         <div class="row">
-
-
-
 {{ range $speaker := where .Site.Pages "Section" "speakers" }}
 <div class="col-lg-6 mb-3 pb-5">
   <a href="{{ .RelPermalink }}" class="block-link">
@@ -234,8 +231,29 @@ Wierzymy, że tylko zrozumienie fundamentów umożliwia ciągły rozwój nie tyl
             </div>
         </div>
       </div>
-
     </section>
+
+    <section class="content-section bg-primary text-white text-center" id="society">
+      <div class="container">
+        <div class="col-lg-10 mx-auto pb-2">
+          <h2 class="mb-3">Społeczność</h2>
+           <hr class="mb-5">
+        </div>
+
+        <div class="row">
+{{ with .Site.GetPage "page" "community" }}
+{{ range .Resources.Match "*" }}
+          <div class="col-md-3">
+            <div class="portfolio-item">
+              <img class="img-fluid rounded mb-5 set-width" src="{{ .RelPermalink }}">
+            </div>
+          </div>
+{{ end }}
+{{ end }}
+        </div>
+    </section>
+
+
     <a class="no-decoration" target="_blank" href="https://segfault-lodz-2018.konfeo.com/pl/groups">
       <section class="content-section-small bg-light-gray" id="contact">
         <div class="container text-center">
