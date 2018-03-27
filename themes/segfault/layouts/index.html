@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-    <link href="css/segfault-Style.css" rel="stylesheet">
+    <link href="css/segfault-Style.min.css" rel="stylesheet">
 
     <!-- Facebook Pixel Code -->
     <script>
@@ -43,6 +43,10 @@
     </noscript>
     <!-- End Facebook Pixel Code -->
 
+    <!-- Event snippet for Segfault conversion page -->
+    <script>
+      gtag('event', 'conversion', {'send_to': 'AW-868075068/96OoCOvtsX8QvIz3nQM'});
+    </script>
   </head>
 
   <body id="page-top">
@@ -145,16 +149,23 @@ Wierzymy, że tylko zrozumienie fundamentów umożliwia ciągły rozwój nie tyl
         </div>
 
         <div class="row">
+
+
+
 {{ range $speaker := where .Site.Pages "Section" "speakers" }}
-        <div class="col-lg-6 mb-3 pb-5">
-            <div class="portfolio-item ">
-              {{ with $speaker.Resources.GetMatch "photo" }}
-                  <img class="img-fluid rounded mb-5 set-width" src="{{ .RelPermalink }}" alt="">
-              {{ end }}
-                  <h4 class="dark-blue">{{$speaker.Params.speakername}}</h4>
-                  <p class="mb-0 lead ">{{$speaker.Params.presentationtitle}}</p>
-            </div>
-        </div>
+<div class="col-lg-6 mb-3 pb-5">
+  <a href="{{ .RelPermalink }}" class="block-link">
+    <div class="row">
+      <div class="portfolio-item">
+        {{ with $speaker.Resources.GetMatch "photo" }}
+            <img class="img-fluid rounded mb-5 set-width" src="{{ .RelPermalink }}" alt="">
+        {{ end }}
+        <h4 class="dark-blue">{{$speaker.Params.speakername}}</h4>
+        <p class="mb-0 lead ">{{$speaker.Params.presentationtitle}}</p>
+      </div>
+    </div>
+  </a>
+</div>
 {{end}}
         </div>
       </div>
