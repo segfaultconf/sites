@@ -14,4 +14,6 @@ resources:
   - src: "SpreadIT_logo.png"
   - src: "kgd.net_.jpeg"
   - src: "customLogo.gif"
+  - src: "phpers-single.jpg"
+  - src: "php_logo_black.png"
 ---
