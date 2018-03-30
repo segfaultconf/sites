@@ -233,6 +233,50 @@ Wierzymy, że tylko zrozumienie fundamentów umożliwia ciągły rozwój nie tyl
       </div>
     </section>
 
+    <section class="content-section bg-light-gray" id="partners">
+      <div class="container text-center">
+        <div class="col-lg-10 mx-auto">
+          <h2 class="mb-3">Partnerzy</h2>
+          <hr class="mb-5">
+        </div>
+
+        <div class="col-lg-10 mx-auto">
+          <h3 class="mb-3">Senior</h3>
+          <hr class="mb-5">
+        </div>
+
+        <div class="row">
+{{ with .Site.GetPage "page" "partners" }}
+{{ range .Resources.Match "senior/*" }}
+          <div class="col-lg-6 mb-3 pb-5">
+              <div class="portfolio-item">
+                <img class="img-fluid rounded mb-5 set-width" src="{{ .RelPermalink }}" alt="">
+                <h4 class=" dark-blue">{{ .Title }}</h4>
+              </div>
+          </div>
+{{ end }}
+{{ end }}
+        </div>
+
+        <div class="col-lg-10 mx-auto">
+          <h3 class="mb-3">Media</h3>
+          <hr class="mb-5">
+        </div>
+
+        <div class="row">
+{{ with .Site.GetPage "page" "partners" }}
+{{ range .Resources.Match "media/*" }}
+          <div class="col-lg-6 mb-3 pb-5">
+              <div class="portfolio-item">
+                <img class="img-fluid rounded mb-5 set-width" src="{{ .RelPermalink }}" alt="">
+                <h4 class=" dark-blue">{{ .Title }}</h4>
+              </div>
+          </div>
+{{ end }}
+{{ end }}
+        </div>
+      </section>
+
     <section class="content-section bg-primary text-white text-center" id="society">
       <div class="container">
         <div class="col-lg-10 mx-auto pb-2">

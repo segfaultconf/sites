@@ -1,5 +1,5 @@
 ---
-speakername: "Grzegorz Rożnecki"
+speakername: "Grzegorz Rożniecki"
 presentationtitle: "Naucz się kontrybuować - poradnik nie tylko dla Jedi."
 resources:
   - src: "grzegorz_roznecki.jpg"
