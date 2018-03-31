@@ -287,9 +287,9 @@ Wierzymy, że tylko zrozumienie fundamentów umożliwia ciągły rozwój nie tyl
         <div class="row">
 {{ with .Site.GetPage "page" "community" }}
 {{ range .Resources.Match "*" }}
-          <div class="col-md-3">
+          <div class="col-md-2">
             <div class="portfolio-item">
-              <img class="img-fluid rounded mb-5 set-width" src="{{ .RelPermalink }}">
+              <img class="img-fluid rounded mb-1 sm-1" src="{{ .RelPermalink }}">
             </div>
           </div>
 {{ end }}
