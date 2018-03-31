@@ -1,0 +1,8 @@
+image: symentis/hugo:latest
+
+pipelines:
+  default:
+    - step:
+        script:
+          - ./bin/hugo
+          - ncftpput -R -u segfault@segfault.events -p HbIYM4V6e6alYQ5wKf7A ftp.symentis.kylos.pl / public/*
