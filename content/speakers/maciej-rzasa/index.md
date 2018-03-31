@@ -2,7 +2,7 @@
 speakername: "Maciej Rząsa"
 presentationtitle: "Nie ma nic prostszego niż napisanie wolnego regexpa"
 resources:
-  - src: "maciej_rząsa.png"
+  - src: "maciej_rzasa.png"
     name: "photo"
 bio: |
   Developer specjalizujący się w Rubym, ale nie stroniący od JavaScriptu. Posiada ponad 5-letnie doświadczenie w tworzeniu aplikacji z różnorodnych dziedzin (TV, recycling, turystyka, tłumaczenia). Obecnie pracuje w firmie TextMaster zajmując się m. in. automatycznym przetwarzaniem tekstów do tłumaczeń. Zainteresowany systemami rozproszonymi, samoorganizującymi się zespołami i metodami tworzenia oprogramowania.
