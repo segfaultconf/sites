@@ -17,4 +17,5 @@ resources:
   - src: "phpers-single.jpg"
   - src: "php_logo_black.png"
   - src: "logojjit.png"
+  - src: "greenfieldlogo.png"
 ---
