@@ -124,7 +124,7 @@
             <div class="col-lg-9 col-sm-12 mb-5">
               <div class="portfolio-item to-left">
                   <h4 class="mb-0 to-left dark-blue">{{ .Params.speakername }}</h4>
-                  <p class="mb-0 lead to-left">{{ .Params.bio }}</p>
+                  <p class="mb-0 lead to-left">{{ markdownify .Params.bio }}</p>
               </div>
             </div>
         </div>
