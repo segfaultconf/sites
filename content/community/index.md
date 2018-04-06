@@ -18,4 +18,5 @@ resources:
   - src: "php_logo_black.png"
   - src: "logojjit.png"
   - src: "greenfieldlogo.png"
+  - src: "f1ecc1c5128a4d33eebd7170b8bde6d8_400x400.png"
 ---
