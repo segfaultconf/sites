@@ -239,6 +239,23 @@ Wierzymy, że tylko zrozumienie fundamentów umożliwia ciągły rozwój nie tyl
           <h2 class="mb-3">Partnerzy</h2>
           <hr class="mb-5">
         </div>
+        <div class="col-lg-10 mx-auto">
+          <h3 class="mb-3">Architekt</h3>
+          <hr class="mb-5">
+        </div>
+
+        <div class="row">
+{{ with .Site.GetPage "page" "partners" }}
+{{ range .Resources.Match "architect/*" }}
+          <div class="col-lg-6 mb-3 pb-5">
+              <div class="portfolio-item">
+                <img class="img-fluid rounded mb-5 set-width" src="{{ .RelPermalink }}" alt="">
+                <h4 class=" dark-blue">{{ .Title }}</h4>
+              </div>
+          </div>
+{{ end }}
+{{ end }}
+        </div>
 
         <div class="col-lg-10 mx-auto">
           <h3 class="mb-3">Senior</h3>
