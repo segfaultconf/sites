@@ -7,4 +7,6 @@ resources:
     title: Idemia
   - src: "media/NFJ_logo_CMYK_przezroczyste_tlo.png"
     title: "No Fluff Jobs"
+  - src: "media/karieraIT_500X331_rgb.png"
+    title: "Kariera IT"
 ---
