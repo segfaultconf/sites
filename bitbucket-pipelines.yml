@@ -5,4 +5,4 @@ pipelines:
     - step:
         script:
           - /.bin/hugo
-          - ncftpput -R -u segfault@segfault.events -p $SEGFAULT_FTP_SITE_PASSWD ftp.symentis.kylos.pl / public/*
+          - lftp -f lftprc 
