@@ -5,4 +5,4 @@ pipelines:
     - step:
         script:
           - /.bin/hugo
-          - lftp -f lftprc -p "$SEGFAULT_TEST_FTP_SITE_PASSWD"
+          - LFTP_PASSWORD="$SEGFAULT_TEST_FTP_SITE_PASSWD" lftp -f lftprc

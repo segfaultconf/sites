@@ -1,4 +1,4 @@
 set ftp:ssl-allow no
 set mirror:set-permissions no
-open -u test@segfault.events ftp://ftp.symentis.kylos.pl
+open --env-password -u test@segfault.events ftp://ftp.symentis.kylos.pl
 mirror -R public .
