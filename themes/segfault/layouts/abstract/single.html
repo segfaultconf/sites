@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl-PL" class="js">
+{{- partial "head.html" . -}}
+<body class="single-lecture single">
+    {{- partial "header.html" . -}}
+    <div id="body" class="clearfix">
+        <!-- layout-container -->
+        <div id="layout" class="pagewidth clearfix">
+            <!-- content -->
+            <div id="content" class="clearfix">
+                <div class="container">
+                    {{ range where (where .Parent.Pages "Type" "speaker") "Params.speakername" .Params.speakername }}
+                    <div class="row">
+                        <div class="col-md-3">
+                          {{ with .Resources.GetMatch "photo" }}
+                            <img src="{{ .RelPermalink }}" alt="" />
+                          {{ end }}
+                        </div>
+                        <div class="col-md-9">
+                            <h2> {{ .Params.presentationtitle }} </h2>
+                            <a href="{{ .RelPermalink }}">
+                                <h3>
+                                    <em>{{ .Params.speakername }}</em>
+                                </h3>
+                            </a>
+                        </div>
+                    </div>
+                    {{ end }}
+                    <div class="clear" style="height: 50px"></div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>{{ .Content }}</p>
+                        </div>
+                    </div>
+                    <div class="clear" style="height: 50px"></div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="{{ .Parent.RelPermalink }}#speakers" class="back">
+                                <i class="fas fa-arrow-circle-left"></i>
+                                <span>Zobacz wszystkich prelegentów</span>
+                            </a>
+                            <a href="{{ .Parent.RelPermalink }}#schedule" class="back">
+                                <i class="fas fa-arrow-circle-left"></i>
+                                <span>Przejdź do agendy</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{- partial "footer.html" . -}}
+        </div>
+    </div>
+</body>
+</html>

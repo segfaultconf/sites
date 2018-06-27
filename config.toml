@@ -1,4 +1,4 @@
-baseURL = "http://segfault.events/"
-languageCode = "pl"
+baseURL = "http://test.segfault.events/"
+languageCode = "pl-PL"
 title = "SegFault - Konferencje IT"
 theme = "segfault"

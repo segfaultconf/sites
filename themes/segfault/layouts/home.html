@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl-PL" class="js">
+{{- partial "head.html" . -}}
+<body class="start-screen">
+    <div class="container-fluid full-height" id="topImg">
+        <div id="topContent">
+            <img src="/img/segfaultPoziomeLogo.png" alt="Logo Segfault">
+            <h1 class="fancy-font white-text" id="mainWords">...wszyscy jesteśmy architektami</h1>
+            <div class="button-group" role="group" aria-label="Wybierz wydarzenie">
+                {{ range where .Site.Sections "Type" "sites"}}
+                {{ range where .Sections "Type" "event"}}
+                <a href="{{ .Permalink }}">
+                    <button type="button" class="btn big transparent" aria-label="{{ .Title }} - {{ .Params.eventdate }}">
+                        {{ .Title }} {{ .Params.eventdate }}
+                    </button>
+                </a>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

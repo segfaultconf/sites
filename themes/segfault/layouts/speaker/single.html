@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl-PL" class="js">
+{{- partial "head.html" . -}}
+<body class="single-person single">
+    {{- partial "header.html" . -}}
+    <div id="body" class="clearfix">
+        <!-- layout-container -->
+        <div id="layout" class="pagewidth clearfix">
+            <!-- content -->
+            <div id="content" class="clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                          {{ with .Resources.GetMatch "photo" }}
+                            <img src="{{ .RelPermalink }}" alt="" />
+                          {{ end }}
+                        </div>
+                        <div class="col-md-8">
+                            <h2>{{ .Params.speakername }} </h2>
+                            {{ .Content }}
+                            <h4> Prelekcje </h4>
+                            {{ range  where (where .Parent.Pages "Type" "abstract") "Params.presentationtitle" .Params.presentationtitle }}
+                            <a href="{{ .Permalink }}">{{ .Params.presentationtitle }}</a>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{- partial "footer.html" . -}}
+        </div>
+    </div>
+</body>
+</html>

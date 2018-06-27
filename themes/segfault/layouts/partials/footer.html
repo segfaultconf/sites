@@ -1,175 +1,42 @@
-<footer class="footer text-center">
-  <div class="container">
-    <ul class="list-inline mb-5">
-      <li class="list-inline-item">
-        <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/SegFaultConf/">
-          <i class="icon-social-facebook"></i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="social-link rounded-circle text-white mr-3" href="https://twitter.com/SegFaultConf">
-          <i class="icon-social-twitter"></i>
-        </a>
-      </li>
-    </ul>
-    <p class="text-muted small mb-0">Copyright &copy; SegFault</p>
-  </div>
-  <div class="container">
-    <ul class="list-inline mb-2">
-      <li class="list-inline-item">
-        <a href="docs/Regulamin.pdf">Regulamin</a>
-      </li>
-      <li class="list-inline-item">
-        <a href="docs/PolitykaPrywatnosci.pdf">Polityka prywatności</a>
-      </li>
-    </ul>
-  </div>
+<footer>
+    <div class="container-fluid dark-gray">
+        <div class="col-md-12">
+            <a href="#pagewrap" id="up"><i class="fas fa-chevron-up"></i></a>
+        </div>
+        <div class="social-widgets col-md-12">
+            <a href="https://twitter.com/SegFaultConf"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/SegFaultConf/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/segfaultconf/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCV38Do_3C5uVk3lWePkyxTA"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg" id="bottomNav">
+                <div class="navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html#about" target="_blank">O konferencji<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="regulamin.html">Regulamin konferencji</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="polityka-prywatnosci.html">Polityka prywatności</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://segfault-lodz-2018.konfeo.com/pl/groups" target="_blank">Zarejestruj się</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:partnerzy@segfault.events">Zostań partnerem</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="col-md-12">
+            <span id="copyright">Copyright © SegFault</span>
+        </div>
+    </div>
 </footer>
-
-<a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
-  <i class="fa fa-angle-up"></i>
-</a>
-
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-<script src="js/segfault.min.js"></script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113528014-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'UA-113528014-1');
-gtag('config', 'AW-868075068');
-
-function initMap() {
-  var segfault = {lat : 51.759407, lng : 19.469167};
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 12,
-    center: segfault,
-    styles: [{
-      "featureType":"all",
-      "elementType":"geometry.fill",
-      "stylers":[{
-        "weight":"2.00"
-      }]
-    },
-    {
-      "featureType":"all",
-      "elementType":"geometry.stroke",
-      "stylers":[{
-        "color":"#548898"
-      }]
-    },
-    {
-      "featureType":"all",
-      "elementType":"labels.text",
-      "stylers":[{"visibility":"on"}]
-    },
-    {
-      "featureType":"landscape",
-      "elementType":"all",
-      "stylers":[{
-        "color":"#f2f2f2"
-      }]
-    },
-    {
-      "featureType":"landscape",
-      "elementType":"geometry.fill",
-      "stylers":[{
-        "color":"#ffffff"
-      }]
-    },
-    {"featureType":"landscape.man_made",
-      "elementType":"geometry.fill",
-      "stylers":[{
-        "color":"#ffffff"
-      }]
-    },
-    {"featureType":"poi",
-      "elementType":"all",
-      "stylers":[{
-        "visibility":"off"
-      }]
-    },
-    {"featureType":"road",
-      "elementType":"all",
-      "stylers":[{
-        "saturation":-100},
-      {"lightness":45
-      }]
-    },
-    {"featureType":"road",
-      "elementType":"geometry.fill",
-      "stylers":[{
-        "color":"#eeeeee"
-      }]
-    },
-    {"featureType":"road",
-      "elementType":"labels.text.fill",
-      "stylers":[{
-        "color":"#7b7b7b"
-      }]
-    },
-    {"featureType":"road",
-      "elementType":"labels.text.stroke",
-      "stylers":[{
-        "color":"#ffffff"
-      }]
-    },
-    {"featureType":"road.highway",
-      "elementType":"all",
-      "stylers":[{
-        "visibility":"simplified"
-      }]
-    },
-    {"featureType":"road.arterial",
-      "elementType":"labels.icon",
-      "stylers":[{
-        "visibility":"off"
-      }]
-    },
-    {"featureType":"transit",
-      "elementType":"all",
-      "stylers":[{
-        "visibility":"off"
-      }]
-    },
-    {"featureType":"water",
-      "elementType":"all",
-      "stylers":[{
-        "color":"#46bcec"},
-        {"visibility":"on"
-      }]
-    },
-    {"featureType":"water",
-      "elementType":"geometry.fill",
-      "stylers":[{
-        "color":"#c8d7d4"
-      }]
-    },
-    {"featureType":"water",
-      "elementType":"labels.text.fill",
-      "stylers":[{
-        "color":"#070707"
-      }]
-    },
-    {"featureType":"water",
-      "elementType":"labels.text.stroke",
-      "stylers":[{
-        "color":"#ffffff"
-      }]
-    }]
-  });
-  var marker = new google.maps.Marker({
-    position: segfault,
-    map: map
-  });
-}
-</script>
-<script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiyUqvhpL6q1zOlx5PI0qKeCdC0NvAOV8&callback=initMap">
-</script>
