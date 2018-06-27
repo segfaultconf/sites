@@ -5,6 +5,7 @@ resources:
     title: "SoftwareMill"
   - src: "architect/Idemia_Logo_2000px.png"
     title: Idemia
+    rank: architect
   - src: "media/NFJ_logo_CMYK_przezroczyste_tlo.png"
     title: "No Fluff Jobs"
   - src: "media/karieraIT_500X331_rgb.png"
