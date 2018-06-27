@@ -11,7 +11,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-4">
-                          {{ with .Resources.GetMatch "photo" }}
+                          {{ with .Parent.Resources.GetMatch .Params.memberphoto }}
                             <img src="{{ .RelPermalink }}" alt="" />
                           {{ end }}
                         </div>

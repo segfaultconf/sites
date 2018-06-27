@@ -329,7 +329,9 @@
                         <div class="chart-html5-fill"></div>
                       </div>
                       <div class="chart-html5-inset">
-                        <img src="img/justynaBio.jpg" alt="" />
+                        {{ with .Parent.Resources.GetMatch .Params.memberphoto }}
+                        <img src="{{ .RelPermalink }}" alt="" />
+                        {{ end }}
                       </div>
                     </div>
                   </div>
