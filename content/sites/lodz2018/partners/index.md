@@ -10,4 +10,6 @@ resources:
     title: "No Fluff Jobs"
   - src: "media/karieraIT_500X331_rgb.png"
     title: "Kariera IT"
+  - src: "community/kjug_logo_992x444.jpeg"
+    title: "Kielce JUG"
 ---

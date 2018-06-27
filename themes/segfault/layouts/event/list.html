@@ -236,9 +236,13 @@
         </a>
             <hr>
             <div class="customer-logos slider">
+              {{ with .Site.GetPage "page" .Dir "partners" }}
+              {{ range .Resources.Match "architect/*" }}
               <div class="slide">
-                <img src="img/idemia_logo.png">
+                <img src="{{ .RelPermalink }}">
               </div>
+              {{ end }}
+              {{ end }}
             </div>
             <hr>
             <h2>Partnerzy - Senior
@@ -248,12 +252,13 @@
         </a>
             <hr>
             <div class="customer-logos slider">
+              {{ with .Site.GetPage "page" .Dir "partners" }}
+              {{ range .Resources.Match "senior/*" }}
               <div class="slide">
-                <img src="img/softwaremill.png">
+                <img src="{{ .RelPermalink }}">
               </div>
-              <div class="slide">
-                <img src="img/it_kontrakt.png">
-              </div>
+              {{ end }}
+              {{ end }}
             </div>
             <hr>
             <h2>Media</h2>
@@ -262,18 +267,13 @@
         </a>
             <hr>
             <div class="customer-logos slider">
+              {{ with .Site.GetPage "page" .Dir "partners" }}
+              {{ range .Resources.Match "media/*" }}
               <div class="slide">
-                <img src="img/lodzIT-200x200.png">
+                <img src="{{ .RelPermalink }}">
               </div>
-              <div class="slide">
-                <img src="img/karieraIT_200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/nofluffjobs-200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/Meetup-krk-1-200x200.png">
-              </div>
+              {{ end }}
+              {{ end }}
             </div>
             <hr>
             <h2>Społeczność</h2>
@@ -282,59 +282,14 @@
         </a>
             <hr>
             <div class="customer-logos slider">
-              <div class="slide">
-                <img src="img/juglodz-from-svg-724x1024-200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/devlodz-200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/greenfield-200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/jsession-200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/juglodz-from-svg-724x1024-200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/kdg-200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/kilcejava-200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/rgdev-200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/kilcejava-200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/rzemioslogray-200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/rzeszowruby-200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/SGMS_logo_01-200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/sjug-200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/spreditgreen-200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/tjug-200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/wjugkolor-200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/wnet-200x200.png">
-              </div>
-              <div class="slide">
-                <img src="img/wrocjug-200x200.png">
+              <div class="customer-logos slider">
+                {{ with .Site.GetPage "page" .Dir "partners" }}
+                {{ range .Resources.Match "community/*" }}
+                <div class="slide">
+                  <img src="{{ .RelPermalink }}">
+                </div>
+                {{ end }}
+                {{ end }}
               </div>
             </div>
             <hr>
