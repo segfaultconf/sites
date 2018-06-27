@@ -1,4 +1,4 @@
 set ftp:ssl-allow no
 set mirror:set-permissions no
-open -u test@segfault.events,"$SEGFAULT_TEST_FTP_SITE_PASSWD" ftp://ftp.symentis.kylos.pl
+open -u test@segfault.events ftp://ftp.symentis.kylos.pl
 mirror -R public .
