@@ -16,7 +16,12 @@
                             <a class="nav-link active" href="#about">O konferencji<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
+                          {{ if eq .Kind "section" }}
                             <a class="nav-link" href="index.html#topics">Tematyka</a>
+                          {{ end }}
+                          {{ if eq .Kind "page" }}
+                            <a class="nav-link" href="{{ .Parent.URL }}index.html#topics">Tematyka</a>
+                          {{ end }}
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="index.html#speakers">Prelegenci</a>
