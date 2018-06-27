@@ -6,3 +6,9 @@ pipelines:
         script:
           - /.bin/hugo
           - LFTP_PASSWORD="$SEGFAULT_TEST_FTP_SITE_PASSWD" lftp -f lftprc
+
+  deployment:
+    - step:
+        script:
+          - /.bin/hugo
+          - LFTP_PASSWORD="$SEGFAULT_TEST_FTP_SITE_PASSWD" lftp -f lftprc

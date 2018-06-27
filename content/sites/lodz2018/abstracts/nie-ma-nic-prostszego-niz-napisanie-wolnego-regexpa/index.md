@@ -2,9 +2,6 @@
 type: abstract
 speakername: "Maciej Rząsa"
 presentationtitle: "Nie ma nic prostszego niż napisanie wolnego regexpa"
-resources:
-  - src: "maciej_rzasa.png"
-    name: "photo"
 ---
 Chociaż prawie każdy używa wyrażeń regularnych, mało kto zastanawia się nad ich wydajnością. Tymczasem źle napisany regexp (zarówno po stronie serwera jak i w przeglądarce) może skutecznie spowolnić działanie aplikacji. Jak więc napisać wyrażenie regularne, które nie tylko znajduje to, co trzeba, ale robi to szybko?
 
