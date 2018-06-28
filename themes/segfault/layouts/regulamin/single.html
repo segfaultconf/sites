@@ -2,51 +2,7 @@
 <html lang="pl-PL" class="js">
 {{- partial "head.html" . -}}
 <body class="single regulation">
-    <div class="body-overlay"></div>
-    <div id="pagewrap" class="hfeed site">
-        <div id="headerwrap">
-            <header id="header" class="pagewidth clearfix" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
-                <nav class="navbar fixed-top navbar-expand-lg" id="mainNav">
-                    <a class="navbar-brand" href="#">
-                        <img src="/img/segfaultPoziomeLogoBiale.png" alt="Logo Segfault">
-                    </a>
-                    <button id="myToggler">
-                        <span class="navbar-toggler-icon">&#9776;</span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <i class="fas fa-times" id="closeMenu"></i>
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#about">O konferencji<span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#topics">Tematyka</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#speakers">Prelegenci</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#schedule">Agenda</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#partners">Partnerzy</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#organisedBy">Organizator</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#council">Rada programowa</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#contact">Kontakt</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-        </div>
-        <!-- /#headerwrap -->
-    </div>
+    {{- partial "header.html" . -}}
     <div id="body" class="clearfix">
         <!-- layout-container -->
         <div id="layout" class="pagewidth clearfix">
@@ -57,7 +13,7 @@
                         <div class="col-md-12">
                             <h2> Regulamin konferencji </h2>
                             <h4>
-                                <a href="docs/Regulamin.pdf" target="_blank">
+                                <a href="/docs/Regulamin.pdf" target="_blank">
                                     <i class="fas fa-file-pdf"></i>
                                     <span> Pobierz pdf </span>
                                 </a>
@@ -144,48 +100,7 @@
                     </div>
                 </div>
             </div>
-            <footer>
-                <div class="container-fluid dark-gray">
-                    <div class="col-md-12">
-                        <a href="#pagewrap" id="up"><i class="fas fa-chevron-up"></i></a>
-                    </div>
-                    <div class="social-widgets col-md-12">
-                        <a href="https://twitter.com/SegFaultConf"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.facebook.com/SegFaultConf/"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/segfaultconf/"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.youtube.com/channel/UCV38Do_3C5uVk3lWePkyxTA"><i class="fab fa-youtube"></i></a>
-                    </div>
-                    <div class="col-md-12">
-                        <nav class="navbar navbar-expand-lg" id="bottomNav">
-                            <div class="navbar-collapse justify-content-center" id="navbarNav">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="index.html#about" target="_blank">O konferencji<span class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="regulamin.html">Regulamin konferencji</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="polityka-prywatnosci.html">Polityka prywatności</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="faq.html">FAQ</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="https://segfault-lodz-2018.konfeo.com/pl/groups" target="_blank">Zarejestruj się</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="mailto:partnerzy@segfault.events">Zostań partnerem</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                    <div class="col-md-12">
-                        <span id="copyright">Copyright © SegFault</span>
-                    </div>
-                </div>
-            </footer>
+        {{- partial "head.html" . -}}
         </div>
     </div>
 </body>
