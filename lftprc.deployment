@@ -1,0 +1,4 @@
+set ftp:ssl-allow no
+set mirror:set-permissions no
+open --env-password -u segfault@segfault.events ftp://ftp.symentis.kylos.pl
+mirror -R public .
