@@ -11,35 +11,32 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <i class="fas fa-times" id="closeMenu"></i>
+                    {{/* this is so fucking dirty, needs to be hacked out of this code, but don't know how */}}
+                    {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "/" }}
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#about">O konferencji<span class="sr-only">(current)</span></a>
+                            <a class="nav-link active" href="/{{ if eq .Type "event" }}{{ index (split $url "/") 1 }}{{ else }}{{ index (split $url "/") 2 }}{{end}}/index.html#about">O konferencji<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                          {{ if eq .Kind "section" }}
-                            <a class="nav-link" href="index.html#topics">Tematyka</a>
-                          {{ end }}
-                          {{ if eq .Kind "page" }}
-                            <a class="nav-link" href="{{ .Parent.URL }}index.html#topics">Tematyka</a>
-                          {{ end }}
+                            <a class="nav-link" href="/{{ if eq .Type "event" }}{{ index (split $url "/") 1 }}{{ else }}{{ index (split $url "/") 2 }}{{end}}/index.html#topics">Tematyka</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#speakers">Prelegenci</a>
+                            <a class="nav-link" href="/{{ if eq .Type "event" }}{{ index (split $url "/") 1 }}{{ else }}{{ index (split $url "/") 2 }}{{end}}/index.html#speakers">Prelegenci</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#schedule">Agenda</a>
+                            <a class="nav-link" href="/{{ if eq .Type "event" }}{{ index (split $url "/") 1 }}{{ else }}{{ index (split $url "/") 2 }}{{end}}/index.html#schedule">Agenda</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#partners">Partnerzy</a>
+                            <a class="nav-link" href="/{{ if eq .Type "event" }}{{ index (split $url "/") 1 }}{{ else }}{{ index (split $url "/") 2 }}{{end}}/index.html#partners">Partnerzy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#organisedBy">Organizator</a>
+                            <a class="nav-link" href="/{{ if eq .Type "event" }}{{ index (split $url "/") 1 }}{{ else }}{{ index (split $url "/") 2 }}{{end}}/index.html#organisedBy">Organizator</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#council">Rada programowa</a>
+                            <a class="nav-link" href="/{{ if eq .Type "event" }}{{ index (split $url "/") 1 }}{{ else }}{{ index (split $url "/") 2 }}{{end}}/index.html#council">Rada programowa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#contact">Kontakt</a>
+                            <a class="nav-link" href="/{{ if eq .Type "event" }}{{ index (split $url "/") 1 }}{{ else }}{{ index (split $url "/") 2 }}{{end}}/index.html#contact">Kontakt</a>
                         </li>
                     </ul>
                 </div>
