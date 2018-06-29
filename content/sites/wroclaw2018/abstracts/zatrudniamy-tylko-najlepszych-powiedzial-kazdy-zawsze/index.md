@@ -1,7 +1,7 @@
 ---
 type: abstract
 speakername: Wojtek Erbetowski
-presentationtitle: Zatrudniamy tylko najlepszych – powiedział każdy, zawsze
+presentationtitle: "Zatrudniamy tylko najlepszych - powiedział każdy, zawsze"
 ---
 Zatrudniamy! (jak dosłownie każdy inny w tej branży). I mamy problem ze znalezieniem dobrych programistów. Nasz dział HR sili się na wymyślne oferty, aby zwabić nieco więcej osób. Zatem od teraz, zamiast programistów, poszukujemy ninja, ogrodników, gwiazd rocka, czy poetów. Mając trochę szczęścia zgłasza się wystarczająco dużo osób, aby było z kogo wybierać.
 
