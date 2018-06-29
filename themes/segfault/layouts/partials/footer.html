@@ -25,7 +25,7 @@
                             <a class="nav-link" href="/{{ if eq .Type "event" }}sites/{{ index (split $url "/") 1 }}{{ else }}sites/{{ index (split $url "/") 2 }}{{end}}/polityka-prywatnosci">Polityka prywatności</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/{{ if eq .Type "event" }}sites/{{ index (split $url "/") 1 }}{{ else }}sites/{{ index (split $url "/") 2 }}{{end}}/faq.html">FAQ</a>
+                            <a class="nav-link" href="/{{ if eq .Type "event" }}sites/{{ index (split $url "/") 1 }}{{ else }}sites/{{ index (split $url "/") 2 }}{{end}}/faqs">FAQ</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ .Params.registrationlink }}" target="_blank">Zarejestruj się</a>

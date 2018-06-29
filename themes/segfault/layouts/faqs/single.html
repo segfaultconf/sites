@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl-PL" class="js">
+{{- partial "head.html" . -}}
+<body class="single faq">
+    {{- partial "header.html" . -}}
+    <div id="body" class="clearfix">
+        <!-- layout-container -->
+        <div id="layout" class="pagewidth clearfix">
+            <!-- content -->
+            <div id="content" class="clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2> FAQ </h2>
+                            <div id="accordion">
+                                {{ range $i, $e := .Params.faqs }}
+                                <div class="card">
+                                    <div class="card-header" id="heading{{ $i }}">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse{{ $i }}" aria-expanded="false" aria-controls="collapse{{ $i }}">
+                                                {{  markdownify $e.question }}
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapse{{ $i }}" class="collapse" aria-labelledby="heading{{ $i }}" data-parent="#accordion">
+                                        <div class="card-body">
+                                            {{ markdownify $e.answer }}
+                                        </div>
+                                    </div>
+                                </div>
+                                {{ end }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{- partial "footer.html" . -}}
+        </div>
+    </div>
+</body>
+</html>
