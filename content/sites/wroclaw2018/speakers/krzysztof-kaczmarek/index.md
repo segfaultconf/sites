@@ -1,7 +1,7 @@
 ---
 type: speaker
 speakername: Krzysztof Kaczmarek
-presentationtitle: "0 rzeczy, które chciałbym wiedzieć 10 lat temu"
+presentationtitle: "10 rzeczy, które chciałbym wiedzieć 10 lat temu"
 resources:
   - src: "krzysztof-kaczmarek.jpg"
     name: "photo"
