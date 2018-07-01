@@ -99,7 +99,8 @@
           Prelegenci
         </h2>
             <div class="row">
-              {{ $pages := .Pages }} {{ range $speaker := where $pages "Type" "speaker" }}
+              {{ $pages := .Pages }}
+              {{ range $speaker := where $pages "Type" "speaker" }}
               <div class="col-lg-4 col-md-6 speaker">
                 <a href="{{ .RelPermalink }}">
                   <div class="module-feature-chart-html5" data-progress="0" data-progress-end="100" data-size="150">
@@ -118,8 +119,14 @@
                   </div>
                   <h3>{{ $speaker.Params.speakername }}</h3>
                 </a>
-                {{ range $abstract := where (where $pages "Type" "abstract") "Params.presentationtitle" $speaker.Params.presentationtitle }}
-                <a href="{{ $abstract.Permalink }}">{{ $abstract.Params.presentationtitle }}</a> {{ end }}
+                {{ $abstracts := where (where $pages "Type" "abstract") "Params.presentationtitle" $speaker.Params.presentationtitle }}
+                {{ if $abstracts }}
+                {{ range $abstract := $abstracts }}
+                <a  href="{{ $abstract.Permalink }}">{{ $abstract.Params.presentationtitle }}</a>
+                {{ end }}
+                {{ else }}
+                TBD
+                {{ end }}
               </div>
               {{ end }}
             </div>
