@@ -1,7 +1,7 @@
 ---
 type: speaker
 speakername: "Norbert Wójtowicz"
-presentationtitle: "Emergent properties of data: a retrospective"
+presentationtitle: "Datalog: NoSQL, Event-Sourcing, ACID, and Web-Scale?!"
 resources:
   - src: "norbert_wojtowicz.jpg"
     name: "photo"
