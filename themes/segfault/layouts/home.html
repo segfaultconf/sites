@@ -11,7 +11,7 @@
                 {{ range where .Sections "Type" "event"}}
                 <a href="{{ .Permalink }}">
                     <button type="button" class="btn big transparent" aria-label="{{ .Title }} - {{ .Params.eventdate }}">
-                        {{ .Title }} {{ .Params.eventdate }}
+                        {{ .Params.city }} {{ .Params.eventdate }}
                     </button>
                 </a>
                 {{ end }}

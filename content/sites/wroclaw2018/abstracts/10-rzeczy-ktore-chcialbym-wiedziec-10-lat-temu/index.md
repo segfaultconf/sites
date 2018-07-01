@@ -1,7 +1,7 @@
 ---
 type: abstract
 speakername: Krzysztof Kaczmarek
-presentationtitle: 10 rzeczy, które chciałbym wiedzieć 10 lat temu
+presentationtitle: "10 rzeczy, które chciałbym wiedzieć 10 lat temu"
 ---
 Istnieją momenty „Aha” które zmieniają życie, karierę, zatrzymują czas. Czasem jest to pierwsze spojrzenie w oczy kobiety którą kochasz (lub mężczyzny) i nic już nie będzie takie samo, czasem jest to zdanie mentora które zmienia bieg Twojej kariery.
 

@@ -51,5 +51,4 @@ faqs:
       <p><a href="https://www.youtube.com/channel/UCV38Do_3C5uVk3lWePkyxTA">Kanał YouTube </a>– tutaj publikowane będą materiały filmowe pokonferencyjne</p>
   - question: Do kogo mogę zwrócić się w&nbsp;razie pytań?
     answer: W razie jakichkolwiek pytań napisz do <a href="mailto:justyna.bien89@gmail.com">Justyny</a> albo zadzwoń <a href="tel:0048533600164">+48 533 600 164</a>.
-
 ---
