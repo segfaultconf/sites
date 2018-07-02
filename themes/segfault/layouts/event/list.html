@@ -15,12 +15,12 @@
             <h2 class="white-text">{{ .Params.city }} {{ .Params.eventdate }}</h2>
             <span class="spacer"></span>
             <div class="button-group" role="group" aria-label="Zarejestruj / Zostań partnerem">
-              <button type="button" class="btn blue">
-            <a class="white-text" href="{{ $.Site.Params.registrationURL }}">Rejestracja</a>
-          </button>
-              <button type="button" class="btn blue">
-            <a class="white-text" href="mailto:partnerzy@segfault.events">Partnerstwo</a>
-          </button>
+              <a class="white-text no-decor" href="{{ .Params.registrationlink }}">
+                <button type="button" class="btn blue">Rejestracja</button>
+              </a>
+              <a class="white-text no-decor" href="mailto:partnerzy@segfault.events">
+                <button type="button" class="btn blue">Partnerstwo</button>
+              </a>
             </div>
             <span class="spacer"></span>
           </div>

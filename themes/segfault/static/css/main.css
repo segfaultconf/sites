@@ -4,7 +4,8 @@
   cursor: pointer; }
   #myToggler span {
     padding-top: 0; }
-
+.no-decor, .no-decor:hover{
+  text-decoration: none; }
 body.open-menu {
   position: relative; }
   body.open-menu nav.navbar.fixed-top.navbar-expand-lg .fas.fa-times {
