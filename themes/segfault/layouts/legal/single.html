@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl-PL" class="js">
+{{- partial "head.html" . -}}
+<body class="single regulation">
+    {{- partial "header.html" . -}}
+    <div id="body" class="clearfix">
+        <!-- layout-container -->
+        <div id="layout" class="pagewidth clearfix">
+            <!-- content -->
+            <div id="content" class="clearfix">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2> {{ .Title }} </h2>
+                            <h4>
+                                <a href="{{ .Params.legalpdf }}" target="_blank">
+                                    <i class="fas fa-file-pdf"></i>
+                                    <span> Pobierz pdf </span>
+                                </a>
+                            </h4>
+                        {{ .Content }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{- partial "head.html" . -}}
+          </div>
+    </div>
+</body>
+</html>

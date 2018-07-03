@@ -1,5 +1,7 @@
 ---
-type: regulamin
+type: legal
+title: Regulamin
+legalpdf: /docs/Regulamin.pdf
 ---
 <p>Niniejszy regulamin określa warunki korzystania z&nbsp;serwisu internetowego konferencji SegFault, dostępnego za pośrednictwem adresu segfault.events i&nbsp;stanowi integralną część umów zawieranych przez Symentis.pl za pośrednictwem Serwisu.</p>
 <div class="clear" style="height: 50px"></div>

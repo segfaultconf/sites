@@ -1,5 +1,7 @@
 ---
-type: polityka-prywatnosci
+type: legal
+title: Polityka Prywatnosci
+legalpdf: /docs/PolitykaPrywatnosci.pdf
 ---
 <p>Niniejsza Polityka Prywatności określa sposoby ochrony danych Użytkowników korzystających z&nbsp;Serwisu. Na potrzeby niniejszej Polityki Prywatności zastosowanie znajdują definicje zawarte w&nbsp;Regulaminie. Korzystanie z&nbsp;Serwisu jest równoznaczne z&nbsp;akceptacją niniejszego Regulaminu, którego integralną częścią jest niniejsza Polityka Prywatności. Administratorem danych osobowych zbieranych w&nbsp;Serwisie jest Symentis.pl z&nbsp;siedzibą w&nbsp;Grzegórzecka 67h/34, 31-559 Kraków, wpisana do Rejestru Przedsiębiorców prowadzonego przez Sąd Rejonowy dla Kraków-Śródmieście w&nbsp;Krakowie pod numerem NIP: 6591184910.</p>
 <div class="clear" style="height: 50px"></div>
