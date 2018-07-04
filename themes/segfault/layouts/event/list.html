@@ -147,7 +147,21 @@
           </div>
         </section>
         <section id="partners">
-          <div class="container">
+          <h2>Partnerzy - Principal
+      </h2>
+          <a href="mailto:partnerzy@segfault.events">
+        Chcesz zostać Partnerem Principal?
+      </a>
+          <hr>
+          <div class="customer-logos slider">
+            {{ with .Site.GetPage "page" .Dir "partners" }}
+            {{ range .Resources.Match "principal/*" }}
+            <div class="slide">
+              <img src="{{ .RelPermalink }}">
+            </div>
+            {{ end }}
+            {{ end }}
+          </div>
             <h2>Partnerzy - Architekt
         </h2>
             <a href="mailto:partnerzy@segfault.events">
