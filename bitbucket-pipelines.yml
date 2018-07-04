@@ -7,10 +7,9 @@ pipelines:
         script:
           - /.bin/hugo --baseURL=http://test.segfault.events/
           - LFTP_PASSWORD="$SEGFAULT_TEST_FTP_SITE_PASSWD" lftp -f lftprc.default
-  custom:
-      production:
-        - step:
-            deployment: production
-            script:
-              - /.bin/hugo --baseURL=http://segfault.events/
-              - LFTP_PASSWORD="$SEGFAULT_FTP_SITE_PASSWD" lftp -f lftprc.deployment
+            
+    - step:
+        deployment: production
+        script:
+          - /.bin/hugo --baseURL=http://segfault.events/
+          - LFTP_PASSWORD="$SEGFAULT_FTP_SITE_PASSWD" lftp -f lftprc.deployment
