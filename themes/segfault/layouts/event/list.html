@@ -152,7 +152,6 @@
           <a href="mailto:partnerzy@segfault.events">
         Chcesz zostać Partnerem Principal?
       </a>
-          <hr>
           <div class="customer-logos slider">
             {{ with .Site.GetPage "page" .Dir "partners" }}
             {{ range .Resources.Match "principal/*" }}
@@ -162,12 +161,11 @@
             {{ end }}
             {{ end }}
           </div>
-            <h2>Partnerzy - Architekt
-        </h2>
+          <hr>
+          <h2>Partnerzy - Architekt</h2>
             <a href="mailto:partnerzy@segfault.events">
           Chcesz zostać Partnerem Architekt?
         </a>
-            <hr>
             <div class="customer-logos slider">
               {{ with .Site.GetPage "page" .Dir "partners" }}
               {{ range .Resources.Match "architect/*" }}
@@ -183,7 +181,6 @@
         <a href="mailto:partnerzy@segfault.events">
           Chcesz zostać Partnerem Senior?
         </a>
-            <hr>
             <div class="customer-logos slider">
               {{ with .Site.GetPage "page" .Dir "partners" }}
               {{ range .Resources.Match "senior/*" }}
@@ -198,7 +195,6 @@
             <a href="mailto:partnerzy@segfault.events">
           Chcesz zostać Partnerem Medialnym?
         </a>
-            <hr>
             <div class="customer-logos slider">
               {{ with .Site.GetPage "page" .Dir "partners" }}
               {{ range .Resources.Match "media/*" }}
