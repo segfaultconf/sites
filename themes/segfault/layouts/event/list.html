@@ -139,8 +139,29 @@
             <h2>
           Agenda
         </h2>
-        {{ if .Content }}
-        {{ .Content }}
+        {{ if isset .Params "agenda" }}
+        <table class="table table-hover table-responsive">
+          <thead>
+            <th scope="col" class="column-1">Godzina</th>
+            <th scope="col">Track 1</th>
+            <th scope="col">Track 2</th>
+          </thead>
+          <tbody>
+            {{ range $slot := .Params.agenda }}
+            {{ range $hour,$presentations := $slot}}
+            <tr>
+              <td class="column-1">{{ $hour }}</td>
+              {{ range $e,$p := $presentations }}
+              <td class="column-{{ add $e 2 }}">
+                {{ index $p "speaker" }}<br/>
+                {{ index $p "abstract" }}
+              </td>
+              {{ end }}
+            </tr>
+            {{ end }}
+            {{ end }}
+          </tbody>
+        </table>
         {{ else }}
         <center>Pojawi się wkrótce</center>
         {{ end }}
@@ -148,7 +169,7 @@
         </section>
 
         <hr>
-        
+
         {{ with .Site.GetPage "page" .Dir "partners" }}
         <section id="partners">
           <h2>Partnerzy - Principal</h2>

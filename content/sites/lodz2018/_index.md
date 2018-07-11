@@ -9,6 +9,17 @@ location:
   lat: 51.759251
   lng: 19.4669354
 registrationlink: https://segfault-lodz-2018.konfeo.com/pl/groups
+agenda:
+  - "9:30":
+      - speaker: Paweł Szulc
+        abstract: Illogical Enginners
+      - speaker: Marcin Grzejszczak
+        abstract: Contract Tests in the Enterprise
+  - "10:30":
+      - speaker: Maciej Rząsa
+        abstract: Nie ma nic prostszego niż napisanie wolnego regexpa
+      - speaker: Szymon Warda
+        abstract: You are using the wrong database!
 ---
 <table class="table table-hover table-responsive">
   <thead>
