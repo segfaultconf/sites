@@ -152,13 +152,13 @@
             <tr>
               <td class="column-1">{{ $hour }}</td>
               {{ range $e,$p := $presentations }}
-                {{ $abstracts := where (where $pages "Type" "abstract") "Params.presentationtitle" $p }}
-                {{ $multipleSlots := after 1 $presentations }}
-                {{ if $multipleSlots }}
-              <td class="column-{{ add $e 2 }}">
-                {{ else }}
+                {{ $singleSlot := eq (len $presentations) 1 }}
+                {{ if $singleSlot }}
               <td class="column-2 text-center" colspan="2" >
+                {{ else }}
+              <td class="column-{{ add $e 2 }}">
                 {{ end }}
+                {{ $abstracts := where (where $pages "Type" "abstract") "Params.presentationtitle" $p }}
                 {{ if $abstracts }}
                   {{ range $abstract := $abstracts }}
                     <a  href="{{ $abstract.Permalink }}">{{ $abstract.Params.presentationtitle }}</a>
