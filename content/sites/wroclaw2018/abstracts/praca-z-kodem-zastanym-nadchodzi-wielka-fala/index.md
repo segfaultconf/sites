@@ -1,7 +1,7 @@
 ---
 type: abstract
 speakername: Daniel Pokusa
-presentationtitle: Praca z kodem zastanym- nadchodzi wielka fala
+presentationtitle: "Praca z kodem zastanym- nadchodzi wielka fala"
 ---
 Wyobraź sobie, że dostajesz swój wymarzony projekt. W końcu „greenfield”! Ale jest to projekt biznesowy i to Ty jesteś odpowiedzialny za wybór technologii, a jako specjalista czujesz się też odpowiedzialny za całość. Co robisz? Zaryzykujesz tak po prostu i wybierzesz same „nowinki” z rynku, które Cię kręcą i których chciałbyś spróbować? A jeśli uznasz, że jednak trzeba podejść do tematu „poważnie” to czy tak na prawdę aż tak dużo się nauczysz? O ile lepszym architektem i programistą się staniesz korzystając już ze znanych sobie wzorców i podejść? Prawda jest taka, że jak masz już młotek to wszystko staje się gwoździem. A każdy z nas ma swoje ulubione młotki. Oczywiście- część problemów będzie nowych, będzie wymagała nowych podejść i rozwiązań- ale nasz umysł skonstruowany jest w taki, a nie inny sposób- będziemy stosować utarte i pewne praktyki, szczególnie jeśli potrzebujemy udowodnić swoją wartość w (nowym) zespole.
 

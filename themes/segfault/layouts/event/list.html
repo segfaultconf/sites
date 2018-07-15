@@ -134,21 +134,10 @@
           </div>
         </section>
 
-        <section id="schedule">
-          <div class="container">
-            <h2>
-          Agenda
-        </h2>
-        {{ if .Content }}
-        {{ .Content }}
-        {{ else }}
-        <center>Pojawi się wkrótce</center>
-        {{ end }}
-          </div>
-        </section>
+        {{- partial "agenda.html" . -}}
 
         <hr>
-        
+
         {{ with .Site.GetPage "page" .Dir "partners" }}
         <section id="partners">
           <h2>Partnerzy - Principal</h2>
