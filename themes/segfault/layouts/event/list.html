@@ -134,33 +134,37 @@
           </div>
         </section>
 
-        <section id="schedule">
-          <div class="container">
-            <h2>
-          Agenda
-        </h2>
-        {{ if .Content }}
-        {{ .Content }}
-        {{ else }}
-        <center>Pojawi się wkrótce</center>
-        {{ end }}
-          </div>
-        </section>
+        {{- partial "agenda.html" . -}}
+
+        <hr>
+
+        {{ with .Site.GetPage "page" .Dir "partners" }}
         <section id="partners">
-          <div class="container">
-            <h2>Partnerzy - Architekt
-        </h2>
-            <a href="mailto:partnerzy@segfault.events">
-          Chcesz zostać Partnerem Architekt?
-        </a>
-            <hr>
+          <h2>Partnerzy - Principal</h2>
+          {{ if not (.Resources.Match "principal/*") }}
+          <a href="mailto:partnerzy@segfault.events">
+            Chcesz zostać Partnerem Principal?
+          </a>
+          {{ end }}
+          <div class="customer-logos slider">
+            {{ range .Resources.Match "principal/*" }}
+            <div class="slide">
+              <img src="{{ .RelPermalink }}">
+            </div>
+            {{ end }}
+          </div>
+          <hr>
+          <h2>Partnerzy - Architekt</h2>
+          {{ if lt (len (.Resources.Match "architect/*")) 3 }}
+          <a href="mailto:partnerzy@segfault.events">
+            Chcesz zostać Partnerem Architekt?
+          </a>
+          {{ end }}
             <div class="customer-logos slider">
-              {{ with .Site.GetPage "page" .Dir "partners" }}
               {{ range .Resources.Match "architect/*" }}
               <div class="slide">
                 <img src="{{ .RelPermalink }}">
               </div>
-              {{ end }}
               {{ end }}
             </div>
             <hr>
@@ -169,14 +173,11 @@
         <a href="mailto:partnerzy@segfault.events">
           Chcesz zostać Partnerem Senior?
         </a>
-            <hr>
             <div class="customer-logos slider">
-              {{ with .Site.GetPage "page" .Dir "partners" }}
               {{ range .Resources.Match "senior/*" }}
               <div class="slide">
                 <img src="{{ .RelPermalink }}">
               </div>
-              {{ end }}
               {{ end }}
             </div>
             <hr>
@@ -184,14 +185,11 @@
             <a href="mailto:partnerzy@segfault.events">
           Chcesz zostać Partnerem Medialnym?
         </a>
-            <hr>
             <div class="customer-logos slider">
-              {{ with .Site.GetPage "page" .Dir "partners" }}
               {{ range .Resources.Match "media/*" }}
               <div class="slide">
                 <img src="{{ .RelPermalink }}">
               </div>
-              {{ end }}
               {{ end }}
             </div>
             <hr>
@@ -202,18 +200,17 @@
             <hr>
             <div class="customer-logos slider">
               <div class="customer-logos slider">
-                {{ with .Site.GetPage "page" .Dir "partners" }}
                 {{ range .Resources.Match "community/*" }}
                 <div class="slide">
                   <img src="{{ .RelPermalink }}">
                 </div>
-                {{ end }}
                 {{ end }}
               </div>
             </div>
             <hr>
           </div>
         </section>
+        {{ end }}
         <section id="organisedBy">
           <div class="container-fluid light-gray">
             <div class="container">
