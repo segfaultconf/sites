@@ -15,7 +15,7 @@ agenda:
   - "9:45 - 10:00":
     - "Otwarcie konferencji"
   - "10:00 - 10:45":
-    - ""
+    - "TBD"
     - "Zatrudniamy tylko najlepszych - powiedział każdy, zawsze"
   - "11:00 - 11:45":
     - "*-Driven* niczego naprawdę nie zmienią"
@@ -27,10 +27,10 @@ agenda:
     - "PRZERWA OBIADOWA"
   - "14:00 - 14:45":
     - "Wzorce komunikacyjne w sieciach organicznych"
-    - ""
+    - "TBD"
   - "15:00 - 15:45":
-    - ""
-    - ""
+    - "TBD"
+    - "TBD"
   - "16:00 - 16:45":
     - "Programowanie reaktywne: czego się nauczyłem"
 ---
