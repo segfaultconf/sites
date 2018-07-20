@@ -7,4 +7,6 @@ resources:
     title: "Procesy biznesowe"
   - src: "media/logo jjit.png"
     title: "Just Join IT"
+  - src: "community/WroclawJUG.png"
+    title: "Wrocław JUG"
 ---
