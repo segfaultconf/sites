@@ -36,8 +36,8 @@
         <section id="about">
           <div class="container">
             <h2>
-          o&nbsp;konferencji
-        </h2>
+              o&nbsp;konferencji
+            </h2>
             <h5>SegFault – gdzie pragmatyzm spotyka pasję</h5>
             <p>SegFault to jedno z&nbsp;podstawowych pojęć z&nbsp;zakresu programowania i&nbsp;budowy systemów operacyjnych.</p>
 
@@ -55,8 +55,8 @@
           <div class="container-fluid light-gray">
             <div class="container">
               <h2>
-            Tematyka
-          </h2>
+                Tematyka
+              </h2>
               <div class="row">
                 <div class="col-md-6">
                   <h3>Architecture At Scale</h3>
@@ -92,25 +92,18 @@
             </div>
           </div>
         </section>
-
         <section id="speakers">
           <div class="container">
             <h2>
-          Prelegenci
-        </h2>
+              Prelegenci
+            </h2>
             <div class="row">
               {{ $pages := .Pages }}
               {{ range $speaker := where $pages "Type" "speaker" }}
               <div class="col-lg-4 col-md-6 speaker">
                 <a href="{{ .RelPermalink }}">
-                  <div class="module-feature-chart-html5" data-progress="0" data-progress-end="100" data-size="150">
+                  <div class="module-feature-chart-html5" >
                     <div class="chart-html5-circle">
-                      <div class="chart-html5-mask chart-html5-full">
-                        <div class="chart-html5-fill"></div>
-                      </div>
-                      <div class="chart-html5-mask chart-html5-half">
-                        <div class="chart-html5-fill"></div>
-                      </div>
                       <div class="chart-html5-inset">
                         {{ with $speaker.Resources.GetMatch "photo" }}
                         <img src="{{ .RelPermalink }}" alt="" />
@@ -136,7 +129,7 @@
 
         {{- partial "agenda.html" . -}}
 
-        <hr>
+        <hr />
 
         {{ with .Site.GetPage "page" .Dir "partners" }}
         <section id="partners">
@@ -153,7 +146,7 @@
             </div>
             {{ end }}
           </div>
-          <hr>
+          <hr />
           <h2>Partnerzy - Architekt</h2>
           {{ if lt (len (.Resources.Match "architect/*")) 3 }}
           <a href="mailto:partnerzy@segfault.events">
@@ -167,12 +160,12 @@
               </div>
               {{ end }}
             </div>
-            <hr>
+            <hr />
             <h2>Partnerzy - Senior
-        </h2>
-        <a href="mailto:partnerzy@segfault.events">
-          Chcesz zostać Partnerem Senior?
-        </a>
+          </h2>
+          <a href="mailto:partnerzy@segfault.events">
+            Chcesz zostać Partnerem Senior?
+          </a>
             <div class="customer-logos slider">
               {{ range .Resources.Match "senior/*" }}
               <div class="slide">
@@ -180,11 +173,11 @@
               </div>
               {{ end }}
             </div>
-            <hr>
+            <hr />
             <h2>Media</h2>
             <a href="mailto:partnerzy@segfault.events">
-          Chcesz zostać Partnerem Medialnym?
-        </a>
+              Chcesz zostać Partnerem Medialnym?
+            </a>
             <div class="customer-logos slider">
               {{ range .Resources.Match "media/*" }}
               <div class="slide">
@@ -192,11 +185,11 @@
               </div>
               {{ end }}
             </div>
-            <hr>
+            <hr />
             <h2>Społeczność</h2>
             <a href="mailto:partnerzy@segfault.events">
-          Chcesz dołączyć do Społeczności?
-        </a>
+              Chcesz dołączyć do Społeczności?
+            </a>
             <hr>
             <div class="customer-logos slider">
               <div class="customer-logos slider">
@@ -207,7 +200,7 @@
                 {{ end }}
               </div>
             </div>
-            <hr>
+            <hr />
           </div>
         </section>
         {{ end }}
@@ -230,8 +223,8 @@
         <section id="council">
           <div class="container">
             <h2>
-          Rada programowa
-        </h2>
+              Rada programowa
+            </h2>
             <div class="row">
               {{ range where (where .Site.Pages "Section" "committee") "Kind" "page"}}
               <div class="col-lg-3 col-md-6 council-member">
@@ -262,8 +255,8 @@
         <section id="contact">
           <div class="container">
             <h2>
-          Kontakt
-        </h2>
+              Kontakt
+            </h2>
             <div class="row">
               <div class="col-md-4">
                 <h3>Konferencja</h3>
@@ -280,8 +273,8 @@
             </div>
             <div class="row">
               <h4>
-            {{ .Params.location.name }}
-          </h4>
+                {{ .Params.location.name }}
+              </h4>
               <div class="col-md-12"></div>
               <div id="map"></div>
             </div>

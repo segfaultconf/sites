@@ -6,7 +6,7 @@
         </h2>
         {{ if isset .Params "agenda" }}
         <table class="table table-hover table-responsive">
-          <thead>
+          <thead class="text-center">
             <th scope="col" class="column-1">Godzina</th>
             <th scope="col" class="column-2">Ścieżka 1</th>
             <th scope="col" class="column-3">Ścieżka 2</th>
@@ -21,7 +21,7 @@
                 {{ if $singleSlot }}
               <td class="column-2 text-center" colspan="2" >
                 {{ else }}
-              <td class="column-{{ add $e 2 }}">
+              <td class="column-{{ add $e 2 }} text-center">
                 {{ end }}
                 {{ $abstracts := where (where $pages "Type" "abstract") "Params.presentationtitle" $p }}
                 {{ if $abstracts }}
@@ -30,7 +30,7 @@
                     <br />
                     {{ $speakers := where (where $pages "Type" "speaker") "Params.speakername" $abstract.Params.speakername }}
                     {{ range $speaker := $speakers }}
-                      <a  href="{{ $speaker.Permalink }}">{{ $speaker.Params.speakername }}</a>
+                      <a  href="{{ $speaker.Permalink }}"><strong>{{ $speaker.Params.speakername }}</strong></a>
                     {{ end }}
                   {{ end }}
                 {{ else }}
