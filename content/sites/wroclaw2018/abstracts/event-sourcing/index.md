@@ -10,5 +10,5 @@ Co może wybuchnąć (często z opóźnionym zapłonem)?
 Gdzie i jak przechowywać eventy? Jak osiągnąć najwyższy poziom
 wtajemniczenia i skalowalności? Jak żyć z eventual consistency?
 I wiele innych pytań, z którymi spróbujemy się zmierzyć.
- ostaram się unikać jednoznacznych odpowiedzi - każde rozwiązanie jest dobre,
+Postaram się unikać jednoznacznych odpowiedzi - każde rozwiązanie jest dobre,
 dopóki “działa”. Przerywniki z doświadczeniami słuchaczy będą bardzo mile widziane.
