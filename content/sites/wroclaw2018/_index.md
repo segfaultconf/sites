@@ -30,7 +30,7 @@ agenda:
     - "TBD"
   - "15:00 - 15:45":
     - "TBD"
-    - "TBD"
+    - "Event Sourcing - co może pójść nie tak?"
   - "16:00 - 16:45":
     - "Programowanie reaktywne: czego się nauczyłem"
 ---
