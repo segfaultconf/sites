@@ -2,7 +2,7 @@
 type: abstract
 speakername: "Tomek Szymański"
 presentationtitle: "Kryzys wieku średniego w IT"
-youtube: https://www.youtube.com/watch?v=Z6Y3VEynNiI
+youtube: Z6Y3VEynNiI
 ---
 Kryzys wieku średniego. Przechodzi go (prawie) każdy na półmetku swojego życia.
 Nieważne czy kobieta, czy mężczyzna, czy gruby, czy chudy, czy człowiek sukcesu,

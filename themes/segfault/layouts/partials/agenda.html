@@ -27,7 +27,7 @@
                 {{ if $abstracts }}
                   {{ range $abstract := $abstracts }}
                   {{ if isset $abstract.Params "youtube" }}
-                  <a href="{{ $abstract.Params.youtube }}" class="link-icon"><img src="/img/yt_icon_mono_light.png"></a>
+                  <a href="https://www.youtube.com/watch?v={{ $abstract.Params.youtube }}" class="link-icon"><img src="/img/yt_icon_mono_light.png"></a>
                   {{ end }}
                     <a  href="{{ $abstract.Permalink }}">{{ $abstract.Params.presentationtitle }}</a>
                     <br />
