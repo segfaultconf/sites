@@ -2,6 +2,7 @@
 type: abstract
 speakername: "Marcin Grzejszczak"
 presentationtitle: "Contract Tests in the Enterprise"
+youtube: G7XYlwHFLU8
 ---
 Is your legacy application talking to a service that is never up and running on your shared testing environment? Does your company waste a lot of time and money on regression testing only to see that, yet again, someone has created a typo in the API? Enough is enough. Time to fix this problem using contract tests!
 
