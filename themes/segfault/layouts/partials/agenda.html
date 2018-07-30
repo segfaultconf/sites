@@ -26,6 +26,9 @@
                 {{ $abstracts := where (where $pages "Type" "abstract") "Params.presentationtitle" $p }}
                 {{ if $abstracts }}
                   {{ range $abstract := $abstracts }}
+                  {{ if isset $abstract.Params "youtube" }}
+                  <a href="https://www.youtube.com/watch?v={{ $abstract.Params.youtube }}" class="link-icon" target="_blank"><img src="/img/yt_icon_mono_light.png"></a>
+                  {{ end }}
                     <a  href="{{ $abstract.Permalink }}">{{ $abstract.Params.presentationtitle }}</a>
                     <br />
                     {{ $speakers := where (where $pages "Type" "speaker") "Params.speakername" $abstract.Params.speakername }}
