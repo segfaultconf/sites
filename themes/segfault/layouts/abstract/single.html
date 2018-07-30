@@ -34,6 +34,14 @@
                     </div>
                     <div class="clear" style="height: 50px"></div>
                     <div class="row">
+                      {{ if isset .Params "youtube" }}
+                      <div class="col-md-12">
+                          <a href="{{ .Params.youtube }}" class="back out-link">
+                              <span>Zobacz prezentację na YT</span>
+                              <i class="fas fa-arrow-circle-right link-icon"></i>
+                          </a>
+                      </div>
+                      {{ end }}
                         <div class="col-md-12">
                             <a href="{{ .Parent.RelPermalink }}#speakers" class="back">
                                 <i class="fas fa-arrow-circle-left"></i>

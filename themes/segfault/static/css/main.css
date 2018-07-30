@@ -4,8 +4,7 @@
   cursor: pointer; }
   #myToggler span {
     padding-top: 0; }
-.no-decor, .no-decor:hover{
-  text-decoration: none; }
+
 body.open-menu {
   position: relative; }
   body.open-menu nav.navbar.fixed-top.navbar-expand-lg .fas.fa-times {
@@ -75,6 +74,8 @@ body.single #content {
     body.single #content a.back i::before {
       color: #8AB5C5;
       margin-right: 20px; }
+    body.single #content a.out-link i::before {
+      margin-left: 20px; }
 
 @media (max-width: 768px) {
   body.single #content {
@@ -214,7 +215,7 @@ blockquote {
   transform: rotate(-5deg);
   opacity: 0.4;
   color: #548898;
-  margin: 60px auto;
+  margin: 40px auto 60px;
   font-size: 45px;
   letter-spacing: -1px; }
 
@@ -227,7 +228,7 @@ blockquote {
   max-width: 1000px;
   width: 70%;
   margin: auto;
-  padding: 130px 0;
+  padding: 100px 0;
   text-align: center; }
   #topContent img {
     max-width: 650px;
@@ -236,6 +237,24 @@ blockquote {
     font-weight: 100;
     font-size: 40px;
     letter-spacing: -1px; }
+  #topContent #main_archive {
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 40px auto 20px;
+    color: #CCC;
+    font-weight: 100; }
+  #topContent #main_archive::before, #topContent #main_archive::after{
+    content: '';
+    width: 25%;
+    height: 1px;
+    background-color: #CCC;
+    display: inline-block;
+    margin: 0 10px 8px; }
+  #topContent .button-like {
+    padding: 10px;
+    display: inline-block;
+    color: #CCC;
+    font-weight: 100; }
   #topContent button {
     background-color: #548898;
     font-size: 19px;
@@ -456,6 +475,28 @@ footer {
       margin-bottom: 10px !important; }
     #topContent button {
       width: 100%;
-      margin: 20px 0; } }
+      margin: 20px 0; } 
+    #topContent button.btn.big{
+      padding: 14px 12px !important;
+    }
+    #topContent h2#main_archive::before, #topContent h2#main_archive::after{
+      display: block;
+      margin: 10px auto;
+    }
+    #topContent a.button-like{
+      padding: 20px;
+      display: block;
+      margin: auto;
+    }
+
+    }
+.link-icon{
+  padding-left: 10px; }
+@media(max-width: 768px){
+  .link-icon{
+    padding: 10px 0;
+    display: block;
+    margin: auto;
+    text-align: left; } }
 
 /*# sourceMappingURL=main.css.map */
