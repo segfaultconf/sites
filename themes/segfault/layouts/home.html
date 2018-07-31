@@ -17,6 +17,18 @@
                 {{ end }}
                 {{ end }}
             </div>
+            <!-- <h2 class="white-text" id="main_archive">Archiwum</h2>
+            <div class="button-group" role="group" aria-label="Wybierz wydarzenie">
+              {{ range where .Site.Sections "Type" "sites"}}
+              {{ range where .Sections "Type" "event"}}
+              <a href="{{ .Permalink }}">
+                  <button type="button" class="white-text button-like" aria-label="{{ .Title }} - {{ .Params.eventdate }}">
+                      {{ .Params.city }} {{ .Params.eventdate }}
+                  </button>
+              </a>
+              {{ end }}
+              {{ end }}
+            </div> -->
         </div>
     </div>
 </body>

@@ -131,81 +131,14 @@
 
         <hr />
 
-        {{ with .Site.GetPage "page" .Dir "partners" }}
         <section id="partners">
-          <h2>Partnerzy - Principal</h2>
-          {{ if not (.Resources.Match "principal/*") }}
-          <a href="mailto:partnerzy@segfault.events">
-            Chcesz zostać Partnerem Principal?
-          </a>
-          {{ end }}
-          <div class="customer-logos slider">
-            {{ range .Resources.Match "principal/*" }}
-            <div class="slide">
-              <img src="{{ .RelPermalink }}">
-            </div>
-            {{ end }}
-          </div>
-          <hr />
-          <h2>Partnerzy - Architekt</h2>
-          {{ if lt (len (.Resources.Match "architect/*")) 3 }}
-          <a href="mailto:partnerzy@segfault.events">
-            Chcesz zostać Partnerem Architekt?
-          </a>
-          {{ end }}
-            <div class="customer-logos slider">
-              {{ range .Resources.Match "architect/*" }}
-              <div class="slide">
-                <img src="{{ .RelPermalink }}">
-              </div>
-              {{ end }}
-            </div>
-            <hr />
-            <h2>Partnerzy - Senior
-          </h2>
-          <a href="mailto:partnerzy@segfault.events">
-            Chcesz zostać Partnerem Senior?
-          </a>
-            <div class="customer-logos slider">
-              {{ range .Resources.Match "senior/*" }}
-              <div class="slide">
-                <img src="{{ .RelPermalink }}">
-              </div>
-              {{ end }}
-            </div>
-            <hr />
-            <h2>Media</h2>
-            <a href="mailto:partnerzy@segfault.events">
-              Chcesz zostać Partnerem Medialnym?
-            </a>
-            <br/>
-          </br>
-            <div class="customer-logos slider">
-              {{ range .Resources.Match "media/*" }}
-              <div class="slide">
-                <img src="{{ .RelPermalink }}">
-              </div>
-              {{ end }}
-            </div>
-            <hr />
-            <h2>Społeczność</h2>
-            <a href="mailto:partnerzy@segfault.events">
-              Chcesz dołączyć do Społeczności?
-            </a>
-            
-            <div class="customer-logos slider">
-              <div class="customer-logos slider">
-                {{ range .Resources.Match "community/*" }}
-                <div class="slide">
-                  <img src="{{ .RelPermalink }}">
-                </div>
-                {{ end }}
-              </div>
-            </div>
-            <hr />
-          </div>
+          {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "principal" "title" "Principal")}}
+          {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "architect" "title" "Architect")}}
+          {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "senior" "title" "Senior")}}
+          {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "media" "title" "Media")}}
+          {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "community" "title" "Community")}}
         </section>
-        {{ end }}
+
         <section id="organisedBy">
           <div class="container-fluid light-gray">
             <div class="container">

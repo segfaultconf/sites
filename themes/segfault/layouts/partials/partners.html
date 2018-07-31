@@ -1,0 +1,23 @@
+-<div class="container">
+  <h2>Partners - {{ .title }}</h2>
+  {{ with .partners }}
+  {{ $resources := .Resources.Match (printf "%s/*" $.partner) }}
+  {{ if $resources }}
+  {{ if eq (len $resources) 0 }}
+  <a href="mailto:partners@coredump.events">Do you want to become a {{ .title }} Partner?</a><br/><br/>
+  {{ end }}
+  {{ end }}
+  <div class="customer-logos slider">
+    {{ range $resources }}
+    <div class="slide">
+      {{ if .Params.url }}
+      <a href="{{ .Params.url }}"><img src="{{ .RelPermalink }}"></a>
+      {{ else }}
+      <img src="{{ .RelPermalink }}">
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+  <hr>
+</div>
