@@ -1,7 +1,7 @@
 ---
 type: speaker
 speakername: Jan Pustelnik
-presentationtitle: "TBD"
+presentationtitle: "Curry-Howard w praktyce"
 resources:
   - src: "jan-pustelnik.png"
     name: "photo"
