@@ -15,7 +15,7 @@ agenda:
   - "9:45 - 10:00":
     - "Otwarcie konferencji"
   - "10:00 - 10:45":
-    - "TBD"
+    - "Curry-Howard w praktyce"
     - "Zatrudniamy tylko najlepszych - powiedział każdy, zawsze"
   - "11:00 - 11:45":
     - "*-Driven* niczego naprawdę nie zmienią"
