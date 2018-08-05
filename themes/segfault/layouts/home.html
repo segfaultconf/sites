@@ -9,11 +9,17 @@
             <div class="button-group" role="group" aria-label="Wybierz wydarzenie">
                 {{ range where .Site.Sections "Type" "sites"}}
                 {{ range where .Sections "Type" "event"}}
+                {{ if eq .Params.status "planned" }}
+                <button type="button" class="btn big transparent" aria-label="{{ .Title }} - {{ .Params.eventdate }}">
+                    {{ .Params.city }} {{ .Params.eventdate }}
+                </button>
+                {{ else }}
                 <a href="{{ .Permalink }}">
                     <button type="button" class="btn big transparent" aria-label="{{ .Title }} - {{ .Params.eventdate }}">
                         {{ .Params.city }} {{ .Params.eventdate }}
                     </button>
                 </a>
+                {{ end }}
                 {{ end }}
                 {{ end }}
             </div>
