@@ -7,4 +7,7 @@ resources:
   - src: principal/Collibra-Logo-CMYK-FullColor-200x200.png
     params:
       url: https://www.collibra.com/
+  - src: "senior/SML horizontal-colour.png"
+    params:
+      url: https://softwaremill.com/
 ---
