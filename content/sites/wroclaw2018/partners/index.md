@@ -10,4 +10,7 @@ resources:
   - src: "senior/SML horizontal-colour.png"
     params:
       url: https://softwaremill.com/
+  - src: "conferences/coreDump-Color-Full.png"
+    params:
+      url: http://coredump.events
 ---
