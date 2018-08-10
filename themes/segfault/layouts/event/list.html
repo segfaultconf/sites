@@ -36,7 +36,7 @@
         <section id="about">
           <div class="container">
             <h2>
-              o&nbsp;konferencji
+              O&nbsp;konferencji
             </h2>
             <h5>SegFault – gdzie pragmatyzm spotyka pasję</h5>
             <p>SegFault to jedno z&nbsp;podstawowych pojęć z&nbsp;zakresu programowania i&nbsp;budowy systemów operacyjnych.</p>
@@ -132,11 +132,12 @@
         <hr />
 
         <section id="partners">
-          {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "principal" "title" "Principal")}}
-          {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "architect" "title" "Architect")}}
-          {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "senior" "title" "Senior")}}
-          {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "media" "title" "Media")}}
-          {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "community" "title" "Community")}}
+          {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "principal" "title" "Principal" "maxPartners" 1)}}
+          {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "architect" "title" "Architect" "maxPartners" 3)}}
+          {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "senior" "title" "Senior" "maxPartners" 5)}}
+          {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "media" "title" "Media" "maxPartners" 0)}}
+          {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "community" "title" "Społeczność" "maxPartners" 0)}}
+          {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "conferences" "title" "Konferencja Partnerska" "caption" "Konferencje partnerskie" "maxPartners" 0)}}
         </section>
 
         <section id="organisedBy">
@@ -145,7 +146,7 @@
               <h2>
             Organizator
           </h2>
-              <img src="/img/symentis-logo-150x62.png" title="Logo Symentis">
+              <a href="http://symentis.pl"><img src="/img/symentis-logo-150x62.png" title="Logo Symentis"><a>
               <p>Jesteśmy grupą osób, która od ponad 10 lat kształtuje rynek konferencji IT jako aktywni członkowie społeczności, organizatorzy konferencji, członkowie rad programowych i&nbsp;mówcy. w&nbsp;swojej karierze obudziliśmy niejedną społeczność
                 do działania. Ponadto zawodowo jesteśmy związani z&nbsp;wytwarzaniem oprogramowania na wielu jego poziomach – zarówno jako programiści, architekci, jak i&nbsp;konsultanci. Od lat naszą idée fixe jest powrót do korzeni i&nbsp;zbudowanie
                 solidnych podstaw do rozwoju branży IT w&nbsp;Polsce.</p>

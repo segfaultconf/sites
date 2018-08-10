@@ -1,10 +1,11 @@
 -<div class="container">
-  <h2>Partnerzy {{ .title }}</h2>
+  <h2>{{ if not (isset . "caption")}}Partnerzy {{ .title }}{{ else }}{{ .caption }}{{ end }}</h2>
   {{ with .partners }}
   {{ $resources := .Resources.Match (printf "%s/*" $.partner) }}
   {{ if $resources }}
-  {{ if eq (len $resources) 0 }}
-  <a href="mailto:partnerzy@segfault.events">Dołącz do nas jako {{ .title }} Partner</a><br/><br/>
+  {{ $partnersSlots :=  sub $.maxPartners (len $resources) }}
+  {{ if ne $partnersSlots 0 }}
+  <a href="mailto:partnerzy@segfault.events">Dołącz do nas jako {{ $.title }}</a><br/><br/>
   {{ end }}
   {{ end }}
   <div class="customer-logos slider">
