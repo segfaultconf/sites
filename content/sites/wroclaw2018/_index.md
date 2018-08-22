@@ -29,7 +29,7 @@ agenda:
     - "Wzorce komunikacyjne w sieciach organicznych"
     - "TBD"
   - "15:00 - 15:45":
-    - "TBD"
+    - "Wykorzystanie podejścia Domain-Driven Design w systemach legacy"
     - "Event Sourcing - co może pójść nie tak?"
   - "16:00 - 16:45":
     - "Programowanie reaktywne: czego się nauczyłem"
