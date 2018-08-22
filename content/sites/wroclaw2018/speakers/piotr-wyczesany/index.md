@@ -3,7 +3,7 @@ type: speaker
 speakername: Piotr Wyczesany
 presentationtitle: "Wykorzystanie podejścia Domain-Driven Design w systemach legacy"
 resources:
-  - src: "piotrek-wyczesany.jpg"
+  - src: "piotrek_wyczesany.jpg"
     name: "photo"
 ---
 Niezależny Domain-Driven Designer, konsultant i mentor. Specjalizuje się w modelowaniu złożonych dziedzin biznesowych z podejściem Domain-Driven Design oraz pracą z systemami odziedziczonymi.
