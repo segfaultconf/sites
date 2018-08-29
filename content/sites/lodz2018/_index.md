@@ -1,5 +1,6 @@
 ---
 type: event
+status: archived
 title: "SegFault - Łódź 2018"
 url: lodz2018
 city: Łódź

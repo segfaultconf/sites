@@ -220,7 +220,7 @@ blockquote {
   letter-spacing: -1px; }
 
 #topImg {
-  background-image: url(/img/heroBG.jpg);
+  background-image: url(../img/heroBG.jpg);
   background-size: cover;
   background-attachment: fixed; }
 
@@ -239,15 +239,15 @@ blockquote {
     letter-spacing: -1px; }
   #topContent #main_archive {
     text-transform: uppercase;
-    font-size: 25px;
-    margin: 40px auto 20px;
+    font-size: 15px;
+    margin: 55px auto 5px;
     color: #CCC;
     font-weight: 100; }
   #topContent #main_archive::before, #topContent #main_archive::after{
     content: '';
-    width: 25%;
+    width: 35%;
     height: 1px;
-    background-color: #CCC;
+    background-color: rgba(200,200,200,.4);
     display: inline-block;
     margin: 0 10px 8px; }
   #topContent .button-like {
