@@ -27,7 +27,7 @@ agenda:
     - "PRZERWA OBIADOWA"
   - "14:00 - 14:45":
     - "Wzorce komunikacyjne w sieciach organicznych"
-    - "TBD"
+    - "Krocząc doliną ciemności mikroserwisów się nie ulęknę"
   - "15:00 - 15:45":
     - "Wykorzystanie podejścia Domain-Driven Design w systemach legacy"
     - "Event Sourcing - co może pójść nie tak?"
