@@ -220,7 +220,7 @@ blockquote {
   letter-spacing: -1px; }
 
 #topImg {
-  background-image: url(../img/heroBG.jpg);
+  background-image: url(/img/heroBG.jpg);
   background-size: cover;
   background-attachment: fixed; }
 
@@ -475,7 +475,7 @@ footer {
       margin-bottom: 10px !important; }
     #topContent button {
       width: 100%;
-      margin: 20px 0; } 
+      margin: 20px 0; }
     #topContent button.btn.big{
       padding: 14px 12px !important;
     }
