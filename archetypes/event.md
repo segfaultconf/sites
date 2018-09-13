@@ -1,12 +1,12 @@
 ---
 type: event
 title: ""
-url: lodz2018
+url:
 city: ""
 eventdate: ""
 location:
   name: ""
   lat: ""
   lng: ""
-registrationlink: ""
+registrationlink:
 ---

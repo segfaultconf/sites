@@ -13,7 +13,7 @@
                     <i class="fas fa-times" id="closeMenu"></i>
                     {{/* this is so fucking dirty, needs to be hacked out of this code, but don't know how */}}
                     {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "/" }}
-                    <ul class="navbar-nav ml-auto">
+                    <!-- <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a class="nav-link active" href="/{{ if eq .Type "event" }}{{ index (split $url "/") 1 }}{{ else }}{{ index (split $url "/") 2 }}{{end}}/index.html#about">O konferencji<span class="sr-only">(current)</span></a>
                         </li>
@@ -37,6 +37,33 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/{{ if eq .Type "event" }}{{ index (split $url "/") 1 }}{{ else }}{{ index (split $url "/") 2 }}{{end}}/index.html#contact">Kontakt</a>
+                        </li>
+                    </ul> -->
+                    
+                    <ul class="navbar-nav ml-auto" >
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">O konferencji</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#topics">Tematyka</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#speakers">Prelegenci</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#schedule">Agenda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#partners">Partnerzy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#organisedBy">Organizator</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#council">Rada programowa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Kontakt</a>
                         </li>
                     </ul>
                 </div>

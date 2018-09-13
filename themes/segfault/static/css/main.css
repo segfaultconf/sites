@@ -1,10 +1,15 @@
 #myToggler {
   background-color: transparent;
   border: none;
-  cursor: pointer; }
+  cursor: pointer; 
+ }
   #myToggler span {
-    padding-top: 0; }
+    padding-top: 0;
+    border: none;
+    outline:none; }
 
+.no-decor, .no-decor:hover{
+  text-decoration: none; }
 body.open-menu {
   position: relative; }
   body.open-menu nav.navbar.fixed-top.navbar-expand-lg .fas.fa-times {
@@ -147,9 +152,16 @@ body {
     line-height: 1.5em;
     text-align: justify; }
   body a, body a:hover {
-    color: #777; }
+    color: #777;
+     }
   body button, body button:hover, body button *, body button:hover * {
     color: #FFF; }
+    /*NOWE*/
+     body button:hover, body button:hover * {
+    background-color: transparent !important;
+  border: 1px solid #FFF; 
+  }
+  /*KONIEC*/
 
 img {
   height: auto;
@@ -228,7 +240,7 @@ blockquote {
   max-width: 1000px;
   width: 70%;
   margin: auto;
-  padding: 100px 0;
+  padding: 250px 0px 100px 0px;
   text-align: center; }
   #topContent img {
     max-width: 650px;
@@ -270,9 +282,9 @@ blockquote {
 .module-feature-chart-html5 {
   width: 150px;
   height: 150px;
-  -webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
-  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: inset 0 0 0 1px rgba(137, 180, 196, 0.5);
+  -moz-box-shadow: inset 0 0 0 1px rgba(137, 180, 196, 0.5);
+  box-shadow: inset 0 0 0 1px rgba(137, 180, 196, 0.5);
   margin: 0 auto;
   border-radius: 50%;
   position: relative;
@@ -299,7 +311,8 @@ blockquote {
       transition: transform 2000ms ease;
       top: 0;
       left: 0; }
-      .module-feature-chart-html5 .chart-html5-circle .chart-html5-mask .chart-html5-fill {
+      
+      /*.module-feature-chart-html5 .chart-html5-circle .chart-html5-mask .chart-html5-fill {
         width: 150px;
         height: 150px;
         position: absolute;
@@ -324,6 +337,7 @@ blockquote {
     .module-feature-chart-html5 .chart-html5-circle .chart-html5-half {
       z-index: 1;
       clip: rect(0px, 150px, 150px, 75px); }
+    */
     .module-feature-chart-html5 .chart-html5-circle .chart-html5-inset {
       z-index: 3;
       position: absolute;
@@ -334,7 +348,8 @@ blockquote {
       margin: 12%; }
       .module-feature-chart-html5 .chart-html5-circle .chart-html5-inset img {
         width: auto;
-        height: auto;
+        height: 100%;
+        object-fit: cover;
         position: absolute;
         top: 0;
         bottom: 0;
@@ -345,8 +360,9 @@ blockquote {
         vertical-align: middle; }
 
 nav.navbar {
-  background-color: #1B2D33;
-  padding: 32px 38px; }
+  background-color: #0e2328;
+  padding: 32px 38px;
+  opacity:.95;}
   nav.navbar .navbar-toggler-icon {
     font-size: 36px;
     color: #FFF;
@@ -368,7 +384,8 @@ nav.navbar {
         letter-spacing: .5px;
         font-family: 'Roboto', sans-serif; }
       nav.navbar .navbar-nav li a.active {
-        color: #8AB5C5; }
+        color: #8AB5C5; 
+        font-weight:400; }
 
 body.home {
   background-color: transparent; }
@@ -412,7 +429,8 @@ img[title="Logo Symentis"] {
     height: 300px; }
 
 footer {
-  text-align: center; }
+  text-align: center;
+  }
   footer .container-fluid {
     padding: 10px 0; }
   footer #up {
@@ -452,6 +470,7 @@ footer {
 
   .speaker, .council-member {
     margin: 30px 0 !important; } }
+    
 @media (max-width: 768px) {
   .column-1 {
     padding: .75rem 0 !important; }
@@ -466,16 +485,20 @@ footer {
 
   #topContent {
     padding: 80px 0; }
-    #topContent img {
-      max-width: 650px;
-      width: 80%; }
+      #topContent img {
+    visibility:hidden;
+      /*max-width: 650px;
+      width: 80%;*/ }
     #topContent h1 {
-      margin: 20px auto; }
+      margin: 30px auto; }
     #topContent h2 {
       margin-bottom: 10px !important; }
     #topContent button {
       width: 100%;
+      font-size:20px;
       margin: 20px 0; }
+       #topContent .spacer {
+   	  max-width:70%;}
     #topContent button.btn.big{
       padding: 14px 12px !important;
     }
@@ -498,5 +521,29 @@ footer {
     display: block;
     margin: auto;
     text-align: left; } }
+    
+    @media (max-width: 767px) {
+ #topContent #logoVisible{
+    visibility: visible;
+    padding:150px 0px 0px 0px;
+    }
+ #topContent .transparent{
+ /*zabezpieczenie przycisku przed zbyt długim wystającym tekstem poza jego granice na najmniejszych urządzeniach*/
+ 	overflow:hidden;
+ 	text-overflow:ellipsis;
+  	font-size:16px;
+  	text-decoration: none;
+  	 }
+}
+
+
+.fa-file-pdf{
+	color:red;
+}
+
+body .button-group a:hover {
+    text-decoration: none !important; }
+    
+#myToggler:focus {outline:0;}
 
 /*# sourceMappingURL=main.css.map */
