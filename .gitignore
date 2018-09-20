@@ -1,3 +1,5 @@
 public
 .bin
 .DS_Store
+.project
+.settings/
