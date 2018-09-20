@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
 	$('.customer-logos').slick({
 		autoplay: true,
@@ -32,20 +33,41 @@ $(document).ready(function(){
 		    }
 		}
 	});
-
+/*OLD NAV
 	$(document).on('click', 'a[class*="active"]', function (event) {
 	    event.preventDefault();
 
 	    $('a.active').removeClass('active');
 	    $(this).addClass('active');
-	});
+	});*/
+	
+	$(document).on('click', 'a:not(.active)', function (event) {
+		   /* event.preventDefault();*/
 
+		    $('a.active').removeClass('active');
+		    $(this).addClass('active');
+		});
+/*OLD NAV
 	$(document).on('click', 'a[href^="#"]', function (event) {
 	    event.preventDefault();
 
 	    $('html, body').animate({
 	        scrollTop: $($.attr(this, 'href')).offset().top - 100
 	    }, 500);
+	});*/
+	
+	$(document).on('click', 'a[href*="#"]', function (event) {
+	    event.preventDefault();
+	    var hrefparts = $(this).attr('href').split("#");
+	    var anchorname = hrefparts[hrefparts.length-1];
+	    if(!window.location.pathname.endsWith('2018/')){    	
+	    	localStorage.SCROLLPARAM =anchorname ;
+	    	window.location = '/wroclaw2018/';
+	    } else {
+	    	$('html, body').animate({
+				scrollTop: $("#" + anchorname).offset().top - 100
+			}, 500);
+	    }
 	});
 
 	$("#myToggler").click(function(){
@@ -60,7 +82,7 @@ $(document).ready(function(){
 		}, 300);
 	});
 
-	$("#closeMenu").click(function(){
+	$(".nav-link, #closeMenu").click(function(){
 		$("body").animate({
 		    left: "0",
 		    right: "0",
@@ -82,4 +104,14 @@ $(document).ready(function(){
 		// The marker, positioned at Uluru
 		var marker = new google.maps.Marker({position: lodz, map: map});
 	} */
+
+
+var scrollParam = localStorage.getItem('SCROLLPARAM');
+if(scrollParam && $("#" + scrollParam).offset()){
+	$('html, body').animate({
+		scrollTop: $("#" + scrollParam).offset().top - 100
+	}, 500);
+	
+}
+localStorage.SCROLLPARAM=null;
 });

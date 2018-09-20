@@ -21,6 +21,9 @@
               <a class="white-text no-decor" href="mailto:partnerzy@segfault.events">
                 <button type="button" class="btn blue">Partnerstwo</button>
               </a>
+              <a class="white-text no-decor" href="http://coredump.events/2018/">
+                <button type="button" class="btn blue">CoreDump 2018</button>
+              </a>
             </div>
             <span class="spacer"></span>
           </div>
@@ -136,7 +139,7 @@
           {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "architect" "title" "Architect" "maxPartners" 3)}}
           {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "senior" "title" "Senior" "maxPartners" 5)}}
           {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "media" "title" "Media" "maxPartners" 0)}}
-          {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "community" "title" "Społeczność" "maxPartners" 0)}}
+          {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "community" "title" "Społeczność" "caption" "Społeczności" "maxPartners" 0)}}
           {{ partial "partners.html" (dict "partners" (.Site.GetPage "page" .Dir "partners") "partner" "conferences" "title" "Konferencja Partnerska" "caption" "Konferencje partnerskie" "maxPartners" 0)}}
         </section>
 
@@ -194,15 +197,15 @@
               Kontakt
             </h2>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-lg-4 col-md-12 ">
                 <h3>Konferencja</h3>
                 <a href="mailto:konferencja@segfault.events">konferencja@segfault.events</a>
               </div>
-              <div class="col-md-4">
+              <div class="col-lg-4 col-md-12">
                 <h3>Rejestracja</h3>
                 <a href="mailto:rejestracja@segfault.events">rejestracja@segfault.events</a>
               </div>
-              <div class="col-md-4">
+              <div class="col-lg-4 col-md-12">
                 <h3>Partnerstwo</h3>
                 <a href="mailto:partnerzy@segfault.events">partnerzy@segfault.events</a>
               </div>

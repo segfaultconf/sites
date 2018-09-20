@@ -12,12 +12,10 @@
         <div class="col-md-12">
             <nav class="navbar navbar-expand-lg" id="bottomNav">
                 <div class="navbar-collapse justify-content-center" id="navbarNav">
-                    {{/* this is so fucking dirty, needs to be hacked out of this code, but don't know how */}}
+                     <!-- {{/* this is so fucking dirty, needs to be hacked out of this code, but don't know how */}}
                     {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "/" }}
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html#about" target="_blank">O konferencji<span class="sr-only">(current)</span></a>
-                        </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link" href="/{{ if eq .Type "event" }}sites/{{ index (split $url "/") 1 }}{{ else }}sites/{{ index (split $url "/") 2 }}{{end}}/regulamin">Regulamin konferencji</a>
                         </li>
@@ -33,7 +31,27 @@
                         <li class="nav-item">
                             <a class="nav-link" href="mailto:partnerzy@segfault.events">Zostań partnerem</a>
                         </li>
+                    </ul> -->
+                    
+                    <!-- this is a temporary solution for the footer linking problem -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/sites/wroclaw2018/regulamin/">Regulamin konferencji</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/sites/wroclaw2018/polityka-prywatnosci/">Polityka prywatności</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/sites/wroclaw2018/faqs/">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ .Params.registrationlink }}" target="_blank">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:partnerzy@coredump.events">Zostań partnerem</a>
+                        </li>
                     </ul>
+                    
                 </div>
             </nav>
         </div>
