@@ -2,5 +2,9 @@ baseURL = "http://test.segfault.events/"
 languageCode = "pl-PL"
 title = "SegFault - Konferencje IT"
 theme = "segfault"
-googleAnalytics = "UA-113528014-1" 
+googleAnalytics = "UA-113528014-1"
 ignorefiles = [ "automation/.*" ]
+
+[params]
+facebookPixel = 2039077633048325
+googleAdWords = "AW-868075068"
