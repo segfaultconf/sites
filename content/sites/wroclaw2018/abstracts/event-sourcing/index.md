@@ -2,8 +2,9 @@
 type: abstract
 speakername: Andrzej Ludwikowski
 presentationtitle: "Event Sourcing - co może pójść nie tak?"
+youtube: 3Obg_qwrokM
 ---
-Serio? Kolejna prezentacja o Event Sourcingu? I tak, i nie. 
+Serio? Kolejna prezentacja o Event Sourcingu? I tak, i nie.
 Zamiast na gloryfikacji tej jakże zacnej koncepcji, skoncentrujemy się na
 możliwych problemach przy jej implementacji.
 Co może wybuchnąć (często z opóźnionym zapłonem)?
