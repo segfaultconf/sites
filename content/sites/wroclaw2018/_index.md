@@ -1,5 +1,6 @@
 ---
 type: event
+status: archived
 title: "SegFault - Wrocław 2018"
 url: wroclaw2018
 city: Wrocław
