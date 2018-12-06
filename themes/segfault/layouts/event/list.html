@@ -10,10 +10,10 @@
       <div id="content" class="clearfix">
         <div class="container-fluid full-height" id="topImg">
           <div id="topContent">
-            <img src="/img/segfaultPoziomeLogo.png" alt="Logo Segfault">
+            <img src="/img/{{ default "segfaultPoziomeLogo.png" .Params.logo  }}" alt="Logo Segfault">
             <h1 class="fancy-font white-text" id="mainWords">...wszyscy jesteśmy architektami</h1>
             <h2 class="white-text">{{ .Params.city }} {{ .Params.eventdate }}</h2>
-            <span class="spacer"></span>
+            <span class="spacer"></span>11
             <div class="button-group" role="group" aria-label="Zarejestruj / Zostań partnerem">
               <a class="white-text no-decor" href="{{ .Params.registrationlink }}">
                 <button type="button" class="btn blue">Rejestracja</button>
