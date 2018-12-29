@@ -7,7 +7,7 @@
 </thead>
 <tbody>
     {{ $day := index (.agenda) 0 }}
-    {{ range $slot := $day }}
+    {{ range $slot := $day.data }}
     {{ range $hour,$presentations := $slot}}
     <tr>
     <td class="column-1">{{ $hour }}</td>

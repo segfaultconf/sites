@@ -1,30 +1,51 @@
 {{ $pages := .pages }}
 <div id="agenda" class="container-fluid">
-    <div class="row header">
-        <div class="col-md-2">Godzina</div>
-        <div class="col-md-5 text-center">Ścieżka 1</div>
-        <div class="col-md-5 text-center">Ścieżka 2</div>
-    </div>
-    {{ $day := index (.agenda) 0 }}
-    {{ range $slot := $day }}
-    {{ range $hour,$presentations := $slot}}
-    <div class="row">
-        <div class="col-sm-2">{{ $hour }}</div>
-
-        {{ range $e,$p := $presentations }}
-            {{ $singleSlot := eq (len $presentations) 1 }}
-            {{ if $singleSlot }}
-            <div class="col-md-10 text-center">
-            {{ else }}
-            <div class="col-md-5 text-center">
+    {{ range $dayIndex, $details := .agenda }}
+    <div class="agenda-day">
+        <h3>Dzień #{{ $dayIndex }} </h3>
+        <div class="row header">
+            <div class="col-md-2">Godzina</div>
+            {{ range $track := $details.tracks }}    
+            <div class="col-md-{{ div 10 (len $details.tracks) }} text-center">{{ $track }}</div>
             {{ end }}
-            {{ $abstract := index (where (where $pages "Type" "abstract") "Params.presentationtitle" $p) 0 }}
-            {{ $speaker := index (where (where $pages "Type" "speaker") "Params.speakername" $abstract.Params.speakername) 0 }}
-            {{ partial "agenda-element.html" (dict "abstract" $abstract "speaker" $speaker "agendaTitle" $p ) }}
-            </div>
+        </div>    
+        {{ range $slot := $details.data }}    
+            {{ range $hour,$presentations := $slot}}
+            <div class="row">
+                <div class="col-sm-2">{{ $hour }}</div>
+
+                {{ $singleSlot := eq (len $presentations) 1 }}
+                {{ $tooManySlots := gt (len $presentations) 5 }}
+                {{ if $singleSlot }}
+                <div class="col-md-10 text-center">
+                    {{ $p := index ($presentations) 0 }}
+                    {{ $abstract := index (where (where $pages "Type" "abstract") "Params.presentationtitle" $p) 0 }}
+                    {{ $speaker := index (where (where $pages "Type" "speaker") "Params.speakername" $abstract.Params.speakername) 0 }}
+                    {{ partial "agenda-element.html" (dict "abstract" $abstract "speaker" $speaker "agendaTitle" $p ) }}    
+                </div>
+                {{ else if $tooManySlots }}
+                <div class="col-md-10 text-center">
+                    {{ range $p := $presentations }}
+                    <div>
+                        {{ $abstract := index (where (where $pages "Type" "abstract") "Params.presentationtitle" $p) 0 }}
+                        {{ $speaker := index (where (where $pages "Type" "speaker") "Params.speakername" $abstract.Params.speakername) 0 }}
+                        {{ partial "agenda-element.html" (dict "abstract" $abstract "speaker" $speaker "agendaTitle" $p ) }}    
+                    </div>
+                    {{ end }}
+                </div>                
+                {{ else }}
+                {{ range $p := $presentations }}
+                    <div class="col-md-5 text-center">
+                    {{ $abstract := index (where (where $pages "Type" "abstract") "Params.presentationtitle" $p) 0 }}
+                    {{ $speaker := index (where (where $pages "Type" "speaker") "Params.speakername" $abstract.Params.speakername) 0 }}
+                    {{ partial "agenda-element.html" (dict "abstract" $abstract "speaker" $speaker "agendaTitle" $p ) }}
+                    </div>
+                {{ end }}
+                {{ end }}
+            </div>    
+
+            {{ end }}
         {{ end }}
     </div>
-
-    {{ end }}
     {{ end }}
 </div>
