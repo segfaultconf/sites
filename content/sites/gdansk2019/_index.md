@@ -12,6 +12,4 @@ location:
   lng: 18.593410
 registrationlink: https://segfault-university-gdansk-2019.konfeo.com/pl/groups
 logo: SF-university.png
-partials:
-  speakers: layouts/speakers-partial.html
 ---
