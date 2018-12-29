@@ -1,8 +1,11 @@
 {{ $pages := .pages }}
+{{ $agenda := .agenda }}
 <div id="agenda" class="container-fluid">
-    {{ range $dayIndex, $details := .agenda }}
+    {{ range $dayIndex, $details := $agenda }}
     <div class="agenda-day">
+        {{ if gt (len $agenda) 1 }}
         <h3>Dzień #{{ $dayIndex }} </h3>
+        {{ end }}    
         <div class="row header">
             <div class="col-md-2">Godzina</div>
             {{ range $track := $details.tracks }}    
