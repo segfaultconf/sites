@@ -1,5 +1,6 @@
 ---
 type: event
+layout: university-layout
 status: planned
 title: "SegFault University Gdańsk 2019"
 url: gdansk2019
@@ -11,4 +12,6 @@ location:
   lng: 18.593410
 registrationlink: https://segfault-university-gdansk-2019.konfeo.com/pl/groups
 logo: SF-university.png
+partials:
+  speakers: layouts/speakers-partial.html
 ---
