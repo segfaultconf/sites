@@ -2,7 +2,7 @@
 <section id="schedule">
   <div class="container">
     <h2>Agenda</h2>
-    {{ if isset . "agenda" }}
+    {{ if isset .agenda -1 }}
       {{ partial $tpl (dict "pages" .pages "agenda" .agenda )}}
     {{ else }}
       <div class="d-flex justify-content-center">Pojawi się wkrótce</div>      

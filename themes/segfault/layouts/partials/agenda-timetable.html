@@ -6,7 +6,8 @@
     <th scope="col" class="column-3">Ścieżka 2</th>
 </thead>
 <tbody>
-    {{ range $slot := .agenda }}
+    {{ $day := index (.agenda) 0 }}
+    {{ range $slot := $day }}
     {{ range $hour,$presentations := $slot}}
     <tr>
     <td class="column-1">{{ $hour }}</td>
