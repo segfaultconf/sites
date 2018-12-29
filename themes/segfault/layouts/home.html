@@ -12,14 +12,14 @@
                 {{ if eq .Params.status "planned" }}
                 <a href="{{ .Permalink }}">
                 <button type="button" class="btn big transparent" aria-label="{{ .Title }} - {{ .Params.eventdate }}">
-                    {{ .Params.city }} {{ .Params.eventdate }}
+                    {{ .Params.eventdate }}, {{ .Params.city }}
                 </button>
                 </a>
                 {{ end }}
                 {{ if not (isset .Params "status") }}
                 <a href="{{ .Permalink }}">
                     <button type="button" class="btn big transparent" aria-label="{{ .Title }} - {{ .Params.eventdate }}">
-                        {{ .Params.city }} {{ .Params.eventdate }}
+                        {{ .Params.eventdate }}, {{ .Params.city }}
                     </button>
                 </a>
                 {{ end }}
@@ -35,11 +35,13 @@
     			            <div class="carousel-inner w-100" role="listbox">
                     			<div class="carousel-item active">
                             {{ range where .Site.Sections "Type" "sites"}}
-                            {{ range where .Sections "Type" "event"}}
-                            {{ if eq .Params.status "archived" }}
-                            <a href="{{ .Permalink }}" class="white-text button-like" aria-label="{{ .Params.city }} - {{ .Params.eventdate }}">{{ .Params.city }} {{ .Params.eventdate }}</a>
-                            {{ end }}
-                            {{ end }}
+                                {{ range where .Sections "Type" "event"}}
+                                    {{ if eq .Params.status "archived" }}
+                                    <a href="{{ .Permalink }}" class="white-text button-like" aria-label="{{ .Params.city }} - {{ .Params.eventdate }}">
+                                        {{ .Params.eventdate }}, {{ .Params.city }}
+                                    </a>
+                                    {{ end }}
+                                {{ end }}
                             {{ end }}
     		                </div>
     		                <a class="carousel-control-prev" href="#editionCarousel" role="button" data-slide="prev">
