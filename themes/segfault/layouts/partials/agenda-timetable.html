@@ -18,22 +18,9 @@
         {{ else }}
     <td class="column-{{ add $e 2 }} text-center">
         {{ end }}
-        {{ $abstracts := where (where $pages "Type" "abstract") "Params.presentationtitle" $p }}
-        {{ if $abstracts }}
-        {{ range $abstract := $abstracts }}
-        {{ if isset $abstract.Params "youtube" }}
-        <a href="https://www.youtube.com/watch?v={{ $abstract.Params.youtube }}" class="link-icon" target="_blank"><img src="/img/yt_icon_mono_light.png"></a>
-        {{ end }}
-            <a  href="{{ $abstract.Permalink }}">{{ $abstract.Params.presentationtitle }}</a>
-            <br />
-            {{ $speakers := where (where $pages "Type" "speaker") "Params.speakername" $abstract.Params.speakername }}
-            {{ range $speaker := $speakers }}
-            <a  href="{{ $speaker.Permalink }}"><strong>{{ $speaker.Params.speakername }}</strong></a>
-            {{ end }}
-        {{ end }}
-        {{ else }}
-        {{ $p }}
-        {{ end }}
+        {{ $abstract := index (where (where $pages "Type" "abstract") "Params.presentationtitle" $p) 0 }}
+        {{ $speaker := index (where (where $pages "Type" "speaker") "Params.speakername" $abstract.Params.speakername) 0 }}
+        {{ partial "agenda-element.html" (dict "abstract" $abstract "speaker" $speaker "agendaTitle" $p ) }}
     </td>
     {{ end }}
     </tr>

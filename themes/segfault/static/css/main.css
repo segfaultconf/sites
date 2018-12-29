@@ -163,6 +163,26 @@ body {
   }
   /*KONIEC*/
 
+#agenda {
+  color: #777;
+}
+
+#agenda .row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+#agenda .row:hover:not(.header) {
+  background: #f5f5f5;
+}
+
+#agenda .header {
+  background-color: #fafafa;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 2px solid #dee2e6;
+}
+
 img {
   height: auto;
   width: auto;

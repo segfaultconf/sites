@@ -1,1 +1,30 @@
-Fluid grid!!!!11
+{{ $pages := .pages }}
+<div id="agenda" class="container-fluid">
+    <div class="row header">
+        <div class="col-md-2">Godzina</div>
+        <div class="col-md-5 text-center">Ścieżka 1</div>
+        <div class="col-md-5 text-center">Ścieżka 2</div>
+    </div>
+    {{ $day := index (.agenda) 0 }}
+    {{ range $slot := $day }}
+    {{ range $hour,$presentations := $slot}}
+    <div class="row">
+        <div class="col-sm-2">{{ $hour }}</div>
+
+        {{ range $e,$p := $presentations }}
+            {{ $singleSlot := eq (len $presentations) 1 }}
+            {{ if $singleSlot }}
+            <div class="col-md-10 text-center">
+            {{ else }}
+            <div class="col-md-5 text-center">
+            {{ end }}
+            {{ $abstract := index (where (where $pages "Type" "abstract") "Params.presentationtitle" $p) 0 }}
+            {{ $speaker := index (where (where $pages "Type" "speaker") "Params.speakername" $abstract.Params.speakername) 0 }}
+            {{ partial "agenda-element.html" (dict "abstract" $abstract "speaker" $speaker "agendaTitle" $p ) }}
+            </div>
+        {{ end }}
+    </div>
+
+    {{ end }}
+    {{ end }}
+</div>

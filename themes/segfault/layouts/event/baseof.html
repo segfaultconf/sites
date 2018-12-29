@@ -54,7 +54,7 @@
         {{ end }}
 
         {{ block "agenda" . }}
-          
+          {{ partial "agenda.html" (dict "pages" .Pages "agenda" .Params.agenda) }}    
         {{ end }}        
 
         <hr />
