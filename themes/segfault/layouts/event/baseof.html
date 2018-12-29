@@ -53,7 +53,9 @@
           {{ partial "speakers.html" . }}
         {{ end }}
 
-        {{- partial "agenda.html" . -}}
+        {{ block "agenda" . }}
+          
+        {{ end }}        
 
         <hr />
 

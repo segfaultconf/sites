@@ -1,53 +1,11 @@
-{{ $pages := .Pages }}
-        <section id="schedule">
-          <div class="container">
-            <h2>
-          Agenda
-        </h2>
-        {{ if isset .Params "agenda" }}
-        <table class="table table-hover table-responsive">
-          <thead class="text-center">
-            <th scope="col" class="column-1">Godzina</th>
-            <th scope="col" class="column-2">Ścieżka 1</th>
-            <th scope="col" class="column-3">Ścieżka 2</th>
-          </thead>
-          <tbody>
-            {{ range $slot := .Params.agenda }}
-            {{ range $hour,$presentations := $slot}}
-            <tr>
-              <td class="column-1">{{ $hour }}</td>
-              {{ range $e,$p := $presentations }}
-                {{ $singleSlot := eq (len $presentations) 1 }}
-                {{ if $singleSlot }}
-              <td class="column-2 text-center" colspan="2" >
-                {{ else }}
-              <td class="column-{{ add $e 2 }} text-center">
-                {{ end }}
-                {{ $abstracts := where (where $pages "Type" "abstract") "Params.presentationtitle" $p }}
-                {{ if $abstracts }}
-                  {{ range $abstract := $abstracts }}
-                  {{ if isset $abstract.Params "youtube" }}
-                  <a href="https://www.youtube.com/watch?v={{ $abstract.Params.youtube }}" class="link-icon" target="_blank"><img src="/img/yt_icon_mono_light.png"></a>
-                  {{ end }}
-                    <a  href="{{ $abstract.Permalink }}">{{ $abstract.Params.presentationtitle }}</a>
-                    <br />
-                    {{ $speakers := where (where $pages "Type" "speaker") "Params.speakername" $abstract.Params.speakername }}
-                    {{ range $speaker := $speakers }}
-                      <a  href="{{ $speaker.Permalink }}"><strong>{{ $speaker.Params.speakername }}</strong></a>
-                    {{ end }}
-                  {{ end }}
-                {{ else }}
-                  {{ $p }}
-                {{ end }}
-              </td>
-              {{ end }}
-            </tr>
-            {{ end }}
-            {{ end }}
-          </tbody>
-        </table>
-        {{ else }}
-        <center>Pojawi się wkrótce</center>
-        {{ end }}
-          </div>
-        </section>
+{{ $tpl := .tpl | default "agenda-timetable.html" }}
+<section id="schedule">
+  <div class="container">
+    <h2>Agenda</h2>
+    {{ if isset . "agenda" }}
+      {{ partial $tpl (dict "pages" .pages "agenda" .agenda )}}
+    {{ else }}
+      <div class="d-flex justify-content-center">Pojawi się wkrótce</div>      
+    {{ end }}
+  </div>
+</section>

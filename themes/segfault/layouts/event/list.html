@@ -1,3 +1,7 @@
 {{ define "speakers" }}
     
 {{ end }}
+
+{{ define "agenda" }} 
+    {{ partial "agenda.html" (dict "pages" .Pages "agenda" .Params.agenda) }}    
+{{ end }}
