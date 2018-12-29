@@ -60,14 +60,14 @@ $(document).ready(function(){
 	    event.preventDefault();
 	    var hrefparts = $(this).attr('href').split("#");
 	    var anchorname = hrefparts[hrefparts.length-1];
-	    if(!window.location.pathname.endsWith('2018/')){    	
-	    	localStorage.SCROLLPARAM =anchorname ;
-	    	window.location = '/wroclaw2018/';
-	    } else {
+	    // if(!window.location.pathname.endsWith('2018/')){    	
+	    // 	localStorage.SCROLLPARAM =anchorname ;
+	    // 	window.location = '/wroclaw2018/';
+	    // } else {
 	    	$('html, body').animate({
 				scrollTop: $("#" + anchorname).offset().top - 100
 			}, 500);
-	    }
+	    // }
 	});
 
 	$("#myToggler").click(function(){
