@@ -174,7 +174,7 @@ body {
 #agenda .row {
   padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #e8eff7;
 }
 
 #agenda .row:hover:not(.header) {
@@ -184,6 +184,16 @@ body {
 #agenda .row:last-child {
   margin-bottom: 30px;
   border-bottom: 3px solid #dee2e6;
+}
+
+#agenda .row .mobile-hour {
+  
+  padding-bottom: 10px;  
+  border-bottom: 1px dashed #e8eff7;
+}
+
+#agenda .row .mobile-track:not(:last-child) {
+  border-bottom: 1px dashed #e8eff7;
 }
 
 
