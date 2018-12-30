@@ -39,8 +39,8 @@
                 </div>                
                 {{ else }}
                 {{ range $i, $p := $presentations }}
-                    <div class="col-2 pr-0 d-md-none flex-fill text-center"><small>{{ index ($details.tracks) $i }}</small></div>
-                    <div class="col-10 col-md-{{ div 10 (len $details.tracks) }} text-center">
+                    <div class="col-3 pr-0 d-md-none flex-fill"><small>{{ index ($details.tracks) $i }}</small></div>
+                    <div class="col-9 col-md-{{ div 10 (len $details.tracks) }} text-center">
                     {{ $abstract := index (where (where $pages "Type" "abstract") "Params.presentationtitle" $p) 0 }}
                     {{ $speaker := index (where (where $pages "Type" "speaker") "Params.speakername" $abstract.Params.speakername) 0 }}
                     {{ partial "agenda-element.html" (dict "abstract" $abstract "speaker" $speaker "agendaTitle" $p ) }}
