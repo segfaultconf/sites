@@ -4,7 +4,7 @@ status: archived
 title: "SegFault - Wrocław 2018"
 url: wroclaw2018
 city: Wrocław
-eventdate: 2018/09/24
+eventdate: 24 września 2018
 location:
   name: Ibis Styles Hotel Wrocław (Plac Konstytucji 3 Maja 3)
   lat: 51.099380

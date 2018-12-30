@@ -1,0 +1,40 @@
+{{ define "speakers" }}
+
+<section id="speakers">
+    <div class="container">
+        <h2>
+        Prelegenci
+        </h2>
+        <div class="row">
+        {{ $pages := .Pages }}
+        {{ range $speaker := where $pages "Type" "speaker" }}
+        <div class="col-lg-4 col-md-6 speaker">
+            <a href="{{ .RelPermalink }}">
+            <div class="module-feature-chart-html5" >
+                <div class="chart-html5-circle">
+                <div class="chart-html5-inset">
+                    {{ with $speaker.Resources.GetMatch "photo" }}
+                    <img src="{{ .RelPermalink }}" alt="" />
+                    {{ end }}
+                </div>
+                </div>
+            </div>
+            <h3>{{ $speaker.Params.speakername }}</h3>
+            </a>
+            {{ range $tag := $speaker.Params.presentationtype }}
+                <span class="text-muted">#{{ $tag }}</span>
+            {{ end }}
+            {{ $abstracts := where (where $pages "Type" "abstract") "Params.presentationtitle" $speaker.Params.presentationtitle }}
+            {{ if $abstracts }}
+                {{ range $abstract := $abstracts }}
+                <a  href="{{ $abstract.Permalink }}">{{ $abstract.Params.presentationtitle }}</a>
+                {{ end }}
+            {{ end }}
+        </div>
+        {{ end }}
+        </div>
+    </div>
+</section>
+      
+
+{{ end }}
