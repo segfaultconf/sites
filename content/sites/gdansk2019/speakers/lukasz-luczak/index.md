@@ -1,7 +1,7 @@
 ---
 type: speaker
 speakername: Łukasz Łuczak
-# presentationtitle: "Programowanie reaktywne: czego się nauczyłem"
+presentationtitle: "Frameworkless JavaScript"
 presentationtype: 
   - deep-dive
 resources:
@@ -9,4 +9,5 @@ resources:
     name: "photo"
 ---
 
-Od kilku lat w ramach łódzkiego JUGa (czyli grupy miłośników technologii już nie tylko okołojavowywch) organizuję wykłady, warsztaty i ćwiczenia – tak zwana praca u podstaw społeczności IT. Co roku także trochę pomagam przy organizacji chyba największej w Łodzi konferencji skupiającej się na technologiach mobilnych – \"Mobilization\". Komercyjnie już od ponad 10 lat programuję w Javie a ostatnio doszła do tego i Scala.
+Inżynier rozwiązujący problemy z wykorzystaniem zdobyczy techniki informacyjnej. Pasjonat nauki i techniki. Wierny wyznawca filozofi TQM oraz Lean. Praktyk zwinnych metodyk oraz pretendent Software Craftmanship.
+Współzałożyciel i lider działu badawczo-rozwojowego <a href="https://inn4.tech/">Inn4Tech</a>. Trener w <a href="http://symentis.pl/">symentis.pl</a>

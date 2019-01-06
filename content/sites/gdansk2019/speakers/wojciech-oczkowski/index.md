@@ -3,7 +3,7 @@ type: speaker
 speakername: Wojciech Oczkowski 
 # presentationtitle: "Programowanie reaktywne: czego się nauczyłem"
 presentationtype: 
-  - warszta
+  - warsztat
 resources:
   - src: "wojtek_oczkowski.jpg"
     name: "photo"
