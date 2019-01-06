@@ -21,15 +21,16 @@
             </div>
             <h3>{{ $speaker.Params.speakername }}</h3>
             </a>
-            {{ range $tag := $speaker.Params.presentationtype }}
-                <span class="text-muted">#{{ $tag }}</span>
-            {{ end }}
             {{ $abstracts := where (where $pages "Type" "abstract") "Params.presentationtitle" $speaker.Params.presentationtitle }}
             {{ if $abstracts }}
                 {{ range $abstract := $abstracts }}
-                <a  href="{{ $abstract.Permalink }}">{{ $abstract.Params.presentationtitle }}</a>
+                <div><a  href="{{ $abstract.Permalink }}">{{ $abstract.Params.presentationtitle }}</a></div>
                 {{ end }}
             {{ end }}
+            {{ range $tag := $speaker.Params.presentationtype }}
+                <div><span class="text-muted">#{{ $tag }}</span></div>
+            {{ end }}
+
         </div>
         {{ end }}
         </div>
