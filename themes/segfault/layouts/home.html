@@ -11,6 +11,8 @@
                 {{ range where .Sections "Type" "event"}}
                 {{ if eq .Params.status "planned" }}
                 <a href="{{ .Permalink }}">
+    		        <!-- </div> -->
+    		        <!-- </div> -->
                 <button type="button" class="btn big transparent" aria-label="{{ .Title }} - {{ .Params.eventdate }}">
                     {{ .Params.eventdate }}, {{ .Params.city }}
                 </button>
@@ -29,33 +31,23 @@
 
             <!-- archiwum -->
             <div class="row">
-    		    	<div class="col-lg-8 offset-lg-2 col-sm-12 offset-sm-0">
-    		            <h2 class="white-text" id="main_archive">Archiwum</h2>
-    		            <div id="editionCarousel" class="carousel slide w-100" data-ride="carousel">
-    			            <div class="carousel-inner w-100" role="listbox">
-                    			<div class="carousel-item active">
-                            {{ range where .Site.Sections "Type" "sites"}}
-                                {{ range where .Sections "Type" "event"}}
-                                    {{ if eq .Params.status "archived" }}
-                                    <a href="{{ .Permalink }}" class="white-text button-like" aria-label="{{ .Params.city }} - {{ .Params.eventdate }}">
-                                        {{ .Params.eventdate }}, {{ .Params.city }}
-                                    </a>
-                                    {{ end }}
-                                {{ end }}
+                <div class="col-lg-8 offset-lg-2 col-sm-12 offset-sm-0">
+                    <h2 class="white-text" id="main_archive">Archiwum</h2>
+                    <div class="d-flex flex-wrap">
+                    {{ range where .Site.Sections "Type" "sites"}}
+                        {{ range where .Sections "Type" "event"}}
+                            {{ if eq .Params.status "archived" }}
+                            <div class="col-md-6 col-sm-12">
+                                <a href="{{ .Permalink }}" class="white-text button-like" aria-label="{{ .Params.city }} - {{ .Params.eventdate }}">
+                                    {{ .Params.eventdate }}, {{ .Params.city }}
+                                </a>
+                            </div>  
                             {{ end }}
-    		                </div>
-    		                <a class="carousel-control-prev" href="#editionCarousel" role="button" data-slide="prev">
-    			                <span class="fa fa-chevron-left" aria-hidden="true"></span>
-    			                <span class="sr-only">Poprzednia edycja</span>
-    			            </a>
-    			            <a class="carousel-control-next" href="#editionCarousel" role="button" data-slide="next">
-    			                <span class="fa fa-chevron-right" aria-hidden="true"></span>
-    			                <span class="sr-only">Następna edycja</span>
-    			            </a>
-    		            </div>
-    		        </div>
-    		    </div>
-
+                        {{ end }}
+                    {{ end }}
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
