@@ -25,7 +25,7 @@
                         {{ range where .Sections "Type" "event"}}
                             {{ if eq .Params.status "archived" }}
                             <div class="col-md-6 col-sm-12">
-                                <a href="{{ .Permalink }}" class="white-text button-like" aria-label="{{ .Params.city }} - {{ .Params.eventdate }}">
+                                <a href="{{ .Permalink }}" class="white-text button-like" aria-label="{{ .Params.city }} - {{ partial "event-date.html" .Params.eventdate }}">
                                     {{ partial "event-date.html" .Params.eventdate }}, {{ .Params.city }}
                                 </a>
                             </div>  
