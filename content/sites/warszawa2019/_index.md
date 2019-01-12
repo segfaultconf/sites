@@ -1,8 +1,11 @@
 ---
 type: event
-title: "SegFault - Warszawa 2019"
+title: "SegFault"
 url: warszawa2019
 city: Warszawa
-eventdate: jesień 2019
+eventdate: 
+    start: 2019-10-01
+    short: jesień 2019
+    full: jesień 2019
 status: planned
 ---

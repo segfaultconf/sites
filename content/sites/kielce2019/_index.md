@@ -1,10 +1,11 @@
 ---
 type: event
 status: planned
-title: "SegFault - Kielce 2019"
+title: "SegFault"
 url: kielce2019
 city: Kielce
-eventdate: 31 maja 2019
+eventdate: 
+  start: 2019-05-31
 location:
   name: Kielecki Park Technologiczny, ul. Karola Olszewskiego 6, 25-663 Kielce
   lat: 50.894707

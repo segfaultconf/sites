@@ -1,0 +1,1 @@
+{{ if isset . "short" }}{{ .short }}{{ else }}{{ dateFormat "2.01.2006" .start }}{{ end }}

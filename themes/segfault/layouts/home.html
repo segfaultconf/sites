@@ -6,26 +6,13 @@
         <div id="topContent">
             <img src="/img/segfaultPoziomeLogo.png" alt="Logo Segfault">
             <h1 class="fancy-font white-text" id="mainWords">...wszyscy jesteśmy architektami</h1>
-            <div class="button-group "  role="group" aria-label="Wybierz wydarzenie">
-                {{ range where .Site.Sections "Type" "sites"}}
-                {{ range where .Sections "Type" "event"}}
-                {{ if eq .Params.status "planned" }}
-                <a href="{{ .Permalink }}">
-    		        <!-- </div> -->
-    		        <!-- </div> -->
-                <button type="button" class="btn big transparent" aria-label="{{ .Title }} - {{ .Params.eventdate }}">
-                    {{ .Params.eventdate }}, {{ .Params.city }}
-                </button>
-                </a>
-                {{ end }}
-                {{ if not (isset .Params "status") }}
-                <a href="{{ .Permalink }}">
-                    <button type="button" class="btn big transparent" aria-label="{{ .Title }} - {{ .Params.eventdate }}">
-                        {{ .Params.eventdate }}, {{ .Params.city }}
-                    </button>
-                </a>
-                {{ end }}
-                {{ end }}
+            <div class="button-group" role="group" aria-label="Wybierz wydarzenie">
+                {{ range where .Site.Sections "Type" "sites" }}
+                    {{ range sort .Sections ".Params.eventdate.start" }}
+                        {{ if or (ne .Params.status "archived") (not (isset .Params "status")) }}
+                            {{ partial "event-button.html" . }}
+                        {{ end }}
+                    {{ end }}
                 {{ end }}
             </div>
 
@@ -39,7 +26,7 @@
                             {{ if eq .Params.status "archived" }}
                             <div class="col-md-6 col-sm-12">
                                 <a href="{{ .Permalink }}" class="white-text button-like" aria-label="{{ .Params.city }} - {{ .Params.eventdate }}">
-                                    {{ .Params.eventdate }}, {{ .Params.city }}
+                                    {{ partial "event-date.html" .Params.eventdate }}, {{ .Params.city }}
                                 </a>
                             </div>  
                             {{ end }}

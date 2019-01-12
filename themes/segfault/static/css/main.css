@@ -154,14 +154,12 @@ body {
   body a, body a:hover {
     color: #777;
      }
-  body button, body button:hover, body button *, body button:hover * {
+  /* body button, body button:hover, body button *, body button:hover * {
     color: #FFF; }
-    /*NOWE*/
-     body button:hover, body button:hover * {
+  body button:hover, body button:hover * {
     background-color: transparent !important;
-  border: 1px solid #FFF; 
-  }
-  /*KONIEC*/
+    border: 1px solid #FFF; 
+  } */
 
 #agenda {
   color: #777;
@@ -228,8 +226,19 @@ img {
 
 .button-group button {
   margin: 0 10px; }
-  .button-group button a {
-    padding: .625em 1.25em; }
+
+.button-group button a {
+  padding: .625em 1.25em; }
+
+.button-group button:hover * {
+  border: 0px;
+}
+
+.button-group .btn-primary:hover {
+  color: #2f4d58;
+  border: 1px solid #2f4d58;
+  background-color: white !important;
+}
 
 blockquote {
   font-style: italic;
