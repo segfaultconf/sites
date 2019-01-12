@@ -6,7 +6,7 @@
         <div id="topContent">
             <img src="/img/segfaultPoziomeLogo.png" alt="Logo Segfault">
             <h1 class="fancy-font white-text" id="mainWords">...wszyscy jesteśmy architektami</h1>
-            <div class="button-group" role="group" aria-label="Wybierz wydarzenie">
+            <div class="button-group d-flex flex-wrap justify-content-center flex-column flex-md-row" role="group" aria-label="Wybierz wydarzenie">
                 {{ range where .Site.Sections "Type" "sites" }}
                     {{ range sort .Sections ".Params.eventdate.start" }}
                         {{ if or (ne .Params.status "archived") (not (isset .Params "status")) }}

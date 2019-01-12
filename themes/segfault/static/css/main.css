@@ -285,6 +285,10 @@ blockquote {
   background-size: cover;
   background-attachment: fixed; }
 
+.start-screen #topContent {
+  padding: 50px 0px 100px 0px;
+}
+
 #topContent {
   max-width: 1000px;
   width: 70%;
@@ -320,7 +324,7 @@ blockquote {
     background-color: #548898;
     font-size: 19px;
     font-weight: 300;
-    margin: 0 3px;
+    margin: 15px 10px;
     padding: 3px 23px; }
     #topContent button a {
       padding: 0; }
@@ -541,7 +545,7 @@ footer {
       margin-bottom: 10px !important; }
     #topContent button {
       width: 100%;
-      font-size:20px;
+      font-size: 20px;
       margin: 20px 0; }
        #topContent .spacer {
    	  max-width:70%;}
