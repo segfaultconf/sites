@@ -525,11 +525,8 @@ footer {
 
   #topContent {
     padding: 80px 0; }
-      #topContent img {
-    visibility:hidden;
-      /*max-width: 650px;
-      width: 80%;*/ }
     #topContent h1 {
+      font-size: 2em;
       margin: 30px auto; }
     #topContent h2 {
       margin-bottom: 10px !important; }
