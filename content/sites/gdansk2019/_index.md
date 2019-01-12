@@ -2,10 +2,13 @@
 type: event
 layout: university-layout
 status: planned
-title: "SegFault University Gdańsk 2019"
+title: "SegFault University"
 url: gdansk2019
 city: Gdańsk
-eventdate: 14-15 marca 2019
+eventdate: 
+    start: 2019-03-14
+    short: 14-15.03.2019
+    full: 14-15 marca 2019
 location:
   name: Gdański Park Naukowo-Technologiczny (ul. Trzy Lipy 3, Gdańsk)
   lat: 54.354887

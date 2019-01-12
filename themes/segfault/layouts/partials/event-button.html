@@ -1,0 +1,11 @@
+<div>
+    <a href="{{ .Permalink }}">
+        <button 
+            type="button" 
+            class="btn btn-primary transparent" 
+            aria-label="{{ .Title }} {{ .Params.city }} - {{ .Params.eventdate.start }}">
+            <div class="title font-weight-bold">{{ .Title }} {{ .Params.city }}</div>
+            <div class="date">{{ partial "event-date.html" .Params.eventdate }}</div>
+        </button>
+    </a>
+</div>

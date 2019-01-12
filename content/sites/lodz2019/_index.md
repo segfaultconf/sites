@@ -1,10 +1,11 @@
 ---
 type: event
 status: planned
-title: "SegFault - Łódź 2019"
+title: "SegFault"
 url: lodz2019
 city: Łódź
-eventdate: 26 kwietnia 2019
+eventdate: 
+  start: 2019-04-26
 location:
   name: Hotel Ambasador Premium Łódź (ul. J. Kilińskiego 145)
   lat: 51.759251

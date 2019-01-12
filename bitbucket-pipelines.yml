@@ -5,12 +5,12 @@ pipelines:
     - step:
         deployment: test
         script:
-          - /.bin/hugo --baseURL=http://test.segfault.events/
+          - /.bin/hugo --minify --baseURL=http://test.segfault.events/
           - LFTP_PASSWORD="$SEGFAULT_TEST_FTP_SITE_PASSWD" lftp -f lftprc.default
   custom:
     go-live:
       - step:
           deployment: production
           script:
-            - /.bin/hugo --baseURL=http://segfault.events/
+            - /.bin/hugo --minify --baseURL=http://segfault.events/
             - LFTP_PASSWORD="$SEGFAULT_FTP_SITE_PASSWD" lftp -f lftprc.deployment

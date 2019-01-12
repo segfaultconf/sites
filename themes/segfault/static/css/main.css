@@ -154,14 +154,12 @@ body {
   body a, body a:hover {
     color: #777;
      }
-  body button, body button:hover, body button *, body button:hover * {
+  /* body button, body button:hover, body button *, body button:hover * {
     color: #FFF; }
-    /*NOWE*/
-     body button:hover, body button:hover * {
+  body button:hover, body button:hover * {
     background-color: transparent !important;
-  border: 1px solid #FFF; 
-  }
-  /*KONIEC*/
+    border: 1px solid #FFF; 
+  } */
 
 #agenda {
   color: #777;
@@ -228,8 +226,19 @@ img {
 
 .button-group button {
   margin: 0 10px; }
-  .button-group button a {
-    padding: .625em 1.25em; }
+
+.button-group button a {
+  padding: .625em 1.25em; }
+
+.button-group button:hover * {
+  border: 0px;
+}
+
+.button-group .btn-primary:hover {
+  color: #2f4d58;
+  border: 1px solid #2f4d58;
+  background-color: white !important;
+}
 
 blockquote {
   font-style: italic;
@@ -276,6 +285,10 @@ blockquote {
   background-size: cover;
   background-attachment: fixed; }
 
+.start-screen #topContent {
+  padding: 50px 0px 100px 0px;
+}
+
 #topContent {
   max-width: 1000px;
   width: 70%;
@@ -311,7 +324,7 @@ blockquote {
     background-color: #548898;
     font-size: 19px;
     font-weight: 300;
-    margin: 0 3px;
+    margin: 15px 10px;
     padding: 3px 23px; }
     #topContent button a {
       padding: 0; }
@@ -525,17 +538,14 @@ footer {
 
   #topContent {
     padding: 80px 0; }
-      #topContent img {
-    visibility:hidden;
-      /*max-width: 650px;
-      width: 80%;*/ }
     #topContent h1 {
+      font-size: 2em;
       margin: 30px auto; }
     #topContent h2 {
       margin-bottom: 10px !important; }
     #topContent button {
       width: 100%;
-      font-size:20px;
+      font-size: 20px;
       margin: 20px 0; }
        #topContent .spacer {
    	  max-width:70%;}
