@@ -2,20 +2,82 @@
 <html lang="pl-PL" class="js">
 {{- partial "head.html" . -}}
 <body class="start-screen">
-    <div class="container-fluid full-height" id="topImg">
-        <div id="topContent">
-            <img src="/img/segfaultPoziomeLogo.png" alt="Logo Segfault">
-            <h1 class="fancy-font white-text" id="mainWords">...wszyscy jesteśmy architektami</h1>
-            <div class="button-group d-flex flex-wrap justify-content-center flex-column flex-md-row" role="group" aria-label="Wybierz wydarzenie">
-                {{ range where .Site.Sections "Type" "sites" }}
-                    {{ range sort .Sections ".Params.eventdate.start" }}
-                        {{ if or (ne .Params.status "archived") (not (isset .Params "status")) }}
-                            {{ partial "event-button.html" . }}
+    <section id="header">
+        <div class="container-fluid full-height" id="topImg">
+            <div id="topContent">
+                <img src="/img/segfaultPoziomeLogo.png" alt="Logo Segfault">
+                <h1 class="fancy-font white-text" id="mainWords">...wszyscy jesteśmy architektami</h1>
+                <div class="button-group d-flex flex-wrap justify-content-center flex-column flex-md-row" role="group" aria-label="Wybierz wydarzenie">
+                    {{ range where .Site.Sections "Type" "sites" }}
+                        {{ range sort .Sections ".Params.eventdate.start" }}
+                            {{ if or (ne .Params.status "archived") (not (isset .Params "status")) }}
+                                {{ partial "event-button.html" . }}
+                            {{ end }}
                         {{ end }}
                     {{ end }}
-                {{ end }}
+                </div>
             </div>
+            <div class="col-md-12">
+                <a href="#about" id="next"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        
+        </div>
+    </section>
 
+    {{ partial "testimonial.html" (dict "Content" "Stawiamy na wiedzę, która pozostanie z wami na zawsze, na doświadczenie ludzi, które zmieni wasze myślenie. Bo każdy z nas jest architektem. Architekt to nie tytuł. To sposób myślenia, wybuchowa mieszanka myślenia krytycznego i systemowego.") }}
+
+    {{ partial "about.html" (.Site.GetPage "/about.md") }}
+
+    <section id="organisedBy">
+        <div class="container-fluid light-gray">
+          <div class="container">
+            <h2>Organizator</h2>
+            <a href="http://symentis.pl"><img src="/img/symentis-logo-150x62.png" title="Logo Symentis"></a>
+            <p>Jesteśmy grupą osób, która od ponad 10 lat kształtuje rynek konferencji IT jako aktywni członkowie społeczności, organizatorzy konferencji, członkowie rad programowych i&nbsp;mówcy. w&nbsp;swojej karierze obudziliśmy niejedną społeczność
+              do działania. Ponadto zawodowo jesteśmy związani z&nbsp;wytwarzaniem oprogramowania na wielu jego poziomach – zarówno jako programiści, architekci, jak i&nbsp;konsultanci. Od lat naszą idée fixe jest powrót do korzeni i&nbsp;zbudowanie
+              solidnych podstaw do rozwoju branży IT w&nbsp;Polsce.</p>
+
+            <p>Chcemy wyjść poza “szufladki” z&nbsp;napisem Java, Spring Boot, .NET, PHP, Python, Docker, test, programista czy architekt.Chcemy na nowo zdefiniować słowo inżynier, gdyż wszyscy szukamy i&nbsp;chcemy pracować z&nbsp;ludźmi o&nbsp;szerokiej
+              i&nbsp;uniwersalnej wiedzy, którzy nie boją się nowych wyzwań, jakie niesie za sobą rynek ciągle zmieniających się trendów i&nbsp;technologii. Tak właśnie powstała idea spotkań pod szyldem SegFault.</p>
+          </div>
+        </div>
+      </section>
+
+
+    <section id="council">
+        <div class="container">
+          <h2>Rada programowa</h2>
+          <div class="row">
+            {{ range where (where .Site.Pages "Section" "committee") "Kind" "page"}}
+            <div class="col-lg-3 col-md-6 council-member">
+              <a href="{{ .RelPermalink }}">
+                <div class="module-feature-chart-html5" data-progress="0" data-progress-end="100" data-size="150">
+                  <div class="chart-html5-circle">
+                    <div class="chart-html5-mask chart-html5-full">
+                      <div class="chart-html5-fill"></div>
+                    </div>
+                    <div class="chart-html5-mask chart-html5-half">
+                      <div class="chart-html5-fill"></div>
+                    </div>
+                    <div class="chart-html5-inset">
+                      {{ with .Parent.Resources.GetMatch .Params.memberphoto }}
+                      <img src="{{ .RelPermalink }}" alt="" />
+                      {{ end }}
+                    </div>
+                  </div>
+                </div>
+                <h3>{{ .Params.membername }}</h3>
+                <span>{{ .Params.memberposition }}</span>
+              </a>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </section>    
+
+  
+      <section id="archive">
+        <div class="container-fluid dark-gray">            
             <!-- archiwum -->
             <div class="row">
                 <div class="col-lg-8 offset-lg-2 col-sm-12 offset-sm-0">
@@ -34,8 +96,9 @@
                     {{ end }}
                     </div>
                 </div>
-            </div>
+            </div>    
         </div>
-    </div>
+    </section>
+
 </body>
 </html>

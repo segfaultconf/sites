@@ -28,26 +28,14 @@
             <span class="spacer"></span>
           </div>
         </div>
-        <section>
-          <div class="container-fluid blue">
-            <div class="container">
-              <blockquote>
-                <strong>Segmentation fault (Naruszenie ochrony pamięci)</strong> – zdarzenie wykrywane przez sprzęt, polegające na korzystaniu przez program z&nbsp;pamięci poza zaalokowanym dla niego obszarem.</blockquote>
-            </div>
-          </div>
-        </section>
+      
+        {{ partial "testimonial.html" (dict "Lead" "Segmentation fault (Naruszenie ochrony pamięci)" "Content" "zdarzenie wykrywane przez sprzęt, polegające na korzystaniu przez program z pamięci poza zaalokowanym dla niego obszarem.") }}
 
         {{ partial "about.html" (.GetPage "about") }}
 
         {{ partial "topics.html" (.GetPage "topics") }}
-
-        <section>
-          <div class="container-fluid blue">
-            <div class="container">
-              <blockquote>Chcesz uniknąć rozmów o&nbsp;trendach, które przychodzą i&nbsp;odchodzą? o&nbsp;“next big thing”, które jest tylko starą technologią w&nbsp;nowych szatach? Zapraszamy!</blockquote>
-            </div>
-          </div>
-        </section>
+  
+        {{ partial "testimonial.html" (dict "Content" "Chcesz uniknąć rozmów o trendach, które przychodzą i odchodzą? o \"next big thing\", które jest tylko starą technologią w nowych szatach? Zapraszamy!") }}
 
         {{ block "speakers" . }}
           {{ partial "speakers.html" . }}
@@ -68,54 +56,6 @@
           {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "conferences" "title" "Konferencja Partnerska" "caption" "Konferencje partnerskie" "maxPartners" 0)}}
         </section>
 
-        <section id="organisedBy">
-          <div class="container-fluid light-gray">
-            <div class="container">
-              <h2>
-            Organizator
-          </h2>
-              <a href="http://symentis.pl"><img src="/img/symentis-logo-150x62.png" title="Logo Symentis"><a>
-              <p>Jesteśmy grupą osób, która od ponad 10 lat kształtuje rynek konferencji IT jako aktywni członkowie społeczności, organizatorzy konferencji, członkowie rad programowych i&nbsp;mówcy. w&nbsp;swojej karierze obudziliśmy niejedną społeczność
-                do działania. Ponadto zawodowo jesteśmy związani z&nbsp;wytwarzaniem oprogramowania na wielu jego poziomach – zarówno jako programiści, architekci, jak i&nbsp;konsultanci. Od lat naszą idée fixe jest powrót do korzeni i&nbsp;zbudowanie
-                solidnych podstaw do rozwoju branży IT w&nbsp;Polsce.</p>
-
-              <p>Chcemy wyjść poza “szufladki” z&nbsp;napisem Java, Spring Boot, .NET, PHP, Python, Docker, test, programista czy architekt.Chcemy na nowo zdefiniować słowo inżynier, gdyż wszyscy szukamy i&nbsp;chcemy pracować z&nbsp;ludźmi o&nbsp;szerokiej
-                i&nbsp;uniwersalnej wiedzy, którzy nie boją się nowych wyzwań, jakie niesie za sobą rynek ciągle zmieniających się trendów i&nbsp;technologii. Tak właśnie powstała idea spotkań pod szyldem SegFault.</p>
-            </div>
-          </div>
-        </section>
-        <section id="council">
-          <div class="container">
-            <h2>
-              Rada programowa
-            </h2>
-            <div class="row">
-              {{ range where (where .Site.Pages "Section" "committee") "Kind" "page"}}
-              <div class="col-lg-3 col-md-6 council-member">
-                <a href="{{ .RelPermalink }}">
-                  <div class="module-feature-chart-html5" data-progress="0" data-progress-end="100" data-size="150">
-                    <div class="chart-html5-circle">
-                      <div class="chart-html5-mask chart-html5-full">
-                        <div class="chart-html5-fill"></div>
-                      </div>
-                      <div class="chart-html5-mask chart-html5-half">
-                        <div class="chart-html5-fill"></div>
-                      </div>
-                      <div class="chart-html5-inset">
-                        {{ with .Parent.Resources.GetMatch .Params.memberphoto }}
-                        <img src="{{ .RelPermalink }}" alt="" />
-                        {{ end }}
-                      </div>
-                    </div>
-                  </div>
-                  <h3>{{ .Params.membername }}</h3>
-                  <span>{{ .Params.memberposition }}</span>
-                </a>
-              </div>
-              {{ end }}
-            </div>
-          </div>
-        </section>
         <section id="contact">
           <div class="container">
             <h2>

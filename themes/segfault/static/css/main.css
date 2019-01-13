@@ -286,7 +286,30 @@ blockquote {
   background-attachment: fixed; }
 
 .start-screen #topContent {
-  padding: 50px 0px 100px 0px;
+  padding: 50px 0px 10px 0px;
+}
+
+.start-screen #header #next {
+  font-size: 50px;
+  display: block;
+  height: 50px; 
+}
+.start-screen #header #next i {
+  display: block;
+  margin-top: 0;
+  transition: .6s;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%); 
+}
+.start-screen #header #next i:hover {
+  margin-top: -15px; 
+}
+
+
+#archive {
+  margin: auto;
+  text-align: center;
 }
 
 #topContent {
@@ -302,13 +325,13 @@ blockquote {
     font-weight: 100;
     font-size: 40px;
     letter-spacing: -1px; }
-  #topContent #main_archive {
+  #archive #main_archive {
     text-transform: uppercase;
     font-size: 15px;
     margin: 55px auto 5px;
     color: #CCC;
     font-weight: 100; }
-  #topContent #main_archive::before, #topContent #main_archive::after{
+  #archive #main_archive::before, #archive #main_archive::after{
     content: '';
     width: 35%;
     height: 1px;
@@ -552,7 +575,7 @@ footer {
     #topContent button.btn.big{
       padding: 14px 12px !important;
     }
-    #topContent h2#main_archive::before, #topContent h2#main_archive::after{
+    #archive h2#main_archive::before, #archive h2#main_archive::after{
       display: block;
       margin: 10px auto;
     }

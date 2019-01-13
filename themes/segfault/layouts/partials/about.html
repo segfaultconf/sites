@@ -1,5 +1,7 @@
-<section id="about">
-  <div class="container">
-    {{ .Content }}
-  </div>
-</section>
+{{ with .Content }}
+  <section id="about">
+    <div class="container">
+      {{- . -}}
+    </div>
+  </section>
+{{ end }}
