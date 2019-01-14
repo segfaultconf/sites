@@ -46,34 +46,33 @@
 
     <section id="council">
         <div class="container">
-          <h2>Rada programowa</h2>
-          <div class="row">
-            {{ range where (where .Site.Pages "Section" "committee") "Kind" "page"}}
-            <div class="col-lg-3 col-md-6 council-member">
-              <a href="{{ .RelPermalink }}">
-                <div class="module-feature-chart-html5" data-progress="0" data-progress-end="100" data-size="150">
-                  <div class="chart-html5-circle">
-                    <div class="chart-html5-mask chart-html5-full">
-                      <div class="chart-html5-fill"></div>
-                    </div>
-                    <div class="chart-html5-mask chart-html5-half">
-                      <div class="chart-html5-fill"></div>
-                    </div>
-                    <div class="chart-html5-inset">
-                      {{ with .Parent.Resources.GetMatch .Params.memberphoto }}
-                      <img src="{{ .RelPermalink }}" alt="" />
-                      {{ end }}
-                    </div>
-                  </div>
+            <h2>Rada programowa</h2>
+            <div id="council-members">
+                <div class="row">
+                    {{ range where (where .Site.Pages "Section" "committee") "Kind" "page"}}                    
+                    <div id="header-{{ .Params.memberphoto }}" class="council-member col-12 col-sm-6 col-md-3" data-toggle="collapse" data-target="#collapse-{{ .Params.memberphoto }}" aria-expanded="true" aria-controls="collapse-{{ .Params.memberphoto }}">
+                        <!-- <a href="#council" class="nav-link"> -->
+                        {{ with .Parent.Resources.GetMatch .Params.memberphoto }}
+                        <img src="{{ .RelPermalink }}" alt="{{ .Params.membername }}" />
+                        {{ end }}
+                        <h3>{{ .Params.membername }}</h3>
+                        <span>{{ .Params.memberposition }}</span>
+                        <!-- </a> -->
+                    </div>                    
+                    {{ end }}
                 </div>
-                <h3>{{ .Params.membername }}</h3>
-                <span>{{ .Params.memberposition }}</span>
-              </a>
+                <div id="members-bio" class="member-bio row">
+                {{ range where (where .Site.Pages "Section" "committee") "Kind" "page"}}
+                    <div id="collapse-{{ .Params.memberphoto }}" class="collapse col-12" aria-labelledby="header-{{ .Params.memberphoto }}" data-parent="#council-members">
+                        <blockquote>
+                            {{ .Content }}
+                        </blockquote>
+                    </div>
+                {{ end }}
+                </div>
             </div>
-            {{ end }}
-          </div>
         </div>
-      </section>    
+    </section>
 
       <footer id="footer">
         <div class="container-fluid dark-gray">
@@ -94,26 +93,6 @@
                 {{ end }}
                 </div>
             </div>
-        
-            <!-- archiwum -->
-            <div class="conferece-footer-archive-list col-lg-8 offset-lg-2 col-sm-12 offset-sm-0">
-                <figure>
-                    <figcaption>Archiwum</figcaption>
-                    <ul>
-                    {{ range where .Site.Sections "Type" "sites"}}
-                        {{ range where .Sections "Type" "event"}}
-                            {{ if eq .Params.status "archived" }}
-                            <li>
-                                <a href="{{ .Permalink }}" class="white-text button-like" aria-label="{{ .Params.city }} - {{ partial "event-date.html" .Params.eventdate }}">
-                                    {{ partial "event-date.html" .Params.eventdate }}, {{ .Params.city }}
-                                </a>
-                            </li>  
-                            {{ end }}
-                        {{ end }}
-                    {{ end }}        
-                    </ul>
-                </figure>
-            </div>
 
             <div class="social-widgets d-flex justify-content-center col-12">
                 <div class="col-1">
@@ -132,7 +111,25 @@
                     <a href="mailto:partnerzy@coredump.events"><i class="fa fa-envelope"></i></a>
                 </div>
             </div>
-        
+
+            <div class="conferece-footer-archive-list col-lg-8 offset-lg-2 col-sm-12 offset-sm-0">
+                <figure>
+                    <figcaption>Archiwum</figcaption>
+                    <ul>
+                    {{ range where .Site.Sections "Type" "sites"}}
+                        {{ range where .Sections "Type" "event"}}
+                            {{ if eq .Params.status "archived" }}
+                            <li>
+                                <a href="{{ .Permalink }}" class="white-text button-like" aria-label="{{ .Params.city }} - {{ partial "event-date.html" .Params.eventdate }}">
+                                    {{ partial "event-date.html" .Params.eventdate }}, {{ .Params.city }}
+                                </a>
+                            </li>  
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}        
+                    </ul>
+                </figure>
+            </div>
 
             <div class="col-md-12">
                 <span id="copyright">Copyright © SegFault</span>
