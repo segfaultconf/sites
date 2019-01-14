@@ -12,6 +12,7 @@
   padding: 1em 3em;
 }
 
+.speaker img, 
 .council-member img {
   width: 50%;
   border-radius: 50%;
