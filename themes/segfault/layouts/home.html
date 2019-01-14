@@ -75,30 +75,71 @@
         </div>
       </section>    
 
-  
-      <section id="archive">
-        <div class="container-fluid dark-gray">            
+      <footer id="footer">
+        <div class="container-fluid dark-gray">
+            <div class="conferece-footer-list col-lg-8 offset-lg-2 col-sm-12 offset-sm-0">
+                <h2 class="title white-text">Najbliższe konferencje</h2>
+                <div class="d-flex flex-wrap">
+                {{ range where .Site.Sections "Type" "sites" }}
+                    {{ range sort .Sections ".Params.eventdate.start" }}
+                        {{ if or (ne .Params.status "archived") (not (isset .Params "status")) }}
+                        <div class="col-md-6 col-sm-12">
+                            <a href="{{ .Permalink }}" class="white-text button-like" aria-label="{{ .Params.city }} - {{ partial "event-date.html" .Params.eventdate }}">
+                                    {{ .Title }} {{ .Params.city }} <br>
+                                    {{ partial "event-date.html" .Params.eventdate }}
+                            </a>
+                        </div>  
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+                </div>
+            </div>
+        
             <!-- archiwum -->
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2 col-sm-12 offset-sm-0">
-                    <h2 class="white-text" id="main_archive">Archiwum</h2>
-                    <div class="d-flex flex-wrap">
+            <div class="conferece-footer-archive-list col-lg-8 offset-lg-2 col-sm-12 offset-sm-0">
+                <figure>
+                    <figcaption>Archiwum</figcaption>
+                    <ul>
                     {{ range where .Site.Sections "Type" "sites"}}
                         {{ range where .Sections "Type" "event"}}
                             {{ if eq .Params.status "archived" }}
-                            <div class="col-md-6 col-sm-12">
+                            <li>
                                 <a href="{{ .Permalink }}" class="white-text button-like" aria-label="{{ .Params.city }} - {{ partial "event-date.html" .Params.eventdate }}">
                                     {{ partial "event-date.html" .Params.eventdate }}, {{ .Params.city }}
                                 </a>
-                            </div>  
+                            </li>  
                             {{ end }}
                         {{ end }}
-                    {{ end }}
-                    </div>
-                </div>
-            </div>    
-        </div>
-    </section>
+                    {{ end }}        
+                    </ul>
+                </figure>
+            </div>
 
+            <div class="social-widgets d-flex justify-content-center col-12">
+                <div class="col-1">
+                    <a href="https://twitter.com/SegFaultConf"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="col-1">
+                    <a href="https://www.facebook.com/SegFaultConf/"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="col-1">
+                    <a href="https://www.instagram.com/segfaultconf/"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="col-1">
+                    <a href="https://www.youtube.com/channel/UCV38Do_3C5uVk3lWePkyxTA"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="col-1">
+                    <a href="mailto:partnerzy@coredump.events"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+        
+
+            <div class="col-md-12">
+                <span id="copyright">Copyright © SegFault</span>
+            </div>
+        
+        </div>
+      </footer>
+  
 </body>
 </html>

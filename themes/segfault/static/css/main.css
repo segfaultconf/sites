@@ -257,8 +257,8 @@ blockquote {
     font-weight: 400;
     font-style: normal; }
 
-.full-height {
-  min-height: 100vh; }
+/* .full-height {
+  min-height: 100vh; } */
 
 .container {
   padding: 50px 0 30px; }
@@ -283,10 +283,16 @@ blockquote {
 #topImg {
   background-image: url(/img/heroBG.jpg);
   background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: fixed; 
+  padding-bottom: 2em;
+}
 
 .start-screen #topContent {
   padding: 50px 0px 10px 0px;
+}
+
+.start-screen footer div > div {
+  margin-bottom: 15px;
 }
 
 .start-screen #header #next {
@@ -300,16 +306,9 @@ blockquote {
   transition: .6s;
   position: absolute;
   left: 50%;
-  transform: translateX(-50%); 
 }
 .start-screen #header #next i:hover {
   margin-top: -15px; 
-}
-
-
-#archive {
-  margin: auto;
-  text-align: center;
 }
 
 #topContent {
@@ -325,13 +324,33 @@ blockquote {
     font-weight: 100;
     font-size: 40px;
     letter-spacing: -1px; }
-  #archive #main_archive {
+
+  .conferece-footer-archive-list figcaption {
+    display: inline;
+    margin-right: 1em;
+  }
+
+  .conferece-footer-archive-list figcaption:after {
+    content: ':';
+  }
+
+  .conferece-footer-archive-list ul {
+    display: inline;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .conferece-footer-archive-list ul li {
+    display: inline;
+    margin-right: 1em;
+  }
+
+  .conferece-footer-list .title {
     text-transform: uppercase;
     font-size: 15px;
-    margin: 55px auto 5px;
     color: #CCC;
     font-weight: 100; }
-  #archive #main_archive::before, #archive #main_archive::after{
+  .conferece-footer-list .title::before, .conferece-footer-list .title::after{
     content: '';
     width: 35%;
     height: 1px;
@@ -548,6 +567,7 @@ footer {
     margin: 30px 0 !important; } }
     
 @media (max-width: 768px) {
+
   .column-1 {
     padding: .75rem 0 !important; }
 
@@ -575,7 +595,7 @@ footer {
     #topContent button.btn.big{
       padding: 14px 12px !important;
     }
-    #archive h2#main_archive::before, #archive h2#main_archive::after{
+    .conferece-footer-list h2.title::before, .conferece-footer-list h2.title::after{
       display: block;
       margin: 10px auto;
     }
