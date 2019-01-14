@@ -314,11 +314,12 @@ blockquote {
 }
 .start-screen #header #next i {
   display: block;
-  margin-top: 0;
   transition: .6s;
   position: absolute;
   left: 50%;
+  width: 10%;
 }
+
 .start-screen #header #next i:hover {
   margin-top: -15px; 
 }
