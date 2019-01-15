@@ -64,17 +64,15 @@ $(document).ready(function(){
 	    }, 500);
 	});*/
 	
-	$(document).on('click', 'a[href*="#"]', function (event) {
-	    event.preventDefault();
-	    var hrefparts = $(this).attr('href').split("#");
-	    var anchorname = hrefparts[hrefparts.length-1];
-	    // if(!window.location.pathname.endsWith('2018/')){    	
-	    // 	localStorage.SCROLLPARAM =anchorname ;
-	    // 	window.location = '/wroclaw2018/';
-	    // } else {
+	$(document).on('click', 'a[href*="#"]', function (event) {			    
+		var hrefparts = $(this).attr('href').split("#");
+
+		if (window.location === hrefparts[0]) {
+			event.preventDefault();
+			var anchorname = hrefparts[hrefparts.length-1];
 			window.location.hash = anchorname
-	    	$('html, body').animate({scrollTop: $("#" + anchorname).offset().top}, 500);
-	    // }
+			$('html, body').animate({scrollTop: $("#" + anchorname).offset().top}, 500);	
+		}
 	});
 
 	$("#myToggler").click(function(){
