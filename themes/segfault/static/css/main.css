@@ -521,18 +521,18 @@ img[title="Logo Symentis"] {
   margin-bottom: 15px; }
 
 #contact {
-  margin-top: 50px; }
+  margin-bottom: 100px; }
   #contact h3 {
     color: #000;
     font-size: 1.1em; }
   #contact h3, #contact a {
     text-transform: uppercase; }
-  #contact h4 {
+  #venue h4 {
     color: #777;
     margin: 50px auto;
     font-size: 1.6em;
     font-weight: 300; }
-  #contact #map {
+  #venue #map {
     width: 100%;
     height: 300px; }
 

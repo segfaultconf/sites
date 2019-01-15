@@ -63,35 +63,20 @@
           {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "community" "title" "Społeczność" "caption" "Społeczności" "maxPartners" 0)}}
           {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "conferences" "title" "Konferencja Partnerska" "caption" "Konferencje partnerskie" "maxPartners" 0)}}
         </section>
-
-        <section id="contact">
+        
+        <section id="venue">
           <div class="container">
-            <h2>
-              Kontakt
-            </h2>
-            <div class="row">
-              <div class="col-lg-4 col-md-12 ">
-                <h3>Konferencja</h3>
-                <a href="mailto:konferencja@segfault.events">konferencja@segfault.events</a>
-              </div>
-              <div class="col-lg-4 col-md-12">
-                <h3>Rejestracja</h3>
-                <a href="mailto:rejestracja@segfault.events">rejestracja@segfault.events</a>
-              </div>
-              <div class="col-lg-4 col-md-12">
-                <h3>Partnerstwo</h3>
-                <a href="mailto:partnerzy@segfault.events">partnerzy@segfault.events</a>
-              </div>
-            </div>
             <div class="row">
               <h4>
                 {{ .Params.location.name }}
               </h4>
-              <div class="col-md-12"></div>
+            </div>
+            <div class="row">
               <div id="map"></div>
             </div>
           </div>
         </section>
+
       </div>
       {{- partial "footer.html" . -}}
     </div>
@@ -99,7 +84,7 @@
   <script type="text/javascript">
     function initMap() {
       var segfault = {
-        lat: {{.Params.location.lat }},
+        lat: {{ .Params.location.lat }},
         lng: {{ .Params.location.lng }}
       };
       var map = new google.maps.Map(document.getElementById('map'), {
