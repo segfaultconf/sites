@@ -5,6 +5,7 @@ speakername: "Blazej Kubiak / Krzysztof Kudrynski"
 presentationtype: 
   - warsztat
   - prezentacja
+  - deep-learning
 resources:
   - src: "kubiak-kudrynski.jpeg"
     name: "photo"

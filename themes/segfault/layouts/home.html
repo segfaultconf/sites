@@ -2,40 +2,165 @@
 <html lang="pl-PL" class="js">
 {{- partial "head.html" . -}}
 <body class="start-screen">
-    <div class="container-fluid full-height" id="topImg">
-        <div id="topContent">
-            <img src="/img/segfaultPoziomeLogo.png" alt="Logo Segfault">
-            <h1 class="fancy-font white-text" id="mainWords">...wszyscy jesteśmy architektami</h1>
-            <div class="button-group d-flex flex-wrap justify-content-center flex-column flex-md-row" role="group" aria-label="Wybierz wydarzenie">
-                {{ range where .Site.Sections "Type" "sites" }}
-                    {{ range sort .Sections ".Params.eventdate.start" }}
-                        {{ if or (ne .Params.status "archived") (not (isset .Params "status")) }}
-                            {{ partial "event-button.html" . }}
-                        {{ end }}
-                    {{ end }}
-                {{ end }}
-            </div>
-
-            <!-- archiwum -->
-            <div class="row">
-                <div class="col-lg-8 offset-lg-2 col-sm-12 offset-sm-0">
-                    <h2 class="white-text" id="main_archive">Archiwum</h2>
-                    <div class="d-flex flex-wrap">
-                    {{ range where .Site.Sections "Type" "sites"}}
-                        {{ range where .Sections "Type" "event"}}
-                            {{ if eq .Params.status "archived" }}
-                            <div class="col-md-6 col-sm-12">
-                                <a href="{{ .Permalink }}" class="white-text button-like" aria-label="{{ .Params.city }} - {{ partial "event-date.html" .Params.eventdate }}">
-                                    {{ partial "event-date.html" .Params.eventdate }}, {{ .Params.city }}
-                                </a>
-                            </div>  
+    <section id="header">
+        <div class="container-fluid full-height" id="topImg">
+            <div id="topContent">
+                <img src="/img/segfaultPoziomeLogo.png" alt="Logo Segfault">
+                <h1 class="fancy-font white-text" id="mainWords">...wszyscy jesteśmy architektami</h1>
+                <div class="button-group d-flex flex-wrap justify-content-center flex-column flex-md-row" role="group" aria-label="Wybierz wydarzenie">
+                    {{ range where .Site.Sections "Type" "sites" }}
+                        {{ range sort .Sections ".Params.eventdate.start" }}
+                            {{ if or (ne .Params.status "archived") (not (isset .Params "status")) }}
+                                {{ partial "event-button.html" . }}
                             {{ end }}
                         {{ end }}
                     {{ end }}
+                </div>
+            </div>
+            <div class="col-md-12">
+                <a href="#about" id="next"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        
+        </div>
+    </section>
+
+    {{ partial "testimonial.html" (dict "Content" "Stawiamy na wiedzę, która pozostanie z wami na zawsze, na doświadczenie ludzi, które zmieni wasze myślenie. Bo każdy z nas jest architektem. Architekt to nie tytuł. To sposób myślenia, wybuchowa mieszanka myślenia krytycznego i systemowego.") }}
+
+    {{ partial "about.html" (.Site.GetPage "/about.md") }}
+
+    <section id="organisedBy">
+        <div class="container-fluid light-gray">
+            <div class="container">
+            <h2>Organizator</h2>
+            <a href="http://symentis.pl"><img src="/img/symentis-logo-150x62.png" title="Logo Symentis"></a>
+            <p>Jesteśmy grupą osób, która od ponad 10 lat kształtuje rynek konferencji IT jako aktywni członkowie społeczności, organizatorzy konferencji, członkowie rad programowych i&nbsp;mówcy. w&nbsp;swojej karierze obudziliśmy niejedną społeczność
+                do działania. Ponadto zawodowo jesteśmy związani z&nbsp;wytwarzaniem oprogramowania na wielu jego poziomach – zarówno jako programiści, architekci, jak i&nbsp;konsultanci. Od lat naszą idée fixe jest powrót do korzeni i&nbsp;zbudowanie
+                solidnych podstaw do rozwoju branży IT w&nbsp;Polsce.</p>
+
+            <p>Chcemy wyjść poza “szufladki” z&nbsp;napisem Java, Spring Boot, .NET, PHP, Python, Docker, test, programista czy architekt.Chcemy na nowo zdefiniować słowo inżynier, gdyż wszyscy szukamy i&nbsp;chcemy pracować z&nbsp;ludźmi o&nbsp;szerokiej
+                i&nbsp;uniwersalnej wiedzy, którzy nie boją się nowych wyzwań, jakie niesie za sobą rynek ciągle zmieniających się trendów i&nbsp;technologii. Tak właśnie powstała idea spotkań pod szyldem SegFault.</p>
+            </div>
+        </div>
+    </section>
+
+    {{ partial "testimonial.html" (dict "Lead" "SegFault" "Content" "gdzie pragmatyzm spotyka pasję") }}
+
+    <section id="council">
+        <div class="container">
+            <h2>Rada programowa</h2>
+            <div id="council-members">
+                <div class="d-flex flex-wrap container-fluid">
+                    {{ range where (where .Site.Pages "Section" "committee") "Kind" "page"}}                    
+                    <div id="header-{{ .Params.memberphoto }}" class="council-member col-12 col-sm-6 col-md-3" data-toggle="collapse" data-target="#collapse-{{ .Params.memberphoto }}" aria-expanded="true" aria-controls="collapse-{{ .Params.memberphoto }}">
+                        <!-- <a href="#council" class="nav-link"> -->
+                        {{ with .Parent.Resources.GetMatch .Params.memberphoto }}
+                        <img src="{{ .RelPermalink }}" alt="{{ .Params.membername }}" />
+                        {{ end }}
+                        <h3>{{ .Params.membername }}</h3>
+                        <span>{{ .Params.memberposition }}</span>
+                        <!-- </a> -->
+                    </div>                    
+                    {{ end }}
+                </div>
+                <div id="members-bio" class="member-bio">
+                {{ range where (where .Site.Pages "Section" "committee") "Kind" "page"}}
+                    <div id="collapse-{{ .Params.memberphoto }}" class="collapse col-12" aria-labelledby="header-{{ .Params.memberphoto }}" data-parent="#council-members">
+                        <blockquote>
+                            {{ .Content }}
+                        </blockquote>
                     </div>
+                {{ end }}
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="container">
+            <h2>
+            Kontakt
+            </h2>
+            <div class="d-flex flex-wrap container-fluid">
+                <div class="col-lg-4 col-md-12 ">
+                    <h3>Konferencja</h3>
+                    <a href="mailto:konferencja@segfault.events">konferencja@segfault.events</a>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <h3>Rejestracje</h3>
+                    <a href="mailto:rejestracja@segfault.events">rejestracja@segfault.events</a>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <h3>Partnerstwo</h3>
+                    <a href="mailto:partnerzy@segfault.events">partnerzy@segfault.events</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <footer id="footer">
+        <div class="container-fluid dark-gray">
+            <div class="conferece-footer-list col-lg-8 offset-lg-2 col-sm-12 offset-sm-0">
+                <h2 class="title white-text">Najbliższe konferencje</h2>
+                <div class="d-flex flex-wrap">
+                {{ range where .Site.Sections "Type" "sites" }}
+                    {{ range sort .Sections ".Params.eventdate.start" }}
+                        {{ if or (ne .Params.status "archived") (not (isset .Params "status")) }}
+                        <div class="col-md-6 col-sm-12">
+                            <a href="{{ .Permalink }}" class="white-text button-like" aria-label="{{ .Params.city }} - {{ partial "event-date.html" .Params.eventdate }}">
+                                    {{ .Title }} {{ .Params.city }} <br>
+                                    {{ partial "event-date.html" .Params.eventdate }}
+                            </a>
+                        </div>  
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+                </div>
+            </div>
+
+            <div class="social-widgets d-flex justify-content-center col-12">
+                <div class="col-2 col-md-1">
+                    <a href="https://twitter.com/SegFaultConf"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="col-2 col-md-1">
+                    <a href="https://www.facebook.com/SegFaultConf/"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <div class="col-2 col-md-1">
+                    <a href="https://www.instagram.com/segfaultconf/"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="col-2 col-md-1">
+                    <a href="https://www.youtube.com/channel/UCV38Do_3C5uVk3lWePkyxTA"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="col-2 col-md-1">
+                    <a href="mailto:partnerzy@coredump.events"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <div class="conferece-footer-archive-list col-lg-8 offset-lg-2 col-sm-12 offset-sm-0">
+                <figure>
+                    <figcaption>Archiwum</figcaption>
+                    <ul>
+                    {{ range where .Site.Sections "Type" "sites"}}
+                        {{ range where .Sections "Type" "event"}}
+                            {{ if eq .Params.status "archived" }}
+                            <li>
+                                <a href="{{ .Permalink }}" class="text-nowrap white-text button-like" aria-label="{{ .Params.city }} - {{ partial "event-date.html" .Params.eventdate }}">
+                                    {{ partial "event-date.html" .Params.eventdate }}, {{ .Params.city }}
+                                </a>
+                            </li>  
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}        
+                    </ul>
+                </figure>
+            </div>
+
+            <div class="col-md-12">
+                <span id="copyright">Copyright © SegFault</span>
+            </div>
+        
+        </div>
+      </footer>
+  
 </body>
 </html>

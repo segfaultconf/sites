@@ -5,6 +5,8 @@ speakername: Marcin Stożek
 presentationtype: 
   - warsztat
   - prezentacja 
+  - docker
+  - bash
 resources:
   - src: "marcin.stozek.jpg"
     name: "photo"

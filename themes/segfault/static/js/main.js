@@ -24,14 +24,22 @@ $(document).ready(function(){
 	});
 
 	$(window).scroll(function() {
-		if($('body').hasClass('home')){
-		    if ($(this).scrollTop() > 0) {
+		// var header = $('#top-header');
+		var logo = $('#logo');
+		var scroll = $(this).scrollTop();
+		if($('body').hasClass('home')) {
+		    if (scroll > 0) {
 		        $('#mainNav').css('background', '#1B2D33');
-		    }
-		    else{
+		    } else {
 		    	$('#mainNav').css('background', 'transparent');
 		    }
 		}
+
+		if (scroll >= 100) {
+			logo.removeClass('invisible').addClass('visible');
+		} else {
+			logo.removeClass('visible').addClass('invisible');
+		}		
 	});
 /*OLD NAV
 	$(document).on('click', 'a[class*="active"]', function (event) {
@@ -56,18 +64,15 @@ $(document).ready(function(){
 	    }, 500);
 	});*/
 	
-	$(document).on('click', 'a[href*="#"]', function (event) {
-	    event.preventDefault();
-	    var hrefparts = $(this).attr('href').split("#");
-	    var anchorname = hrefparts[hrefparts.length-1];
-	    // if(!window.location.pathname.endsWith('2018/')){    	
-	    // 	localStorage.SCROLLPARAM =anchorname ;
-	    // 	window.location = '/wroclaw2018/';
-	    // } else {
-	    	$('html, body').animate({
-				scrollTop: $("#" + anchorname).offset().top - 100
-			}, 500);
-	    // }
+	$(document).on('click', 'a[href*="#"]', function (event) {			    
+		var hrefparts = $(this).attr('href').split("#");
+
+		if (window.location === hrefparts[0]) {
+			event.preventDefault();
+			var anchorname = hrefparts[hrefparts.length-1];
+			window.location.hash = anchorname
+			$('html, body').animate({scrollTop: $("#" + anchorname).offset().top}, 500);	
+		}
 	});
 
 	$("#myToggler").click(function(){

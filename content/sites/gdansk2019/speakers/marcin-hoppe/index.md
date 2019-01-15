@@ -4,6 +4,8 @@ speakername: Marcin Hoppe
 # presentationtitle: "Programowanie reaktywne: czego się nauczyłem"
 presentationtype: 
   - warsztat
+  - security
+  - serverless
 resources:
   - src: "marcin_hoppe.png"
     name: "photo"

@@ -4,6 +4,7 @@ speakername: Łukasz Łuczak
 presentationtitle: "Frameworkless JavaScript"
 presentationtype: 
   - deep-dive
+  - javascript
 resources:
   - src: "lukasz_luczak.jpg"
     name: "photo"
