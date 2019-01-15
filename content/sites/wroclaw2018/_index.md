@@ -7,7 +7,8 @@ city: Wrocław
 eventdate: 
   start: 2018-09-24
 location:
-  name: Ibis Styles Hotel Wrocław (Plac Konstytucji 3 Maja 3)
+  name: Ibis Styles Hotel Wrocław
+  address: Plac Konstytucji 3 Maja 3
   lat: 51.099380
   lng: 17.040200
 registrationlink: https://segfault-wroclaw-2018.konfeo.com/pl/groups

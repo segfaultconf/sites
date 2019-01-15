@@ -14,9 +14,9 @@
             <h1 class="fancy-font white-text" id="mainWords">...wszyscy jesteśmy architektami</h1>
             <h2 class="white-text">
               {{ if isset .Params.eventdate "full" }}
-                <div class="text=nowrap">{{ .Params.eventdate.full }}, {{ .Params.city }}</div>
+                <span class="text-nowrap">{{ .Params.eventdate.full }}</span>, {{ .Params.location.name }}
               {{ else }}              
-                {{ partial "event-date.html" .Params.eventdate }}, {{ .Params.city }}
+                {{ partial "event-date.html" .Params.eventdate }}, {{ .Params.location.name }}
               {{ end }}
             </h2>
             <span class="spacer"></span>
@@ -66,11 +66,14 @@
         
         <section id="venue">
           <div class="container">
-            <div class="row">
+            <div class="col-12 text-center">
               <h4>
-                {{ .Params.location.name }}
-              </h4>
-            </div>
+                {{ .Params.location.name }} ({{ .Params.location.address }})
+              </h4>              
+            </div> 
+            <div class="col-12 text-center">
+              <h5><a href="mailto:konferencja@segfault.events">konferencja@segfault.events</a></h5>
+            </div>           
             <div class="row">
               <div id="map"></div>
             </div>
