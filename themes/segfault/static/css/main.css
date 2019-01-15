@@ -27,7 +27,7 @@ body.open-menu {
   body.open-menu nav.navbar.fixed-top.navbar-expand-lg .fas.fa-times {
     visibility: visible;
     transition: transform .3s;
-    council-member    width: 50px !important;
+    width: 50px !important;
     margin: 0 30px 0 0 !important;
     height: 50px;
     padding: 10px;
@@ -150,7 +150,7 @@ body {
     line-height: 1.4em; }
   body h3 {
     font-size: 1.6em;
-    margin: 0 0 .5em;
+    margin: 0;
     line-height: 1.6em;
     letter-spacing: -.01em;
     font-weight: 300;
@@ -644,7 +644,17 @@ footer {
  	text-overflow:ellipsis;
   	font-size:16px;
   	text-decoration: none;
-  	 }
+     }
+     
+  .conferece-footer-archive-list * {
+    display: block;
+  }
+
+  .conferece-footer-archive-list figcaption,
+  .conferece-footer-archive-list ul li {
+    display: block;
+    margin: 0;
+  }
 }
 
 

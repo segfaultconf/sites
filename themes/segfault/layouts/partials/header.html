@@ -14,29 +14,28 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <i class="fas fa-times" id="closeMenu"></i>
                     {{/* this is so fucking dirty, needs to be hacked out of this code, but don't know how */}}
-                    {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "/" }}
-                    
+                    {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "/" }}                    
                     <ul class="navbar-nav ml-auto" >
-                        {{ if (where .Pages ".File.BaseFileName" "about") }}
+                        {{ if (where .CurrentSection.Pages ".File.BaseFileName" "about") }}
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">O konferencji</span></a>
+                            <a class="nav-link" href="{{ .CurrentSection.Permalink }}#about">O konferencji</span></a>
                         </li>
                         {{ else }}
                         <li class="nav-item">
-                            <a class="nav-link" href="#topics">Tematyka</span></a>
+                            <a class="nav-link" href="{{ .CurrentSection.Permalink }}#topics">Tematyka</span></a>
                         </li>                        
                         {{ end }}
                         <li class="nav-item">
-                            <a class="nav-link" href="#speakers">Prelegenci</a>
+                            <a class="nav-link" href="{{ .CurrentSection.Permalink }}#speakers">Prelegenci</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#schedule">Agenda</a>
+                            <a class="nav-link" href="{{ .CurrentSection.Permalink }}#schedule">Agenda</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#partners">Partnerzy</a>
+                            <a class="nav-link" href="{{ .CurrentSection.Permalink }}#partners">Partnerzy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#venue">Miejsce</a>
+                            <a class="nav-link" href="{{ .CurrentSection.Permalink }}#venue">Miejsce</a>
                         </li>                        
                     </ul>
 
