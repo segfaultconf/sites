@@ -37,7 +37,9 @@
       
         {{ partial "testimonial.html" (dict "Lead" "Segmentation fault (Naruszenie ochrony pamięci)" "Content" "zdarzenie wykrywane przez sprzęt, polegające na korzystaniu przez program z pamięci poza zaalokowanym dla niego obszarem.") }}
 
-        {{ partial "about.html" (.GetPage "about") }}
+        {{ if (where .Pages ".File.BaseFileName" "about") }}
+          {{ partial "about.html" (.GetPage "about") }}
+        {{ end }}
 
         {{ partial "topics.html" (.GetPage "topics") }}
   
