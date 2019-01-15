@@ -4,6 +4,7 @@ speakername: Paweł Włodarski
 # presentationtitle: "Programowanie reaktywne: czego się nauczyłem"
 presentationtype: 
   - warsztat
+  - kotlin
 resources:
   - src: "pawel_wlodarski.jpg"
     name: "photo"

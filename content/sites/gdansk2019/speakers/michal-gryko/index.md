@@ -4,6 +4,7 @@ speakername: Michał Gryko
 # presentationtitle: "Programowanie reaktywne: czego się nauczyłem"
 presentationtype: 
   - prezentacja
+  - docker
 resources:
   - src: "michal_gryko.jpg"
     name: "photo"

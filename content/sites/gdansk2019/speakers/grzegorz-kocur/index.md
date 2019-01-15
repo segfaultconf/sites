@@ -4,6 +4,7 @@ speakername: Grzegorz Kocur
 # presentationtitle: "Deep Learning in Computer Vision"
 presentationtype: 
   - warsztat
+  - kubernetes
 resources:
   - src: "grzegorz_kocur.jpg"
     name: "photo"
