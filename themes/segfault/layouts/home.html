@@ -49,7 +49,7 @@
         <div class="container">
             <h2>Rada programowa</h2>
             <div id="council-members">
-                <div class="container-fluid">
+                <div class="d-flex flex-wrap container-fluid">
                     {{ range where (where .Site.Pages "Section" "committee") "Kind" "page"}}                    
                     <div id="header-{{ .Params.memberphoto }}" class="council-member col-12 col-sm-6 col-md-3" data-toggle="collapse" data-target="#collapse-{{ .Params.memberphoto }}" aria-expanded="true" aria-controls="collapse-{{ .Params.memberphoto }}">
                         <!-- <a href="#council" class="nav-link"> -->
@@ -81,7 +81,7 @@
             <h2>
             Kontakt
             </h2>
-            <div class="container-fluid">
+            <div class="d-flex flex-wrap container-fluid">
                 <div class="col-lg-4 col-md-12 ">
                     <h3>Konferencja</h3>
                     <a href="mailto:konferencja@segfault.events">konferencja@segfault.events</a>
