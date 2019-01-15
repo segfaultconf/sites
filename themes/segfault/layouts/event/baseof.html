@@ -12,7 +12,13 @@
           <div id="topContent">
             <img src="/img/{{ default "segfaultPoziomeLogo.png" .Params.logo  }}" alt="Logo Segfault">
             <h1 class="fancy-font white-text" id="mainWords">...wszyscy jesteśmy architektami</h1>
-            <h2 class="white-text">{{ partial "event-date.html" .Params.eventdate }}, {{ .Params.city }}</h2>
+            <h2 class="white-text">
+              {{ if isset .Params.eventdate "full" }}
+                <div class="text=nowrap">{{ .Params.eventdate.full }}, {{ .Params.city }}</div>
+              {{ else }}              
+                {{ partial "event-date.html" .Params.eventdate }}, {{ .Params.city }}
+              {{ end }}
+            </h2>
             <span class="spacer"></span>
             <div class="button-group" role="group" aria-label="Zarejestruj / Zostań partnerem">
               <a class="white-text no-decor" href="{{ .Params.registrationlink }}">
