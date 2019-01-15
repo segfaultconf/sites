@@ -27,9 +27,6 @@
                         </li>                        
                         {{ end }}
                         <li class="nav-item">
-                            <a class="nav-link" href="#topics">Tematyka</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#speakers">Prelegenci</a>
                         </li>
                         <li class="nav-item">
@@ -39,9 +36,16 @@
                             <a class="nav-link" href="#partners">Partnerzy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Kontakt</a>
-                        </li>
+                            <a class="nav-link" href="#contact">Miejsce</a>
+                        </li>                        
                     </ul>
+
+                    <div class="register-button button-group    ">
+                        <a class="white-text no-decor" href="{{ .Params.registrationlink }}">
+                            <button type="button" class="btn blue">Rejestracja</button>
+                        </a>
+                    </div>
+            
                 </div>
             </nav>
         </header>
