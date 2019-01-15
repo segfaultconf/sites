@@ -64,9 +64,8 @@ $(document).ready(function(){
 	    // 	localStorage.SCROLLPARAM =anchorname ;
 	    // 	window.location = '/wroclaw2018/';
 	    // } else {
-	    	$('html, body').animate({
-				scrollTop: $("#" + anchorname).offset().top - 100
-			}, 500);
+			window.location.hash = anchorname
+	    	$('html, body').animate({scrollTop: $("#" + anchorname).offset().top}, 500);
 	    // }
 	});
 
