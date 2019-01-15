@@ -11,7 +11,7 @@
                 <div class="container">
                     {{ range where (where .Parent.Pages "Type" "speaker") "Params.speakername" .Params.speakername }}
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="speaker col-md-3">
                           {{ with .Resources.GetMatch "photo" }}
                             <img src="{{ .RelPermalink }}" alt="" />
                           {{ end }}
