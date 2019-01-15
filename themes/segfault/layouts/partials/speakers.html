@@ -6,17 +6,11 @@
     <div class="row">
         {{ $pages := .Pages }}
         {{ range $speaker := where $pages "Type" "speaker" }}
-        <div class="col-lg-4 col-md-6 speaker">
+        <div class="speaker col-6 col-md-4">
         <a href="{{ .RelPermalink }}">
-            <div class="module-feature-chart-html5" >
-            <div class="chart-html5-circle">
-                <div class="chart-html5-inset">
-                {{ with $speaker.Resources.GetMatch "photo" }}
-                <img src="{{ .RelPermalink }}" alt="" />
-                {{ end }}
-                </div>
-            </div>
-            </div>
+            {{ with $speaker.Resources.GetMatch "photo" }}
+            <img src="{{ .RelPermalink }}" alt="{{ $speaker.Params.speakername }}" />
+            {{ end }}
             <h3>{{ $speaker.Params.speakername }}</h3>
         </a>
         {{ $abstracts := where (where $pages "Type" "abstract") "Params.presentationtitle" $speaker.Params.presentationtitle }}

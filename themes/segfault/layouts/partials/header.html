@@ -3,9 +3,11 @@
     <div id="headerwrap">
         <header id="header" class="pagewidth clearfix" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
             <nav class="navbar fixed-top navbar-expand-lg" id="mainNav">
-                <a class="navbar-brand" href="/">
-                    <img src="/img/segfaultPoziomeLogoBiale.png" alt="Logo Segfault">
-                </a>
+                <div id="logo">
+                    <a class="navbar-brand" href="/">
+                        <img src="/img/segfaultPoziomeLogoBiale.png" alt="Logo Segfault">
+                    </a>
+                </div>
                 <button id="myToggler">
                     <span class="navbar-toggler-icon">&#9776;</span>
                 </button>
@@ -13,40 +15,17 @@
                     <i class="fas fa-times" id="closeMenu"></i>
                     {{/* this is so fucking dirty, needs to be hacked out of this code, but don't know how */}}
                     {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "/" }}
-                    <!-- <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="/{{ if eq .Type "event" }}{{ index (split $url "/") 1 }}{{ else }}{{ index (split $url "/") 2 }}{{end}}/index.html#about">O konferencji<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/{{ if eq .Type "event" }}{{ index (split $url "/") 1 }}{{ else }}{{ index (split $url "/") 2 }}{{end}}/index.html#topics">Tematyka</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/{{ if eq .Type "event" }}{{ index (split $url "/") 1 }}{{ else }}{{ index (split $url "/") 2 }}{{end}}/index.html#speakers">Prelegenci</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/{{ if eq .Type "event" }}{{ index (split $url "/") 1 }}{{ else }}{{ index (split $url "/") 2 }}{{end}}/index.html#schedule">Agenda</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/{{ if eq .Type "event" }}{{ index (split $url "/") 1 }}{{ else }}{{ index (split $url "/") 2 }}{{end}}/index.html#partners">Partnerzy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/{{ if eq .Type "event" }}{{ index (split $url "/") 1 }}{{ else }}{{ index (split $url "/") 2 }}{{end}}/index.html#organisedBy">Organizator</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/{{ if eq .Type "event" }}{{ index (split $url "/") 1 }}{{ else }}{{ index (split $url "/") 2 }}{{end}}/index.html#council">Rada programowa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/{{ if eq .Type "event" }}{{ index (split $url "/") 1 }}{{ else }}{{ index (split $url "/") 2 }}{{end}}/index.html#contact">Kontakt</a>
-                        </li>
-                    </ul> -->
                     
                     <ul class="navbar-nav ml-auto" >
+                        {{ if (where .Pages ".File.BaseFileName" "about") }}
                         <li class="nav-item">
                             <a class="nav-link" href="#about">O konferencji</span></a>
                         </li>
+                        {{ else }}
                         <li class="nav-item">
-                            <a class="nav-link" href="#topics">Tematyka</a>
-                        </li>
+                            <a class="nav-link" href="#topics">Tematyka</span></a>
+                        </li>                        
+                        {{ end }}
                         <li class="nav-item">
                             <a class="nav-link" href="#speakers">Prelegenci</a>
                         </li>
@@ -57,15 +36,16 @@
                             <a class="nav-link" href="#partners">Partnerzy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#organisedBy">Organizator</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#council">Rada programowa</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Kontakt</a>
-                        </li>
+                            <a class="nav-link" href="#venue">Miejsce</a>
+                        </li>                        
                     </ul>
+
+                    <div class="register-button button-group    ">
+                        <a class="white-text no-decor" href="{{ .Params.registrationlink }}">
+                            <button type="button" class="btn blue">Rejestracja</button>
+                        </a>
+                    </div>
+            
                 </div>
             </nav>
         </header>

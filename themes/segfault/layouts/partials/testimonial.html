@@ -1,0 +1,12 @@
+<section>
+    <div class="container-fluid blue">
+        <div class="container">
+        <blockquote>
+            {{ with .Lead }}
+                <strong>{{ . }}</strong>;
+            {{ end }}
+            {{ .Content }}
+        </blockquote>
+        </div>
+    </div>
+</section>

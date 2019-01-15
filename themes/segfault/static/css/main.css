@@ -8,6 +8,18 @@
     border: none;
     outline:none; }
 
+#council-members .member-bio {
+  padding: 1em 3em;
+}
+
+.speaker img, 
+.council-member img {
+  width: 50%;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
 .no-decor, .no-decor:hover{
   text-decoration: none; }
 body.open-menu {
@@ -15,7 +27,7 @@ body.open-menu {
   body.open-menu nav.navbar.fixed-top.navbar-expand-lg .fas.fa-times {
     visibility: visible;
     transition: transform .3s;
-    width: 50px !important;
+    council-member    width: 50px !important;
     margin: 0 30px 0 0 !important;
     height: 50px;
     padding: 10px;
@@ -257,8 +269,8 @@ blockquote {
     font-weight: 400;
     font-style: normal; }
 
-.full-height {
-  min-height: 100vh; }
+/* .full-height {
+  min-height: 100vh; } */
 
 .container {
   padding: 50px 0 30px; }
@@ -283,17 +295,40 @@ blockquote {
 #topImg {
   background-image: url(/img/heroBG.jpg);
   background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: fixed; 
+  padding-bottom: 2em;
+}
 
 .start-screen #topContent {
-  padding: 50px 0px 100px 0px;
+  padding: 50px 0px 10px 0px;
+}
+
+.start-screen footer div > div {
+  margin-bottom: 15px;
+}
+
+.start-screen #header #next {
+  font-size: 50px;
+  display: block;
+  height: 50px; 
+}
+.start-screen #header #next i {
+  display: block;
+  transition: .6s;
+  position: absolute;
+  left: 50%;
+  width: 10%;
+}
+
+.start-screen #header #next i:hover {
+  margin-top: -15px; 
 }
 
 #topContent {
   max-width: 1000px;
   width: 70%;
   margin: auto;
-  padding: 250px 0px 100px 0px;
+  padding: 150px 0px 100px 0px;
   text-align: center; }
   #topContent img {
     max-width: 650px;
@@ -302,13 +337,34 @@ blockquote {
     font-weight: 100;
     font-size: 40px;
     letter-spacing: -1px; }
-  #topContent #main_archive {
+
+
+  .conferece-footer-archive-list figcaption {
+    display: inline;
+    margin-right: 1em;
+  }
+
+  .conferece-footer-archive-list figcaption:after {
+    content: ':';
+  }
+
+  .conferece-footer-archive-list ul {
+    display: inline;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .conferece-footer-archive-list ul li {
+    display: inline;
+    margin-right: 1em;
+  }
+
+  .conferece-footer-list .title {
     text-transform: uppercase;
     font-size: 15px;
-    margin: 55px auto 5px;
     color: #CCC;
     font-weight: 100; }
-  #topContent #main_archive::before, #topContent #main_archive::after{
+  .conferece-footer-list .title::before, .conferece-footer-list .title::after{
     content: '';
     width: 35%;
     height: 1px;
@@ -412,9 +468,13 @@ blockquote {
         height: auto;
         vertical-align: middle; }
 
+nav .register-button {
+  margin-left: 1em;
+}
+
 nav.navbar {
   background-color: #0e2328;
-  padding: 10px 38px;
+  padding: 0 20px 0 38px;
   opacity:.95;}
   nav.navbar .navbar-toggler-icon {
     font-size: 36px;
@@ -466,18 +526,18 @@ img[title="Logo Symentis"] {
   margin-bottom: 15px; }
 
 #contact {
-  margin-top: 50px; }
+  margin-bottom: 100px; }
   #contact h3 {
     color: #000;
     font-size: 1.1em; }
   #contact h3, #contact a {
     text-transform: uppercase; }
-  #contact h4 {
+  #venue h4 {
     color: #777;
     margin: 50px auto;
     font-size: 1.6em;
     font-weight: 300; }
-  #contact #map {
+  #venue #map {
     width: 100%;
     height: 300px; }
 
@@ -525,6 +585,7 @@ footer {
     margin: 30px 0 !important; } }
     
 @media (max-width: 768px) {
+
   .column-1 {
     padding: .75rem 0 !important; }
 
@@ -552,7 +613,7 @@ footer {
     #topContent button.btn.big{
       padding: 14px 12px !important;
     }
-    #topContent h2#main_archive::before, #topContent h2#main_archive::after{
+    .conferece-footer-list h2.title::before, .conferece-footer-list h2.title::after{
       display: block;
       margin: 10px auto;
     }
