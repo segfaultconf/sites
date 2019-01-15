@@ -24,14 +24,22 @@ $(document).ready(function(){
 	});
 
 	$(window).scroll(function() {
-		if($('body').hasClass('home')){
-		    if ($(this).scrollTop() > 0) {
+		// var header = $('#top-header');
+		var logo = $('#logo');
+		var scroll = $(this).scrollTop();
+		if($('body').hasClass('home')) {
+		    if (scroll > 0) {
 		        $('#mainNav').css('background', '#1B2D33');
-		    }
-		    else{
+		    } else {
 		    	$('#mainNav').css('background', 'transparent');
 		    }
 		}
+
+		if (scroll >= 100) {
+			logo.removeClass('invisible').addClass('visible');
+		} else {
+			logo.removeClass('visible').addClass('invisible');
+		}		
 	});
 /*OLD NAV
 	$(document).on('click', 'a[class*="active"]', function (event) {
