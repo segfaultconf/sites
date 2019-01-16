@@ -11,19 +11,19 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@SegFaultConf">
   <meta name="twitter:title" content="{{ .Params.title | default "SegFault - wszyscy jesteśmy architektami" }}">
-  <meta name="twitter:description" content="{{ with .Params.eventdate.start }}{{ . }}, {{ end }}{{ .Params.title | default "Tylko zrozumienie fundamentów umożliwia ciągły rozwój nie tylko branży IT, ale i nas samych" }}{{ with .Params.location }} - {{ .name }}{{end}}">
+  <meta name="twitter:description" content="{{ with .Params.eventdate.start }}{{ . }}, {{ end }}{{ .Params.title | default "Segfault, ponieważ zrozumienie fundamentów umożliwia ciągły rozwój nie tylko branży IT, ale i nas samych." }}{{ with .Params.location }} - {{ .name }}{{end}}">
   {{ if .Params.social.facebook }}
   <meta name="twitter:image:src" content="{{ .Site.BaseURL }}sites{{ .CurrentSection.RelPermalink  }}{{ .Params.social.facebook }}">
   {{ else }}
   <meta name="twitter:image:src" content="{{ .Site.BaseURL }}img/social_facebook_sf.jpg">
   {{ end }}
   <!-- Social: Facebook / Open Graph -->
-  <meta property="og:title"  content="{{ with .Params.eventdate.start }}{{ . }}, {{ end }}{{ .Params.title | default "Tylko zrozumienie fundamentów umożliwia ciągły rozwój nie tylko branży IT, ale i nas samych" }}{{ with .Params.city }}, {{ . }}{{end}}">
+  <meta property="og:title"  content="{{ .Params.title | default "SegFault - wszyscy jesteśmy architektami" }}">
   <meta property="og:site_name" content="{{ .Params.title | default "SegFault - wszyscy jesteśmy architektami" }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ .Site.BaseURL }}">
   <meta property="og:image" content="{{ .Site.BaseURL }}img/social_facebook_sf.jpg">
-  <meta property="og:description"  content="{{ with .Params.eventdate.start }}{{ . }}, {{ end }}{{ .Params.title | default "Tylko zrozumienie fundamentów umożliwia ciągły rozwój nie tylko branży IT, ale i nas samych" }}{{ with .Params.location }} - {{ .name }}{{end}}">
+  <meta property="og:description" content="{{ with .Params.eventdate.start }}{{ . }}, {{ end }}{{ .Params.title | default "Segfault, ponieważ zrozumienie fundamentów umożliwia ciągły rozwój nie tylko branży IT, ale i nas samych." }}{{ with .Params.location }} - {{ .name }}{{end}}">
 
   <link rel="shortcut icon" href="/img/favicon.png">
 
