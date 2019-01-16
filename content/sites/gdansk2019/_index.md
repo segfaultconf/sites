@@ -16,6 +16,8 @@ location:
   lng: 18.593410
 registrationlink: https://segfault-university-gdansk-2019.konfeo.com/pl/groups
 logo: SF-university.png
+social: 
+    facebook: img/social_facebook_sf_gdansk.jpg
 agenda:
   - tracks:
       - "Warsztaty, Sale: A, B, C, D, E, F, G"

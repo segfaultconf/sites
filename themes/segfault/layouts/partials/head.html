@@ -2,6 +2,29 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>{{ .Title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="author" content="Symentis Events">
+  <meta name="description" content="{{ .Params.title }}">
+  <meta name="keywords" content="Architecture At Scale">
+  <link rel="canonical" href="{{ .Site.BaseURL }}">
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@SegFaultConf">
+  <meta name="twitter:title" content="{{ .Params.title | default "SegFault - wszyscy jesteśmy architektami" }}">
+  <meta name="twitter:description" content="{{ with .Params.eventdate.start }}{{ . }}, {{ end }}{{ .Params.title | default "Tylko zrozumienie fundamentów umożliwia ciągły rozwój nie tylko branży IT, ale i nas samych" }}{{ with .Params.location }} - {{ .name }}{{end}}">
+  {{ if .Params.social.facebook }}
+  <meta name="twitter:image:src" content="{{ .Site.BaseURL }}sites{{ .CurrentSection.RelPermalink  }}{{ .Params.social.facebook }}">
+  {{ else }}
+  <meta name="twitter:image:src" content="{{ .Site.BaseURL }}img/social_facebook_sf.jpg">
+  {{ end }}
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:title"  content="{{ with .Params.eventdate.start }}{{ . }}, {{ end }}{{ .Params.title | default "Tylko zrozumienie fundamentów umożliwia ciągły rozwój nie tylko branży IT, ale i nas samych" }}{{ with .Params.city }}, {{ . }}{{end}}">
+  <meta property="og:site_name" content="{{ .Params.title | default "SegFault - wszyscy jesteśmy architektami" }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ .Site.BaseURL }}">
+  <meta property="og:image" content="{{ .Site.BaseURL }}img/social_facebook_sf.jpg">
+  <meta property="og:description"  content="{{ with .Params.eventdate.start }}{{ . }}, {{ end }}{{ .Params.title | default "Tylko zrozumienie fundamentów umożliwia ciągły rozwój nie tylko branży IT, ale i nas samych" }}{{ with .Params.location }} - {{ .name }}{{end}}">
+
   <link rel="shortcut icon" href="/img/favicon.png">
 
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,300,400">
@@ -18,7 +41,7 @@
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script type="text/javascript" src="/js/main.js"></script>      
 
-  {{ if not (in (print .Site.BaseURL) "localhost") }}
+  {{ if not .Site.IsServer }}
   {{ partial "google_adwords.html" . }}
 
   {{ partial "google_analytics.html" . }}
