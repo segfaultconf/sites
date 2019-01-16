@@ -18,9 +18,11 @@
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script type="text/javascript" src="/js/main.js"></script>      
 
+  {{ if not (in (print .Site.BaseURL) "localhost") }}
   {{ partial "google_adwords.html" . }}
 
   {{ partial "google_analytics.html" . }}
 
   {{ partial "facebook_pixel.html" . }}
+  {{ end }}
 </head>
