@@ -1,27 +1,5 @@
 
 $(document).ready(function(){
-	$('.customer-logos').slick({
-		autoplay: true,
-		autoplaySpeed: 2000,
-		slidesPerRow: 3,
-		arrows: false,
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		responsive: [
-		    {
-		      breakpoint: 992,
-		      settings: {
-		        slidesToShow: 2
-		      }
-		    },
-		    {
-		      breakpoint: 768,
-		      settings: {
-		        slidesToShow: 1
-		      }
-		    },
-	    ]
-	});
 
 	$(window).scroll(function() {
 		// var header = $('#top-header');

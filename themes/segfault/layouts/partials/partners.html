@@ -8,13 +8,13 @@
   <a href="mailto:partnerzy@segfault.events">Dołącz do nas jako {{ $.title }}</a><br/><br/>
   {{ end }}
   {{ end }}
-  <div class="customer-logos slider">
+  <div class="d-flex flex-wrap align-items-center justify-content-center">
     {{ range $resources }}
-    <div class="slide">
+    <div class="mx-4">
       {{ if .Params.url }}
       <a href="{{ .Params.url }}"><img src="{{ .RelPermalink }}"></a>
       {{ else }}
-      <img src="{{ .RelPermalink }}">
+      <img style="max-height: 150px; max-width: 300px;" src="{{ .RelPermalink }}">
       {{ end }}
     </div>
     {{ end }}
