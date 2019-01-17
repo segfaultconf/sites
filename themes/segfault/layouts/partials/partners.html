@@ -9,12 +9,14 @@
   {{ end }}
   {{ end }}
   <div class="d-flex flex-wrap align-items-center justify-content-center">
+    {{ $w := cond (ge (len $resources) 5) 100 150 }}
+    {{ $h := cond (ge (len $resources) 5) 200 300 }}
     {{ range $resources }}
     <div class="mx-4">
       {{ if .Params.url }}
       <a href="{{ .Params.url }}"><img src="{{ .RelPermalink }}"></a>
       {{ else }}
-      <img style="max-height: 150px; max-width: 300px;" src="{{ .RelPermalink }}">
+      <img style="max-height: {{ $w }}px; max-width: {{ $h }}px;" src="{{ .RelPermalink }}">
       {{ end }}
     </div>
     {{ end }}
