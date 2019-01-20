@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Warsztat
 speakername: "Marcin Stachniuk"
 presentationtitle: "Continuous Delivery w OSS z użyciem Shipkita"
 ---

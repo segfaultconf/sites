@@ -20,8 +20,12 @@
                             {{ .Content }}
 
                             {{ if (isset .Params "presentationtitle") }}
-                                <h4> Prelekcje </h4>
                                 {{ range  where (where .Parent.Pages "Type" "abstract") "Params.presentationtitle" .Params.presentationtitle }}
+                                {{ if (isset .Params "session") }} 
+                                    <h4>{{ .Params.session }}</h4>
+                                {{ else }}
+                                    <h4> Prelekcje </h4>
+                                {{ end }}
                                 <a href="{{ .Permalink }}">{{ .Params.presentationtitle }}</a>
                                 {{ end }}
                             {{ end }}

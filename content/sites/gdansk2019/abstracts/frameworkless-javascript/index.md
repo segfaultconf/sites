@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Deep Dive
 speakername: "Łukasz Łuczak"
 presentationtitle: "Frameworkless JavaScript"
 ---
