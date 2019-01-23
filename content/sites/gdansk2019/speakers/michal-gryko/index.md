@@ -1,7 +1,7 @@
 ---
 type: speaker
 speakername: Michał Gryko
-# presentationtitle: "Programowanie reaktywne: czego się nauczyłem"
+presentationtitle: "Docker internals"
 presentationtype: 
   - prezentacja
   - docker

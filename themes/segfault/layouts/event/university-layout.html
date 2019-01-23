@@ -15,11 +15,13 @@
                 {{ end }}
                 <h3>{{ $speaker.Params.speakername }}</h3>
             </a>
-            {{ $abstracts := where (where $pages "Type" "abstract") "Params.presentationtitle" $speaker.Params.presentationtitle }}
+            {{ $abstracts := where (where $pages "Type" "abstract") "Params.presentationtitle" $speaker.Params.presentationtitle }}                        
             {{ if $abstracts }}
                 {{ range $abstract := $abstracts }}
                 <div><a  href="{{ $abstract.Permalink }}">{{ $abstract.Params.presentationtitle }}</a></div>
                 {{ end }}
+            {{ else if (and (eq (len $abstracts) 0) $speaker.Params.presentationtitle) }}
+                <div>{{ $speaker.Params.presentationtitle }}</div>
             {{ end }}
             {{ range $tag := $speaker.Params.presentationtype }}
                 <div><span class="text-muted">#{{ $tag }}</span></div>

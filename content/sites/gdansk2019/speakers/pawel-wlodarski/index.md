@@ -1,7 +1,7 @@
 ---
 type: speaker
 speakername: Paweł Włodarski
-# presentationtitle: "Programowanie reaktywne: czego się nauczyłem"
+presentationtitle: "Kotlin plus Spring minus Adnotacje"
 presentationtype: 
   - warsztat
   - kotlin

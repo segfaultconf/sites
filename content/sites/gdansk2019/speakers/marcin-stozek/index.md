@@ -1,7 +1,7 @@
 ---
 type: speaker
 speakername: Marcin Stożek
-# presentationtitle: "Programowanie reaktywne: czego się nauczyłem"
+presentationtitle: "Jak wytresować Basha?"
 presentationtype: 
   - warsztat
   - prezentacja 
