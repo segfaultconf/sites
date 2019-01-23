@@ -1,5 +1,6 @@
 {{ define "speakers" }}
 
+<!-- dedicated university speakers -->
 <section id="speakers">
     <div class="container">
         <h2>
@@ -23,8 +24,13 @@
             {{ else if (and (eq (len $abstracts) 0) $speaker.Params.presentationtitle) }}
                 <div>{{ $speaker.Params.presentationtitle }}</div>
             {{ end }}
+
+            {{ if (gt (len $speaker.Params.presentationtype) 0) }}
+            <div class="d-flex flex-row justify-content-center flex-wrap">
             {{ range $tag := $speaker.Params.presentationtype }}
-                <div><span class="text-muted">#{{ $tag }}</span></div>
+                <span class="pl-2 text-muted">#{{ $tag }}</span>
+            {{ end }}
+            </div>
             {{ end }}
 
         </div>
