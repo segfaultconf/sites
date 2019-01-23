@@ -54,17 +54,17 @@ agenda:
           - "Otwarcie"
       - "10:00":
           - "Prezentacja #1"
-          - "Prezentacja #2"
+          - "Jak wytresować Basha?"
       - "11:00":
           - "Prezentacja #3"
-          - "Prezentacja #4"
+          - "Docker internals"
       - "12:00":
-          - "Prezentacja #5"
+          - "Kiedy od softu zależy ludzkie życie - o systemach safety-critical"
           - "Prezentacja #6"
       - "12:45":
           - "Przerwa lunchowa"
       - "14:00":
-          - "Prezentacja #7"
+          - "Charbusters - 10 mitów o Unicode"
           - "Prezentacja #8"
       - "15:00":
           - "Prezentacja #9"
