@@ -14,7 +14,7 @@
                 {{ end }}
                 <h3>{{ $speaker.Params.speakername }}</h3>
             </a>
-            {{ range $presentationtitle := $speaker.Params.presentationtitle }}            
+            {{ range $presentationtitle := $speaker.Params.presentationtitle }}
                 {{ $abstracts := where (where $pages "Type" "abstract") "Params.presentationtitle" $presentationtitle }}                        
                 {{ if $abstracts }}
                     {{ range $abstract := $abstracts }}
@@ -27,7 +27,7 @@
             {{ if (gt (len $speaker.Params.presentationtype) 0) }}
             <div class="d-flex flex-row justify-content-center flex-wrap">
             {{ range $tag := $speaker.Params.presentationtype }}
-                <span class="pl-2 text-muted">#{{ $tag }}</span>
+                <span class="pl-2 text-muted font-italic">#{{ $tag }}</span>
             {{ end }}
             </div>
             {{ end }}

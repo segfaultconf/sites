@@ -4,7 +4,9 @@
     {{ end }}
     <a  href="{{ .abstract.Permalink }}">{{ .abstract.Params.presentationtitle }}</a>
     <br />        
-    <a  href="{{ .speaker.Permalink }}"><strong>{{ .speaker.Params.speakername }}</strong></a>
+    {{ range $speaker := .speakers }}
+        <a  href="{{ $speaker.Permalink }}"><strong>{{ $speaker.Params.speakername }}</strong></a>
+    {{ end }}
 {{ else }}
     {{ .agendaTitle }}
 {{ end }}
