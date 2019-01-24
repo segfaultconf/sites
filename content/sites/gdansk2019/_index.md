@@ -53,7 +53,7 @@ agenda:
       - "9:45":
           - "Otwarcie"
       - "10:00":
-          - "Prezentacja #1"
+          - "Serverless oczami bezpiecznika"
           - "Jak wytresować Basha?"
       - "11:00":
           - "Prezentacja #3"

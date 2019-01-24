@@ -1,7 +1,7 @@
 ---
 type: speaker
 speakername: Marcin Hoppe
-# presentationtitle: "Programowanie reaktywne: czego się nauczyłem"
+presentationtitle: "Serverless oczami bezpiecznika"
 presentationtype: 
   - warsztat
   - security
@@ -11,4 +11,4 @@ resources:
     name: "photo"
 ---
 
-Marcin is a product security engineer at Auth0, makers of the most developer friendly Identity-as-a-Service solution. When not writing code, Marcin can be found teaching courses, speaking at conferences and writing technology articles. He caught the security bug a few years ago and threats on the Web fascinate him to this day.
+Programista z zawodu i powołania, po latach służby został bezpiecznikiem. Pasjonat tworzenia softu odpornego na ataki. Za dnia odpowiada za bezpieczeństwo produktu w Auth0, nocą udziela się w Node.js Foundation i OWASP.
