@@ -1,7 +1,6 @@
 ---
 type: speaker
 speakername: "Karolina Gnat"
-presentationtitle: "TBD"
 resources:
   - src: "Karola_Gnat.jpg"
     name: "photo"

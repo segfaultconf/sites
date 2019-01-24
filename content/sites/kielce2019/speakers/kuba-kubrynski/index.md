@@ -1,7 +1,6 @@
 ---
 type: speaker
 speakername: "Kuba Kubryński"
-presentationtitle: "TBD"
 resources:
   - src: "kuba_tw.jpg"
     name: "photo"

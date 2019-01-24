@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Michał Bartyzel
-presentationtitle: "*-Driven* niczego naprawdę nie zmienią"
+presentationtitle: 
+  - "*-Driven* niczego naprawdę nie zmienią"
 resources:
   - src: "michal-bartyzel.jpg"
     name: "photo"

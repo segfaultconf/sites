@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: "Blazej Kubiak / Krzysztof Kudrynski"
-presentationtitle: "Deep Learning in Computer Vision"
+presentationtitle: 
+  - "Deep Learning in Computer Vision"
 resources:
   - src: "kudrynski.jpeg"
     name: "photo"

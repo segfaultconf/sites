@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: "Marcin Grzejszczak"
-presentationtitle: "Contract Tests in the Enterprise"
+presentationtitle: 
+  - "Contract Tests in the Enterprise"
 resources:
   - src: "marcin_grzejeszczak.jpeg"
     name: "photo"

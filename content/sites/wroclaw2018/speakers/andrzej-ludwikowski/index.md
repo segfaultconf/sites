@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Andrzej Ludwikowski
-presentationtitle: "Event Sourcing - co może pójść nie tak?"
+presentationtitle: 
+  - "Event Sourcing - co może pójść nie tak?"
 resources:
   - src: "andrzej-ludwikowski-square.jpg"
     name: "photo"

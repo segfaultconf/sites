@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Wojtek Erbetowski
-presentationtitle: "Zatrudniamy tylko najlepszych - powiedział każdy, zawsze"
+presentationtitle: 
+  - "Zatrudniamy tylko najlepszych - powiedział każdy, zawsze"
 resources:
   - src: "wojtek-erbetowski.jpg"
     name: "photo"

@@ -1,7 +1,6 @@
 ---
 type: speaker
 speakername: "Maciej Lasyk"
-presentationtitle: "TBD"
 resources:
   - src: "unnamed.jpg"
     name: "photo"

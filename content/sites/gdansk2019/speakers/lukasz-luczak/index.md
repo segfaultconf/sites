@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Łukasz Łuczak
-presentationtitle: "Frameworkless JavaScript"
+presentationtitle: 
+  - "Frameworkless JavaScript"
 presentationtype: 
   - deep-dive
   - javascript

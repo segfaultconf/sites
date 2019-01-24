@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Tomek Nurkiewicz
-presentationtitle: "Programowanie reaktywne: czego się nauczyłem"
+presentationtitle: 
+  - "Programowanie reaktywne: czego się nauczyłem"
 resources:
   - src: "tomek-nurkiewicz.jpg"
     name: "photo"

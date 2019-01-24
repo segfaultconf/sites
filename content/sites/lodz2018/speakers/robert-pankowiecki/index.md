@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: "Robert Pankowiecki"
-presentationtitle: "Czy sprzedawcy SQLowych baz nas oszukali?"
+presentationtitle: 
+  - "Czy sprzedawcy SQLowych baz nas oszukali?"
 resources:
   - src: "robert_pankowecki.jpg"
     name: "photo"

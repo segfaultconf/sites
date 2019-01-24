@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: "Jarek Ratajski"
-presentationtitle: "Nadeszła era funkcyjnego serwera,to nie tylko NodeJS"
+presentationtitle: 
+  - "Nadeszła era funkcyjnego serwera,to nie tylko NodeJS"
 resources:
   - src: "jarek_ratajski.jpg"
     name: "photo"

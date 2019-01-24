@@ -1,7 +1,6 @@
 ---
 type: speaker
 speakername: "Marcin Aks Grochownia"
-presentationtitle: "TBD"
 resources:
   - src: "Marcin-Aks_Grochowina2.jpg"
     name: "photo"

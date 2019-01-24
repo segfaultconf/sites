@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: "Paweł Szulc"
-presentationtitle: "Illogical Engineers"
+presentationtitle: 
+  - "Illogical Engineers"
 resources:
   - src: "pawel_szulc.jpeg"
     name: "photo"

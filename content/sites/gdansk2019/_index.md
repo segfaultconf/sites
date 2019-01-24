@@ -2,7 +2,7 @@
 type: event
 layout: university-layout
 status: planned
-title: "SegFault University"
+title: "SegFault University Gdańsk"
 url: gdansk2019
 city: Gdańsk
 eventdate: 

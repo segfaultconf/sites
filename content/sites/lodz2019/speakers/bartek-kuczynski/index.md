@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: "Bartek Kuczynski"
-presentationtitle: "Monolit? Mikroserwisy? A czy to ważne?"
+presentationtitle: 
+  - "Monolit? Mikroserwisy? A czy to ważne?"
 resources:
   - src: "ja_by_domka_kadr.jpg"
     name: "photo"

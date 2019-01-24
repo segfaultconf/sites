@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: "Maciej Rząsa"
-presentationtitle: "Nie ma nic prostszego niż napisanie wolnego regexpa"
+presentationtitle: 
+  - "Nie ma nic prostszego niż napisanie wolnego regexpa"
 resources:
   - src: "maciej_rzasa.png"
     name: "photo"

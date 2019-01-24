@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: "Szymon Warda"
-presentationtitle: "You are using the wrong database!"
+presentationtitle: 
+  - "You are using the wrong database!"
 resources:
   - src: "szymon_warda.jpg"
     name: "photo"

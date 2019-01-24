@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Maciej Gajdzica
-presentationtitle: "Kiedy od softu zależy ludzkie życie - o systemach safety-critical"
+presentationtitle: 
+  - "Kiedy od softu zależy ludzkie życie - o systemach safety-critical"
 presentationtype: 
   - prezentacja
   - engineering

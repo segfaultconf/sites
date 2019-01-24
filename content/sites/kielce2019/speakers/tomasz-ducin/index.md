@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: "Tomasz Ducin"
-presentationtitle: "Różne znaczenia \"odwracania kontroli\" (IoC) w nowoczesnym JavaScripcie"
+presentationtitle: 
+  - "Różne znaczenia \"odwracania kontroli\" (IoC) w nowoczesnym JavaScripcie"
 resources:
   - src: "3fa57b5dc94ebba0dd8dc93878ccd922.jpeg"
     name: "photo"

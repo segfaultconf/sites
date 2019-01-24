@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: "Daniel Pokusa"
-presentationtitle: "Our industry doesn't work. Tragicomedy in three acts"
+presentationtitle: 
+  - "Our industry doesn't work. Tragicomedy in three acts"
 resources:
   - src: "dpokusa-avatar.jpeg"
     name: "photo"

@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Paweł Włodarski
-presentationtitle: "Kotlin plus Spring minus Adnotacje"
+presentationtitle: 
+  - "Kotlin plus Spring minus Adnotacje"
 presentationtype: 
   - warsztat
   - kotlin

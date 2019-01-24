@@ -1,7 +1,9 @@
 ---
 type: speaker
 speakername: Marcin Stożek
-presentationtitle: "Jak wytresować Basha?"
+presentationtitle: 
+  - "Jak wytresować Basha?"
+  - "Docker kontra developer"
 presentationtype: 
   - warsztat
   - prezentacja 

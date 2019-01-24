@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Dominik Boszko
-presentationtitle: "Krocząc doliną ciemności mikroserwisów się nie ulęknę"
+presentationtitle: 
+  - "Krocząc doliną ciemności mikroserwisów się nie ulęknę"
 resources:
   - src: "dominik_boszko.jpg"
     name: "photo"

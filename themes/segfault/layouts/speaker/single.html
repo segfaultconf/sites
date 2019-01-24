@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl-PL" class="js">
+<html lang="pl-PL" class="js">    
 {{- partial "head.html" . -}}
 <body class="single-person single">
     {{- partial "header.html" . -}}
@@ -19,16 +19,19 @@
                             <h2>{{ .Params.speakername }} </h2>
                             {{ .Content }}
 
-                            {{ if (isset .Params "presentationtitle") }}
-                                {{ range  where (where .Parent.Pages "Type" "abstract") "Params.presentationtitle" .Params.presentationtitle }}
-                                {{ if (isset .Params "session") }} 
-                                    <h4>{{ .Params.session }}</h4>
-                                {{ else }}
-                                    <h4> Prelekcje </h4>
+                            {{ $pages := .Site.Pages }}
+                            <ul>
+                            {{ range $presentationtitle := .Params.presentationtitle}}            
+                                {{ $abstracts := where (where $pages "Type" "abstract") "Params.presentationtitle" $presentationtitle }}                        
+                                {{ if $abstracts }}
+                                    {{ range $abstract := $abstracts }}
+                                    <li><a  href="{{ $abstract.Permalink }}">{{ $abstract.Params.presentationtitle }}</a>
+                                    {{ end }}
+                                {{ else if (and (eq (len $abstracts) 0) $presentationtitle) }}
+                                    <li>{{ $presentationtitle }}
                                 {{ end }}
-                                <a href="{{ .Permalink }}">{{ .Params.presentationtitle }}</a>
-                                {{ end }}
-                            {{ end }}
+                            {{ end }}            
+                            </ul>
                         </div>
                     </div>
                 </div>

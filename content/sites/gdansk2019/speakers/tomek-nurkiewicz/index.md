@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Tomek Nurkiewicz
-presentationtitle: "Charbusters - 10 mitów o Unicode"
+presentationtitle: 
+  - "Charbusters - 10 mitów o Unicode"
 presentationtype: 
   - prezentacja
 resources:

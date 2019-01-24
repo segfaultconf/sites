@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Marcin Hoppe
-presentationtitle: "Serverless oczami bezpiecznika"
+presentationtitle: 
+ - "Serverless oczami bezpiecznika"
 presentationtype: 
   - warsztat
   - security

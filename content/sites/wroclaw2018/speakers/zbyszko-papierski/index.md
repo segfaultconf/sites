@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Zbyszko Papierski
-presentationtitle: "Wzorce komunikacyjne w sieciach organicznych"
+presentationtitle: 
+  - "Wzorce komunikacyjne w sieciach organicznych"
 resources:
   - src: "zbyszko-papierski.jpg"
     name: "photo"

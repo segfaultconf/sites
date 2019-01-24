@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Daniel Pokusa
-presentationtitle: "Praca z kodem zastanym- nadchodzi wielka fala"
+presentationtitle: 
+  - "Praca z kodem zastanym - nadchodzi wielka fala"
 resources:
   - src: "daniel-pokusa.jpg"
     name: "photo"

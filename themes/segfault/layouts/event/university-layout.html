@@ -1,45 +1,5 @@
-{{ define "speakers" }}
-
-<!-- dedicated university speakers -->
-<section id="speakers">
-    <div class="container">
-        <h2>
-        Prelegenci
-        </h2>
-        <div class="row">
-        {{ $pages := .Pages }}
-        {{ range $speaker := where $pages "Type" "speaker" }}
-        <div class="speaker col-12 col-sm-6 col-md-4">
-            <a href="{{ .RelPermalink }}">
-                {{ with $speaker.Resources.GetMatch "photo" }}
-                <img src="{{ .RelPermalink }}" alt="{{ $speaker.Params.speakername }}" />
-                {{ end }}
-                <h3>{{ $speaker.Params.speakername }}</h3>
-            </a>
-            {{ $abstracts := where (where $pages "Type" "abstract") "Params.presentationtitle" $speaker.Params.presentationtitle }}                        
-            {{ if $abstracts }}
-                {{ range $abstract := $abstracts }}
-                <div><a  href="{{ $abstract.Permalink }}">{{ $abstract.Params.presentationtitle }}</a></div>
-                {{ end }}
-            {{ else if (and (eq (len $abstracts) 0) $speaker.Params.presentationtitle) }}
-                <div>{{ $speaker.Params.presentationtitle }}</div>
-            {{ end }}
-
-            {{ if (gt (len $speaker.Params.presentationtype) 0) }}
-            <div class="d-flex flex-row justify-content-center flex-wrap">
-            {{ range $tag := $speaker.Params.presentationtype }}
-                <span class="pl-2 text-muted">#{{ $tag }}</span>
-            {{ end }}
-            </div>
-            {{ end }}
-
-        </div>
-        {{ end }}
-        </div>
-    </div>
-</section>
-      
-
+{{ define "speakers" }}  
+    {{ partial "speakers-univ.html" . }}
 {{ end }}
 
 {{ define "agenda" }}

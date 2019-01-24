@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: "Norbert Wójtowicz"
-presentationtitle: "Datalog: NoSQL, Event-Sourcing, ACID, and Web-Scale?!"
+presentationtitle: 
+  - "Datalog: NoSQL, Event-Sourcing, ACID, and Web-Scale?!"
 resources:
   - src: "norbert_wojtowicz.jpg"
     name: "photo"

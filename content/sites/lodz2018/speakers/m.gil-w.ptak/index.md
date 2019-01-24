@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: "Mariusz Gil/Wojtek Ptak"
-presentationtitle: "From Events to Business… and back"
+presentationtitle: 
+  - "From Events to Business… and back"
 resources:
   - src: "B13A1076.jpg"
     name: "photo"

@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Marcin Stachniuk
-presentationtitle: "Continuous Delivery w OSS z użyciem Shipkita"
+presentationtitle: 
+  - "Continuous Delivery w OSS z użyciem Shipkita"
 presentationtype: 
   - warsztat
   - continious delivery

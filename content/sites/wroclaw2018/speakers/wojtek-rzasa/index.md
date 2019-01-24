@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Wojtek Rząsa
-presentationtitle: "Przewidywanie zmian wydajności aplikacji rozproszonych"
+presentationtitle: 
+  - "Przewidywanie zmian wydajności aplikacji rozproszonych"
 resources:
   - src: "wrzasa.jpg"
     name: "photo"

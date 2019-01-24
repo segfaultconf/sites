@@ -1,7 +1,6 @@
 ---
 type: speaker
 speakername: Łukasz Łuczak
-presentationtitle: "TDB"
 resources:
   - src: "lukasz_luczak.jpg"
     name: "photo"

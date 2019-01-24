@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: "Sławomir Sobótka"
-presentationtitle: "Event Storming - Single Source of Truth vs Conway's Law"
+presentationtitle: 
+  - "Event Storming - Single Source of Truth vs Conway's Law"
 resources:
   - src: "profilowe1.jpg"
     name: "photo"

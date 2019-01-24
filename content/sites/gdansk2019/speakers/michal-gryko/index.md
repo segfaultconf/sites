@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Michał Gryko
-presentationtitle: "Docker internals"
+presentationtitle: 
+  - "Docker internals"
 presentationtype: 
   - prezentacja
   - docker
