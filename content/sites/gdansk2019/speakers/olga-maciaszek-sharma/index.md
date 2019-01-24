@@ -1,9 +1,12 @@
 ---
 type: speaker
 speakername: "Olga Maciaszek-Sharma"
-# presentationtitle: "Contract Tests in the Enterprise"
+presentationtitle: 
+  - "How to live in a post-Spring-Cloud-Netflix world?"
 presentationtype: 
   - prezentacja
+  - microservices
+  - cloud-native
 resources:
   - src: "olgamaciaszek.jpg"
     name: "photo"

@@ -1,9 +1,12 @@
 ---
 type: speaker
 speakername: "Marcin Grzejszczak"
-# presentationtitle: "Contract Tests in the Enterprise"
+presentationtitle: 
+  - "How to live in a post-Spring-Cloud-Netflix world?"
 presentationtype: 
   - prezentacja
+  - microservices
+  - cloud-native  
 resources:
   - src: "marcin_grzejszczak.jpeg"
     name: "photo"

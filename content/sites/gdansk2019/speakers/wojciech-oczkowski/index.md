@@ -4,6 +4,8 @@ speakername: Wojciech Oczkowski
 # presentationtitle: "Programowanie reaktywne: czego się nauczyłem"
 presentationtype: 
   - warsztat
+  - bazy danych
+  - JPA
 resources:
   - src: "wojtek_oczkowski.jpg"
     name: "photo"

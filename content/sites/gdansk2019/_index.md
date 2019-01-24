@@ -56,7 +56,7 @@ agenda:
           - "Serverless oczami bezpiecznika"
           - "Jak wytresować Basha?"
       - "11:00":
-          - "Prezentacja #3"
+          - "How to live in a post-Spring-Cloud-Netflix world?"
           - "Docker internals"
       - "12:00":
           - "Kiedy od softu zależy ludzkie życie - o systemach safety-critical"
