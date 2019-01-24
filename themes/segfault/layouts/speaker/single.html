@@ -15,7 +15,7 @@
                             <img src="{{ .RelPermalink }}" alt="" />
                           {{ end }}
                         </div>
-                        <div class="col-md-8">
+                        <div class="col-md-7">
                             <h2>{{ .Params.speakername }} </h2>
                             {{ .Content }}
 
@@ -35,6 +35,35 @@
                         </div>
                     </div>
                 </div>
+
+
+                <div class="clearfix">
+
+                        <div class="clear" style="height: 50px"></div>
+                        <div>
+                            {{ if isset .Params "youtube" }}
+                            <div class="col-md-12">
+                                <a href="https://www.youtube.com/watch?v={{ .Params.youtube }}" class="back out-link" target="_blank">
+                                    <span>Zobacz prezentację na YT</span>
+                                    <i class="fas fa-arrow-circle-right link-icon"></i>
+                                </a>
+                            </div>
+                            {{ end }}
+                            <div class="col-md-12">
+                                <a href="{{ .Parent.RelPermalink }}#speakers" class="back">
+                                    <i class="fas fa-arrow-circle-left"></i>
+                                    <span>Zobacz wszystkich prelegentów</span>
+                                </a>
+                                <a href="{{ .Parent.RelPermalink }}#schedule" class="back">
+                                    <i class="fas fa-arrow-circle-left"></i>
+                                    <span>Przejdź do agendy</span>
+                                </a>
+                            </div>
+                        </div>
+                    
+    
+                    </div>
+    
             </div>
             {{- partial "footer.html" . -}}
         </div>
