@@ -1,7 +1,7 @@
 ---
 type: speaker
 speakername: Krzysztof Borowa
-# presentationtitle: "Kiedy od softu zależy ludzkie życie - o systemach safety-critical"
+presentationtitle: "Jak wgryźć się w elementy programowania funkcyjnego podczas refaktoryzacji kodu w Javie?"
 presentationtype: 
   - warsztat
   - java
