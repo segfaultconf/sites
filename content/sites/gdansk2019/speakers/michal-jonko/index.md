@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Michał Jonko
-presentationtitle: "Jak wgryźć się w elementy programowania funkcyjnego podczas refaktoryzacji kodu w Javie?"
+presentationtitle: 
+  - "Jak wgryźć się w elementy programowania funkcyjnego podczas refaktoryzacji kodu w Javie?"
 presentationtype: 
   - warsztat
   - java
