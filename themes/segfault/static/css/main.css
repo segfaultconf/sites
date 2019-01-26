@@ -296,6 +296,7 @@ blockquote {
   background-image: url(/img/heroBG.jpg);
   background-size: cover;
   background-attachment: fixed; 
+  background-color: #0e2328;
   padding-bottom: 2em;
 }
 
