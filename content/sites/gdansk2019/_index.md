@@ -57,7 +57,7 @@ agenda:
           - "Jak wytresować Basha?"
       - "11:00":
           - "How to live in a post-Spring-Cloud-Netflix world?"
-          - "Docker internals"
+          - "Docker, DevOps, Kubernetes. Instrukcja obsługi"
       - "12:00":
           - "Kiedy od softu zależy ludzkie życie - o systemach safety-critical"
           - "Prezentacja #6"
@@ -65,7 +65,7 @@ agenda:
           - "Przerwa lunchowa"
       - "14:00":
           - "Charbusters - 10 mitów o Unicode"
-          - "Prezentacja #8"
+          - "Docker internals"
       - "15:00":
           - "Prezentacja #9"
           - "Prezentacja #10"
