@@ -2,10 +2,10 @@
 type: event
 layout: university-layout
 status: planned
-title: "SegFault University Gdańsk"
+title: "SegFault University"
 url: gdansk2019
 city: Gdańsk
-eventdate: 
+eventdate:
     start: 2019-03-14
     short: 14-15.03.2019
     full: 14-15 marca 2019
@@ -16,12 +16,12 @@ location:
   lng: 18.593410
 registrationlink: https://segfault-university-gdansk-2019.konfeo.com/pl/groups
 logo: SF-university.png
-social: 
+social:
     facebook: img/social_facebook_sf_gdansk.jpg
 agenda:
   - tracks:
       - "Warsztaty, Sale: A, B, C, D, E, F, G"
-    data: 
+    data:
       - "9:00":
           - Rejestracja uczestników
       - "10:00":
@@ -31,7 +31,7 @@ agenda:
           - "Warsztat #4"
           - "Warsztat #5"
           - "Warsztat #6"
-          - "Warsztat #7 - tak siedem!! równoległych ścieżek warsztatowych"                                                
+          - "Warsztat #7 - tak siedem!! równoległych ścieżek warsztatowych"
       - "12:30":
         - "Przerwa lunchowa"
       - "13:30":
@@ -41,13 +41,13 @@ agenda:
           - "Warsztat #11"
           - "Warsztat #12"
           - "Warsztat #13"
-          - "Warsztat #14"                                                
+          - "Warsztat #14"
       - "20:00":
           - "After / before party"
   - tracks:
       - "Ścieżka 1"
       - "Ścieżka 2"
-    data: 
+    data:
       - "9:00":
           - Rejestracja uczestników
       - "9:45":
