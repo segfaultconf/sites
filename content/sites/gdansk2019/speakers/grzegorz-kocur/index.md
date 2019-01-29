@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Grzegorz Kocur
-# presentationtitle: "Deep Learning in Computer Vision"
+presentationtitle: 
+  - "Kubernetes 101"
 presentationtype: 
   - warsztat
   - kubernetes
