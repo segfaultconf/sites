@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Arkadiusz Kondas
-# presentationtitle: "Jak wgryźć się w elementy programowania funkcyjnego podczas refaktoryzacji kodu w Javie?"
+presentationtitle: 
+  - "Machine Learning - jak zacząć uczyć maszynę."
 presentationtype: 
   - prezentacja 
   - machine learing

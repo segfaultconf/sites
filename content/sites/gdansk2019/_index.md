@@ -68,7 +68,7 @@ agenda:
           - "Docker internals"
       - "15:00":
           - "Prezentacja #9"
-          - "Prezentacja #10"
+          - "Machine Learning - jak zacząć uczyć maszynę."
       - "16:00":
           - "Prezentacja zamykająca / Closing keynote"
 
