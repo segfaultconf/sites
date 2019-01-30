@@ -2,7 +2,7 @@
 type: speaker
 speakername: Mariusz Domżalski
 presentationtitle: 
-  - "Krytycznie o Machine Learning."
+  - "Głębokie problemy z Głębokim Uczeniem"
 presentationtype: 
   - prezentacja 
   - machine learing

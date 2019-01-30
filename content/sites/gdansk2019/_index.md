@@ -57,7 +57,7 @@ agenda:
           - "Jak wytresować Basha?"
       - "11:00":
           - "How to live in a post-Spring-Cloud-Netflix world?"
-          - "Machine Learning - jak zacząć uczyć maszynę."
+          - "Machine Learning - jak zacząć uczyć maszynę"
       - "12:00":
           - "Kiedy od softu zależy ludzkie życie - o systemach safety-critical"
           - "Docker, DevOps, Kubernetes. Instrukcja obsługi"
@@ -67,7 +67,7 @@ agenda:
           - "Charbusters - 10 mitów o Unicode"
           - "TBA"
       - "15:00":
-          - "Krytycznie o Machine Learning."
+          - "Głębokie problemy z Głębokim Uczeniem"
           - "Docker internals"
       - "16:00":
           - "Prezentacja zamykająca / Closing keynote"
