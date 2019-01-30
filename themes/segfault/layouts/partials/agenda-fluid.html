@@ -35,6 +35,7 @@
                         {{ $speakers := where (where $pages "Type" "speaker") "Params.speakername" "in" $abstract.Params.speakername }}
                         {{ partial "agenda-element.html" (dict "abstract" $abstract "speakers" $speakers "agendaTitle" $p ) }}    
                     </div>
+                    <div class="agenda-full-border"></div>
                     {{ end }}
                 </div>                
                 {{ else }}

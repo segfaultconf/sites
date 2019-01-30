@@ -177,6 +177,13 @@ body {
   color: #777;
 }
 
+#agenda .agenda-full-border {
+	height: 1px;
+	border: 1px dashed #aeddff;
+	width: 20px;
+	margin: 1px auto 10px;
+}
+
 #agenda h3 {
   padding: 10px;
 }
