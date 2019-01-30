@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Jakub Pilimon
-# presentationtitle: "Deep Learning in Computer Vision"
+presentationtitle: 
+  - "Z Event Stormingu do Walking Skeleton."
 presentationtype: 
   - warsztat
   - event storming

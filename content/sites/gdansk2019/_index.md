@@ -26,22 +26,22 @@ agenda:
           - Rejestracja uczestników
       - "10:00":
           - "Docker kontra developer"
-          - "Warsztat #2"
+          - "TBA"
           - "Continuous Delivery w OSS z użyciem Shipkita"
-          - "Warsztat #4"
-          - "Warsztat #5"
-          - "Warsztat #6"
-          - "Warsztat #7"
+          - "Jak wgryźć się w elementy programowania funkcyjnego podczas refaktoryzacji kodu w Javie?"
+          - "Warsztat Event Storming"
+          - "Kotlin plus Spring minus Adnotacje"
+          - "TBA"
       - "12:30":
         - "Przerwa lunchowa"
       - "13:30":
           - "Kubernetes 101"
-          - "Warsztat #9"
+          - "TBA"
           - "Frameworkless JavaScript"
-          - "Warsztat #11"
-          - "Warsztat #12"
+          - "TBA"
+          - "Z Event Stormingu do Walking Skeleton."
           - "Continuous Delivery: jak, z czym i dlaczego?"
-          - "Warsztat #14"
+          - "TBA"
       - "20:00":
           - "After / before party"
   - tracks:
@@ -67,7 +67,7 @@ agenda:
           - "Charbusters - 10 mitów o Unicode"
           - "TBA"
       - "15:00":
-          - "TBA"
+          - "Krytycznie o Machine Learning."
           - "Docker internals"
       - "16:00":
           - "Prezentacja zamykająca / Closing keynote"

@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: Wojtek Ptak
-# presentationtitle: "Deep Learning in Computer Vision"
+presentationtitle: 
+  - "Warsztat Event Storming"
 presentationtype: 
   - warsztat
   - event storming

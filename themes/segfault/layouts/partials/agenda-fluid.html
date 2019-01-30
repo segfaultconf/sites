@@ -24,7 +24,7 @@
                 <div class="col-12 col-md-10 text-center">
                     {{ $p := index ($presentations) 0 }}
                     {{ $abstract := index (where (where $pages "Type" "abstract") "Params.presentationtitle" $p) 0 }}
-                    {{ $speakers := where (where $pages "Type" "speaker") "Params.speakername" "in" $abstract.Params.speakername }}
+                    {{ $speakers := where (where $pages "Type" "speaker") "Params.presentationtitle" "intersect" (slice $p) }}
                     {{ partial "agenda-element.html" (dict "abstract" $abstract "speakers" $speakers "agendaTitle" $p ) }}    
                 </div>
                 {{ else if $tooManySlots }}
@@ -32,7 +32,7 @@
                     {{ range $p := $presentations }}
                     <div>
                         {{ $abstract := index (where (where $pages "Type" "abstract") "Params.presentationtitle" $p) 0 }}
-                        {{ $speakers := where (where $pages "Type" "speaker") "Params.speakername" "in" $abstract.Params.speakername }}
+                        {{ $speakers := where (where $pages "Type" "speaker") "Params.presentationtitle" "intersect" (slice $p) }}
                         {{ partial "agenda-element.html" (dict "abstract" $abstract "speakers" $speakers "agendaTitle" $p ) }}    
                     </div>
                     <div class="agenda-full-border"></div>
@@ -41,9 +41,9 @@
                 {{ else }}
                 {{ range $i, $p := $presentations }}
                     <div class="col-3 pr-0 d-md-none flex-fill"><small>{{ index ($details.tracks) $i }}</small></div>
-                    <div class="col-9 col-md-{{ div 10 (len $details.tracks) }} text-center">
+                    <div class="col-9 col-md-{{ div 10 (len $details.tracks) }} text-center">                        
                     {{ $abstract := index (where (where $pages "Type" "abstract") "Params.presentationtitle" $p) 0 }}
-                    {{ $speakers := where (where $pages "Type" "speaker") "Params.speakername" "in" $abstract.Params.speakername }}
+                    {{ $speakers := where (where $pages "Type" "speaker") "Params.presentationtitle" "intersect" (slice $p) }}
                     {{ partial "agenda-element.html" (dict "abstract" $abstract "speakers" $speakers "agendaTitle" $p ) }}
                     </div>
                     <div class="col-12 d-md-none mobile-track"></div>
