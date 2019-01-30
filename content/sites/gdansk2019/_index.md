@@ -25,22 +25,22 @@ agenda:
       - "9:00":
           - Rejestracja uczestników
       - "10:00":
-          - "Warsztat #1"
+          - "Docker kontra developer"
           - "Warsztat #2"
-          - "Warsztat #3"
+          - "Continuous Delivery w OSS z użyciem Shipkita"
           - "Warsztat #4"
           - "Warsztat #5"
           - "Warsztat #6"
-          - "Warsztat #7 - tak siedem!! równoległych ścieżek warsztatowych"
+          - "Warsztat #7"
       - "12:30":
         - "Przerwa lunchowa"
       - "13:30":
-          - "Warsztat #8"
+          - "Kubernetes 101"
           - "Warsztat #9"
-          - "Warsztat #10"
+          - "Frameworkless JavaScript"
           - "Warsztat #11"
           - "Warsztat #12"
-          - "Warsztat #13"
+          - "Continuous Delivery: jak, z czym i dlaczego?"
           - "Warsztat #14"
       - "20:00":
           - "After / before party"
@@ -57,18 +57,18 @@ agenda:
           - "Jak wytresować Basha?"
       - "11:00":
           - "How to live in a post-Spring-Cloud-Netflix world?"
-          - "Docker, DevOps, Kubernetes. Instrukcja obsługi"
+          - "Machine Learning - jak zacząć uczyć maszynę."
       - "12:00":
           - "Kiedy od softu zależy ludzkie życie - o systemach safety-critical"
-          - "Prezentacja #6"
+          - "Docker, DevOps, Kubernetes. Instrukcja obsługi"
       - "12:45":
           - "Przerwa lunchowa"
       - "14:00":
           - "Charbusters - 10 mitów o Unicode"
-          - "Docker internals"
+          - "TBA"
       - "15:00":
-          - "Prezentacja #9"
-          - "Machine Learning - jak zacząć uczyć maszynę."
+          - "TBA"
+          - "Docker internals"
       - "16:00":
           - "Prezentacja zamykająca / Closing keynote"
 
