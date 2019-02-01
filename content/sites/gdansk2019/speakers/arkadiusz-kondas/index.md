@@ -2,7 +2,7 @@
 type: speaker
 speakername: Arkadiusz Kondas
 presentationtitle: 
-  - "Machine Learning - jak zacząć uczyć maszynę."
+  - "Machine Learning - jak zacząć uczyć maszynę"
 presentationtype: 
   - prezentacja 
   - machine learing
