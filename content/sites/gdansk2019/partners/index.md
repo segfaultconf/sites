@@ -19,4 +19,13 @@ resources:
   - src: "conferences/datamass_logo.png"
     params:
       url: "https://datamass.io"
+  - src: "media/raibay-logo-(RBG).jpg"
+    params:
+      url: "https://www.raibay.com"
+  - src: "media/programista.png"
+    params:
+      url: "https://programistamag.pl"
+  - src: "media/mrdev2.png"
+    params:
+      url: "https://mrdev.pl"
 ---
