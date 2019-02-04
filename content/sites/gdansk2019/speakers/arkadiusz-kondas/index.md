@@ -2,8 +2,11 @@
 type: speaker
 speakername: Arkadiusz Kondas
 presentationtitle: 
+  - "Warsztat Event Storming"
   - "Machine Learning - jak zacząć uczyć maszynę"
 presentationtype: 
+  - warsztat
+  - event storming
   - prezentacja 
   - machine learing
 resources:
