@@ -1,8 +1,9 @@
 ---
 type: speaker
-speakername: "Krzysztof Kudrynski"
+speakername: "Krzysztof Kudryński"
 presentationtitle: 
    - "Deep Learning in Computer Vision"
+   - "Deep Learning w (świadomych) zastosowaniach"
 presentationtype: 
   - warsztat
   - prezentacja

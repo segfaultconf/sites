@@ -26,7 +26,7 @@ agenda:
           - Rejestracja uczestników
       - "10:00":
           - "Docker kontra developer"
-          - "TBA"
+          - "Podstawy uczenia maszynowego dla programistów"
           - "Continuous Delivery w OSS z użyciem Shipkita"
           - "Jak wgryźć się w elementy programowania funkcyjnego podczas refaktoryzacji kodu w Javie?"
           - "Warsztat Event Storming"
@@ -36,7 +36,7 @@ agenda:
         - "Przerwa lunchowa"
       - "13:30":
           - "Kubernetes 101"
-          - "TBA"
+          - "Deep Learning w (świadomych) zastosowaniach"
           - "Frameworkless JavaScript"
           - "Transakcyjne przetwarzanie w Java Persistence API (JPA)"
           - "Z Event Stormingu do Walking Skeleton."
