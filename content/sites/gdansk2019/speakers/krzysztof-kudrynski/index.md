@@ -1,7 +1,8 @@
 ---
 type: speaker
 speakername: "Krzysztof Kudrynski"
-# presentationtitle: "Deep Learning in Computer Vision"
+presentationtitle: 
+   - "Deep Learning in Computer Vision"
 presentationtype: 
   - warsztat
   - prezentacja
@@ -11,12 +12,7 @@ resources:
     name: "photo"
 ---
 
-Krzysztof Kudrynski 
+Krzysztof Kudryński - Senior Deep Learning Engineer w NVIDIA
 
-8AM-4PM: Passionate problem solver with 10+ years experience in algorithms prototyping and software design, currently involved in projects related to self-driving cars in TomTom. 
+Krzysztof bardzo chciałby swobodnie rozmawiać z komputerem, na zakupy wysyłać robota, jeździć autonomicznym samochodem. Marzeniom trzeba pomagać. Krzysztof od ponad 10 lat pracuje jako inżynier algorytmów analizy danych, sztucznej inteligencji i robotyki. Krzysztof wierzy, że będzie dobrze.
 
-4PM-0AM: Loving husband and father of three 
-
-0AM-3AM: Enthusiast of technologies of the future including artificial intelligence, robotics and virtual reality. 
-
-3AM-8AM: Sleepwalker
