@@ -5,11 +5,11 @@
     {{- partial "header.html" . -}}
     <div id="body" class="clearfix">
         <!-- layout-container -->
-        <div id="layout" class="pagewidth clearfix">
+        <div id="layout" class="pagewidth">
             <!-- content -->
-            <div id="content" class="clearfix">
+            <div id="content">
                 <div class="d-flex flex-column-reverse flex-md-row">
-                    <div class="speakers col-12 col-md-3 offset-md-1 d-flex flex-column flex-sm-row flex-md-column justify-content-center align-items-center">
+                    <div class="speakers h-25 col-12 col-md-3 offset-md-1 d-flex flex-column flex-sm-row flex-md-column">
                     {{ $abstract := .Params }}
                     {{ range where (where .Parent.Pages "Type" "speaker") "Params.speakername" "in" .Params.speakername }}
                         <div class="speaker col-12 col-sm-6 col-md-12">
@@ -36,9 +36,7 @@
                     </div>
                 </div>
 
-                <div class="clearfix">
-
-                    <div class="clear" style="height: 50px"></div>
+                <div>
                     <div>
                         {{ if isset .Params "youtube" }}
                         <div class="col-md-12">
@@ -69,4 +67,3 @@
     </div>
 </body>
 </html>
-container
