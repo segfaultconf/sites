@@ -15,7 +15,7 @@
             <h2 class="white-text">
               {{ if isset .Params.eventdate "full" }}
                 <span class="text-nowrap">{{ .Params.eventdate.full }}</span>, {{ .Params.location.name }}
-              {{ else }}              
+              {{ else }}
                 {{ partial "event-date.html" .Params.eventdate }}, {{ .Params.location.name }}
               {{ end }}
             </h2>
@@ -34,7 +34,7 @@
             <span class="spacer"></span>
           </div>
         </div>
-      
+
         {{ partial "testimonial.html" (dict "Lead" "Segmentation fault (Naruszenie ochrony pamięci)" "Content" "zdarzenie wykrywane przez sprzęt, polegające na korzystaniu przez program z pamięci poza zaalokowanym dla niego obszarem.") }}
 
         {{ if (where .Pages ".File.BaseFileName" "about") }}
@@ -42,7 +42,7 @@
         {{ end }}
 
         {{ partial "topics.html" (.GetPage "topics") }}
-  
+
         {{ partial "testimonial.html" (dict "Content" "Chcesz uniknąć rozmów o trendach, które przychodzą i odchodzą? o \"next big thing\", które jest tylko starą technologią w nowych szatach? Zapraszamy!") }}
 
         {{ block "speakers" . }}
@@ -50,8 +50,8 @@
         {{ end }}
 
         {{ block "agenda" . }}
-          {{ partial "agenda.html" (dict "pages" .Pages "agenda" .Params.agenda) }}    
-        {{ end }}        
+          {{ partial "agenda.html" (dict "pages" .Pages "agenda" .Params.agenda) }}
+        {{ end }}
 
         <hr />
 
@@ -59,21 +59,22 @@
           {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "principal" "title" "Principal" "maxPartners" 1)}}
           {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "architect" "title" "Architect" "maxPartners" 3)}}
           {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "senior" "title" "Senior" "maxPartners" 5)}}
+          {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "technological" "title" "Technologiczny" "maxPartners" 1)}}
           {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "media" "title" "Media" "maxPartners" 0)}}
           {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "community" "title" "Społeczność" "caption" "Społeczności" "maxPartners" 0)}}
           {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "conferences" "title" "Konferencja Partnerska" "caption" "Konferencje partnerskie" "maxPartners" 0)}}
         </section>
-        
+
         <section id="venue">
           <div class="container">
             <div class="col-12 text-center">
               <h4>
                 {{ .Params.location.name }} ({{ .Params.location.address }})
-              </h4>              
-            </div> 
+              </h4>
+            </div>
             <div class="col-12 text-center">
               <h5><a href="mailto:konferencja@segfault.events">konferencja@segfault.events</a></h5>
-            </div>           
+            </div>
             <div class="row">
               <div id="map"></div>
             </div>

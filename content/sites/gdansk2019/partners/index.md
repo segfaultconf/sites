@@ -28,4 +28,13 @@ resources:
   - src: "media/mrdev2.png"
     params:
       url: "https://mrdev.pl"
+  - src: "community/logo jjit.png"
+    params:
+      url: "https://justjoin.it"
+  - src: "community/justgeek.png"
+    params:
+      url: "https://geek.justjoin.it"
+  - src: "technological/buddy.svg"
+    params:
+      url: "https://buddy.works"
 ---
