@@ -1,6 +1,8 @@
 ---
 type: speaker
 speakername: Łukasz Łuczak
+presentationtitle:
+  - "SOLID Front Endless Architecture"
 resources:
   - src: "lukasz_luczak.jpg"
     name: "photo"
