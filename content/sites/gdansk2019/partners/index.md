@@ -1,12 +1,9 @@
 ---
 headless: true
 resources:
-#   - src: architect/Dynatrace_Logo_color_positive_horizontal.png
-#     params:
-#       url: https://jobs.dynatrace.pl/
-#   - src: principal/Collibra-Logo-CMYK-FullColor-200x200.png
-#     params:
-#       url: https://www.collibra.com/
+  - src: "principal/dynatrace.png"
+    params:
+      url: https://jobs.dynatrace.pl/
   - src: "architect/softwareMill.png"
     params:
       url: https://softwaremill.com/      
@@ -34,7 +31,7 @@ resources:
   - src: "community/justgeek.png"
     params:
       url: "https://geek.justjoin.it"
-  - src: "technological/buddy.svg"
+  - src: "technological/buddy.png"
     params:
       url: "https://buddy.works"
 ---
