@@ -1,5 +1,5 @@
 <div class="container">
-  <h2>{{ if not (isset . "caption")}}Partnerzy {{ .title }}{{ else }}{{ .caption }}{{ end }}</h2>
+  <h2>{{ if not (isset . "caption")}}{{ .title }}{{ else }}{{ .caption }}{{ end }}</h2>
   {{ with .partners }}
   {{ $resources := .Resources.Match (printf "%s/*" $.partner) }}
   {{ if $resources }}
