@@ -1,22 +1,28 @@
 ---
 headless: true
-# resources:
-#   - src: architect/Dynatrace_Logo_color_positive_horizontal.png
-#     params:
-#       url: https://jobs.dynatrace.pl/
-#   - src: principal/Collibra-Logo-CMYK-FullColor-200x200.png
-#     params:
-#       url: https://www.collibra.com/
-#   - src: "senior/softwareMill.png"
-#     params:
-#       url: https://softwaremill.com/
-#   - src: "conferences/coreDump-Color-Full.png"
-#     params:
-#       url: http://coredump.events
-#   - src: "senior/IT_Kontrakt.png"
-#     params:
-#       url: "https://www.itkontrakt.pl/"
-#   - src: "senior/Ocado.png"
-#     params:
-#       url: "https://www.ocadotechnology.com/"
+resources:
+  - src: "principal/virtuslab_horizontal.pdf"
+    params:
+      url: "https://virtuslab.com"
+  - src: "architect/ONWELO.jpg"
+    params:
+      url: https://softwaremill.com/      
+  - src: "media/raibay-logo-(RBG).jpg"
+    params:
+      url: "https://www.raibay.com"
+  - src: "media/programista.png"
+    params:
+      url: "https://programistamag.pl"
+  - src: "media/mrdev2.png"
+    params:
+      url: "https://mrdev.pl"
+  - src: "community/logo jjit.png"
+    params:
+      url: "https://justjoin.it"
+  - src: "community/justgeek.png"
+    params:
+      url: "https://geek.justjoin.it"
+  - src: "media/inn4tech"
+    params:
+      url: "https://inn4.tech"
 ---
