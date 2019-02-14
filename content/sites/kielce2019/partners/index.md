@@ -22,7 +22,7 @@ resources:
   - src: "community/justgeek.png"
     params:
       url: "https://geek.justjoin.it"
-  - src: "media/inn4tech"
+  - src: "media/inn4tech.png"
     params:
       url: "https://inn4.tech"
 ---

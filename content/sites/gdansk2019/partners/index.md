@@ -34,7 +34,7 @@ resources:
   - src: "technological/buddy.png"
     params:
       url: "https://buddy.works"
-  - src: "media/inn4tech"
+  - src: "media/inn4tech.png"
     params:
       url: "https://inn4.tech"
 ---
