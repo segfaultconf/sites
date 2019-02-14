@@ -2,7 +2,7 @@
 type: speaker
 speakername: Mariusz Domżalski
 presentationtitle: 
-  - "Glebokie problemy glebokiego uczenia"
+  - "Głębokie problemy głębokiego uczenia"
 presentationtype: 
   - prezentacja 
   - machine learing

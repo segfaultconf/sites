@@ -48,28 +48,28 @@ agenda:
       - "Ścieżka 1"
       - "Ścieżka 2"
     data:
-      - "9:00":
+      - "8:30":
           - Rejestracja uczestników
-      - "9:45":
-          - "Otwarcie"
-      - "10:00":
+      - "9:30":
+          - "Deep Learning in Computer Vision"
+      - "10:30":
           - "Serverless oczami bezpiecznika"
           - "Jak wytresować Basha?"
-      - "11:00":
+      - "11:30":
           - "How to live in a post-Spring-Cloud-Netflix world?"
           - "Machine Learning - jak zacząć uczyć maszynę"
-      - "12:00":
+      - "12:15":
+          - "Przerwa lunchowa"
+      - "13:00":
           - "Kiedy od softu zależy ludzkie życie - o systemach safety-critical"
           - "Docker, DevOps, Kubernetes. Instrukcja obsługi"
-      - "12:45":
-          - "Przerwa lunchowa"
       - "14:00":
           - "Charbusters - 10 mitów o Unicode"
-          - "TBA"
+          - "Głębokie problemy głębokiego uczenia"
       - "15:00":
-          - "Glebokie problemy glebokiego uczenia"
+          - "High Availability w chmurze, czyli jak wymienić cały hardware bez downtime'u aplikacji"
           - "Docker internals"
       - "16:00":
-          - "Prezentacja zamykająca / Closing keynote"
+          - "Prezentacja zamykająca / Closing keynote - TBA"
 
 ---
