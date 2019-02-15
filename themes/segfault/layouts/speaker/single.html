@@ -19,13 +19,17 @@
                             <h2>{{ .Params.speakername }} </h2>
                             {{ .Content }}
 
+                            {{ $siteUrl := .CurrentSection.Params.url }}
+
                             {{ $pages := .Site.Pages }}
                             <ul>
-                            {{ range $presentationtitle := .Params.presentationtitle}}            
-                                {{ $abstracts := where (where $pages "Type" "abstract") "Params.presentationtitle" $presentationtitle }}                        
+                            {{ range $presentationtitle := .Params.presentationtitle}} 
+                                {{ $abstracts := (where (where $pages "Type" "abstract") "Params.presentationtitle" $presentationtitle) }}                        
                                 {{ if $abstracts }}
                                     {{ range $abstract := $abstracts }}
+                                    {{ if in $abstract.Permalink $siteUrl }}
                                     <li><a  href="{{ $abstract.Permalink }}">{{ $abstract.Params.presentationtitle }}</a>
+                                    {{ end }}
                                     {{ end }}
                                 {{ else if (and (eq (len $abstracts) 0) $presentationtitle) }}
                                     <li>{{ $presentationtitle }}

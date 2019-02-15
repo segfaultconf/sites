@@ -1,7 +1,7 @@
 ---
 type: abstract
 speakername: "Mariusz Domżalski"
-presentationtitle: "Glebokie problemy glebokiego uczenia"
+presentationtitle: "Głębokie problemy głębokiego uczenia"
 ---
 
 Historia głębokiego uczenia (deep learning) ma swoje korzenie przynajmniej kilka dekad temu.
