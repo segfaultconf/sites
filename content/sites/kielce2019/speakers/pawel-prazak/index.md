@@ -2,7 +2,7 @@
 type: speaker
 speakername: "Paweł Prażak"
 presentationtitle:
-  - "TBD"
+  - "Immutable infrastructure as code"
 resources:
   - src: "IMG_20171211_160313.jpg"
     name: "photo"

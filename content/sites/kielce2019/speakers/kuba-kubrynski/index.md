@@ -1,6 +1,8 @@
 ---
 type: speaker
 speakername: "Kuba Kubryński"
+presentationtitle:
+  - "Odporna i elastyczna komunikacja w systemach rozproszonych"
 resources:
   - src: "kuba_tw.jpg"
     name: "photo"
