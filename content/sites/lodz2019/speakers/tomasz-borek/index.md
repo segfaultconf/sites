@@ -2,7 +2,7 @@
 type: speaker
 speakername: "Tomasz Borek"
 presentationtitle:
-  - "TBD"
+  - "Poszły konie po betonie - czyli utrzymaj lejce gdy ciągniesz na wiele procków"
 resources:
   - src: "unnamed.png"
     name: "photo"
