@@ -27,21 +27,21 @@ agenda:
       - "10:00":
           - "Docker kontra developer"
           - "Podstawy uczenia maszynowego dla programistów"
-          - "Continuous Delivery w OSS z użyciem Shipkita"
           - "Jak wgryźć się w elementy programowania funkcyjnego podczas refaktoryzacji kodu w Javie?"
+          - "Continuous Delivery w OSS z użyciem Shipkita"
+          - "Kotlin for Java developers"
+          - "Frameworkless JavaScript"
           - "Warsztat Event Storming"
-          - "Kotlin plus Spring minus Adnotacje"
-          - "TBA"
       - "12:30":
         - "Przerwa lunchowa"
       - "13:30":
           - "Kubernetes 101"
           - "Deep Learning w (świadomych) zastosowaniach"
-          - "Frameworkless JavaScript"
           - "Transakcyjne przetwarzanie w Java Persistence API (JPA)"
-          - "Z Event Stormingu do Walking Skeleton."
           - "Continuous Delivery: jak, z czym i dlaczego?"
-          - "TBA"
+          - "Kotlin plus Spring minus Adnotacje"
+          - "Kickstart your performance testing"
+          - "Z Event Stormingu do Walking Skeleton."
       - "20:00":
           - "After / before party"
   - tracks:
