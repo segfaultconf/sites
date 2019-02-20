@@ -1,6 +1,8 @@
 ---
 type: speaker
 speakername: "Marcin Aks Grochownia"
+presentationtitle:
+  - "Zwinna podróż na krańcówkę"
 resources:
   - src: "Marcin-Aks_Grochowina2.jpg"
     name: "photo"

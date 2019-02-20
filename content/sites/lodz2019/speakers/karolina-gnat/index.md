@@ -1,6 +1,8 @@
 ---
 type: speaker
 speakername: "Karolina Gnat"
+presentationtitle:
+  - "Zwinna podróż na krańcówkę"
 resources:
   - src: "Karola_Gnat.jpg"
     name: "photo"
