@@ -6,7 +6,10 @@ resources:
       url: "https://virtuslab.com"
   - src: "architect/ONWELO.jpg"
     params:
-      url: https://softwaremill.com/      
+      url: "https://onwelo.pl"  
+  - src: "architect/altar.png"
+    params:
+      url: "https://www.altar.com.pl"     
   - src: "media/raibay-logo-(RBG).jpg"
     params:
       url: "https://www.raibay.com"
