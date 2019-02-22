@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Warsztat
 speakername: "Grzegorz Kocur"
 presentationtitle: "Kubernetes 101"
 ---

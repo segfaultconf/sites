@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Warsztat
 speakername: "Rafał Sztwiorok"
 presentationtitle: "Continuous Delivery: jak, z czym i dlaczego?"
 ---

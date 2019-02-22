@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: "Warsztat"
 speakername: "Konrad Marszałek"
 presentationtitle: "Kickstart your performance testing"
 ---

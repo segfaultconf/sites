@@ -5,6 +5,16 @@ theme = "segfault"
 googleAnalytics = "UA-113528014-1"
 ignorefiles = [ "automation/.*" ]
 
+[mediaTypes]
+[mediaTypes."application/yaml"]
+suffixes = ["yaml"]
+
+[outputFormats]
+[outputFormats.Yaml]
+baseName = "index"
+isPlainText = false
+mediaType = "application/yaml"
+
 [params]
 facebookPixel = 2039077633048325
 googleAdWords = "AW-868075068"

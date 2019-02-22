@@ -1,0 +1,24 @@
+{{ $defaultSeats := 20 }}
+{{ $pages := .CurrentSection.Pages }}
+agenda: {{ range $dayIndex, $details := .CurrentSection.Params.agenda }}
+    - 
+    {{- range $slot := $details.data -}}    
+    {{- range $hour,$presentations := $slot }} 
+        "{{ $hour }}": 
+        {{- range $p := $presentations }} 
+        {{- $abstract := index (where (where $pages "Type" "abstract") "Params.presentationtitle" $p) 0 -}}
+        {{- $speakers := where (where $pages "Type" "speaker") "Params.presentationtitle" "intersect" (slice $p) }}
+            - title: "{{ if isset $abstract.Params "presentationtitle" -}}{{ $abstract.Params.presentationtitle }}{{- else -}}{{ $p }}{{- end }}"
+              session: "{{ if isset $abstract.Params "session" -}}{{ $abstract.Params.session }}{{- else -}} Serwis {{- end }}"
+              seats: {{ if isset $abstract.Params "seats" -}}{{ $abstract.Params.seats }}{{- else -}}{{ $defaultSeats }}{{- end }}
+              abstract: "{{- replace $abstract.Content `"` `"` -}}"
+                {{- if (len $speakers) "gt" 0 }}
+              speakers: {{- range $speaker := $speakers }}
+                    - name: "{{ $speaker.Params.speakername -}}"
+                      bio: "{{ replace $speaker.Content `"` `"` }}"
+                {{- end -}}
+                {{- end -}}
+        {{ end }}
+    {{- end -}}
+    {{- end -}}    
+    {{- end -}}
