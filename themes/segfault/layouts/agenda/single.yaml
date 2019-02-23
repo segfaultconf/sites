@@ -1,4 +1,4 @@
-{{ $defaultSeats := 20 }}
+{{ $defaultSeats := 16 }}
 {{ $pages := .CurrentSection.Pages }}
 agenda: {{ range $dayIndex, $details := .CurrentSection.Params.agenda }}
     - 
