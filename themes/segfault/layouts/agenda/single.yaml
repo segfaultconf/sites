@@ -16,6 +16,7 @@ agenda: {{ range $dayIndex, $details := .CurrentSection.Params.agenda }}
               speakers: {{- range $speaker := $speakers }}
                     - name: "{{ $speaker.Params.speakername -}}"
                       bio: "{{ replace $speaker.Content `"` `"` }}"
+                      photo: "{{- with $speaker.Resources.GetMatch "photo" -}}{{- .Permalink -}}{{- end }}"
                 {{- end -}}
                 {{- end -}}
         {{ end }}
