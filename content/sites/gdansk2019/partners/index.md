@@ -6,13 +6,7 @@ resources:
       url: https://jobs.dynatrace.pl/
   - src: "architect/softwareMill.png"
     params:
-      url: https://softwaremill.com/      
-#   - src: "conferences/coreDump-Color-Full.png"
-#     params:
-#       url: http://coredump.events
-#   - src: "senior/IT_Kontrakt.png"
-#     params:
-#       url: "https://www.itkontrakt.pl/"
+      url: https://softwaremill.com/
   - src: "conferences/datamass_logo.png"
     params:
       url: "https://datamass.io"
@@ -37,4 +31,10 @@ resources:
   - src: "media/inn4tech.png"
     params:
       url: "https://inn4.tech"
+  - src: "partner/logo_psse_pl.png"
+    params:
+      url: "http://www.strefa.gda.pl"
+  - src: "partner/logo_gpnt_pl.png"
+    params:
+      url: "http://www.gpnt.pl"
 ---

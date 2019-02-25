@@ -63,6 +63,7 @@
           {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "media" "title" "Partnerzy Media" "maxPartners" 0)}}
           {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "community" "title" "Społeczności" "caption" "Społeczności" "maxPartners" 0)}}
           {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "conferences" "title" "Konferencje Partnerskie" "caption" "Konferencje partnerskie" "maxPartners" 0)}}
+          {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "partner" "title" "Partner" "caption" "Partner" "maxPartners" 2)}}          
         </section>
 
         <section id="venue">
