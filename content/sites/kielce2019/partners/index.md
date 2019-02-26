@@ -28,4 +28,7 @@ resources:
   - src: "media/inn4tech.png"
     params:
       url: "https://inn4.tech"
+  - src: "media/nofluff.png"
+    params:
+      url: "https://nofluffjobs.com/"
 ---

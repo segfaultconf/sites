@@ -22,4 +22,7 @@ resources:
   - src: "technological/buddy.png"
     params:
       url: "https://buddy.works"
+  - src: "media/nofluff.png"
+    params:
+      url: "https://nofluffjobs.com/"
 ---

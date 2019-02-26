@@ -37,4 +37,7 @@ resources:
   - src: "partner/logo_gpnt_pl.png"
     params:
       url: "http://www.gpnt.pl"
+  - src: "media/nofluff.png"
+    params:
+      url: "https://nofluffjobs.com/"
 ---
