@@ -25,4 +25,7 @@ resources:
   - src: "media/nofluff.png"
     params:
       url: "https://nofluffjobs.com/"
+  - src: "coffee/hycom.png"
+    params:
+      url: "https://www.hycom.pl"
 ---
