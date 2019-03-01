@@ -28,4 +28,7 @@ resources:
   - src: "coffee/hycom.png"
     params:
       url: "https://www.hycom.pl"
+      - src: "architect/accenture.png"
+        params:
+          url: "https://www.accenture.com/pl-pl/careers"
 ---
