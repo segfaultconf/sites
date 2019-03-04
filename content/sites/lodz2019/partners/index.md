@@ -31,4 +31,7 @@ resources:
   - src: "architect/accenture.png"
     params:
       url: "https://www.accenture.com/pl-pl/careers"
+  - src: "conferences/bitconf.png"
+    params:
+      url: "http://bitconf.pl/"
 ---
