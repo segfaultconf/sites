@@ -1,6 +1,18 @@
 
 $(document).ready(function(){
 
+	//warsztaty
+	$(function() {
+		if (window.location.href.indexOf("gdansk") > -1) {
+		  $.getJSON("http://reg.segfault.events/stats", function(data) {
+			$.each(data, function(i, el) {
+			  $('#sessionRegs-' + el.title.replace(/[^a-z0-9]/gi, '')).html(el.count)
+			})
+		  });
+		}
+	  })
+
+
 	$(window).scroll(function() {
 		// var header = $('#top-header');
 		var logo = $('#logo');

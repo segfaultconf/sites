@@ -32,7 +32,16 @@
                             <h2> {{ $abstract.presentationtitle }} </h2>
                             <div>
                                 <p>{{ .Content }}</p>
-                            </div>        
+                            </div>
+                            {{ if (and (isset $abstract "session") (eq $abstract.session "Warsztat")) }}
+                            <div>
+                                <p>
+                                    <span>Zajęte miejsca: </span>
+                                    <span id="sessionRegs-{{ $abstract.presentationtitle | replaceRE "[[:^alpha:]]" "" }}">0</span>
+                                    <span> / {{ $abstract.seats | default 16 }}</span>
+                                </p>
+                            </div>  
+                            {{ end }}
                     </div>
                 </div>
 

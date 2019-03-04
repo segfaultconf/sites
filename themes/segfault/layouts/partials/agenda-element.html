@@ -3,6 +3,11 @@
     <a href="https://www.youtube.com/watch?v={{ .abstract.Params.youtube }}" target="_blank"><img src="/img/yt_icon_mono_light.png"></a>
     {{ end }}
     <a  href="{{ .abstract.Permalink }}">{{ .abstract.Params.presentationtitle }}</a>
+    {{ if (and (isset .abstract.Params "session") (eq .abstract.Params.session "Warsztat")) }}
+    <span class="small text-muted">(<span>Zajęte miejsca: </span><span id="sessionRegs-{{ .abstract.Params.presentationtitle | replaceRE "[[:^alpha:]]" "" }}">0</span>
+    <span> / {{ .abstract.Params.seats | default 16 }}</span>)</span>
+    {{ end }}
+
     <br />        
     {{ range $speaker := .speakers }}
         <a  href="{{ $speaker.Permalink }}"><strong>{{ $speaker.Params.speakername }}</strong></a>

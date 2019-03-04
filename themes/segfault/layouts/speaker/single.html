@@ -27,8 +27,13 @@
                                 {{ $abstracts := (where (where $pages "Type" "abstract") "Params.presentationtitle" $presentationtitle) }}                        
                                 {{ if $abstracts }}
                                     {{ range $abstract := $abstracts }}
-                                    {{ if in $abstract.Permalink $siteUrl }}
+                                    {{ if in $abstract.Permalink $siteUrl }}        
                                     <li><a  href="{{ $abstract.Permalink }}">{{ $abstract.Params.presentationtitle }}</a>
+                                        {{ if (and (isset $abstract.Params "session") (eq $abstract.Params.session "Warsztat")) }}
+                                        <span class="small text-muted">(<span>Zajęte miejsca: </span><span id="sessionRegs-{{ $abstract.Params.presentationtitle | replaceRE "[[:^alpha:]]" "" }}">0</span>
+                                        <span> / {{ $abstract.Params.seats | default 16 }}</span>)</span>
+                                        {{ end }}
+        
                                     {{ end }}
                                     {{ end }}
                                 {{ else if (and (eq (len $abstracts) 0) $presentationtitle) }}
