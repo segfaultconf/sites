@@ -34,4 +34,7 @@ resources:
   - src: "conferences/bitconf.png"
     params:
       url: "http://bitconf.pl/"
+  - src: "media/raibay-logo-(RBG).jpg"
+    params:
+      url: "https://www.raibay.com"
 ---
