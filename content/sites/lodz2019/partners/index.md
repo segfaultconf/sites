@@ -37,4 +37,7 @@ resources:
   - src: "media/raibay-logo-(RBG).jpg"
     params:
       url: "https://www.raibay.com"
+  - src: "senior/billennium.jpg"
+    params:
+      url: "www.billennium.com"
 ---
