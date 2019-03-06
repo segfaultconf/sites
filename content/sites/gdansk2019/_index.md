@@ -42,8 +42,10 @@ agenda:
           - "Kotlin plus Spring minus Adnotacje"
           - "Kickstart your performance testing"
           - "Z Event Stormingu do Walking Skeleton."
+      - "16:00": 
+          - "Zakończenie pierwszego dnia"
       - "20:00":
-          - "After / before party"
+          - "After / before party - Maverick w Gdańsku, ul Partyzantów 8"
   - tracks:
       - "Ścieżka 1"
       - "Ścieżka 2"
