@@ -1,8 +1,8 @@
 ---
 type: speaker
 speakername: Eliza Stasińska
-# presentationtitle: 
-  # - "Kubernetes 101"
+presentationtitle: 
+  - "Senior Developer - czlowiek renesansu"
 presentationtype: 
   - prezentacja
 resources:

@@ -72,6 +72,6 @@ agenda:
           - "High Availability w chmurze, czyli jak wymienić cały hardware bez downtime'u aplikacji"
           - "Docker internals"
       - "16:00":
-          - "Prezentacja zamykająca / Closing keynote - TBA"
+          - "Senior Developer - czlowiek renesansu"
 
 ---
