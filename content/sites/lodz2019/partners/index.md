@@ -40,4 +40,7 @@ resources:
   - src: "senior/billennium.jpg"
     params:
       url: "www.billennium.com"
+  - src: "senior/Cybercom.png"
+    params:
+      url: "https://www.cybercom.com/pl/Poland/"
 ---
