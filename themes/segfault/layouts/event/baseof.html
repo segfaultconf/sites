@@ -56,15 +56,17 @@
         <hr />
 
         <section id="partners">
-          {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "principal" "title" "Partner Principal" "maxPartners" 1 "showWhenEmpty" true)}}
-          {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "architect" "title" "Partnerzy Architect" "caption" "partner architekt" "maxPartners" 3 "showWhenEmpty" true)}}
-          {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "senior" "title" "Partnerzy Senior" "caption" "partner senior" "maxPartners" 5 "showWhenEmpty" true)}}
-          {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "technological" "title" "Partner Technologiczny" "maxPartners" 1)}}
-          {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "coffee" "title" "Speciality Coffee Strategic Partner" "maxPartners" 1)}}
-          {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "media" "title" "Partnerzy Media" "caption" "partner media" "maxPartners" 0)}}
-          {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "community" "title" "Społeczności" "caption" "społeczność" "maxPartners" 0)}}
-          {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "conferences" "title" "Konferencje Partnerskie" "caption" "konferencja partnerska" "maxPartners" 0)}}
-          {{ partial "partners.html" (dict "partners" (.Site.GetPage (printf "%s%s" .Dir "partners")) "partner" "partner" "title" "Partner wydarzenia" "maxPartners" 2)}}
+          {{ with .Site.GetPage "page" (printf "%s%s" .Dir "partners") }}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "principal")) "title" "Partner Principal" "maxPartners" 1 "showWhenEmpty" true)}}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "architect")) "title" "Partnerzy Architect" "caption" "partner architekt" "maxPartners" 3 "showWhenEmpty" true)}}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "senior")) "title" "Partnerzy Senior" "caption" "partner senior" "maxPartners" 5 "showWhenEmpty" true)}}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "technological")) "title" "Partner Technologiczny" "maxPartners" 1)}}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "coffee")) "title" "Speciality Coffee Strategic Partner" "maxPartners" 1)}}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "media")) "title" "Partnerzy Media" "caption" "partner media" "maxPartners" 0)}}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "community")) "title" "Społeczności" "caption" "społeczność" "maxPartners" 0)}}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "conferences")) "title" "Konferencje Partnerskie" "caption" "konferencja partnerska" "maxPartners" 0)}}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "partner")) "title" "Partner wydarzenia" "maxPartners" 2)}}
+          {{ end }}
         </section>
 
         <section id="venue">

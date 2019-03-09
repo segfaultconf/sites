@@ -1,15 +1,14 @@
-{{ $resources := $.partners.Resources.Match (printf "%s/*" $.partner) }}
-{{ if (or (gt (len $resources) 0) (and (eq (len $resources) 0) $.showWhenEmpty)) }}
+{{ if (or (gt (len $.resources) 0) (and (eq (len $.resources) 0) $.showWhenEmpty)) }}
   <div class="container">
     <h2>{{ $.title }}</h2>
-      {{ $partnersSlots :=  sub $.maxPartners (len $resources) }}
+      {{ $partnersSlots :=  sub $.maxPartners (len $.resources) }}
       {{ if ne $partnersSlots 0 }}
         <a href="mailto:partnerzy@segfault.events">Dołącz do nas jako {{ $.caption | default $.title | lower }}</a><br/><br/>
       {{ end }}
       <div class="d-flex flex-wrap align-items-center justify-content-center">
-        {{ $w := cond (ge (len $resources) 5) 100 150 }}
-        {{ $h := cond (ge (len $resources) 5) 200 300 }}
-        {{ range $resources }}
+        {{ $w := cond (ge (len $.resources) 5) 100 150 }}
+        {{ $h := cond (ge (len $.resources) 5) 200 300 }}
+        {{ range $.resources }}
           <div class="mx-4">
             {{ if .Params.url }}
               <a href="{{ .Params.url }}">
