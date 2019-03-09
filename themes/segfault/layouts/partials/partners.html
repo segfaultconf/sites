@@ -1,28 +1,26 @@
-<div class="container">
-  <h2>{{ if not (isset . "caption")}}{{ .title }}{{ else }}{{ .caption }}{{ end }}</h2>
-  {{ with .partners }}
-  {{ $resources := .Resources.Match (printf "%s/*" $.partner) }}
-  {{ if $resources }}
-  {{ $partnersSlots :=  sub $.maxPartners (len $resources) }}
-  {{ if ne $partnersSlots 0 }}
-  <a href="mailto:partnerzy@segfault.events">Dołącz do nas jako {{ $.title }}</a><br/><br/>
-  {{ end }}
-  {{ end }}
-  <div class="d-flex flex-wrap align-items-center justify-content-center">
-    {{ $w := cond (ge (len $resources) 5) 100 150 }}
-    {{ $h := cond (ge (len $resources) 5) 200 300 }}
-    {{ range $resources }}
-    <div class="mx-4">
-      {{ if .Params.url }}
-      <a href="{{ .Params.url }}">
+{{ $resources := $.partners.Resources.Match (printf "%s/*" $.partner) }}
+{{ if (or (gt (len $resources) 0) (and (eq (len $resources) 0) $.showWhenEmpty)) }}
+  <div class="container">
+    <h2>{{ $.title }}</h2>
+      {{ $partnersSlots :=  sub $.maxPartners (len $resources) }}
+      {{ if ne $partnersSlots 0 }}
+        <a href="mailto:partnerzy@segfault.events">Dołącz do nas jako {{ $.caption | default $.title | lower }}</a><br/><br/>
       {{ end }}
-        <img style="max-height: {{ $w }}px; max-width: {{ $h }}px;" src="{{ .RelPermalink }}">
-      {{ if .Params.url }}
-      </a>
-      {{ end }}
+      <div class="d-flex flex-wrap align-items-center justify-content-center">
+        {{ $w := cond (ge (len $resources) 5) 100 150 }}
+        {{ $h := cond (ge (len $resources) 5) 200 300 }}
+        {{ range $resources }}
+          <div class="mx-4">
+            {{ if .Params.url }}
+              <a href="{{ .Params.url }}">
+            {{ end }}
+              <img style="max-height: {{ $w }}px; max-width: {{ $h }}px;" src="{{ .RelPermalink }}">
+            {{ if .Params.url }}
+            </a>
+            {{ end }}
+          </div>
+        {{ end }}
     </div>
-    {{ end }}
-    {{ end }}
+    <hr>
   </div>
-  <hr>
-</div>
+{{ end }}
