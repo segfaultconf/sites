@@ -11,4 +11,4 @@ W trakcie tego warsztatu dowiesz się i przećwiczysz, jak zapewnić swojej bibl
 
 Warsztat jest w szczególności kierowany do autorów open source'owych bibliotek Javowych oraz pluginów Gradle'owych. Będziemy ćwiczyć na przygotowanej do tego celu bibliotece, więc osoby nie mające (jeszcze) swojego projektu OSS nie będą się nudzić.
 
-Przed warsztatem jest wymagane posiadania konta na GitHubie oraz znajomość podstaw Javy i Gradle'a.
+Przed warsztatem jest wymagane posiadania konta na GitHubie oraz znajomość podstaw Javy i Gradle'a oraz ulubione IDE (np. IntelliJ). 

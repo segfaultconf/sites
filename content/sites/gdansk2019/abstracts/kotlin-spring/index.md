@@ -22,4 +22,4 @@ TEORIA :
 * Spring : https://pawelwlodarski.gitbooks.io/kotlin-workshops/content/spring/intro.html
 
 
-Po wyciągnięciu repo - odpalcie w Intellij plik z mainem : ClassesInKotlin.kt i sprawdźcie czy nie ma błędów.
+Po wyciągnięciu repo - odpalcie w Intellij plik z mainem : ClassesInKotlin.kt i sprawdźcie czy nie ma błędów. Zalecane IDE to IntelliJ 2018.3 (może być bezpłatne Community Edition) z zainstalowanym najnowszym pluginem Kotlin.
