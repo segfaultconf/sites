@@ -28,3 +28,7 @@ Take-aways:
 * Learn variety of attempts to performance testing.
 * Learn portfolio of tools that will help you test performance.
 
+### Przed warsztatem
+
+Przed warsztatem warto jest pobrać repo https://github.com/konradmuh/kick-start-performance
+i spojrzeć w nagłówek ""Prerequisites"" z README.md
