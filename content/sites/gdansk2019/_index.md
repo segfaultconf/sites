@@ -72,6 +72,6 @@ agenda:
           - "High Availability w chmurze, czyli jak wymienić cały hardware bez downtime'u aplikacji"
           - "Docker internals"
       - "16:00":
-          - "Senior Developer - czlowiek renesansu"
+          - "Senior Developer - człowiek renesansu"
 
 ---

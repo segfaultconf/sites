@@ -2,7 +2,7 @@
 type: speaker
 speakername: Eliza Stasińska
 presentationtitle: 
-  - "Senior Developer - czlowiek renesansu"
+  - "Senior Developer - człowiek renesansu"
 presentationtype: 
   - prezentacja
 resources:
