@@ -23,7 +23,7 @@ agenda:
       - "11:00 - 11:45":
           - "Database Reliability"
       - "12:00 - 12:45":
-          - "TBD"
+          - "TLS na przykładzie TBD"
       - "12:45 - 14:00":
           - "Przerwa lunchowa"
       - "14:00 - 14:45":

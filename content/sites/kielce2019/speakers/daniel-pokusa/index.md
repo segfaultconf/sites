@@ -2,7 +2,7 @@
 type: speaker
 speakername: "Daniel Pokusa"
 presentationtitle: 
-  - "Our industry doesn't work. Tragicomedy in three acts"
+  - "TLS na przykładzie TBD"
 resources:
   - src: "dpokusa-avatar.jpeg"
     name: "photo"
