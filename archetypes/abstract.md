@@ -1,6 +1,6 @@
 ---
 type: abstract
-speakername: ""
-presentationtitle: ""
+speakername: "${speakername}"
+presentationtitle: "${presentationtitle}"
 ---
 presentation's abstract

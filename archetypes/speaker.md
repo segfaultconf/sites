@@ -1,9 +1,10 @@
 ---
 type: speaker
-speakername: ""
-presentationtitle: ""
+speakername: "${speakername}"
+presentationtitle:
+  - "${presentationtitle}"
 resources:
-  - src: "filename.jpg"
+  - src: ""
     name: "photo"
 ---
 speaker's bio

@@ -15,6 +15,10 @@ You can also run local server, with:
 
 Thank you!!!
 
-## how to add new speakers?
+## how to add new presentations?
 
-It is simple under `content/sites/<event>/speakers` create new directory, for example, `jan-kowalski`. Copy ``
+It is simple with helper script:
+
+  ./add-presentation -s "Jan Kowalski" -p "Cool Stuff" -e warszawa2019
+
+where warszawa2019 is slug of conference edition

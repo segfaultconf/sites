@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+set -xe
+
+#check if hugo is installed
+hugo=$(command -v hugo)
+if [[ -z "$hugo" ]]; then
+  echo "Hugo is not installed, please do it, right now ;)"
+fi
+
+slugify () {
+    echo "$1" | iconv -t ascii//TRANSLIT | sed -r s/[~\^]+//g | sed -r s/[^a-zA-Z0-9]+/-/g | sed -r s/^-+\|-+$//g | tr "[:upper:]" "[:lower:]"
+}
+
+speakername=
+presentationtitle=
+edition=
+
+# extract command line options
+while getopts ":s:p:e:" opt; do
+  case $opt in
+    s)
+      speakername=$OPTARG
+      ;;
+    p)
+      presentationtitle=$OPTARG
+      ;;
+    e)
+      edition=$OPTARG
+      ;;
+    \?)
+      echo "Invalid option: -$OPTARG" >&2
+      ;;
+  esac
+done
+
+if [[ -z "$presentationtitle" ]] || [[ -z "$speakername" ]] || [[ -z "$edition" ]]; then
+  echo "missing arguments, like -p \"Cool stuff\" -s \"Kuba Marchwicki\" -e warszawa2019"
+  exit
+fi
+
+presentationslug=$(slugify "$presentationtitle")
+speakerslug=$(slugify "$speakername")
+
+presentationfile="content/sites/$edition/abstracts/$presentationslug/index.md"
+speakerfile="content/sites/$edition/speakers/$speakerslug/index.md"
+
+if [[ ! -f "$presentationfile" ]]; then
+  hugo new -k abstract "$presentationfile"
+  sed -i -e "s/\${presentationtitle}/$presentationtitle/" "$presentationfile"
+  sed -i -e "s/\${speakername}/$speakername/" "$presentationfile"
+fi
+
+if [[ ! -f "$speakerfile" ]]; then
+  hugo new -k speaker "$speakerfile"
+  sed -i -e "s/\${presentationtitle}/$presentationtitle/" "$speakerfile"
+  sed -i -e "s/\${speakername}/$speakername/" "$speakerfile"
+fi
