@@ -43,4 +43,7 @@ resources:
   - src: "senior/Cybercom.png"
     params:
       url: "https://www.cybercom.com/pl/Poland/"
+  - src: "senior/Idemia.jpg"
+    params:
+      url: "https://www.idemia.com"
 ---
