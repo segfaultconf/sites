@@ -52,4 +52,7 @@ resources:
   - src: "community/agileuts.jpg"
     params:
       url: "http://agilenuts.com"
+  - src: "media/wydarzeniait.png"
+    params:
+      url: "https://www.facebook.com/WydarzeniaITwLodzi/"
 ---
