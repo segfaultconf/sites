@@ -46,4 +46,7 @@ resources:
   - src: "senior/Idemia.jpg"
     params:
       url: "https://www.idemia.com"
+  - src: "media/mrdev2.png"
+    params:
+      url: "https://mrdev.pl"
 ---
