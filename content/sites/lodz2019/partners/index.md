@@ -49,4 +49,7 @@ resources:
   - src: "media/mrdev2.png"
     params:
       url: "https://mrdev.pl"
+  - src: "community/agileuts.jpg"
+    params:
+      url: "http://agilenuts.com"
 ---
