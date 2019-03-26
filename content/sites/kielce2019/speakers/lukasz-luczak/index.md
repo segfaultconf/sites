@@ -4,7 +4,7 @@ speakername: Łukasz Łuczak
 presentationtitle:
   - "SOLID Front Endless Architecture"
 resources:
-  - src: "lukasz_luczak.jpg"
+  - src: "foto-lukasz.jpg"
     name: "photo"
 ---
 Inżynier rozwiązujący problemy z wykorzystaniem zdobyczy techniki informacyjnej. Pasjonat nauki i techniki. Wierny wyznawca filozofi TQM oraz Lean. Praktyk zwinnych metodyk oraz pretendent Software Craftmanship.
