@@ -34,4 +34,7 @@ resources:
   - src: "media/nofluff.png"
     params:
       url: "https://nofluffjobs.com/"
+  - src: "conferences/spreadit.png"
+    params:
+      url: "https://spreadit.pl"
 ---

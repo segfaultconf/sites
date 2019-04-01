@@ -55,4 +55,7 @@ resources:
   - src: "media/wydarzeniait.png"
     params:
       url: "https://www.facebook.com/WydarzeniaITwLodzi/"
+  - src: "conferences/spreadit.png"
+    params:
+      url: "https://spreadit.pl"
 ---
