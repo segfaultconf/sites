@@ -37,4 +37,7 @@ resources:
   - src: "conferences/spreadit.png"
     params:
       url: "https://spreadit.pl"
+  - src: "media/KarieraIT.png"
+    params:
+      url: "https://careercon.pl/"
 ---
