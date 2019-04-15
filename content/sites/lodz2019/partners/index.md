@@ -46,6 +46,9 @@ resources:
   - src: "senior/Idemia.jpg"
     params:
       url: "https://www.idemia.com"
+  - src: "senior/CB.jpg"
+    params:
+      url: "https://lodz.commerzbank.pl"
   - src: "media/mrdev2.png"
     params:
       url: "https://mrdev.pl"
@@ -58,4 +61,7 @@ resources:
   - src: "conferences/spreadit.png"
     params:
       url: "https://spreadit.pl"
+  - src: "media/KarieraIT.png"
+    params:
+      url: "https://careercon.pl/"
 ---
