@@ -64,4 +64,7 @@ resources:
   - src: "media/KarieraIT.png"
     params:
       url: "https://careercon.pl/"
+  - src: "architect/softwareMill.png"
+    params:
+      url: https://softwaremill.com/
 ---
