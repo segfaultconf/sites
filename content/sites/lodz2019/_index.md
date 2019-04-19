@@ -34,11 +34,10 @@ agenda:
           - "Najlepszy czas na przygodę z AI - teraz (ale jak zacząć)?"
           - "REST - czy na pewno?"
       - "15:00 - 15:45":
-          - "Legacy Supremacy"
+          - "Wycieczka od góry do dołu"
           - "Zwinna podróż na krańcówkę"
       - "16:00 - 16:15":
           - "Zakończenie"
       - "16:15 - 17:00":
-          - "Wycieczka od góry do dołu"
-          - "TBD"
+          - "Legacy Supremacy"
 ---

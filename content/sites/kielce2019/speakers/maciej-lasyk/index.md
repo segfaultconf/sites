@@ -2,7 +2,7 @@
 type: speaker
 speakername: "Maciej Lasyk"
 presentationtitle:
-  - "Database Reliability"
+  - "8ms latency w 99tym percentylu dla zapisu - czy to szybko? Czyli jak ważne jest \"SRE implements devops\""
 resources:
   - src: "unnamed.jpg"
     name: "photo"

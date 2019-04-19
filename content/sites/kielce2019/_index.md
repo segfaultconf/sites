@@ -4,7 +4,7 @@ status: planned
 title: "SegFault"
 url: kielce2019
 city: Kielce
-eventdate: 
+eventdate:
   start: 2019-05-31
 location:
   name: Kielecki Park Technologiczny
@@ -21,7 +21,7 @@ agenda:
       - "10:00 - 10:45":
           - "Różne znaczenia \"odwracania kontroli\" (IoC) w nowoczesnym JavaScripcie"
       - "11:00 - 11:45":
-          - "Database Reliability"
+          - "8ms latency w 99tym percentylu dla zapisu - czy to szybko? Czyli jak ważne jest \"SRE implements devops\""
       - "12:00 - 12:45":
           - "TLS na przykładzie TBD"
       - "12:45 - 14:00":
