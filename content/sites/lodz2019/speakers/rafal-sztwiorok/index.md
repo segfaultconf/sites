@@ -2,7 +2,7 @@
 type: speaker
 speakername: Rafał Sztwiorok
 presentationtitle:
-  - "Czego nauczyliśmy się o CI/CD tworząc software do CI/CD"
+  - "DevOps od kuchni: Czego nauczyliśmy się o CI/CD tworząc software do CI/CD"
 resources:
   - src: "Raf.png"
     name: "photo"
