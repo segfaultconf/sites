@@ -16,6 +16,9 @@ resources:
   - src: "community/justgeek.png"
     params:
       url: "https://geek.justjoin.it"
+  - src: "community/ŁódźIT.png"
+    params:
+      url: "https://www.meetup.com/IT-Group-in-%C5%81od%C5%BA"
   - src: "media/inn4tech.png"
     params:
       url: "https://inn4.tech"
