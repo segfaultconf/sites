@@ -27,7 +27,7 @@ agenda:
           - "Quest for Glory: So You Want to Be a Hero"
       - "12:00 - 12:45":
           - "Poszły konie po betonie - czyli utrzymaj lejce gdy ciągniesz na wiele procków"
-          - "TBD"
+          - "Czego nauczyliśmy się o CI/CD tworząc software do CI/CD"
       - "12:45 - 14:00":
           - "Przerwa lunchowa"
       - "14:00 - 14:45":
