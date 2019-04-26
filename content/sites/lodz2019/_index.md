@@ -24,7 +24,7 @@ agenda:
           - "Monolit? Mikroserwisy? A czy to ważne?"
       - "11:00 - 11:45":
           - "Right tool for the job, czyli czy ciągle wierzysz w ORM"
-          - "Quest for Glory: So You Want to Be a Hero"
+          - "Architekt i jego skrzynka z narzędziami"
       - "12:00 - 12:45":
           - "Poszły konie po betonie - czyli utrzymaj lejce gdy ciągniesz na wiele procków"
           - "Czego nauczyliśmy się o CI/CD tworząc software do CI/CD"
