@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /js
+Disallow: /docs
+Disallow: /css
+
+Sitemap: https:/segfault.events/sitemap.xml
