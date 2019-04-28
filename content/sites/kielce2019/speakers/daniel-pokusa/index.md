@@ -2,18 +2,9 @@
 type: speaker
 speakername: "Daniel Pokusa"
 presentationtitle: 
-  - "TLS na przykładzie TBD"
+  - "Przychodzi frontend do backenda..."
 resources:
   - src: "dpokusa-avatar.jpeg"
     name: "photo"
 ---
-Pragmatic person fascinated about lean methodologies, automation and efficiency
-on daily basis. Software Developer closely related to JVM languages,
-technical team leader, architect, sometimes delivery manager when its necessary.
-On the other hand trainer and consultant specialized in software quality,
-software architecture, and devops related topics,
-closely cooperating with Symentis Group. Believes that most important thing
-in software development is good communication,
-cooperation and knowledge sharing.
-Co-founder of SpreadIT Community conference and habitual speaker at IT
-conferences and IT-related evens. Blog: http://software-empathy.pl
+Pragmatyk, zapalony zwolennik automatyzacji i efektywności. Z jednej strony programista i architekt (nikt nie jest doskonały!) w Onwelo, ściśle związany z rodziną języków JVM oraz kierownik projektów, z drugiej trener i konsultant w zakresie systemów rozproszonych, jakości, organizacji zespołu i rekrutacji technicznej współpracujący z Symentis. Współtwórca konferencji SpreadIT oraz nałogowy mówca konferencyjny na takich wydarzeniach jak Confitura, 4Developers, JDD, BoilingFrogs, QualityExcites, Greenfield, SegFault, CoreDump i inne. Wierzy, że istotą wytwarzania dobrego oprogramowania jest komunikacja, współpraca i umiejętność dzielenia się wiedzą. W wolnym czasie bloguje na http://software-empathy.pl, a ostatnio nagrywa podcast SpreadIT Talks: https://spreadit.pl/spreadit-talks

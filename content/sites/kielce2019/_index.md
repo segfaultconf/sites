@@ -16,14 +16,16 @@ agenda:
   - tracks:
       - ""
     data:
-      - "9:00 -10:00":
+      - "9:00 - 9:50":
           - Rejestracja uczestników
+      - "9:50 - 10:00":
+          - Rozpoczęcie konferencji
       - "10:00 - 10:45":
           - "Różne znaczenia \"odwracania kontroli\" (IoC) w nowoczesnym JavaScripcie"
       - "11:00 - 11:45":
           - "8ms latency w 99tym percentylu dla zapisu - czy to szybko? Czyli jak ważne jest \"SRE implements devops\""
       - "12:00 - 12:45":
-          - "TLS na przykładzie TBD"
+          - "Przychodzi frontend do backenda..."
       - "12:45 - 14:00":
           - "Przerwa lunchowa"
       - "14:00 - 14:45":
