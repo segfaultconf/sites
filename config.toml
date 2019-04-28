@@ -4,6 +4,7 @@ title = "SegFault - Konferencje IT"
 theme = "segfault"
 googleAnalytics = "UA-113528014-1"
 ignorefiles = [ "automation/.*" ]
+enableRobotsTXT = true
 
 [mediaTypes]
 [mediaTypes."application/yaml"]
