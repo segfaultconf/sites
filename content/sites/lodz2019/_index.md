@@ -1,6 +1,6 @@
 ---
 type: event
-status: planned
+status: archived
 title: "SegFault"
 url: lodz2019
 city: Łódź
