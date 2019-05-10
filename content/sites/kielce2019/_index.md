@@ -21,21 +21,21 @@ agenda:
       - "9:50 - 10:00":
           - Rozpoczęcie konferencji
       - "10:00 - 10:45":
-          - "Różne znaczenia \"odwracania kontroli\" (IoC) w nowoczesnym JavaScripcie"
+          - "Event Storming - Single Source of Truth vs Conway's Law"
       - "11:00 - 11:45":
-          - "8ms latency w 99tym percentylu dla zapisu - czy to szybko? Czyli jak ważne jest \"SRE implements devops\""
+          - "SOLID Front Endless Architecture"
       - "12:00 - 12:45":
-          - "Przychodzi frontend do backenda..."
+          - "8ms latency w 99tym percentylu dla zapisu - czy to szybko? Czyli jak ważne jest \"SRE implements devops\""
       - "12:45 - 14:00":
           - "Przerwa lunchowa"
       - "14:00 - 14:45":
           - "Odporna i elastyczna komunikacja w systemach rozproszonych"
       - "15:00 - 15:45":
-          - "SOLID Front Endless Architecture"
+          - "TBD"
       - "16:00 - 16:45":
           - "Immutable infrastructure as code"
       - "17:00 - 17:15":
           - "Zakończenie konferencji"
       - "17:15 - 18:00":
-          - "Event Storming - Single Source of Truth vs Conway's Law"
+          - "Przychodzi frontend do backenda..."
 ---
