@@ -31,7 +31,7 @@ agenda:
       - "14:00 - 14:45":
           - "Odporna i elastyczna komunikacja w systemach rozproszonych"
       - "15:00 - 15:45":
-          - "TBD"
+          - "10 Web Performance Lessons for the 21st Century"
       - "16:00 - 16:45":
           - "Immutable infrastructure as code"
       - "17:00 - 17:15":
