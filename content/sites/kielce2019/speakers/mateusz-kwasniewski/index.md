@@ -2,7 +2,7 @@
 type: speaker
 speakername: "Mateusz Kwaśniewski"
 presentationtitle:
-  - "10 Web Performance Lessons for the 21st Century"
+  - "10 lekcji z Web Performance na XXI wiek"
 resources:
   - src: "avatar_500x500.jpeg"
     name: "photo"
