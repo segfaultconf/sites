@@ -40,4 +40,10 @@ resources:
   - src: "media/KarieraIT.png"
     params:
       url: "https://careercon.pl/"
+  - src: "media/helion.jpg"
+    params:
+      url: "https://helion.pl"
+  - src: "conferences/bitconf.png"
+    params:
+      url: "https://bitconf.pl"
 ---
