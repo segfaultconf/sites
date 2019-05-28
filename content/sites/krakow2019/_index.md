@@ -13,5 +13,6 @@ location:
   lat: 50.070365
   lng: 19.897430
 status: planned
+registrationlink: https://segfault-krakow-2019.konfeo.com/pl/groups
 logo: unconference.png
 ---
