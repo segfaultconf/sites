@@ -6,13 +6,13 @@ resources:
       url: "https://virtuslab.com"
   - src: "architect/ONWELO.jpg"
     params:
-      url: "https://onwelo.pl"  
+      url: "https://onwelo.pl"
   - src: "architect/altar.png"
     params:
-      url: "https://www.altar.com.pl"  
+      url: "https://www.altar.com.pl"
   - src: "senior/britenet.jpg"
     params:
-      url: "http://www.britenet.com.pl"   
+      url: "http://www.britenet.com.pl"
   - src: "media/raibay-logo-(RBG).jpg"
     params:
       url: "https://www.raibay.com"
@@ -46,4 +46,7 @@ resources:
   - src: "conferences/bitconf.png"
     params:
       url: "https://bitconf.pl"
+  - src: "technological/buddy.png"
+    params:
+      url: "https://buddy.works"
 ---
