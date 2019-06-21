@@ -49,6 +49,22 @@
           {{ partial "speakers.html" . }}
         {{ end }}
 
+        {{ partial "testimonial.html" (dict "Content" "Architektura nic nie dodaje, ani niczego nie odejmuje. Architektura wszystko zmienia!") }}
+
+        <section id="register">
+            <div class="container">
+              <h2>
+                  Zarejestruj się!
+              </h2>              
+              <iframe src="{{ .Params.registrationlink }}/pl/groups?iframe=1" frameborder="0" 
+                width="100%" 
+                scrolling="auto" 
+                style="min-height: 100px">
+              </iframe>
+              <script type="text/javascript" src="{{ .Params.registrationlink }}/iframeResizer.min.js"></script>
+            </div>
+      </section>
+
         {{ block "agenda" . }}
           {{ partial "agenda.html" (dict "pages" .Pages "agenda" .Params.agenda) }}
         {{ end }}

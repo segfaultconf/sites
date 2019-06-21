@@ -11,7 +11,7 @@ location:
   address: ul. Karola Olszewskiego 6, 25-663 Kielce
   lat: 50.894707
   lng: 20.622244
-registrationlink: https://segfault-community-kielce-2019.konfeo.com/pl/groups
+registrationlink: https://segfault-community-kielce-2019.konfeo.com/
 agenda:
   - tracks:
       - ""

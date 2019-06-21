@@ -11,7 +11,7 @@ location:
   address: Al. Politechniki 4
   lat: 51.750985
   lng: 19.450572
-registrationlink: https://segfault-lodz-2019.konfeo.com/pl/groups
+registrationlink: https://segfault-lodz-2019.konfeo.com/
 agenda:
   - tracks:
       - "Ścieżka 1"

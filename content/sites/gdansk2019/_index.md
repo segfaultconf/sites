@@ -14,7 +14,7 @@ location:
   address: ul. Trzy Lipy 3, Gdańsk
   lat: 54.354887
   lng: 18.593410
-registrationlink: https://segfault-university-gdansk-2019.konfeo.com/pl/groups
+registrationlink: https://segfault-university-gdansk-2019.konfeo.com/
 logo: SFU-color-horizontal.png
 social: 
     facebook: img/social_facebook_sf_gdansk.jpg
