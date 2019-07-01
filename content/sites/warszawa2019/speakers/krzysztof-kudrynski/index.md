@@ -6,6 +6,8 @@ presentationtitle:
 resources:
   - src: "kudrynski.jpeg"
     name: "photo"
+images:
+  - "/sites/warszawa2019/speakers/krzysztof-kudrynski/kudrynski.jpeg"
 ---
 
 Krzysztof Kudryński - Senior Deep Learning Engineer w NVIDIA

@@ -2,6 +2,9 @@
 type: abstract
 speakername: "Wojtek Ptak"
 presentationtitle: "Najlepszy czas na przygodę z AI - teraz (ale jak zacząć)?"
+title: "Najlepszy czas na przygodę z AI - teraz (ale jak zacząć)?"
+images:
+  - "/sites/warszawa2019/speakers/wojtek-ptak/wojtek_ptak.jpg"
 ---
 Dookoła nas zalewają nas newsy i reklamy o firmach AI-driven, nasze telefony mają pojedynczy lub podwójny AI (cokolwiek to oznacza). Samochody niedługo pozwolą nam na oglądanie Netflixa wioząc nas do domu. Nie ma większego technologicznego hype-u niż AI. Ale z drugiej strony firmy, które potrafią wykorzystać potencjał nowoczesnych architektur do zbierania i przetwarzania danych, jak i praktycznie zastosować uczenie maszynowe, otwierają nowe możliwości - szybsze i lepsze dopasowanie produktów do klienta, optymalizację procesów, lepsze zrozumienie rynku i swoich możliwości rozwoju.
 

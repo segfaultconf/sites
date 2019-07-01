@@ -2,6 +2,9 @@
 type: abstract
 speakername: "Krzysztof Kudryński"
 presentationtitle: "Deep Learning in Computer Vision"
+title: "Deep Learning in Computer Vision"
+images:
+  -  "/sites/warszawa2019/speakers/krzysztof-kudrynski/kudrynski.jpeg"
 ---
 
 Gdy patrzymy na świat, nasz mózg natychmiast zamienia postrzegane przez nas obrazy w informacje, intuicję i odczucia. Czyni to z ogromnym wysiłkiem obliczeniowym, wykorzystując olbrzymią sieć z niezbadaną dotąd architekturą. Nie jesteśmy nawet bliscy stworzenia maszyny o porównywalnych możliwościach, ale krok po kroku, usprawniając zarówno sprzęt, jak i podejście algorytmiczne, sprawiamy, że maszyny coraz lepiej rozumieją obrazy, które widzą.

@@ -22,26 +22,21 @@
   <meta name="twitter:image:src" content="{{ .Site.BaseURL }}img/social_facebook_sf.jpg">
   {{ end }}
   <!-- Social: Facebook / Open Graph -->
-  <meta property="og:title"  content="{{ .Params.title | default "SegFault - wszyscy jesteśmy architektami" }}">
-  <meta property="og:site_name" content="{{ .Params.title | default "SegFault - wszyscy jesteśmy architektami" }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ .Site.BaseURL }}">
-  <meta property="og:image" content="{{ .Site.BaseURL }}img/social_facebook_sf.jpg">
-  <meta property="og:description" content="{{ with .Params.eventdate.start }}{{ . }}, {{ end }}{{ .Params.title | default "Segfault, ponieważ zrozumienie fundamentów umożliwia ciągły rozwój nie tylko branży IT, ale i nas samych." }}{{ with .Params.location }} - {{ .name }}{{end}}">
+  {{ template "_internal/opengraph.html" . }}
 
   <link rel="shortcut icon" href="/img/favicon.png">
 
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,300,400">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Sedgwick+Ave">    
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Sedgwick+Ave">
   <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.6.3/css/all.css">
   <link rel="stylesheet" href="/css/main.css?{{ now.Unix }}">
-    
+
   <script type="text/javascript" src="//code.jquery.com/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
   <script type="text/javascript" src="//stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="/js/main.js?{{ now.Unix }}"></script>      
+  <script type="text/javascript" src="/js/main.js?{{ now.Unix }}"></script>
 
   {{ if not .Site.IsServer }}
   {{ partial "google_adwords.html" . }}
