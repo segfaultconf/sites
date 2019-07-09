@@ -9,4 +9,5 @@ resources:
 images:
   - "/sites/warszawa2019/speakers/piotr-guzik/pg.jpg"
 ---
-speaker's bio
+CEO i współzałożyciel Datumo. Moją pasją jest tworzenie
+ użytecznego oprogramowania. Zakochany w DDD i Druid.io
