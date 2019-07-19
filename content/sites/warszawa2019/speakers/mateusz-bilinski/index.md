@@ -2,7 +2,7 @@
 type: speaker
 speakername: "Mateusz Biliński"
 presentationtitle:
-  - "TBD"
+  - "Bezpieczeństwo w czasach automatyzacji"
 resources:
   - src: "MateuszBilinski_2019_SegfaultWAW.jpg"
     name: "photo"
