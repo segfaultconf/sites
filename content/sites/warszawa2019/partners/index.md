@@ -7,4 +7,7 @@ resources:
   - src: "media/mrdev2.png"
     params:
       url: "https://mrdev.pl"
+  - src: "technological/buddy.png"
+    params:
+      url: "https://buddy.works"
 ---
