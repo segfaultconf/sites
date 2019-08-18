@@ -68,5 +68,5 @@ resources:
       url : "https://crossweb.pl"            
   - src: "media/Nofluffjobs.png"
     params:
-      url : "https://crossweb.pl"            
+      url : "https://nofluffjobs.com"            
 ---
