@@ -30,9 +30,6 @@ resources:
     params:
       url : "http://jsession.pl"      
   - src: "community/trojmiasto-jug.png"
-  - src: "community/WroclawJUG.png"
-    params:
-      url : "http://wroclaw.jug.pl"      
   - src: "media/programista-na-swoim-1000x500-trans.png"
     params:
       url : "https://programistanaswoim.pl"      
