@@ -2,7 +2,7 @@
 type: speaker
 speakername: "Wojciech Rząsa"
 presentationtitle:
-  - "Mikroserwisy -- od HTTP do Kafki"
+  - "Mikroserwisy - od HTTP do Kafki"
 resources:
   - src: "wrzasa.jpg"
     name: "photo"
