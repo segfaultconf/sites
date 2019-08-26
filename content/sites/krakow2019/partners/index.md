@@ -59,7 +59,7 @@ resources:
       url : "https://spreadit.pl"            
   - src: "conferences/dotnetos_logo_big.png"
     params:
-      url : "https://tour.dotnetos.org"    
+      url : "https://dotnetos.org"    
   - src: "conferences/datamass.png"
     params:
       url : "http://summit.datamass.io"            
