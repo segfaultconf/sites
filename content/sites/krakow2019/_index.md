@@ -24,28 +24,28 @@ agenda:
         - "Otwarcie konferencji"
       - "9:30 - 10:15":
         - "Loosely coupled architecture - jak pozbyć się efektu domina"
-        - "Shell, tmux, vim - krótka historia o ostrzeniu piły"
+        - "Have you ever wondered about code review?"
       - "10:30 - 11:15":
         - "TBD"
         - "Stres, pies i wypalenie"
       - "11:30 - 12:15":
         - "TBD"
         - "#ąęszcz"
-      - "12:30 - 14:00":
+      - "12:30 - 13:30":
         - "PRZERWA OBIADOWA"
-      - "14:00 - 14:45":
+      - "13:30 - 14:15":
         - "TBD"
         - "Relatywizm języków programowania"
-      - "15:00 - 15:45":
+      - "14:30 - 15:15":
         - "Mikroserwisy - od HTTP do Kafki"
         - "Jestem oszustem"
-      - "16:00 - 16:45":
-        - "Have you ever wondered about code review?"
+      - "15:30 - 16:15":
+        - "Shell, tmux, vim - krótka historia o ostrzeniu piły"
         - "Is your feedback meeting about money?"
-      - "17:00 - 17:45":
+      - "16:30 - 17:15":
         - "Mów do mnie czule – jak się komunikować i przyśpieszyć swoją karierę."
         - "Immutable tests"
-      - "18:00 - 18:45":
+      - "17:30 - 18:15":
         - "Nie tylko dla ojców - jak wychowując dzieci nauczyłem się być lepszym programistą"
         - "Jak DDD ma się do Architektury?"
       - "20:00 - ":
@@ -57,10 +57,10 @@ agenda:
       - "TBD"
     - "10:30 - 12:30":
       - "UnConference"
-    - "12:30 - 14:00":
+    - "12:30 - 13:30":
       - "PRZERWA OBIADOWA"
-    - "14:00 - 18:00":
+    - "13:30 - 17:00":
       - "UnConference"
-    - "18:00 - 18:45":
+    - "17:00 - 17:45":
       - "Boiling water - the hard way"
 ---
