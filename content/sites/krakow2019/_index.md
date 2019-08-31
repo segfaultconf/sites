@@ -34,7 +34,7 @@ agenda:
       - "12:30 - 13:30":
         - "PRZERWA OBIADOWA"
       - "13:30 - 14:15":
-        - "TBD"
+        - "SR9KRA-6:=BOOT NR 65536"
         - "Relatywizm języków programowania"
       - "14:30 - 15:15":
         - "Mikroserwisy - od HTTP do Kafki"
