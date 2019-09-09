@@ -20,7 +20,7 @@
             <div class="col-md-12">
                 <a href="#about" id="next"><i class="fas fa-chevron-down"></i></a>
             </div>
-        
+
         </div>
     </section>
 
@@ -50,7 +50,7 @@
             <h2>Rada programowa</h2>
             <div id="council-members">
                 <div class="d-flex flex-wrap container-fluid">
-                    {{ range where (where .Site.Pages "Section" "committee") "Kind" "page"}}                    
+                    {{ range where (where .Site.Pages "Section" "committee") "Kind" "page"}}
                     <div id="header-{{ .Params.memberphoto }}" class="council-member col-12 col-sm-6 col-md-3" data-toggle="collapse" data-target="#collapse-{{ .Params.memberphoto }}" aria-expanded="true" aria-controls="collapse-{{ .Params.memberphoto }}">
                         <!-- <a href="#council" class="nav-link"> -->
                         {{ with .Parent.Resources.GetMatch .Params.memberphoto }}
@@ -59,7 +59,7 @@
                         <h3>{{ .Params.membername }}</h3>
                         <span>{{ .Params.memberposition }}</span>
                         <!-- </a> -->
-                    </div>                    
+                    </div>
                     {{ end }}
                 </div>
                 <div id="members-bio" class="member-bio">
@@ -111,7 +111,7 @@
                                     {{ .Title }} {{ .Params.city }} <br>
                                     {{ partial "event-date.html" .Params.eventdate }}
                             </a>
-                        </div>  
+                        </div>
                         {{ end }}
                     {{ end }}
                 {{ end }}
@@ -132,7 +132,7 @@
                     <a href="https://www.youtube.com/channel/UCV38Do_3C5uVk3lWePkyxTA"><i class="fab fa-youtube"></i></a>
                 </div>
                 <div class="col-2 col-md-1">
-                    <a href="mailto:partnerzy@coredump.events"><i class="fa fa-envelope"></i></a>
+                    <a href="mailto:partnerzy@segfault.events"><i class="fa fa-envelope"></i></a>
                 </div>
             </div>
 
@@ -147,10 +147,10 @@
                                 <a href="{{ .Permalink }}" class="text-nowrap white-text button-like" aria-label="{{ .Params.city }} - {{ partial "event-date.html" .Params.eventdate }}">
                                     {{ partial "event-date.html" .Params.eventdate }}, {{ .Params.city }}
                                 </a>
-                            </li>  
+                            </li>
                             {{ end }}
                         {{ end }}
-                    {{ end }}        
+                    {{ end }}
                     </ul>
                 </figure>
             </div>
@@ -158,9 +158,9 @@
             <div class="col-md-12">
                 <span id="copyright">Copyright © SegFault</span>
             </div>
-        
+
         </div>
       </footer>
-  
+
 </body>
 </html>
