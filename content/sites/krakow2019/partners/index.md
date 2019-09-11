@@ -74,5 +74,8 @@ resources:
       url : "https://radekmaziarka.pl/pl/"     
   - src: "media/Nofluffjobs.png"
     params:
-      url : "https://nofluffjobs.com"                   
+      url : "https://nofluffjobs.com"  
+  - src: "media/thumbnail.png"
+    params:
+      url : "https://festiwalcyfryzacji.pl/"  
 ---

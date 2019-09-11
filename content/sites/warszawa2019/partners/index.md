@@ -65,5 +65,8 @@ resources:
       url : "https://crossweb.pl"            
   - src: "media/Nofluffjobs.png"
     params:
-      url : "https://nofluffjobs.com"            
+      url : "https://nofluffjobs.com"     
+  - src: "media/thumbnail.png"
+    params:
+      url : "https://festiwalcyfryzacji.pl/"  
 ---
