@@ -26,7 +26,7 @@ agenda:
         - "Loosely coupled architecture - jak pozbyć się efektu domina"
         - "Have you ever wondered about code review?"
       - "10:30 - 11:15":
-        - "TBD"
+        - "EventSourcing & CQRS – zima nadchodzi!"
         - "Stres, pies i wypalenie"
       - "11:30 - 12:15":
         - "TBD"
