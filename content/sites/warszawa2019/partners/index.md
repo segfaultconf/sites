@@ -69,4 +69,10 @@ resources:
   - src: "media/thumbnail.png"
     params:
       url : "https://festiwalcyfryzacji.pl/"  
+  - src: "media/dailyweb cmyk black.png"
+    params:
+      url : "https://dailyweb.pl/"  
+  - src: "media/kobiety_do_kodu.png"
+    params:
+      url : "https://kobietydokodu.pl"  
 ---
