@@ -23,7 +23,7 @@ agenda:
       - "10:00 - 10:45":
           - "Najlepszy czas na przygodę z AI - teraz (ale jak zacząć)?"
       - "11:00 - 11:45":
-          - "Magia algorytmów - od dużych do małych danych"
+          - "Data Science nie działa"
       - "12:00 - 12:45":
           - "Mówiąc językiem użytkownika - o zastosowaniach NLP w systemie rekomendacyjnym"
       - "12:45 - 14:00":
@@ -33,7 +33,7 @@ agenda:
       - "15:00 - 15:45":
           - "Budowanie platformy Big Data - od zera do bohatera"
       - "16:00 - 16:45":
-          - "Data Science nie działa"
+          - "Wyszukiwanie wizualne, uczenie maszynowe i Pokemony"
       - "17:00 - 17:15":
           - "Zakończenie konferencji"
       - "17:15 - 18:00":
