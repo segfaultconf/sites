@@ -75,4 +75,20 @@ resources:
   - src: "media/kobiety_do_kodu.png"
     params:
       url : "https://kobietydokodu.pl"  
+  - src: "media/Poradnik_Przedsiebiorcy.svg"
+    params:
+      url : "https://poradnikprzedsiebiorcy.pl"
+  - src: "conferences/j-santa-logo.png"  
+  - src: "media/codeCouple.png"
+    params:
+      url : "https://codecouple.pl"
+  - src: "media/logo-bw-1000x1000.jpg"
+    params:
+      url : "https://devwarsztaty.pl"
+  - src: "media/Logo_Type.png"
+    params:
+      url : "https://www.simplecoding.pl"
+  - src: "conferences/color_gray@4x.png"
+    params:
+      url : "https://devfest.wroclaw.pl"
 ---
