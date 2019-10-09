@@ -91,4 +91,7 @@ resources:
   - src: "conferences/color_gray@4x.png"
     params:
       url : "https://devfest.wroclaw.pl"
+  - src: "media/wyborcza_pl-warszawa.jpg"
+    params:
+      url : "http://warszawa.wyborcza.pl/"      
 ---
