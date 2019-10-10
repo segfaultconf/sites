@@ -1,6 +1,9 @@
 ---
 headless: true
 resources:
+  - src: "media/Awyborcza_pl-warszawa.jpg"
+    params:
+      url : "http://warszawa.wyborcza.pl/"      
   - src: "community/JUGWroclaw.png"
     params:
       url: "http://wroclaw.jug.pl"
@@ -91,7 +94,4 @@ resources:
   - src: "conferences/color_gray@4x.png"
     params:
       url : "https://devfest.wroclaw.pl"
-  - src: "media/wyborcza_pl-warszawa.jpg"
-    params:
-      url : "http://warszawa.wyborcza.pl/"      
 ---
