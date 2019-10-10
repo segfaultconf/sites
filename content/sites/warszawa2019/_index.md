@@ -29,7 +29,7 @@ agenda:
       - "12:45 - 14:00":
           - "Przerwa lunchowa"
       - "14:00 - 14:45":
-          - "Bezpieczeństwo w czasach automatyzacji"
+          - "Skazani na Pythona?"
       - "15:00 - 15:45":
           - "Budowanie platformy Big Data - od zera do bohatera"
       - "16:00 - 16:45":
