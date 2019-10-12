@@ -29,7 +29,7 @@ agenda:
         - "EventSourcing & CQRS – zima nadchodzi!"
         - "Stres, pies i wypalenie"
       - "11:30 - 12:15":
-        - "TBD"
+        - "Cienie i blaski Event Driven Design"
         - "#ąęszcz"
       - "12:30 - 13:30":
         - "PRZERWA OBIADOWA"
