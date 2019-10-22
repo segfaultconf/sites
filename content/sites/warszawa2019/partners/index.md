@@ -97,5 +97,7 @@ resources:
   - src: "media/image001.png"
     params:
       url : "https://ceo.com.pl/"
-
+  - src: "media/SI-logo-podstawowe-+-www-[RGB].png"
+    params:
+      url : "https://sztucznainteligencja.org.pl/"
 ---

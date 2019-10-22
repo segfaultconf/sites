@@ -3,6 +3,7 @@ type: speaker
 speakername: "Wojtek Ptak"
 presentationtitle:
   - "Najlepszy czas na przygodę z AI - teraz (ale jak zacząć)?"
+  - "Zwalczanie phishingu i spamu za pomocą uczenia maszynowego  w strumieniach danych"
 resources:
   - src: "wojtek_ptak.jpg"
     name: "photo"

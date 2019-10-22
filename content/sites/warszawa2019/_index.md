@@ -31,7 +31,7 @@ agenda:
       - "14:00 - 14:45":
           - "Skazani na Pythona?"
       - "15:00 - 15:45":
-          - "Budowanie platformy Big Data - od zera do bohatera"
+          - "Zwalczanie phishingu i spamu za pomocą uczenia maszynowego  w strumieniach danych"
       - "16:00 - 16:45":
           - "Wyszukiwanie wizualne, uczenie maszynowe i Pokemony"
       - "17:00 - 17:15":
