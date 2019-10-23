@@ -10,6 +10,9 @@ resources:
   - src: "media/mrdev2.png"
     params:
       url: "https://mrdev.pl"
+  - src: "media/Bimage001.png"
+    params:
+      url : "https://ceo.com.pl/"
   - src: "technological/buddy.png"
     params:
       url: "https://buddy.works"
@@ -94,13 +97,13 @@ resources:
   - src: "conferences/color_gray@4x.png"
     params:
       url : "https://devfest.wroclaw.pl"
-  - src: "media/image001.png"
-    params:
-      url : "https://ceo.com.pl/"
   - src: "media/SI-logo-podstawowe-+-www-[RGB].png"
     params:
       url : "https://sztucznainteligencja.org.pl/"
   - src: "media/Outsourcing_Portal.png"
     params:
       url : "http://www.outsourcingportal.eu/pl/"
+  - src: "media/Z600_468707544.jpeg"
+    params:
+      url : "https://www.meetup.com/IT-w-Warszawie/"      
 ---
