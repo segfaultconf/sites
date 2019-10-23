@@ -100,4 +100,7 @@ resources:
   - src: "media/SI-logo-podstawowe-+-www-[RGB].png"
     params:
       url : "https://sztucznainteligencja.org.pl/"
+  - src: "media/Outsourcing_Portal.png"
+    params:
+      url : "http://www.outsourcingportal.eu/pl/"
 ---
