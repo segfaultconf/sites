@@ -106,4 +106,5 @@ resources:
   - src: "media/Z600_468707544.jpeg"
     params:
       url : "https://www.meetup.com/IT-w-Warszawie/"      
+  - src: "media/image001.png"
 ---
