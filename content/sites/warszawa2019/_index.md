@@ -5,7 +5,7 @@ url: warszawa2019
 city: Warszawa
 eventdate:
     start: 2019-10-25
-status: planned
+status: archived
 registrationlink: https://segfault-warszawa-2019.konfeo.com/
 location:
   name: Centrum konferencyjno – szkoleniowe Golden Floor Tower
