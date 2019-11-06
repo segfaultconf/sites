@@ -13,6 +13,12 @@ resources:
   - src: "architect/softawareMill.png"
     params:
       url: "https://softwaremill.com"
+  - src: "architect/dynatrace.png"
+    params:
+      url: "https://www.dynatrace.com/"
+  - src: "architect/g2a_logo_rgb_basic_on_white.png"
+    params:
+      url: "https://www.g2a.com/"
   - src: "conferences/RzemiosloIT.png"
     params:
       url: "https://rzemioslo.it/"
