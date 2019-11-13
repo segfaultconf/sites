@@ -103,4 +103,23 @@ resources:
   - src: "conferences/color_gray@4x.png"
     params:
       url : "https://devfest.wroclaw.pl"
+  - src: "principal/Karhoo.png"
+    params:
+      url : "https://www.karhoo.com/"
+  - src: "community/Meetup-krk-1.png"
+    params:
+      url : "https://www.meetup.com/Networking-IT-KRK/"
+  - src: "media/bulldogjob_logo_black.png"
+    params:
+      url : "http://www.bulldogjob.pl"
+  - src: "media/bulldogjob_logo_black.png"
+    params:
+      url : "http://www.bulldogjob.pl"
+  - src: "community/01_sjug-logo_transparent-bg.png"
+    params:
+      url : "https://wroclaw.jug.pl/"
+  - src: "community/kgd_logo.jpeg"
+    params:
+      url : "https://www.meetup.com/KGD-NET/"
+  - src: "community/01_sjug-logo_transparent-bg.png"
 ---
