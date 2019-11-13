@@ -115,6 +115,9 @@ resources:
   - src: "media/bulldogjob_logo_black.png"
     params:
       url : "http://www.bulldogjob.pl"
+  - src: "media/strefakodera-logo.jpg"
+    params:
+      url : "http://strefakodera.pl/"
   - src: "community/01_sjug-logo_transparent-bg.png"
     params:
       url : "https://wroclaw.jug.pl/"

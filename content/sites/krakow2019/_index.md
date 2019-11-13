@@ -54,7 +54,7 @@ agenda:
     - "Track 1"
     data:
     - "9:30 - 10:15":
-      - "TBD"
+      - "Produktywny programista"
     - "10:30 - 12:30":
       - "UnConference"
     - "12:30 - 13:30":

@@ -2,7 +2,7 @@
 type: speaker
 speakername: "Piotr Nabielec"
 presentationtitle:
-  - "Niespodzianka !!!"
+  - "Produktywny programista"
 resources:
   - src: "piotrek-nabielec-bw.jpg"
     name: "photo"
