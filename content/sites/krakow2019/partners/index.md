@@ -125,4 +125,13 @@ resources:
     params:
       url : "https://www.meetup.com/KGD-NET/"
   - src: "community/01_sjug-logo_transparent-bg.png"
+  - src: "media/Outsourcing_Portal.png"
+    params:
+      url : "http://www.outsourcingportal.eu/pl/"
+  - src: "community/Z600_468707544.jpeg"
+    params:
+      url : "https://www.meetup.com/IT-w-Warszawie/"      
+  - src: "community/Talk4Devs_logo_2_no_bg_RGB.png"
+    params:
+      url : "http://talk4devs.j-labs.pl/"      
 ---
