@@ -133,5 +133,8 @@ resources:
       url : "https://www.meetup.com/IT-w-Warszawie/"      
   - src: "community/Talk4Devs_logo_2_no_bg_RGB.png"
     params:
-      url : "http://talk4devs.j-labs.pl/"      
+      url : "http://talk4devs.j-labs.pl/"     
+  - src: "media/WYBORCZA_PL_DUZE.png"
+    params:
+      url : "http://wyborcza.pl/"            
 ---
