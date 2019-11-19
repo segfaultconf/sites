@@ -20,6 +20,8 @@ agenda:
       - "Ścieżka 1"
       - "Ścieżka 2"
     data:
+      - "8:30 - 9:15":
+        - "Rejestracja"
       - "9:15 - 9:30":
         - "Otwarcie konferencji"
       - "9:30 - 10:15":
@@ -48,8 +50,8 @@ agenda:
       - "17:30 - 18:15":
         - "Nie tylko dla ojców - jak wychowując dzieci nauczyłem się być lepszym programistą"
         - "Jak DDD ma się do Architektury?"
-      - "20:00 - ":
-        - "After party"
+      - "20:30 - ":
+        - "After party - Barka vis a vi, Podgórska 16, Kraków"
   - tracks:
     - "Track 1"
     data:
