@@ -50,8 +50,8 @@ agenda:
       - "17:30 - 18:15":
         - "Nie tylko dla ojców - jak wychowując dzieci nauczyłem się być lepszym programistą"
         - "Jak DDD ma się do Architektury?"
-      - "20:30 - ":
-        - "After party - Barka vis a vi, Podgórska 16, Kraków"
+      - "20:30 - 00:00":
+        - "After party - Barka, vis-a-vi ul. Podgórska 16, Kraków"
   - tracks:
     - "Track 1"
     data:
