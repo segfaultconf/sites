@@ -1,6 +1,12 @@
 ---
 headless: true
 resources:
+  - src: "media/poradnik.png"
+    params:
+      url: "https://poradnikprzedsiebiorcy.pl/"
+  - src: "after/worldremit.svg"
+    params:
+      url: "https://worldremit.com"
   - src: "media/mrdev2.png"
     params:
       url: "https://mrdev.pl"
@@ -126,6 +132,9 @@ resources:
       url : "https://www.meetup.com/KGD-NET/"
   - src: "community/01_sjug-logo_transparent-bg.png"
   - src: "media/Outsourcing_Portal.png"
+    params:
+      url : "http://www.outsourcingportal.eu/pl/"
+  - src: "media/OM.png"
     params:
       url : "http://www.outsourcingportal.eu/pl/"
   - src: "community/Z600_468707544.jpeg"
