@@ -146,4 +146,7 @@ resources:
   - src: "media/WYBORCZA_PL_DUZE.png"
     params:
       url : "http://wyborcza.pl/"            
+  - src: "media/helion.jpg"
+    params:
+      url : "https://helion.pl/"            
 ---
