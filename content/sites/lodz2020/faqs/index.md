@@ -1,4 +1,0 @@
----
-type: faqs
-faqs:
----
