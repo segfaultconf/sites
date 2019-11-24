@@ -148,5 +148,8 @@ resources:
       url : "http://wyborcza.pl/"            
   - src: "media/helion.jpg"
     params:
-      url : "https://helion.pl/"            
+      url : "https://helion.pl/"
+  - src: "media/SI-logo-podstawowe-+-www-[RGB].png"
+    params:
+      url : "https://sztucznainteligencja.org.pl/"            
 ---
