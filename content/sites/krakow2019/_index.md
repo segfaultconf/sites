@@ -12,7 +12,7 @@ location:
   address: Orzechowa 11, 30-422 Kraków
   lat: 50.012763
   lng: 19.923867
-status: planned
+status: archived
 registrationlink: https://segfault-krakow-2019.konfeo.com/
 logo: unconference.png
 agenda:
