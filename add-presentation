@@ -8,7 +8,11 @@ if [[ -z "$hugo" ]]; then
 fi
 
 slugify () {
+  if [[ "$OSTYPE" == "darwin"* ]]; then
+    echo "$1" | iconv -t ascii//TRANSLIT | sed -E 's/'\''//g' | sed -E 's/[~\^]+//g' | sed -E 's/[^a-zA-Z0-9]+/-/g' | sed -E 's/^-+\|-+$//g' | sed -E 's/^-+//g' | sed -E 's/-+$//g' | tr A-Z a-z
+  else
     echo "$1" | iconv -t ascii//TRANSLIT | sed -r s/[~\^]+//g | sed -r s/[^a-zA-Z0-9]+/-/g | sed -r s/^-+\|-+$//g | tr "[:upper:]" "[:lower:]"
+  fi
 }
 
 speakername=
@@ -46,12 +50,22 @@ speakerfile="content/sites/$edition/speakers/$speakerslug/index.md"
 
 if [[ ! -f "$presentationfile" ]]; then
   hugo new -k abstract "$presentationfile"
-  sed -i -e "s/\${presentationtitle}/$presentationtitle/" "$presentationfile"
-  sed -i -e "s/\${speakername}/$speakername/" "$presentationfile"
+  if [[ "$OSTYPE" == "darwin"* ]]; then
+    sed -i '' -e "s/\${presentationtitle}/$presentationtitle/" "$presentationfile"
+    sed -i '' -e "s/\${speakername}/$speakername/" "$presentationfile"
+  else
+    sed -i -e "s/\${presentationtitle}/$presentationtitle/" "$presentationfile"
+    sed -i -e "s/\${speakername}/$speakername/" "$presentationfile"
+  fi
 fi
 
 if [[ ! -f "$speakerfile" ]]; then
   hugo new -k speaker "$speakerfile"
-  sed -i -e "s/\${presentationtitle}/$presentationtitle/" "$speakerfile"
-  sed -i -e "s/\${speakername}/$speakername/" "$speakerfile"
+  if [[ "$OSTYPE" == "darwin"* ]]; then
+    sed -i '' -e "s/\${presentationtitle}/$presentationtitle/" "$speakerfile"
+    sed -i '' -e "s/\${speakername}/$speakername/" "$speakerfile"
+  else
+    sed -i -e "s/\${presentationtitle}/$presentationtitle/" "$speakerfile"
+    sed -i -e "s/\${speakername}/$speakername/" "$speakerfile"
+  fi
 fi
