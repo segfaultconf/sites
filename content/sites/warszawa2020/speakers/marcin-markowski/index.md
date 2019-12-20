@@ -5,6 +5,7 @@ speakername: "Marcin Markowski"
 #   - "Jak DDD ma się do Architektury?"
 presentationtype: 
   - warsztat
+  - eventStorming
 resources:
   - src: "Marcin.png"
     name: "photo"

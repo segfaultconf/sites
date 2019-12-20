@@ -5,6 +5,7 @@ speakername: "Krzysztof Kudryński"
 #    - "Deep Learning in Computer Vision"
 presentationtype: 
   - prezentacja
+  - deepLearning
 resources:
   - src: "kudrynski.jpeg"
     name: "photo"

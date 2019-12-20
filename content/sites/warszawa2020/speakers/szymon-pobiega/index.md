@@ -5,6 +5,7 @@ presentationtitle:
   - "Spójna komunikacja asynchroniczna w Chmurze. Jak budować niezawodne system z zawodnych komponentów."
 presentationtype: 
   - warsztat
+  - distributedSystems
 resources:
   - src: "pobiega.jpg"
     name: "photo"

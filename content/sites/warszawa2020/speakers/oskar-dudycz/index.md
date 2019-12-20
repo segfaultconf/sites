@@ -5,6 +5,7 @@ speakername: "Oskar Dudycz"
 #   - "Cienie i blaski Event Driven Design"
 presentationtype: 
   - warsztat
+  - eventSourcing
 resources:
   - src: "seg-fault.jpg"
     name: "photo"

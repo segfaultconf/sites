@@ -5,6 +5,7 @@ presentationtitle:
   - "DeepLearning dla programistów Javy"
 presentationtype: 
   - warsztat
+  - deepLearning
 resources:
   - src: "marek_bedkowski_speaker.png"
     name: "photo"

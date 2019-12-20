@@ -5,6 +5,7 @@ presentationtitle:
   - "Co robi twoja aplikacja, kiedy rodziców nie ma w domu. Kilka słów o Elastic APM"
 presentationtype: 
   - warsztat
+  - monitoring
 resources:
   - src: "zbyszko-papierski.jpg"
     name: "photo"
