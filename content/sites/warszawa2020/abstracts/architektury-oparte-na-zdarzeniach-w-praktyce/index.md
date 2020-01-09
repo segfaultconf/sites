@@ -1,0 +1,6 @@
+---
+type: abstract
+speakername: "Oskar Dudycz"
+presentationtitle: "Architektury oparte na zdarzeniach w praktyce"
+---
+Architektury oparte na zdarzeniach zyskują coraz większą popularność. Dzięki swojej naturze nadają się bardzo dobrze do skalowalnych, rozproszonych systemów oraz pozwalają łatwiej modelować procesy biznesowe (np. przy pomocy Event Storming). Jednak systemy te niosą ze sobą ryzyka oraz skomplikowanie, które nie są wspominae w blogach czy wystąpieniach. W trakcie warsztatów przyjrzymy się pragmatycznie takim terminom jak Idempotency, Eventual i Causal Consistency, Events ordering itd, szyny zdarzeń (np. Kafka).. Wszystko to poparte konkretnymi zadaniami i praktycznymi przykładami opartymi na rzeczywistych systemach. Warsztaty będą prowadzone w C# i .NET Core, jego podstawowa znajmość jest konieczna do efektywnego przerobienia zadań, ale osoby znające Javę też po przygotowaniu powinny być w stanie wziąć w nich udział. Nacisk będzie położony na rozwiązywanie problemów systemów rozproszonych niż samą technologię.

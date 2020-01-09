@@ -1,6 +1,8 @@
 ---
 type: abstract
-speakername: "Szymon Pobiega"
+speakername: 
+    - "Szymon Pobiega"
+    - "Tomasz Masternak"
 presentationtitle: "Spójna komunikacja asynchroniczna w Chmurze. Jak budować niezawodne system z zawodnych komponentów."
 ---
 Budowa systemów rozproszonych, które gwarantują spójność danych nie jest rzeczą łatwą. Wyzwanie staje się jeszcze większe, kiedy nie możemy bazować na stabilnych fundamentach, jakie dają transakcje rozproszone lub chociażby dobrze znane z baz danych transakcje obejmujące wiele rekordów.

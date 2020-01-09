@@ -10,6 +10,6 @@ resources:
   - src: "pobiega.jpg"
     name: "photo"
 ---
-Szymon Pobiega used to work on various business software for almost a decade. Of all the ideas and petterns he learnt along the way, messaging had the most profound impact. He built his first micro service system with MSMQ and NServiceBus 1.9 some 9 years ago and this was a life-changing experience.
+Szymon pracuje jako inżynier w Particular Software gdzie pomoga rozwijać NServiceBus -- najpopularniejszy framework do komunikacji asynchronicznej w .NET. W przeszłości Szymon specjalizował się w Domain-Driven Design oraz podejsciu event-driven. Aktualnie skupia architekturze systemów rozproszonych, w których komponenty komunikują się asynchronicznie.
 
-Over three years ago Szymon quit consulting and joined Particular Software with hope to use his field experience to make NServiceBus even better. Szymon is focused, in Particular (pun intended), on message routing patterns and handling of failures. Besides that he enjoys building remotely controlled vehicles with Lego.
+Szymon jest współautorem https://exactly-once.github.io/.
