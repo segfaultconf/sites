@@ -3,6 +3,7 @@ type: speaker
 speakername: "Piotr Przybył"
 presentationtitle:
   - "Jigsaw. Moduły w (nowej) Javie"
+  - "Java 12, 13, 14. Nowości godne uwagi."
 presentationtype: 
   - warsztat
   - modularnośćJavy
