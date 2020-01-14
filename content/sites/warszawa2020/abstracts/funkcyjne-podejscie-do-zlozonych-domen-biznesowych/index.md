@@ -1,6 +1,8 @@
 ---
 type: abstract
-speakername: "Krzysztof Kruczyński"
+speakername: 
+ - "Krzysztof Kruczyński"
+ - "Szymon Gąsienica-Kotelnicki"
 presentationtitle: "Funkcyjne podejście do złożonych domen biznesowych"
 ---
 

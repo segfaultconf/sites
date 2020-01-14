@@ -3,8 +3,10 @@ type: speaker
 speakername: "Krzysztof Kruczyński"
 presentationtitle:
   - "Funkcyjne podejście do złożonych domen biznesowych"
+  - "Lambda-driven business domains"
 presentationtype: 
   - warsztat
+  - prezentacja
   - programowanieFunkcyjne
 resources:
   - src: "krzysiek-kruczynski.png"

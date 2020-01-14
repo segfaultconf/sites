@@ -6,6 +6,7 @@ presentationtitle:
   - "Java 12, 13, 14. Nowości godne uwagi."
 presentationtype: 
   - warsztat
+  - prezentacja
   - modularnośćJavy
 resources:
   - src: "me5.jpg"
