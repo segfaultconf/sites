@@ -41,6 +41,8 @@ resources:
     params:
       url : "https://www.meetup.com/pl-PL/Kielce-Java-User-Group/"
   - src: "community/JUGLodz-M.png"
+    params:
+      url : "https://www.meetup.com/Java-User-Group-Lodz/"
   - src: "community/jSession.png"
     params:
       url : "http://jsession.pl"
