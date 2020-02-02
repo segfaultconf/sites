@@ -19,6 +19,9 @@ resources:
   - src: "architect/softawareMill.png"
     params:
       url: "https://softwaremill.com"
+  - src: "architect/ONWELO.jpg"
+    params:
+      url: "https://onwelo.pl"
   - src: "architect/dynatrace.png"
     params:
       url: "https://www.dynatrace.com/"
@@ -50,6 +53,9 @@ resources:
   - src: "community/WroclawJUG.png"
     params:
       url : "http://wroclaw.jug.pl"      
+  - src: "community/JUGzielonagora.png"
+    params:
+      url : "http://zielona-gora-jug.github.io"
   - src: "media/programista-na-swoim-1000x500-trans.png"
     params:
       url : "https://programistanaswoim.pl"      
@@ -99,6 +105,8 @@ resources:
     params:
       url : "https://kobietydokodu.pl"  
   - src: "conferences/j-santa-logo.png"
+    params:
+      url : "https://j-santa.pl" 
   - src: "media/codeCouple.png"
     params:
       url : "https://codecouple.pl"
