@@ -1,8 +1,8 @@
 ---
 type: speaker
 speakername: Piotr Wyczesany
-# presentationtitle: 
-#   - "Wykorzystanie podejścia Domain-Driven Design w systemach legacy"
+presentationtitle: 
+  - "CQRS and Event Sourcing applied on JVM with Axon Framework"
 presentationtype: 
   - warsztat
   - eventSourcing
