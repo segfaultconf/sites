@@ -8,6 +8,7 @@ Wbrew obiegowej opinii programowanie nie polega na pisaniu kodu. Kodowanie to wi
 W przypadku kodowania mamy: clean code, design patterns, code smells itd. W trakcie prezentacji skupię się na tym, co robisz zanim zaczynasz pisać kod.
 
 Dowiesz się między innymi:
+
 * jak bardzo umiejętność rozróżniania i nazywania pojęć poprawia jakość twojego kodu
 * jaka jest różnica między teorią a praktyką tworzenia oprogramowania
 * jak szybko i pragmatycznie identyfikować i rozwiązywać problemy inżynierskie
