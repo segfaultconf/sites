@@ -9,9 +9,9 @@ eventdate:
     short: 29.05.2020
     full: 29 maja 2020
 location:
-  name: EXPO Łódź
-  address: Al. Politechniki 4
-  lat: 51.750985
-  lng: 19.450572
+  name: EC1 Łódź
+  address: Targowa 1/3
+  lat: 51.767905
+  lng: 19.469780
 registrationlink: https://segfault-lodz-2020.konfeo.com/
 ---
