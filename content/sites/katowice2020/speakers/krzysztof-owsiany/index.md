@@ -2,7 +2,7 @@
 type: speaker
 speakername: Krzysztof Owsiany
 presentationtitle:
-  - "TBD"
+  - "Storming stormingiem, ale sprawiedliwość musi być po naszej stronie"
 resources:
   - src: "IMG_9194-2.jpg"
     name: "photo"
