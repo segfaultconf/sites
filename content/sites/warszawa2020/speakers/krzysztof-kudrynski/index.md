@@ -1,16 +1,14 @@
 ---
 type: speaker
 speakername: "Krzysztof Kudryński"
-# presentationtitle:
-#    - "Deep Learning in Computer Vision"
+presentationtitle:
+   - "Jak działają autonomiczne pojazdy"
 presentationtype: 
   - prezentacja
   - deepLearning
 resources:
   - src: "kudrynski.jpeg"
-    name: "photo"
-# images:
-#   - "/sites/warszawa2019/speakers/krzysztof-kudrynski/kudrynski.jpeg"
+    name: "photo" 
 ---
 
 Krzysztof Kudryński - Senior Deep Learning Engineer w NVIDIA
