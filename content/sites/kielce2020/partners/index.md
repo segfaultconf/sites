@@ -1,7 +1,7 @@
 ---
 headless: true
 resources:
-  - src: "architect/britenet.jpg"
+  - src: "principal/britenet.jpg"
     params:
       url: "http://www.britenet.com.pl"
 ---
