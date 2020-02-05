@@ -1,11 +1,12 @@
 ---
 type: speaker
 speakername: "Marcin Markowski"
-# presentationtitle:
-#   - "Jak DDD ma się do Architektury?"
+presentationtitle:
+  - "Event Storming: od idei do kodu w 5 godzin"
 presentationtype: 
   - warsztat
-  - eventStorming
+  - event storming
+  - DDD
 resources:
   - src: "Marcin.png"
     name: "photo"
