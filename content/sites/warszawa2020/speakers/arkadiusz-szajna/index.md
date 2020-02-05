@@ -1,11 +1,11 @@
 ---
 type: speaker
-speakername: "Arkadiusz Szajna"
+speakername: "Arkadiusz P. Szajna"
 presentationtitle:
   - "Poligraf (wariograf) = wykrywacz kłamstw ?"
 presentationtype: 
   - prezentacja
-  - poligrafia
+  - poligraf
   - wariograf
 resources:
   - src: "arek_szajna.png"
