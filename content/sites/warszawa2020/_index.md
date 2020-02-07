@@ -37,7 +37,7 @@ agenda:
           - "Przerwa lunchowa"
       - "13:00":
           - "Lambda-driven business domains"
-          - "TBD"
+          - "Ludzie i interakcje ponad procesy i narzędzia… Pogadajmy o tym drugim."
       - "14:00":
           - "Web evolution, not revolution."
           - "TBD"
