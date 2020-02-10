@@ -56,9 +56,18 @@ resources:
   - src: "community/JUGzielonagora.png"
     params:
       url : "http://zielona-gora-jug.github.io"
+  - src: "community/polish_jug.png"
+    params:
+      url : "https://www.meetup.com/Polish-Java-User-Group/"
+  - src: "community/agilenuts.jpg"
+    params:
+      url : "http://agilenuts.com"
   - src: "media/programista-na-swoim-1000x500-trans.png"
     params:
       url : "https://programistanaswoim.pl"      
+  - src: "media/crossweb.jpg"
+    params:
+      url : "https://crossweb.pl"      
   - src: "media/4ccd36d88d5d1-image(350x350).png"
     params:
       url : "https://4programmers.net"      
@@ -165,4 +174,7 @@ resources:
   - src: "media/employear-logo.png"
     params:
       url: "https://www.employear.com/pl/"          
+  - src: "media/wsei_logotyp_rgb.jpg"
+    params:
+      url: "https://szkolaprogramowania.wsei.edu.pl"          
 ---
