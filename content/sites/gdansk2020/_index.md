@@ -11,5 +11,5 @@ location:
   address: Galeria Metropolia, poziom -1, Jana Kilińskiego, Gdańsk-Wrzeszcz
   lat: 54.382909
   lng: 18.605332
-registrationlink: https://segfault-gdansk-2020.konfeo.com/pl/groups
+registrationlink: https://segfault-gdansk-2020.konfeo.com/
 ---
