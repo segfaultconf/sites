@@ -2,7 +2,7 @@
 type: speaker
 speakername: Piotr Wyczesany
 presentationtitle:
-  - "TBD"
+  - "DDD"
 resources:
   - src: "piotrek_wyczesany.jpg"
     name: "photo"

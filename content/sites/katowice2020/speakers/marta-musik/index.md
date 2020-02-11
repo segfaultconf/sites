@@ -2,7 +2,7 @@
 type: speaker
 speakername: Marta Musik
 presentationtitle:
-  - "TBD"
+  - "Software Crafstman - czysty kod i... obserwowalność"
 resources:
   - src: "DSC_0405.JPG"
     name: "photo"
