@@ -29,7 +29,7 @@ agenda:
           - "Poligraf (wariograf) = wykrywacz kłamstw ?"
       - "10:30":
           - "Java 12, 13, 14. Nowości godne uwagi."
-          - "TBD"
+          - "Najważniejsza jest komunikacja – budowanie aplikacji i systemów heterogenicznych"
       - "11:30":
           - "Java 12, 13, 14. Nowości godne uwagi."
           - "Modelowanie zdarzeń domenowych sterowanych czasem"
@@ -45,8 +45,8 @@ agenda:
           - "TBD"
           - "Nie mówisz - nie programujesz"
       - "16:00":
-          - "Jak działają autonomiczne pojazdy"
           - "TBD"
+          - "Jak działają autonomiczne pojazdy"
   - tracks:
       - "Warsztaty, Sale: A, B, C, D, E, F"
     data:
