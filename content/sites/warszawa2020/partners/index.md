@@ -115,7 +115,16 @@ resources:
       url : "https://radekmaziarka.pl/pl/"     
   - src: "media/Nofluffjobs.png"
     params:
-      url : "https://nofluffjobs.com"  
+      url : "https://nofluffjobs.com"      
+  - src: "media/JobsForGeek.png"
+    params:
+      url : "https://jobsforgeek.com/job-offers?country=POLAND"      
+  - src: "media/jobsora.png"
+    params:
+      url : "https://pl.jobsora.com"      
+  - src: "media/raibay.jpg"
+    params:
+      url : "https://www.raibay.com"
   - src: "media/thumbnail.png"
     params:
       url : "https://festiwalcyfryzacji.pl/"  
