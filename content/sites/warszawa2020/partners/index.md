@@ -4,6 +4,18 @@ resources:
   - src: "media/poradnik.png"
     params:
       url: "https://poradnikprzedsiebiorcy.pl/"
+  - src: "media/Poradnik Przedsiębiorcy.png"
+    params:
+      url: "https://poradnikprzedsiebiorcy.pl/"
+  - src: "media/poradnik_pracownika.png"
+    params:
+      url: "https://poradnikpracownika.pl/"
+  - src: "media/Cena Biznesu.png"
+    params:
+      url: "https://cenabiznesu.pl/"
+  - src: "media/Alterweb.png"
+    params:
+      url: "https://alterweb.pl/"
   - src: "after/worldremit.svg"
     params:
       url: "https://worldremit.com"
