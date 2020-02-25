@@ -42,7 +42,7 @@ agenda:
           - "Web evolution, not revolution."
           - "TBD"
       - "15:00":
-          - "TBD"
+          - "Micro Frontends - raport z frontu"
           - "Nie mówisz - nie programujesz"
       - "16:00":
           - "TBD"
