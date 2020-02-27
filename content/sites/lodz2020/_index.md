@@ -5,7 +5,7 @@ title: "SegFault Conference"
 url: lodz2020
 city: Łódź
 eventdate:
-    start: 29.05.2020 09:00
+    start: 2020-05-29
     short: 29.05.2020
     full: 29 maja 2020
 location:
