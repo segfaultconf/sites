@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Warsztat
 speakername: "Marek Będkowski"
 presentationtitle: "DeepLearning dla programistów Javy"
 ---

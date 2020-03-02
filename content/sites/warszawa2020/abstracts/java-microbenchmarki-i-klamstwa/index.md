@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Warsztat
 speakername: "Jarek Pałka"
 presentationtitle: "Java, microbenchmarki i kłamstwa"
 ---

@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Warsztat
 speakername: 
  - "Krzysztof Kruczyński"
  - "Szymon Gąsienica-Kotelnicki"

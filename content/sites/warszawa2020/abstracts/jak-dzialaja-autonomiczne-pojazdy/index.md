@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Prezentacja
 speakername: "Krzysztof Kudryński"
 presentationtitle: "Jak działają autonomiczne pojazdy"
 ---

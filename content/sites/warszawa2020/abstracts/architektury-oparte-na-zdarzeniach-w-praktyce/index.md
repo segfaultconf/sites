@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Warsztat
 speakername: "Oskar Dudycz"
 presentationtitle: "Architektury oparte na zdarzeniach w praktyce"
 ---

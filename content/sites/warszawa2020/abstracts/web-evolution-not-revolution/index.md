@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Prezentacja
 speakername: "Joanna Lamch"
 presentationtitle: "Web evolution, not revolution."
 ---

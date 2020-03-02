@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Prezentacja
 speakername: "Michał Bartyzel"
 presentationtitle: "Nie mówisz - nie programujesz"
 ---

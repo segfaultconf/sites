@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Warsztat
 speakername: 
  - "Jakub Pilimon"
  - "Mariusz Gil"

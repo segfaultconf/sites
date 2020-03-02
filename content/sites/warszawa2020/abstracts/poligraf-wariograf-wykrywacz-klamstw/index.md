@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Prezentacja
 speakername: "Arkadiusz P. Szajna"
 presentationtitle: "Poligraf (wariograf) = wykrywacz kłamstw ?"
 ---

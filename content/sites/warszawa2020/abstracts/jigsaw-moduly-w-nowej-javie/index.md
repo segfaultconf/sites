@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Warsztat
 speakername: "Piotr Przybył"
 presentationtitle: "Jigsaw. Moduły w (nowej) Javie"
 ---

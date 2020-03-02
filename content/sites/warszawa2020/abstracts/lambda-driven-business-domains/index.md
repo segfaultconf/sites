@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Prezentacja
 speakername: "Krzysztof Kruczyński"
 presentationtitle: "Lambda-driven business domains"
 ---
