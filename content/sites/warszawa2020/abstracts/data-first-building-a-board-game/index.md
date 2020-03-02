@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Warsztat
 speakername: "Paweł Kapała"
 presentationtitle: "Data First: Building a board game"
 ---
