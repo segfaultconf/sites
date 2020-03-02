@@ -64,7 +64,7 @@ agenda:
       - "13:30":
           - "Architektury oparte na zdarzeniach w praktyce"
           - "Co robi twoja aplikacja, kiedy rodziców nie ma w domu. Kilka słów o Elastic APM"
-          - "DeepLearning dla programistów Javy"
+          - "Deep Learning dla programistów Javy"
           - "Dobrze wypaść w roli prelegenta"
           - "Data First: Building a board game"
           - "Event Storming: od idei do kodu w 5 godzin"

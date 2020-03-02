@@ -2,7 +2,7 @@
 type: speaker
 speakername: "Marek Będkowski"
 presentationtitle:
-  - "DeepLearning dla programistów Javy"
+  - "Deep Learning dla programistów Javy"
 presentationtype: 
   - warsztat
   - deepLearning
