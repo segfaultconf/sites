@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 	//warsztaty
 	$(function() {
-		if (window.location.href.indexOf("gdansk") > -1) {
+		if (window.location.href.indexOf("warszawa2020") > -1) {
 		  $.getJSON("https://segfault-reg.herokuapp.com/stats", function(data) {
 			$.each(data, function(i, el) {
 			  $('#sessionRegs-' + el.title.replace(/[^a-z]/gi, '')).html(el.count)
