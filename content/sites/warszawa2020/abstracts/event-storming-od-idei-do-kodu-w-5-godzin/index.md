@@ -1,5 +1,6 @@
 ---
 type: abstract
+seats: 30
 session: Warsztat
 speakername: 
  - "Jakub Pilimon"
