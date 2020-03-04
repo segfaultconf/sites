@@ -4,7 +4,7 @@
     {{ end }}
     <a  href="{{ .abstract.Permalink }}">{{ .abstract.Params.presentationtitle }}</a>
     {{ if (and (isset .abstract.Params "session") (eq .abstract.Params.session "Warsztat")) }}
-    <span class="small text-muted">(<span>Zajęte miejsca: </span><span id="sessionRegs-{{ .abstract.Params.presentationtitle | replaceRE "[[:^alpha:]]" "" }}">0</span>
+    <span class="small text-muted">(<span>Zajęte miejsca: </span><span class="sessionRegs-{{ .abstract.Params.presentationtitle | replaceRE "[[:^alpha:]]" "" }}">0</span>
     <span> / {{ .abstract.Params.seats | default 16 }}</span>)</span>
     {{ end }}
 

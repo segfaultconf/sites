@@ -6,7 +6,7 @@ $(document).ready(function(){
 		if (window.location.href.indexOf("warszawa2020") > -1) {
 		  $.getJSON("https://segfault-reg.herokuapp.com/stats", function(data) {
 			$.each(data, function(i, el) {
-			  $('#sessionRegs-' + el.title.replace(/[^a-z]/gi, '')).html(el.count)
+			  $('.sessionRegs-' + el.title.replace(/[^a-z]/gi, '')).html(el.count)
 			})
 		  });
 		}
