@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Prezentacja
 speakername: 
  - "Marcin Aks Grochowina"
  - "Karolina Latos"

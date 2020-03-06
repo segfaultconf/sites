@@ -1,5 +1,7 @@
 ---
 type: abstract
+seats: 12
+session: Warsztat
 speakername: "Piotr Wyczesany"
 presentationtitle: "CQRS and Event Sourcing applied on JVM with Axon Framework"
 ---

@@ -71,6 +71,9 @@ resources:
   - src: "community/polish_jug.png"
     params:
       url : "https://www.meetup.com/Polish-Java-User-Group/"
+  - src: "community/jug-torun.png"
+    params:
+      url : "https://www.meetup.com/Torun-JUG/"
   - src: "community/agilenuts.jpg"
     params:
       url : "http://agilenuts.com"
@@ -146,6 +149,9 @@ resources:
   - src: "media/Logo_Type.png"
     params:
       url : "https://www.simplecoding.pl"
+  - src: "media/CodersCrew.png"
+    params:
+      url : "https://coderscrew.pl"
   - src: "conferences/color_gray@4x.png"
     params:
       url : "https://devfest.wroclaw.pl"

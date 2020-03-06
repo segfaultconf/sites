@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Prezentacja
 speakername: "Piotr Przybył"
 presentationtitle: "Java 12, 13, 14. Nowości godne uwagi."
 ---

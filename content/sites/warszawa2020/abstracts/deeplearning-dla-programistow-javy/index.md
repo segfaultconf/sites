@@ -1,7 +1,9 @@
 ---
 type: abstract
+seats: 10
+session: Warsztat
 speakername: "Marek Będkowski"
-presentationtitle: "DeepLearning dla programistów Javy"
+presentationtitle: "Deep Learning dla programistów Javy"
 ---
 Rozpoczęcie przygody z DeepLearning jest trudne z 2 powodów: z jednej strony technologia, czyli Python, a z drugiej strony teoria związana z uczeniem maszynowym. W zmniejszeniu trochę tych barier pomaga programistom Javy deeplearning4j - framework umożliwiający budowanie głębokich sieci neuronowych w Javie za pomocą wysokopoziomowych abstrakcji.
 

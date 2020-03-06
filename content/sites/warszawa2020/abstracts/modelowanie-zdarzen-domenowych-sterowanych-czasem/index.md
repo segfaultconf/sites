@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Prezentacja
 speakername: "Konrad Jakubiec"
 presentationtitle: "Modelowanie zdarzeń domenowych sterowanych czasem"
 ---

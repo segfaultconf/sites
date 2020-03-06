@@ -1,5 +1,7 @@
 ---
 type: abstract
+seats: 20
+session: Warsztat
 speakername: "Monika Malinowska"
 presentationtitle: "Dobrze wypaść w roli prelegenta"
 ---

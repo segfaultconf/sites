@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Warsztat
 speakername: "Zbyszko Papierski"
 presentationtitle: "Co robi twoja aplikacja, kiedy rodziców nie ma w domu. Kilka słów o Elastic APM"
 ---

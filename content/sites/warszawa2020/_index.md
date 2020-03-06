@@ -57,13 +57,15 @@ agenda:
           - "Jigsaw. Moduły w (nowej) Javie"
           - "CQRS and Event Sourcing applied on JVM with Axon Framework"
           - "Spójna komunikacja asynchroniczna w Chmurze. Jak budować niezawodne system z zawodnych komponentów."
+          - "Java, microbenchmarki i kłamstwa"
           - "Event Storming: od idei do kodu w 5 godzin"
       - "12:30":
         - "Przerwa lunchowa"
       - "13:30":
           - "Architektury oparte na zdarzeniach w praktyce"
           - "Co robi twoja aplikacja, kiedy rodziców nie ma w domu. Kilka słów o Elastic APM"
-          - "DeepLearning dla programistów Javy"
+          - "Deep Learning dla programistów Javy"
           - "Dobrze wypaść w roli prelegenta"
+          - "Data First: Building a board game"
           - "Event Storming: od idei do kodu w 5 godzin"
 ---

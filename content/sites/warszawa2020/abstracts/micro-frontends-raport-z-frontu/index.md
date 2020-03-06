@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Prezentacja
 speakername: "Marcin Mendlik"
 presentationtitle: "Micro Frontends - raport z frontu"
 ---

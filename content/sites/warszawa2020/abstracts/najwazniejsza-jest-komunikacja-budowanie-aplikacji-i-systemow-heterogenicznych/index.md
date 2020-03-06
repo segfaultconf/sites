@@ -1,5 +1,6 @@
 ---
 type: abstract
+session: Prezentacja
 speakername: "Michał Zubkowicz"
 presentationtitle: "Najważniejsza jest komunikacja – budowanie aplikacji i systemów heterogenicznych"
 ---
