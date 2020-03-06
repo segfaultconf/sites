@@ -136,7 +136,7 @@ resources:
       url : "https://kobietydokodu.pl"  
   - src: "conferences/j-santa-logo.png"
     params:
-      url : "https://j-santa.pl" 
+      url : "https://j-santa.pl"
   - src: "media/codeCouple.png"
     params:
       url : "https://codecouple.pl"
@@ -197,5 +197,8 @@ resources:
       url: "https://www.employear.com/pl/"          
   - src: "media/wsei_logotyp_rgb.jpg"
     params:
-      url: "https://szkolaprogramowania.wsei.edu.pl"          
+      url: "https://szkolaprogramowania.wsei.edu.pl"  
+  - src: "technological/buddy.png"
+    params:
+      url: "https://buddy.works"        
 ---
