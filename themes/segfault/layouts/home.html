@@ -7,6 +7,9 @@
             <div id="topContent">
                 <img src="/img/segfaultPoziomeLogo.png" alt="Logo Segfault">
                 <h1 class="fancy-font white-text" id="mainWords">...wszyscy jesteśmy architektami</h1>
+                <div>
+                  <a href="/announcement/informacja-organizatora-segfault-univeristy-warszawa.pdf" style="color: white;font-size:32pt">Informacja ogranizatora SegFault w związku z COVID-2019 (10.03.2020)</a>
+                </div>
                 <div class="button-group d-flex flex-wrap justify-content-center flex-column flex-md-row" role="group" aria-label="Wybierz wydarzenie">
                     {{ range where .Site.Sections "Type" "sites" }}
                         {{ range sort .Sections ".Params.eventdate.start" }}
