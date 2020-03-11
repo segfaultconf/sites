@@ -6,9 +6,9 @@ title: "SegFault University"
 url: warszawa2020
 city: Warszawa
 eventdate:
-    start: 2020-03-23
-    short: 23-24.03.2020
-    full: 23-24 marca 2020
+    start: 2020-10-05
+    short: 05-06.10.2020
+    full: 5-6 października 2020
 location:
   name: Centrum konferencyjno – szkoleniowe Golden Floor Tower
   address: ul. Chłodna 51, pietro 32
