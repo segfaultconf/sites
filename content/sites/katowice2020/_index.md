@@ -5,9 +5,9 @@ title: "SegFault Community"
 url: katowice2020
 city: Katowice
 eventdate:
-    start: 24.04.2020 10:00
-    short: 24.04.2020
-    full: 24 kwietnia 2020
+    start: 2020-07-23
+    short: 23.07.2020
+    full: 23 lipa 2020
 location:
   name: Novotel Katowice Centrum
   address: aleja Roździeńskiego 16, 40-202 Katowice
