@@ -1,5 +1,0 @@
----
-type: agenda
-outputs:
-  - yaml
----
