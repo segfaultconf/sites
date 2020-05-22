@@ -1,6 +1,6 @@
 ---
 type: event
-status: planned
+status: archived
 title: "SegFault Community"
 url: katowice2020
 city: Katowice
