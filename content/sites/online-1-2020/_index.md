@@ -1,12 +1,13 @@
 ---
 type: event
+layout: online-layout
 status: planned
 title: "SegFault Conference Online #1"
 url: online-1-2020
 eventdate:
     start: 2020-07-06
     stop: 2020-07-10
-    full: 06-10 lipiec 2020
+    full: 06-10 lipca 2020
 registrationlink: https://segfault-online.konfeo.com/
 agenda:
   - tracks:

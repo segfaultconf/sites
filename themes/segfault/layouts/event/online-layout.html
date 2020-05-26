@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pl-PL" class="js">
+{{- partial "head.html" . -}}
+<body data-spy="scroll" data-target="#mainNav" data-offset="150" class="home">
+  {{- partial "header.html" . -}}
+  <style>
+    #topImg {
+      background-image: url(/img/fundaenty.od_nowa.png);
+    }
+  </style>
+  <div id="body" class="clearfix">
+    <!-- layout-container -->
+    <div id="layout" class="pagewidth clearfix">
+      <!-- content -->
+      <div id="content" class="clearfix">
+        <div class="container-fluid full-height" id="topImg">
+          <div id="topContent">
+            <h1 class="fancy-font white-text" id="mainWords">fundamenty.od/nowa.</h1>
+            <h2 class="white-text">
+              {{ if isset .Params.eventdate "full" }}
+                <span class="text-nowrap">{{ .Params.eventdate.full }}</span>, {{ .Params.location.name }}
+              {{ else }}
+                {{ partial "event-date.html" .Params.eventdate }}, {{ .Params.location.name }}
+              {{ end }}
+            </h2>
+            <span class="spacer"></span>
+            <div class="button-group" role="group" aria-label="Zarejestruj / Zostań partnerem">
+              <a class="white-text no-decor" href="{{ .Params.registrationlink }}">
+                <button type="button" class="btn blue">Rejestracja</button>
+              </a>
+              <a class="white-text no-decor" href="mailto:partnerzy@segfault.events">
+                <button type="button" class="btn blue">Partnerstwo</button>
+              </a>
+              <!-- <a class="white-text no-decor" href="http://coredump.events/2018/">
+                <button type="button" class="btn blue">CoreDump 2018</button>
+              </a> -->
+            </div>
+            <span class="spacer"></span>
+          </div>
+        </div>
+
+        {{ partial "testimonial.html" (dict "Lead" "Segmentation fault (Naruszenie ochrony pamięci)" "Content" "zdarzenie wykrywane przez sprzęt, polegające na korzystaniu przez program z pamięci poza zaalokowanym dla niego obszarem.") }}
+
+        {{ if (where .Pages ".File.BaseFileName" "about") }}
+          {{ partial "about.html" (.GetPage "about") }}
+        {{ end }}
+
+        {{ partial "topics.html" (.GetPage "topics") }}
+
+        {{ partial "testimonial.html" (dict "Content" "Chcesz uniknąć rozmów o trendach, które przychodzą i odchodzą? o \"next big thing\", które jest tylko starą technologią w nowych szatach? Zapraszamy!") }}
+
+        {{ block "speakers" . }}
+          {{ partial "speakers.html" . }}
+        {{ end }}
+
+        {{ partial "testimonial.html" (dict "Content" "Architektura nic nie dodaje, ani niczego nie odejmuje. Architektura wszystko zmienia!") }}
+
+        <section id="register">
+            <div class="container">
+              <h2>
+                  Zarejestruj się!
+              </h2>
+              <iframe src="{{ .Params.registrationlink }}/pl/groups?iframe=1" frameborder="0"
+                width="100%"
+                scrolling="auto"
+                style="min-height: 100px">
+              </iframe>
+              <script type="text/javascript" src="{{ .Params.registrationlink }}/iframeResizer.min.js"></script>
+            </div>
+      </section>
+
+        {{ block "agenda" . }}
+          {{ partial "agenda.html" (dict "pages" .Pages "agenda" .Params.agenda) }}
+        {{ end }}
+
+        <hr />
+
+        <section id="partners">
+          {{ with .Site.GetPage "page" (printf "%s%s" .Dir "partners") }}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "principal")) "title" "Partner Principal" "maxPartners" 1 "showWhenEmpty" true)}}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "architect")) "title" "Partnerzy Architect" "caption" "partner architekt" "maxPartners" 3 "showWhenEmpty" true)}}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "senior")) "title" "Partnerzy Senior" "caption" "partner senior" "maxPartners" 5 "showWhenEmpty" true)}}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "technological")) "title" "Partner Technologiczny" "maxPartners" 1)}}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "coffee")) "title" "Speciality Coffee Strategic Partner" "maxPartners" 1)}}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "after")) "title" "Partner AfterParty" "maxPartners" 1)}}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "media")) "title" "Partnerzy Media" "caption" "partner media" "maxPartners" 0)}}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "community")) "title" "Społeczności" "caption" "społeczność" "maxPartners" 0)}}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "conferences")) "title" "Konferencje Partnerskie" "caption" "konferencja partnerska" "maxPartners" 0)}}
+            {{ partial "partners.html" (dict "resources" (.Resources.Match (printf "%s/*" "partner")) "title" "Partner wydarzenia" "maxPartners" 2)}}
+          {{ end }}
+        </section>
+
+        {{ if (isset .Params "location") }}
+        <section id="venue">
+          <div class="container">
+            <div class="col-12 text-center">
+              <h4>
+                {{ .Params.location.name }} ({{ .Params.location.address }})
+              </h4>
+            </div>
+            <div class="col-12 text-center">
+              <h5><a href="mailto:konferencja@segfault.events">konferencja@segfault.events</a></h5>
+            </div>
+            <div class="row">
+              <div id="map"></div>
+            </div>
+          </div>
+        </section>
+        {{ end }}
+
+      </div>
+      {{- partial "footer.html" . -}}
+    </div>
+  </div>
+  <script type="text/javascript">
+    function initMap() {
+      var segfault = {
+        lat: {{ .Params.location.lat }},
+        lng: {{ .Params.location.lng }}
+      };
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 16,
+        center: segfault
+      });
+      var marker = new google.maps.Marker({
+        position: segfault,
+        map: map
+      });
+    }
+  </script>
+  <script async="async" defer="defer" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBiyUqvhpL6q1zOlx5PI0qKeCdC0NvAOV8&callback=initMap"></script>
+</body>
+</html>
