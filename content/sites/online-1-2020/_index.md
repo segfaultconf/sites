@@ -6,7 +6,7 @@ title: "Segfault Masterclass Lato 2020"
 url: online-1-2020
 eventdate:
     start: 2020-07-06
-    stop: 2020-07-10
+    short: 06-10.07.2020
     full: 06-10 lipca 2020
 registrationlink: https://segfault-online.konfeo.com/
 agenda:
