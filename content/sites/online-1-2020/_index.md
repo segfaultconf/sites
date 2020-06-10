@@ -2,7 +2,7 @@
 type: event
 layout: online-layout
 status: planned
-title: "SegFault Conference Online #1"
+title: "Segfault Masterclass Lato 2020"
 url: online-1-2020
 eventdate:
     start: 2020-07-06
