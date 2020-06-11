@@ -22,7 +22,7 @@ agenda:
                     - name: "Bartłomiej Słota"
                       bio: "&lt;p&gt;Programista z zawodu i zamiłowania. Konsultant i mentor w Bottega IT Minds. Speaker, autor bloga bartslota.blogspot.com. Zdobywał doświadczenie w branżach takich jak opieka zdrowotna, telekomunikacja, marketing, finanse, energetyka, pracując w firmach liczących od kilkudziesięciu do kilku tysięcy pracowników. Pasjonat OOP, Domain Driven Design, software craftsmanship, mikrousług i szeroko pojętej architektury systemów i aplikacji. Entuzjasta warsztatów Event Storming&amp;rsquo;u. W życiu prywatnym mąż i tata. W wolnych chwilach słucha ciężkiej muzyki, gra na gitarze, wędkuje, albo przemierza bezkresne szlaki Bieszczadów.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/katowice2020/speakers/bartek-slota/IMGA9613.JPG" 
+                      photo: "/sites/katowice2020/speakers/bartek-slota/IMGA9613.JPG" 
         "11:00 - 11:45":
             - title: "Storming stormingiem, ale sprawiedliwość musi być po naszej stronie"
               session: "Serwis"
@@ -61,7 +61,7 @@ agenda:
 
 &lt;p&gt;Moja najświeższa działalność to modelowanie aplikacji z wykorzystaniem Event Storming i Event Modeling. Można śledzić te poczynania w daily vlog’u Moje 5 minut.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/katowice2020/speakers/krzysztof-owsiany/IMG_9194-2.jpg" 
+                      photo: "/sites/katowice2020/speakers/krzysztof-owsiany/IMG_9194-2.jpg" 
         "12:00 - 12:45":
             - title: "Praca w wielokulturowych zespołach"
               session: "Serwis"
@@ -82,7 +82,7 @@ agenda:
                     - name: "Mariusz Jasinski"
                       bio: "&lt;p&gt;Obecnie Scrum Master z techniczną duszą. Kilka lat temu zainspirowany podejściem zwinnym postanowił przejść na ludzką stronę mocy i odstawić zera i jedynki na drugi plan. Zawodowo zajarany wpływem kultury na naszą pracę i życie codzienne oraz budowaniem “High-performance” zespołów. Na codzień mocno skoncentrowany na wdrażaniu mądrości Agile we wszystkich aspektach życia (możecie zapytać żony ;=) ).  Prywatnie mąż i ojciec. W wolnych chwilach lubi potańczyć i podróżować.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/katowice2020/speakers/mariusz-jasinski/photo.png" 
+                      photo: "/sites/katowice2020/speakers/mariusz-jasinski/photo.png" 
         "12:45 - 14:00":
             - title: "Przerwa lunchowa"
               session: "Serwis"
@@ -99,7 +99,7 @@ Z perspektywy programisty zaciekawionego rozbieżnościami między deklaracjami 
                     - name: "Marta Musik"
                       bio: "&lt;p&gt;Pracuję jako Software Engineer w Splunk, w zespole zajmującym się rozwiązaniem SignalFx do monitorowania infrastruktury chmurowej. Do moich obowiązków należy przede wszystkim rozwijanie integracji pomiędzy serwisami cloud providerów (głównie AWS) a naszym produktem. Wcześniej pracowałam w Motorola Solutions, rozwijając platformę Command Central.  Najwięcej piszę w Javie i node.js, mam sporo do czynienia z platformami AWS i Azure. Gdzie to możliwe, staram się usprawniać automatyzację, co daje mi okazję pracy w pythonie i bashu i z wieloma narzędziami operacyjnymi (Kubernetes, Helm, Docker, CloudFormation, Terraform…) czy serwerami CI/CD (Azure DevOps, Gitlab pipelines, Jenkins, CircleCI). Jako że sama jestem programistą pracującym w chmurze i z mikroserwisami w kontenerach (czasami przytłoczonym szybkością zmian w tej dziedzinie), staram się tworzyć narzędzia i treści, które ułatwiają poruszanie się w takim środowisku innym developerem.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/katowice2020/speakers/marta-musik/DSC_0405.JPG" 
+                      photo: "/sites/katowice2020/speakers/marta-musik/DSC_0405.JPG" 
         "15:00 - 15:45":
             - title: "Piotr Wyczesany"
               session: "Serwis"
@@ -115,7 +115,7 @@ Z perspektywy programisty zaciekawionego rozbieżnościami między deklaracjami 
                     - name: "Rafał Pocztarski"
                       bio: "&lt;p&gt;Rafał Pocztarski od dziecka interesuje się programowaniem i zgłębianiem zasad działania otaczającego go świata, czym chętnie dzieli się z każdym, kto nieopatrznie wykaże choćby cień zainteresowania. Podstawówka to Basic, Logo, Pascal, C, Assembler. Liceum to Perl i JavaScript. W Node.js programuje od 2009 roku czyli zaraz od jego powstania. Jako pierwszy w Polsce zdobył Złoty Medal Node.js na Stack Overflow. Od 2018 roku zaangażowany jest w rozwój projektu Deno, kolejnego po Node.js projektu Ryana Dahla.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/katowice2020/speakers/rafal-pocztarski/rsp-photo-3.jpg" 
+                      photo: "/sites/katowice2020/speakers/rafal-pocztarski/rsp-photo-3.jpg" 
         "17:00 - 17:15":
             - title: "Zakończenie konferencji"
               session: "Serwis"

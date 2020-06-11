@@ -18,7 +18,7 @@ agenda:
                       bio: "&lt;p&gt;dr Arkadiusz Paweł Szajna – prawnik, kryminalistyk, kryminolog, nauczyciel akademicki oraz kierownik laboratorium badań poligraficznych w Wyższej Szkole Zarządzania Ochroną Pracy
 w Katowicach, ekspert z zakresu badań poligraficznych (wariograficznych). Pełni funkcję członka Zarządu oraz Komitetu Prawnego Polskiego Towarzystwa Badań Poligraficznych (PTBP). Jest również autorem publikacji naukowych z zakresu m.in. kryminalistyki i kryminologii oraz czynnym uczestnikiem konferencji naukowych o zasięgu ogólnopolskim i międzynarodowym. Pan Arkadiusz za zasługi w pracy związanej z więziennictwem został przez Ministra Sprawiedliwości uhonorowany specjalnym odznaczeniem, pt. „Za zasługi w pracy penitencjarnej”.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/arkadiusz-szajna/arek_szajna.png" 
+                      photo: "/sites/warszawa2020/speakers/arkadiusz-szajna/arek_szajna.png" 
         "10:30":
             - title: "Java 12, 13, 14. Nowości godne uwagi."
               session: "Prezentacja"
@@ -42,7 +42,7 @@ Jakie są najważniejsze zmiany w API?&lt;/p&gt;
                     - name: "Piotr Przybył"
                       bio: "&lt;p&gt;Notoryczny inżynier w pracy i poza nią, podążający za meandrami sztuki programowania. Zawodowo Remote Freelance Software Gardener, od kilku lat wyrywający chwasty w ogródkach webowych i zwykle przycinający Javę do kształtów pożądanych przez klientów. Miłośnik lekkości i zwinności, która powinna przejawiać się przede wszystkim w stosowaniu właściwych narzędzi. Lead developer, trener, prelegent.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/piotr-przybyl/me5.jpg"
+                      photo: "/sites/warszawa2020/speakers/piotr-przybyl/me5.jpg"
             - title: "Najważniejsza jest komunikacja – budowanie aplikacji i systemów heterogenicznych"
               session: "Prezentacja"
               seats: 16
@@ -54,7 +54,7 @@ Jakie są najważniejsze zmiany w API?&lt;/p&gt;
                     - name: "Michał Zubkowicz"
                       bio: "&lt;p&gt;Michał Zubkowicz pracuje w firmie Onwelo na stanowisku Full Stack Developer / Architect. Zajmuje się rozwojem aplikacji od 20 lat. Jego doświadczenie obejmuje pracę z większością popularnych języków programowania obecnych na rynku (JavaScript, TypeScript, Java, C#, Python, PHP). Zajmuje się także rozwojem infrastruktury chmurowej (Google Cloud, Kubernetes, Docker), jak i systemów CI/CD (opartych o GitLab, Jenkins, Pipelines, TeamCity). Aktualnie tworzy aplikacje głównie w React (TypeScript) oraz .Net Core.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/michal-zubkowicz/Micha%C5%82%20Zubkowicz.jpg" 
+                      photo: "/sites/warszawa2020/speakers/michal-zubkowicz/Micha%C5%82%20Zubkowicz.jpg" 
         "11:30":
             - title: "Java 12, 13, 14. Nowości godne uwagi."
               session: "Prezentacja"
@@ -78,7 +78,7 @@ Jakie są najważniejsze zmiany w API?&lt;/p&gt;
                     - name: "Piotr Przybył"
                       bio: "&lt;p&gt;Notoryczny inżynier w pracy i poza nią, podążający za meandrami sztuki programowania. Zawodowo Remote Freelance Software Gardener, od kilku lat wyrywający chwasty w ogródkach webowych i zwykle przycinający Javę do kształtów pożądanych przez klientów. Miłośnik lekkości i zwinności, która powinna przejawiać się przede wszystkim w stosowaniu właściwych narzędzi. Lead developer, trener, prelegent.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/piotr-przybyl/me5.jpg"
+                      photo: "/sites/warszawa2020/speakers/piotr-przybyl/me5.jpg"
             - title: "Modelowanie zdarzeń domenowych sterowanych czasem"
               session: "Prezentacja"
               seats: 16
@@ -88,7 +88,7 @@ Jakie są najważniejsze zmiany w API?&lt;/p&gt;
                     - name: "Konrad Jakubiec"
                       bio: "&lt;p&gt;Entuzjasta Domain-driven Design specjalizujący się w budowaniu system rozproszonych szytych na miarę z wykorzystaniem reaktywnej architektury sterowanej zdarzeniami. Tech-lead wielofunkcyjnego zespołu inżynierów w VirtusLab. W wolnym czasie poświęca się grze na perkusji.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/konrad-jakubiec/konrad-jakubiec.png" 
+                      photo: "/sites/warszawa2020/speakers/konrad-jakubiec/konrad-jakubiec.png" 
         "12:15":
             - title: "Przerwa lunchowa"
               session: "Serwis"
@@ -104,7 +104,7 @@ Jakie są najważniejsze zmiany w API?&lt;/p&gt;
                     - name: "Krzysztof Kruczyński"
                       bio: "&lt;p&gt;Miłośnik Kotlina, ewangelista DDD, pełnoetatowy backend developer w VirtusLabie. Główne obszary zainteresowań to architektury oprogramowania, w tym monitoring jakości architektur mikroserwisowych oraz łączenie OOP z podejściem funkcyjnym w implementacji logiki biznesowej. Hobby to wdrażanie pomysłów biznesowych na produkcję w jak najkrótszym czasie.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/krzysztof-kruczynski/krzysiek-kruczynski.png"
+                      photo: "/sites/warszawa2020/speakers/krzysztof-kruczynski/krzysiek-kruczynski.png"
             - title: "Ludzie i interakcje ponad procesy i narzędzia… Pogadajmy o tym drugim."
               session: "Prezentacja"
               seats: 16
@@ -122,11 +122,11 @@ dbam o ich rozwój zarówno u siebie, jak i u innych. W codziennej pracy
 facylituje spotkania, wspieram procesy scrumowe bezpośrednio współpracując ze
 Scrum Masterami, dbam o rozwój i rekrutację pracowników.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/karolina-latos/Karola_Gnat.jpg"
+                      photo: "/sites/warszawa2020/speakers/karolina-latos/Karola_Gnat.jpg"
                     - name: "Marcin Aks Grochowina"
                       bio: "&lt;p&gt;Z internetem jestem związany od ponad 10 lat. Wcześniej zarządzałem projektami w agencjach interaktywnych, tworząc kampanie dla klientów takich jak Danone, Reckitt Benckiser czy General Motors. Obecnie jako Agile Coach rozwijam system do obsługi kampanii email marketingowych. Choć w Scrumie pracuję od ponad dekady, to przez wiele lat stosowałem go wybiórczo i narzędziowo. Przechodząc przy okazji przez wszystkie możliwe antywzorce. Dzięki temu dziś - bazując na własnych doświadczeniach - wspieram zespoły w zrozumieniu istoty zwinności w oparciu o wartości Agile Manifesto. Prywatnie: dużo jem, chodzę w czapkach i kolekcjonuję płyty, głównie winylowe. Nadużywam słowa „uszanowanko”.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/marcin-aks-grochowina/Marcin-Aks_Grochowina2.jpg" 
+                      photo: "/sites/warszawa2020/speakers/marcin-aks-grochowina/Marcin-Aks_Grochowina2.jpg" 
         "14:00":
             - title: "Web evolution, not revolution."
               session: "Prezentacja"
@@ -139,7 +139,7 @@ Scrum Masterami, dbam o rozwój i rekrutację pracowników.&lt;/p&gt;
 
 &lt;p&gt;Maruda i czarnowidz, zwolenniczka Defensive Coding, SOLID, uczenia poprzez mentoring, samorozwoju i kultury DevOps. Community lover, wspierająca Gruba.IT, Śląską Grupę Microsoft oraz Women in Technology Katowice. Blogger and speaker wannabe.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/joanna-lamch/IMG_1265.JPG"
+                      photo: "/sites/warszawa2020/speakers/joanna-lamch/IMG_1265.JPG"
             - title: "TBD"
               session: "Serwis"
               seats: 16
@@ -154,7 +154,7 @@ Scrum Masterami, dbam o rozwój i rekrutację pracowników.&lt;/p&gt;
                     - name: "Marcin Mendlik"
                       bio: "&lt;p&gt;Marcin najswobodniej czuje się w tematach frontendowych, chociaż nie boi się zajrzeć od czasu do czasu pod maskę. Miał okazję przyglądać się i uczestniczyć w niecodziennej wymianie warstwy prezentacji w dwóch różnych, niezależnych systemach dla jednych z wiodących banków w Polsce. W wolnym czasie gra na konsolach, instrumentach strunowych szarpanych lub nerwach.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/marcin-mendlik/marcin-mendlik.png"
+                      photo: "/sites/warszawa2020/speakers/marcin-mendlik/marcin-mendlik.png"
             - title: "Nie mówisz - nie programujesz"
               session: "Prezentacja"
               seats: 16
@@ -196,7 +196,7 @@ Scrum Masterami, dbam o rozwój i rekrutację pracowników.&lt;/p&gt;
 &lt;li&gt;80&#43; klientów&lt;/li&gt;
 &lt;/ul&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/michal-bartyzel/bartyzel.png" 
+                      photo: "/sites/warszawa2020/speakers/michal-bartyzel/bartyzel.png" 
         "16:00":
             - title: "TBD"
               session: "Serwis"
@@ -221,7 +221,7 @@ Scrum Masterami, dbam o rozwój i rekrutację pracowników.&lt;/p&gt;
 
 &lt;p&gt;Krzysztof bardzo chciałby swobodnie rozmawiać z komputerem, na zakupy wysyłać robota, jeździć autonomicznym samochodem. Marzeniom trzeba pomagać. Krzysztof od ponad 10 lat pracuje jako inżynier algorytmów analizy danych, sztucznej inteligencji i robotyki. Krzysztof wierzy, że będzie dobrze.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/krzysztof-kudrynski/kudrynski.jpeg"
+                      photo: "/sites/warszawa2020/speakers/krzysztof-kudrynski/kudrynski.jpeg"
     - 
         "9:00":
             - title: "Rejestracja uczestników"
@@ -244,11 +244,11 @@ Własny komputer z IDE wspierającym język Kotlin oraz narzędzie Cucumber np. 
                     - name: "Krzysztof Kruczyński"
                       bio: "&lt;p&gt;Miłośnik Kotlina, ewangelista DDD, pełnoetatowy backend developer w VirtusLabie. Główne obszary zainteresowań to architektury oprogramowania, w tym monitoring jakości architektur mikroserwisowych oraz łączenie OOP z podejściem funkcyjnym w implementacji logiki biznesowej. Hobby to wdrażanie pomysłów biznesowych na produkcję w jak najkrótszym czasie.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/krzysztof-kruczynski/krzysiek-kruczynski.png"
+                      photo: "/sites/warszawa2020/speakers/krzysztof-kruczynski/krzysiek-kruczynski.png"
                     - name: "Szymon Gąsienica-Kotelnicki"
                       bio: "&lt;p&gt;W VirtusLabie zajmuje się szukaniem sposobów na przeniesienie biznesu na produkcje. Lubi programowanie funkcyjne, infrastrukturę jako kod i rozkminy nad architekturą. Miłośnik robienia analizy przed kodowaniem i prostoty. W wolnym czasie ogląda The Office.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/szymon-gasienica-kotelnicki/szymon-gasienica-kotelnicki.png"
+                      photo: "/sites/warszawa2020/speakers/szymon-gasienica-kotelnicki/szymon-gasienica-kotelnicki.png"
             - title: "Jigsaw. Moduły w (nowej) Javie"
               session: "Warsztat"
               seats: 30
@@ -274,7 +274,7 @@ Na warsztatach korzystamy z Gradle, ale uczestnicy nie muszą go wcześniej zna�
                     - name: "Piotr Przybył"
                       bio: "&lt;p&gt;Notoryczny inżynier w pracy i poza nią, podążający za meandrami sztuki programowania. Zawodowo Remote Freelance Software Gardener, od kilku lat wyrywający chwasty w ogródkach webowych i zwykle przycinający Javę do kształtów pożądanych przez klientów. Miłośnik lekkości i zwinności, która powinna przejawiać się przede wszystkim w stosowaniu właściwych narzędzi. Lead developer, trener, prelegent.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/piotr-przybyl/me5.jpg"
+                      photo: "/sites/warszawa2020/speakers/piotr-przybyl/me5.jpg"
             - title: "CQRS and Event Sourcing applied on JVM with Axon Framework"
               session: "Warsztat"
               seats: 12
@@ -294,7 +294,7 @@ Mieszka i pracuje w Krakowie, gdzie jest też założycielem grupy Domain-Driven
 Po kilkuletniej przerwie wraca na konferencyjną scenę z bogatszą, empirycznie zdobytą wiedzą, popartą produkcyjnym doświadczeniem.
 W wolnym czasie tweetuje jako @pwyczes.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/piotr-wyczesany/piotrek_wyczesany.jpg"
+                      photo: "/sites/warszawa2020/speakers/piotr-wyczesany/piotrek_wyczesany.jpg"
             - title: "Spójna komunikacja asynchroniczna w Chmurze. Jak budować niezawodne system z zawodnych komponentów."
               session: "Warsztat"
               seats: 30
@@ -316,11 +316,11 @@ W wolnym czasie tweetuje jako @pwyczes.&lt;/p&gt;
 
 &lt;p&gt;Szymon jest współautorem &lt;a href=&#34;https://exactly-once.github.io/&#34;&gt;https://exactly-once.github.io/&lt;/a&gt;.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/szymon-pobiega/pobiega.jpg"
+                      photo: "/sites/warszawa2020/speakers/szymon-pobiega/pobiega.jpg"
                     - name: "Tomasz Masternak"
                       bio: "&lt;p&gt;Tomek pracuje jako inżynier w Particular Software, gdzie rozwija platfromę do budowy stystemów opartych o wymianę wiadomości. Systemami rozproszonymi zajmuje się od kilkunastu lat, zarówno w teorii, jak i w praktyce. Lubi wiedzieć, dlaczego systemy się psują i dlaczego działają poprawie, i co to właściwie oznacza. Pisze na &lt;a href=&#34;https://exactly-once.github.io&#34;&gt;https://exactly-once.github.io&lt;/a&gt;.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/tomasz-masternak/tomek-masternak.jpg"
+                      photo: "/sites/warszawa2020/speakers/tomasz-masternak/tomek-masternak.jpg"
             - title: "Java, microbenchmarki i kłamstwa"
               session: "Warsztat"
               seats: 16
@@ -354,7 +354,7 @@ parserów, interpreterów i kompilatorów. Na co dzień walczący o lepszą wyda
 Od czasu do czasu można usłyszeć moje niskiej jakości żarty na temat architektury na
 konferencjach w Polsce.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/jarek-palka/jarek.png"
+                      photo: "/sites/warszawa2020/speakers/jarek-palka/jarek.png"
             - title: "Event Storming: od idei do kodu w 5 godzin"
               session: "Warsztat"
               seats: 40
@@ -366,17 +366,17 @@ konferencjach w Polsce.&lt;/p&gt;
                     - name: "Jakub Pilimon"
                       bio: "&lt;p&gt;Programista, Trener, Konsultant. Aktualnie pracuję na stanowisku Principal Technologist w firmie Pivotal oraz jako konsultant w Bottega IT Minds. Interesuję się modelowaniem, architekturą, Domain-Driven Design i skracaniem dystansu pomiędzy światem biznesu a IT. Jestem wielkim fanem Event Stormingu oraz wytwarzania oprogramowania sterowanego testami.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/jakub-pilimon/jakub-pilimon.jpg"
+                      photo: "/sites/warszawa2020/speakers/jakub-pilimon/jakub-pilimon.jpg"
                     - name: "Marcin Markowski"
                       bio: "&lt;p&gt;Deweloper, lider techniczny, zwolennik podejścia Software Creftsmanship i ścisłej współpracy z biznesem. Specjalizuje się w modelowaniu, implementacji Domain Driven Design i projektowaniu architektury systemów.&lt;/p&gt;
 
 &lt;p&gt;Zaczynał od consultingu biznesowego, później przeszedł do IT. Pracował zarówno nad systemami „enterprise”, jak i tworzył od podstaw rozwiązania dla małych firm. Próbował wejść w świat startupów z własnym produktem. Ostatecznie został jednak w IT, gdzie działa jako konsultant i trener.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/marcin-markowski/Marcin.png"
+                      photo: "/sites/warszawa2020/speakers/marcin-markowski/Marcin.png"
                     - name: "Mariusz Gil"
                       bio: "&lt;p&gt;Software architect, trener, ex-CTO, z branżą IT związany od ponad 20 lat. Pasjonuje się projektowaniem i implementacją systemów o złożonych wymaganiach biznesowych, machine-learningiem i procesami wytwarzania oprogramowania, które można przełożyć na realną wartość biznesową dla klienta. Speaker i współorganizator wielu otwartych spotkań dla developerów. Obecnie związany z Bottega IT Minds, gdzie ma okazję pracować z wieloma zespołami developerskimi w Polsce i Europie. Mocno zaangażowany w rozwój oraz praktyczne zastosowania EventStormingu.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/mariusz-gil/gil.png" 
+                      photo: "/sites/warszawa2020/speakers/mariusz-gil/gil.png" 
         "12:30":
             - title: "Przerwa lunchowa"
               session: "Serwis"
@@ -392,7 +392,7 @@ konferencjach w Polsce.&lt;/p&gt;
                     - name: "Oskar Dudycz"
                       bio: "&lt;p&gt;Nieudany piłkarz oraz gitarzysta hobbysta. Przeszedł daleką drogę od Amigi 500 do Mac Booka. Programista pragmatyk z natury, szef zespołu z upodobania do ludzi. Jak ma czas to pisuje na swoim blogu: &lt;a href=&#34;http://oskar-dudycz.pl&#34;&gt;http://oskar-dudycz.pl&lt;/a&gt;, jak mu się nudzi to twittuje &lt;a href=&#34;https://twitter.com/oskar_at_net&#34;&gt;https://twitter.com/oskar_at_net&lt;/a&gt;. Karierę zaczynał gdy StackOverflow nie istniał. .Netowiec od ponad 10 lat ze skłonnością do technologicznych skoków w bok. Ostatnimi czasy najbardziej zainteresowany tematami Event Sourcingu, Domain Driven Design, modularności oraz skalowalności.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/oskar-dudycz/seg-fault.jpg"
+                      photo: "/sites/warszawa2020/speakers/oskar-dudycz/seg-fault.jpg"
             - title: "Co robi twoja aplikacja, kiedy rodziców nie ma w domu. Kilka słów o Elastic APM"
               session: "Warsztat"
               seats: 16
@@ -402,7 +402,7 @@ konferencjach w Polsce.&lt;/p&gt;
                     - name: "Zbyszko Papierski"
                       bio: "&lt;p&gt;Inżynier, z silnym uzależnieniem od produktowej warstwy rozwiązania. Związany w przeszłości z Allegro, Jirą a ostatnio Dynatrace. Wszędzie gdzie się da szuka ciekawych danych, szczególnie takich bez struktury, Po godzinach zajmuje się inicjatywami trójmiejskiego JUGa, takimi jak Hackengarten, a także ostatnio próbuje nauczyć się swojego pierwszego (i najprawdopodobniej ostatniego) języka orientalnego.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/zbyszko-papierski/zbyszko-papierski.jpg"
+                      photo: "/sites/warszawa2020/speakers/zbyszko-papierski/zbyszko-papierski.jpg"
             - title: "Deep Learning dla programistów Javy"
               session: "Warsztat"
               seats: 10
@@ -414,7 +414,7 @@ konferencjach w Polsce.&lt;/p&gt;
                     - name: "Marek Będkowski"
                       bio: "&lt;p&gt;&amp;ldquo;Polyglot programmer z wieloletnim stażem oraz doświadczeniem w projektach dużych i małych. Jego ścieżka kariery wiodła prowadziła przez wiele języków programowania m.in. ActionScript, php, perl, C&#43;&#43;, python, CoffeeScript, JavaScript ostatnio Java i TypeScript. Uważa, że idealny programista powinien znać perfekcyjnie conajmniej jeden język dynamiczny i jeden statyczny. Do tej pory miał okazję realizować projekty m.in. z sektora publicznego, przetwarzania wideo w czasie rzeczywistym oraz analizy obrazów przy wykorzystaniu sieci neuronowych (również w Javie :))). Od czasu tego ostatniego dość sceptycznie nastawiony do możliwości przejęcia kontroli nad światem przez sztuczną inteligencję. Po godzinach próbuje dotrzymać tempa swojej trójce dzieci no i marzy o Tesli :)&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/marek-bedkowski/marek_bedkowski.jpg"
+                      photo: "/sites/warszawa2020/speakers/marek-bedkowski/marek_bedkowski.jpg"
             - title: "Dobrze wypaść w roli prelegenta"
               session: "Warsztat"
               seats: 20
@@ -435,7 +435,7 @@ konferencjach w Polsce.&lt;/p&gt;
                     - name: "Monika Malinowska"
                       bio: "&lt;p&gt;Wykładowca akademicki emisji głosu i sztuki wystąpień publicznych na Uniwersytecie Warszawskim, z wieloletnim doświadczeniem i wiedzą zdobytą w UK i USA. Uczy swobodnej komunikacji, wygłaszania ciekawych prelekcji i zachęca do wyjścia na scenę jako prelegent. Jej szkolenia to duża dawka wiedzy i dobrej zabawy. Autorka serii artykułów w magazynie „Programista” na temat wystąpień publicznych. Pracuje głównie z programistami.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/monika-malinowska/monika_malinowska.png"
+                      photo: "/sites/warszawa2020/speakers/monika-malinowska/monika_malinowska.png"
             - title: "Data First: Building a board game"
               session: "Warsztat"
               seats: 25
@@ -451,7 +451,7 @@ Wymagania: komputer z zainstalowaną nowożytną wersją javy z wybranym IDE (n
                       bio: "&lt;p&gt;Paweł jest programistą - generalistą z kilkunastoletnim komercyjnym stażem. Jego ikigai to dzielenie się wiedzą i rozwiązywanie problemów. Jest współorganizatorem Toruń JUG.
 Ostatnio, w swojej pracy, pomaga brytyjskim startupom jako konsultant.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/pawel-kapala/pawe%C5%82.jpg"
+                      photo: "/sites/warszawa2020/speakers/pawel-kapala/pawe%C5%82.jpg"
             - title: "Event Storming: od idei do kodu w 5 godzin"
               session: "Warsztat"
               seats: 40
@@ -463,14 +463,14 @@ Ostatnio, w swojej pracy, pomaga brytyjskim startupom jako konsultant.&lt;/p&gt;
                     - name: "Jakub Pilimon"
                       bio: "&lt;p&gt;Programista, Trener, Konsultant. Aktualnie pracuję na stanowisku Principal Technologist w firmie Pivotal oraz jako konsultant w Bottega IT Minds. Interesuję się modelowaniem, architekturą, Domain-Driven Design i skracaniem dystansu pomiędzy światem biznesu a IT. Jestem wielkim fanem Event Stormingu oraz wytwarzania oprogramowania sterowanego testami.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/jakub-pilimon/jakub-pilimon.jpg"
+                      photo: "/sites/warszawa2020/speakers/jakub-pilimon/jakub-pilimon.jpg"
                     - name: "Marcin Markowski"
                       bio: "&lt;p&gt;Deweloper, lider techniczny, zwolennik podejścia Software Creftsmanship i ścisłej współpracy z biznesem. Specjalizuje się w modelowaniu, implementacji Domain Driven Design i projektowaniu architektury systemów.&lt;/p&gt;
 
 &lt;p&gt;Zaczynał od consultingu biznesowego, później przeszedł do IT. Pracował zarówno nad systemami „enterprise”, jak i tworzył od podstaw rozwiązania dla małych firm. Próbował wejść w świat startupów z własnym produktem. Ostatecznie został jednak w IT, gdzie działa jako konsultant i trener.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/marcin-markowski/Marcin.png"
+                      photo: "/sites/warszawa2020/speakers/marcin-markowski/Marcin.png"
                     - name: "Mariusz Gil"
                       bio: "&lt;p&gt;Software architect, trener, ex-CTO, z branżą IT związany od ponad 20 lat. Pasjonuje się projektowaniem i implementacją systemów o złożonych wymaganiach biznesowych, machine-learningiem i procesami wytwarzania oprogramowania, które można przełożyć na realną wartość biznesową dla klienta. Speaker i współorganizator wielu otwartych spotkań dla developerów. Obecnie związany z Bottega IT Minds, gdzie ma okazję pracować z wieloma zespołami developerskimi w Polsce i Europie. Mocno zaangażowany w rozwój oraz praktyczne zastosowania EventStormingu.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/mariusz-gil/gil.png"
+                      photo: "/sites/warszawa2020/speakers/mariusz-gil/gil.png"

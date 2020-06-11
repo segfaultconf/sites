@@ -12,7 +12,7 @@ agenda:
                     - name: "Bartłomiej Słota"
                       bio: "&lt;p&gt;Programista z zawodu i zamiłowania. Konsultant i mentor w Bottega IT Minds. Speaker, autor bloga bartslota.blogspot.com. Zdobywał doświadczenie w branżach takich jak opieka zdrowotna, telekomunikacja, marketing, finanse, energetyka, pracując w firmach liczących od kilkudziesięciu do kilku tysięcy pracowników. Pasjonat OOP, Domain Driven Design, software craftsmanship, mikrousług i szeroko pojętej architektury systemów i aplikacji. Entuzjasta warsztatów Event Storming&amp;rsquo;u. W życiu prywatnym mąż i tata. W wolnych chwilach słucha ciężkiej muzyki, gra na gitarze, wędkuje, albo przemierza bezkresne szlaki Bieszczadów.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/online-1-2020/speakers/bartek-slota/IMGA9613.JPG" 
+                      photo: "/sites/online-1-2020/speakers/bartek-slota/IMGA9613.JPG" 
         "2020.07.07 11:00 - 12:30":
             - title: "Storming stormingiem, ale sprawiedliwość musi być po naszej stronie"
               session: "Serwis"
@@ -51,7 +51,7 @@ agenda:
 
 &lt;p&gt;Moja najświeższa działalność to modelowanie aplikacji z wykorzystaniem Event Storming i Event Modeling. Można śledzić te poczynania w daily vlog’u Moje 5 minut.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/online-1-2020/speakers/krzysztof-owsiany/IMG_9194-2.jpg" 
+                      photo: "/sites/online-1-2020/speakers/krzysztof-owsiany/IMG_9194-2.jpg" 
         "2020.07.08 11:00 - 12:30":
             - title: "Praca w wielokulturowych zespołach"
               session: "Serwis"
@@ -72,7 +72,7 @@ agenda:
                     - name: "Mariusz Jasinski"
                       bio: "&lt;p&gt;Obecnie Scrum Master z techniczną duszą. Kilka lat temu zainspirowany podejściem zwinnym postanowił przejść na ludzką stronę mocy i odstawić zera i jedynki na drugi plan. Zawodowo zajarany wpływem kultury na naszą pracę i życie codzienne oraz budowaniem “High-performance” zespołów. Na codzień mocno skoncentrowany na wdrażaniu mądrości Agile we wszystkich aspektach życia (możecie zapytać żony ;=) ).  Prywatnie mąż i ojciec. W wolnych chwilach lubi potańczyć i podróżować.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/online-1-2020/speakers/mariusz-jasinski/photo.png" 
+                      photo: "/sites/online-1-2020/speakers/mariusz-jasinski/photo.png" 
         "2020.07.09 11:00 - 12:30":
             - title: "Krotki i relacje czyli dlaczego w relacyjnych bazach danych nie ma tabel a SQL kłamie."
               session: "Serwis"
@@ -83,7 +83,7 @@ agenda:
                     - name: "Rafał Pocztarski"
                       bio: "&lt;p&gt;Rafał Pocztarski od dziecka interesuje się programowaniem i zgłębianiem zasad działania otaczającego go świata, czym chętnie dzieli się z każdym, kto nieopatrznie wykaże choćby cień zainteresowania. Podstawówka to Basic, Logo, Pascal, C, Assembler. Liceum to Perl i JavaScript. W Node.js programuje od 2009 roku czyli zaraz od jego powstania. Jako pierwszy w Polsce zdobył Złoty Medal Node.js na Stack Overflow. Od 2018 roku zaangażowany jest w rozwój projektu Deno, kolejnego po Node.js projektu Ryana Dahla.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/online-1-2020/speakers/rafal-pocztarski/rsp-photo-3.jpg" 
+                      photo: "/sites/online-1-2020/speakers/rafal-pocztarski/rsp-photo-3.jpg" 
         "2020.07.10 11:00 - 12:30":
             - title: "TBD"
               session: "Serwis"

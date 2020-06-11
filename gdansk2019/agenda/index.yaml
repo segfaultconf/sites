@@ -32,7 +32,7 @@ agenda:
                       bio: "&lt;p&gt;Za dnia jestem programistą i devopsem, po nocach czytam co słychać na Hacker News. Wierny fan pracy zdalnej. Brałem udział w wielu projektach z różnych dziedzin, od bezpieczeństwa w kolejkach po Hadoopa, od monolitu do mikroserwisów.
 Wyznaję automatyzację oraz wierzę, że Linux to najlepsza rzecz pod słońcem. No, może druga w kolejności zaraz po Vim ;)&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/marcin-stozek/marcin.stozek.jpg"
+                      photo: "/sites/gdansk2019/speakers/marcin-stozek/marcin.stozek.jpg"
             - title: "Podstawy uczenia maszynowego dla programistów"
               session: "Warsztat"
               seats: 16
@@ -44,11 +44,11 @@ Wyznaję automatyzację oraz wierzę, że Linux to najlepsza rzecz pod słońcem
                     - name: "Adam Dudczak"
                       bio: "&lt;p&gt;Team manager w Allegro, doświadczony deweloper, zainteresowany tematyką wyszukiwania (oraz odnajdywania) informacji, od dłuższego czasu pracujący nad rozwojem największej ecomersowej wyszukiwarki w Polsce. Prywatnie ojciec, mąż i król suchego dowcipu.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/adam-dudczak/adamdudczak.png"
+                      photo: "/sites/gdansk2019/speakers/adam-dudczak/adamdudczak.png"
                     - name: "Jakub Pokrywka"
                       bio: "&lt;p&gt;Data scientist w Allegro i doktorant na Uniwersytecie im. Adama Mickiewicza w Poznaniu. Pracując przy allegrowej wyszukiwarce rozwiązania problemów opiera o dane. Realizuje to w oparciu o statystykę oraz metody uczenia maszynowego. W szczególności interesuje się przetwarzaniem języka naturalnego.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/jakub-pokrywka/pokrywka-zdjecie.jpg"
+                      photo: "/sites/gdansk2019/speakers/jakub-pokrywka/pokrywka-zdjecie.jpg"
             - title: "Jak wgryźć się w elementy programowania funkcyjnego podczas refaktoryzacji kodu w Javie?"
               session: "Warsztat"
               seats: 16
@@ -71,13 +71,13 @@ Jeśli można, to dlaczego z nich nie skorzystać? Jakie korzyści, bądź wady 
                     - name: "Krzysztof Borowa"
                       bio: "&lt;p&gt;Od ponad 10 lat adept wszystkiego co związane z Java. Wielki fan jakości, testów i podejścia funkcyjnego. Pomiędzy sesjami związanymi z kodowaniem w korporacji, uwielbia spędzać czas na spotkaniach, meetingach i innych “fascynujących agile-owych” wydarzeniach. Przy szklaneczce dobrej whisky lubi nadrobić zaległości konferencyjne na YouTubie. Nie stroni też od spędzania wolnego czasu nad testowaniem nowych planszówek.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/krzysztof-borowa/krzysztof-borowa.jpg"
+                      photo: "/sites/gdansk2019/speakers/krzysztof-borowa/krzysztof-borowa.jpg"
                     - name: "Michał Jonko"
                       bio: "&lt;p&gt;Software Engineer od ponad 10 lat, skupiony głównie (jak nie jedynie) na pracy z JVM. Pasjonat optymalizacji, walki z wydajnością,  automatyzacji, identyfikacji procesów i systemów decyzyjnych. Niestety również wymagający maruda i wielki “wielbiciel” Agile, czciciel czytelnego i łatwego w utrzymaniu kodu - najlepiej funkcyjnego. Swoje zawodowe pasje dzieli z zespołem LogAnalytics w gdańskim oddziale Dynatrace.&lt;/p&gt;
 
 &lt;p&gt;Wolny czas spędza najchętniej za kierownicą samochodu, chociaż czasami lepiej sprawdza się jako dobry ojciec 3 córek.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/michal-jonko/michal-jonko.jpg"
+                      photo: "/sites/gdansk2019/speakers/michal-jonko/michal-jonko.jpg"
             - title: "Continuous Delivery w OSS z użyciem Shipkita"
               session: "Warsztat"
               seats: 16
@@ -97,7 +97,7 @@ Jeśli można, to dlaczego z nich nie skorzystać? Jakie korzyści, bądź wady 
 
 &lt;p&gt;Twitter: @MarcinStachniuk&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/marcin-stachniuk/marcin_stachniuk.jpg"
+                      photo: "/sites/gdansk2019/speakers/marcin-stachniuk/marcin_stachniuk.jpg"
             - title: "Kotlin for Java developers"
               session: "Warsztat"
               seats: 16
@@ -107,7 +107,7 @@ Jeśli można, to dlaczego z nich nie skorzystać? Jakie korzyści, bądź wady 
                     - name: "Marcin Moskala"
                       bio: "&lt;p&gt;Marcin Moskala is an experienced Android developer, teacher, and &lt;a href=&#34;https://www.jetbrains.com/company/partners/#countries=Poland&amp;profession=TrainingPartner&amp;speciality=Kotlin&amp;technologies=Kotlin&#34;&gt;an official Jetbrains&amp;rsquo; Kotlin training partner&lt;/a&gt;. He is the founder of &lt;a href=&#34;http://kt.academy/&#34;&gt;Kt. Academy&lt;/a&gt;, author of the book &amp;ldquo;&lt;a href=&#34;https://www.packtpub.com/application-development/android-development-kotlin&#34;&gt;Android Development with Kotlin&lt;/a&gt;&amp;rdquo;, and an active programming community member. He is also the main author on the biggest &lt;a href=&#34;http://blog.kotlin-academy.com/&#34;&gt;medium publication about Kotlin&lt;/a&gt; and a speaker invited to many programming conferences.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/marcin-moskala/Marcin_Moskala.jpg"
+                      photo: "/sites/gdansk2019/speakers/marcin-moskala/Marcin_Moskala.jpg"
             - title: "Frameworkless JavaScript"
               session: "Warsztat"
               seats: 16
@@ -118,7 +118,7 @@ Jeśli można, to dlaczego z nich nie skorzystać? Jakie korzyści, bądź wady 
                       bio: "&lt;p&gt;Inżynier rozwiązujący problemy z wykorzystaniem zdobyczy techniki informacyjnej. Pasjonat nauki i techniki. Wierny wyznawca filozofi TQM oraz Lean. Praktyk zwinnych metodyk oraz pretendent Software Craftmanship.
 Współzałożyciel i lider działu badawczo-rozwojowego &lt;a href=&#34;https://inn4.tech/&#34;&gt;Inn4Tech&lt;/a&gt;. Trener w &lt;a href=&#34;http://symentis.pl/&#34;&gt;symentis.pl&lt;/a&gt;&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/lukasz-luczak/lukasz_luczak.jpg"
+                      photo: "/sites/gdansk2019/speakers/lukasz-luczak/lukasz_luczak.jpg"
             - title: "Warsztat Event Storming"
               session: "Warsztat"
               seats: 25
@@ -130,11 +130,11 @@ Współzałożyciel i lider działu badawczo-rozwojowego &lt;a href=&#34;https:/
                     - name: "Arkadiusz Kondas"
                       bio: "&lt;p&gt;Zawodowy programista. Entuzjasta uczenia maszynowego. Wierzy w ideę Software Craftsmanship. Miłośnik open source. W wolnych chwilach rozwija swoje projekty na githubie, bloguje i biega ultramaratony.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/arkadiusz-kondas/arkadiusz-kondas.jpg"
+                      photo: "/sites/gdansk2019/speakers/arkadiusz-kondas/arkadiusz-kondas.jpg"
                     - name: "Wojtek Ptak"
                       bio: "&lt;p&gt;Bezgraniczny fan freeride-owego wydania roweru, snowboard-u i nart. Zawodowo od lat wspierający inicjatywy zwinnych transformacji kultury organizacji w kierunku data-driven pracując z wieloma międzynarodowymi korporacjami. Skupia się na budowaniu i wspieraniu zespołów, które ciągle się rozwijają w kierunku wykorzystania konceptów takich, jak evolutionary lub event-driven architecture, wykorzystanie technologii Big Data w zbieraniu i przetwarzaniu danych oraz praktycznego wykorzystania uczenia maszynowego.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/wojtek-ptak/wojtek_ptak.jpg" 
+                      photo: "/sites/gdansk2019/speakers/wojtek-ptak/wojtek_ptak.jpg" 
         "12:30":
             - title: "Przerwa lunchowa"
               session: "Serwis"
@@ -152,7 +152,7 @@ Współzałożyciel i lider działu badawczo-rozwojowego &lt;a href=&#34;https:/
                     - name: "Grzegorz Kocur"
                       bio: "&lt;p&gt;Senior DevOps Engineer w firmie Softwaremill. Wierzy, że nie ma jednego dobrego rozwiązania a kluczem do sukcesu jest dobór właściwego narzędzia do konkretnych potrzeb. Na co dzień zajmuje się systemami CI/CD, automatyzacją i orkiestracją. Prywatnie — mąż, ojciec, wielbiciel gór, wspinaczki.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/grzegorz-kocur/grzegorz_kocur.jpg"
+                      photo: "/sites/gdansk2019/speakers/grzegorz-kocur/grzegorz_kocur.jpg"
             - title: "Deep Learning w (świadomych) zastosowaniach"
               session: "Warsztat"
               seats: 16
@@ -174,7 +174,7 @@ Współzałożyciel i lider działu badawczo-rozwojowego &lt;a href=&#34;https:/
 
 &lt;p&gt;Krzysztof bardzo chciałby swobodnie rozmawiać z komputerem, na zakupy wysyłać robota, jeździć autonomicznym samochodem. Marzeniom trzeba pomagać. Krzysztof od ponad 10 lat pracuje jako inżynier algorytmów analizy danych, sztucznej inteligencji i robotyki. Krzysztof wierzy, że będzie dobrze.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/krzysztof-kudrynski/kudrynski.jpeg"
+                      photo: "/sites/gdansk2019/speakers/krzysztof-kudrynski/kudrynski.jpeg"
             - title: "Transakcyjne przetwarzanie w Java Persistence API (JPA)"
               session: "Warsztat"
               seats: 16
@@ -190,7 +190,7 @@ Współzałożyciel i lider działu badawczo-rozwojowego &lt;a href=&#34;https:/
                     - name: "Wojciech Oczkowski"
                       bio: "&lt;p&gt;Specjalista do spraw trudnych, zawodowo rozwiązuje problemy związane z projektowaniem architektury systemów, integracją, wydajnością i jakością kodu. Znajduje obsesyjną wręcz przyjemność w wynajdowaniu sensu w cudzym kodzie. Prywatnie rozwiązuje problemy związane z wychowaniem 2 dzieciaków i znajdowaniem czasu na żeglowanie i czytanie literatury fantastycznej. Jeden z liderów i założycieli Bydgoszcz JUG. Z mozołem buduje swoją małą potęgę informatyczną o nazwie IT Kontekst.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/wojciech-oczkowski/wojtek_oczkowski.jpg"
+                      photo: "/sites/gdansk2019/speakers/wojciech-oczkowski/wojtek_oczkowski.jpg"
             - title: "Continuous Delivery: jak, z czym i dlaczego?"
               session: "Warsztat"
               seats: 16
@@ -202,7 +202,7 @@ Współzałożyciel i lider działu badawczo-rozwojowego &lt;a href=&#34;https:/
                     - name: "Rafał Sztwiorok"
                       bio: "&lt;p&gt;Ewangelista Continuous Delivery. W branży IT od 15 lat, od 10 lat Project Manager aplikacji typu SaaS, od 3 lat CTO w Buddy, narzędziu do automatyzacji procesów developerskich. Współtwórca Springloops (2007), jednego z pierwszych narzędzi do kontroli wersji i deploymentu. Prywatnie ojciec trójki dzieci i urodzony napastnik.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/rafal-sztwiorok/Raf.png"
+                      photo: "/sites/gdansk2019/speakers/rafal-sztwiorok/Raf.png"
             - title: "Kotlin plus Spring minus Adnotacje"
               session: "Warsztat"
               seats: 16
@@ -229,7 +229,7 @@ Współzałożyciel i lider działu badawczo-rozwojowego &lt;a href=&#34;https:/
                     - name: "Paweł Włodarski"
                       bio: "&lt;p&gt;Od kilku lat w ramach łódzkiego JUGa (czyli grupy miłośników technologii już nie tylko okołojavowywch) organizuję wykłady, warsztaty i ćwiczenia – tak zwana praca u podstaw społeczności IT. Co roku także trochę pomagam przy organizacji chyba największej w Łodzi konferencji skupiającej się na technologiach mobilnych – &amp;ldquo;Mobilization&amp;rdquo;. Komercyjnie już od ponad 10 lat programuję w Javie a ostatnio doszła do tego i Scala.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/pawel-wlodarski/pawel_wlodarski.jpg"
+                      photo: "/sites/gdansk2019/speakers/pawel-wlodarski/pawel_wlodarski.jpg"
             - title: "Kickstart your performance testing"
               session: "Warsztat"
               seats: 16
@@ -271,7 +271,7 @@ i spojrzeć w nagłówek &amp;ldquo;&amp;ldquo;Prerequisites&amp;rdquo;&amp;rdqu
                     - name: "Konrad Marszałek"
                       bio: "&lt;p&gt;I have 10-years of experience in software quality assurance divided by 2 cities (Kraków and Gdańsk) and 3 companies. I had pleasure to work for successful startup, middle-sized company with cloud product, and large company with product used by 30k customers. I like to implement simple solutions that make a difference. My motto is “Make work productive and enjoyable for myself and others, especially by means of automation.”&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/konrad-marszalek/konrad-marszalek.jpg"
+                      photo: "/sites/gdansk2019/speakers/konrad-marszalek/konrad-marszalek.jpg"
             - title: "Z Event Stormingu do Walking Skeleton."
               session: "Warsztat"
               seats: 25
@@ -312,7 +312,7 @@ Jeśli nie jesteś programistą/tką Javy lub nie chcesz programować podczas wa
                     - name: "Jakub Pilimon"
                       bio: "&lt;p&gt;Programista, Trener, Konsultant. Aktualnie pracuję na stanowisku Principal Technologist w firmie Pivotal oraz jako konsultant w Bottega IT Minds. Interesuję się modelowaniem, architekturą, Domain-Driven Design i skracaniem dystansu pomiędzy światem biznesu a IT. Jestem wielkim fanem Event Stormingu oraz wytwarzania oprogramowania sterowanego testami.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/jakub-pilimon/jakub-pilimon.jpg" 
+                      photo: "/sites/gdansk2019/speakers/jakub-pilimon/jakub-pilimon.jpg" 
         "16:00":
             - title: "Zakończenie pierwszego dnia"
               session: "Serwis"
@@ -342,7 +342,7 @@ Ten wykład będzie właśnie o tym, jak to działa. Przejdziemy od podstaw dzia
 
 &lt;p&gt;Krzysztof bardzo chciałby swobodnie rozmawiać z komputerem, na zakupy wysyłać robota, jeździć autonomicznym samochodem. Marzeniom trzeba pomagać. Krzysztof od ponad 10 lat pracuje jako inżynier algorytmów analizy danych, sztucznej inteligencji i robotyki. Krzysztof wierzy, że będzie dobrze.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/krzysztof-kudrynski/kudrynski.jpeg" 
+                      photo: "/sites/gdansk2019/speakers/krzysztof-kudrynski/kudrynski.jpeg" 
         "10:30":
             - title: "Serverless oczami bezpiecznika"
               session: "Prezentacja"
@@ -357,7 +357,7 @@ Ten wykład będzie właśnie o tym, jak to działa. Przejdziemy od podstaw dzia
                     - name: "Marcin Hoppe"
                       bio: "&lt;p&gt;Programista z zawodu i powołania, po latach służby został bezpiecznikiem. Pasjonat tworzenia softu odpornego na ataki. Za dnia odpowiada za bezpieczeństwo produktu w Auth0, nocą udziela się w Node.js Foundation i OWASP.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/marcin-hoppe/marcin_hoppe.png"
+                      photo: "/sites/gdansk2019/speakers/marcin-hoppe/marcin_hoppe.png"
             - title: "Jak wytresować Basha?"
               session: "Serwis"
               seats: 16
@@ -375,7 +375,7 @@ Po co ci więcej siwych włosów? Chodź zobacz jak wytresować Basha.&lt;/p&gt;
                       bio: "&lt;p&gt;Za dnia jestem programistą i devopsem, po nocach czytam co słychać na Hacker News. Wierny fan pracy zdalnej. Brałem udział w wielu projektach z różnych dziedzin, od bezpieczeństwa w kolejkach po Hadoopa, od monolitu do mikroserwisów.
 Wyznaję automatyzację oraz wierzę, że Linux to najlepsza rzecz pod słońcem. No, może druga w kolejności zaraz po Vim ;)&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/marcin-stozek/marcin.stozek.jpg" 
+                      photo: "/sites/gdansk2019/speakers/marcin-stozek/marcin.stozek.jpg" 
         "11:30":
             - title: "How to live in a post-Spring-Cloud-Netflix world?"
               session: "Serwis"
@@ -391,11 +391,11 @@ Author of &amp;ldquo;Mockito Instant&amp;rdquo; and &amp;ldquo;Mockito Cookbook&
 
 &lt;p&gt;Contributed to Groovy, Mockito, Rest-assured, Drools, Moco. Author of Uptodate Gradle plugin, Spock subjects-collaborators extension, gradle-test-profiler, JSONAssert and XMLAssert open source projects.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/macin-grzejszczak/marcin_grzejszczak.jpeg"
+                      photo: "/sites/gdansk2019/speakers/macin-grzejszczak/marcin_grzejszczak.jpeg"
                     - name: "Olga Maciaszek-Sharma"
                       bio: "&lt;p&gt;&lt;b&gt;Olga Maciaszek-Sharma&lt;/b&gt; is a Java and Groovy Developer. She has gained experience while working with microservices where cutting-edge solutions were used as well as with complex legacy systems, implementing both new business features and solutions aimed at improving the process of continuous deployment and setup of applications. Olga is also a contributor to various OSS projects: Spring Cloud Contract (formerly: Accurest), JFairy, Jenkins Pipeline Plugin, Jenkins Stash Pull Request Builder Plugin, and others. Before switching to development, she worked for more than 3 years as a Quality Assurance Engineer, specialized in test automation&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/olga-maciaszek-sharma/olgamaciaszek.jpg"
+                      photo: "/sites/gdansk2019/speakers/olga-maciaszek-sharma/olgamaciaszek.jpg"
             - title: "Machine Learning - jak zacząć uczyć maszynę"
               session: "Prezentacja"
               seats: 16
@@ -405,7 +405,7 @@ Author of &amp;ldquo;Mockito Instant&amp;rdquo; and &amp;ldquo;Mockito Cookbook&
                     - name: "Arkadiusz Kondas"
                       bio: "&lt;p&gt;Zawodowy programista. Entuzjasta uczenia maszynowego. Wierzy w ideę Software Craftsmanship. Miłośnik open source. W wolnych chwilach rozwija swoje projekty na githubie, bloguje i biega ultramaratony.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/arkadiusz-kondas/arkadiusz-kondas.jpg" 
+                      photo: "/sites/gdansk2019/speakers/arkadiusz-kondas/arkadiusz-kondas.jpg" 
         "12:15":
             - title: "Przerwa lunchowa"
               session: "Serwis"
@@ -421,7 +421,7 @@ Author of &amp;ldquo;Mockito Instant&amp;rdquo; and &amp;ldquo;Mockito Cookbook&
                     - name: "Maciej Gajdzica"
                       bio: "&lt;p&gt;Programista systemów embedded z sześcioletnim doświadczeniem. Pracuje w firmie Solwit, gdzie specjalizuje się w systemach safety-critical. Przez dwa lata pracował nad systemem sterującym ruchem pociągów, a ostatnio rozwija oprogramowanie dla branży medycznej. Propagator dobrych praktyk - szczególnie TDD - w branży embedded. W wolnych chwilach konstruuje robota Micromouse odnajdującego drogę w labiryncie i opisuje ten proces na swoim blogu &lt;a href=&#34;http://ucgosu.pl/&#34;&gt;http://ucgosu.pl/&lt;/a&gt;&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/maciej-gajdzica/maciej_gajdzica.jpg"
+                      photo: "/sites/gdansk2019/speakers/maciej-gajdzica/maciej_gajdzica.jpg"
             - title: "Docker, DevOps, Kubernetes. Instrukcja obsługi"
               session: "Serwis"
               seats: 16
@@ -431,7 +431,7 @@ Author of &amp;ldquo;Mockito Instant&amp;rdquo; and &amp;ldquo;Mockito Cookbook&
                     - name: "Piotr Struzik"
                       bio: "&lt;p&gt;Entuzjasta wszystkiego co cloudowe, linuxowe a ostatnio związane z Blockchain. Ponad 10 lat w branży IT: od korporacji po startupy. Aktualnie Head of Cloud and DevOps w Buddy. Prywatnie fan latania dronami oraz dobrego jedzenia.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/piotr-struzik/Peter.jpg" 
+                      photo: "/sites/gdansk2019/speakers/piotr-struzik/Peter.jpg" 
         "14:00":
             - title: "Charbusters - 10 mitów o Unicode"
               session: "Serwis"
@@ -454,7 +454,7 @@ Nie mówiąc już o słowie roku 2015 wg Oxford English Dictionary, czyli&amp;he
                     - name: "Tomek Nurkiewicz"
                       bio: "&lt;p&gt;Java Champion. Spędził połowę życia na programowaniu, przez ostatnią dekadę w okolicach Javy. Uwielbia back-end i wizualizację danych. Zainteresowany alternatywnymi językami na JVM. Rozczarowany jakością oprogramowania tworzonego w dzisiejszych czasach (także przez siebie!), nie znosi długich metod i ukrytych efektów ubocznych. Zainteresowany analizą danych i programowaniem reaktywnym. Wierzy, że komputery stworzono, żeby programiści mogli automatyzować nudne i powtarzalne zadania. Także własne. Na co dzień pracuje w Allegro. Związany z open-source, DZone’s Most Valuable Blogger, kiedyś bardzo aktywny na StackOverflow. Autor, trener, prelegent, recenzent techniczny wielu książek, biegacz. Twierdzi, że kod pozbawiony testów jednostkowych to nie „feature” tylko plotka. Napisał książkę o RxJavie dla O’Reilly.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/tomek-nurkiewicz/tomek-nurkiewicz.jpg"
+                      photo: "/sites/gdansk2019/speakers/tomek-nurkiewicz/tomek-nurkiewicz.jpg"
             - title: "Głębokie problemy głębokiego uczenia"
               session: "Serwis"
               seats: 16
@@ -473,7 +473,7 @@ zastosowanie tej technologii w dużo szerszym zakresie niż do tej pory?&lt;/p&g
                     - name: "Mariusz Domżalski"
                       bio: "&lt;p&gt;Head of DataScience in DataMass, PhD in estimation theory/data fusion. Architect and developer of data processing systems in the industry. Linux fan and a Math geek.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/mariusz-domzalski/generic-avatar.jpg" 
+                      photo: "/sites/gdansk2019/speakers/mariusz-domzalski/generic-avatar.jpg" 
         "15:00":
             - title: "High Availability w chmurze, czyli jak wymienić cały hardware bez downtime&#39;u aplikacji"
               session: "Serwis"
@@ -488,7 +488,7 @@ zastosowanie tej technologii w dużo szerszym zakresie niż do tej pory?&lt;/p&g
                     - name: "Karol Łyskawinski"
                       bio: "&lt;p&gt;Team leader i programista w firmie Dynatrace. Od początku kariery zawodowej związany z Javą i chmurą AWS. Pasjonat czystego kodu, chmurowych rozwiązań i automatyzacji czego tylko się da. Prywatnie entuzjasta nowych technologii i książek science-fiction.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/karol-lyskawinski/klyskawi.jpg"
+                      photo: "/sites/gdansk2019/speakers/karol-lyskawinski/klyskawi.jpg"
             - title: "Docker internals"
               session: "Serwis"
               seats: 16
@@ -500,7 +500,7 @@ zastosowanie tej technologii w dużo szerszym zakresie niż do tej pory?&lt;/p&g
                     - name: "Michał Gryko"
                       bio: "&lt;p&gt;Od dziecka zainteresowany elektroniką. Często rozkładałem rzeczy na części aby sprawdzić jak działają. Absolwent Elektroniki na Politechnice Gdańskiej, od 12 lat pracuję jako &amp;hellip; (tu wstaw aktualny buzzword określający sysadmina). Obecnie zatrudniony jako senior Site Reliability Engineer w Nordea Trading Technology.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/michal-gryko/michal_gryko.jpg" 
+                      photo: "/sites/gdansk2019/speakers/michal-gryko/michal_gryko.jpg" 
         "16:00":
             - title: "Senior Developer - człowiek renesansu"
               session: "Prezentacja"
@@ -519,4 +519,4 @@ zastosowanie tej technologii w dużo szerszym zakresie niż do tej pory?&lt;/p&g
 
 &lt;p&gt;Lider transformacji IT w mBanku, gdzie wraz z zespołem pomagała wszystkim szczeblom organizacji zrozumieć i zaadoptować zwinne metody wytwarzania oprogramowania. Mentor i trener zwinnych metod wytwarzania oprogramowania, z doświadczeniem w roli AgileCoach. Ma na swoim koncie skuteczne transformacje zarówno na poziomie zespołów, jak i całych działów organizacji. Dziś jej mentee zarządzają zespołami IT w mBanku, a także wchodzą w rolę AgileCoachy.&lt;/p&gt;
 "
-                      photo: "http://test.segfault.events/sites/gdansk2019/speakers/eliza-stasinska/eliza.png"
+                      photo: "/sites/gdansk2019/speakers/eliza-stasinska/eliza.png"
