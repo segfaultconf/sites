@@ -17,7 +17,7 @@ location:
 registrationlink: https://segfault-university-gdansk-2019.konfeo.com/
 logo: SFU-color-horizontal.png
 social: 
-    facebook: img/social_facebook_sf_gdansk.jpg
+    facebook: sites/img/social_facebook_sf_gdansk.jpg
 agenda:
   - tracks:
       - "Warsztaty, Sale: A, B, C, D, E, F, G"

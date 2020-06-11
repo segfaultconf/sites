@@ -18,24 +18,24 @@
   {{ if .Params.social.facebook }}
   <meta name="twitter:image:src" content="{{ .Site.BaseURL }}sites{{ .CurrentSection.RelPermalink  }}{{ .Params.social.facebook }}">
   {{ else }}
-  <meta name="twitter:image:src" content="{{ .Site.BaseURL }}img/social_facebook_sf.jpg">
+  <meta name="twitter:image:src" content="{{ .Site.BaseURL }}/sites/img/social_facebook_sf.jpg">
   {{ end }}
   <!-- Social: Facebook / Open Graph -->
   {{ template "_internal/opengraph.html" . }}
 
-  <link rel="shortcut icon" href="/img/favicon.png">
+  <link rel="shortcut icon" href="/sites/img/favicon.png">
 
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,300,400">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Sedgwick+Ave">
   <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <link rel="stylesheet" href="/css/main.css?{{ now.Unix }}">
+  <link rel="stylesheet" href="/sites/css/main.css?{{ now.Unix }}">
 
   <script type="text/javascript" src="//code.jquery.com/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
   <script type="text/javascript" src="//stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="/js/main.js?{{ now.Unix }}"></script>
+  <script type="text/javascript" src="/sites/js/main.js?{{ now.Unix }}"></script>
 
   {{ if not .Site.IsServer }}
   {{ partial "google_adwords.html" . }}
