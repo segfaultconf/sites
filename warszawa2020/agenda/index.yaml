@@ -1,0 +1,476 @@
+
+
+agenda: 
+    - 
+        "8:30":
+            - title: "Rejestracja uczestników"
+              session: "Serwis"
+              seats: 16
+              abstract: "" 
+        "9:30":
+            - title: "Poligraf (wariograf) = wykrywacz kłamstw ?"
+              session: "Prezentacja"
+              seats: 16
+              abstract: "&lt;p&gt;Badanie poligraficzne to instrumentalna metoda detekcji nieszczerości polegająca na wzbudzeniu, rejestracji i interpretacji reakcji fizjologicznych organizmu osoby badanej na zadane jej pytania. Udowodnię Ci, że nie ma takiego urządzenia jakim jest wykrywacz kłamstw. Podczas kolejnego etapu zajęć dowiesz się m.in. jak przeprowadzane jest badanie z wykorzystaniem poligrafu. Wskażę, że odbiór interesujących nas sygnałów pochodzących od reakcji fizjologicznych organizmu, dokonywany jest za pomocą czujników instalowanych na ciele osoby badanej, a dane przez nie przejęte są przetwarzane na wykresy w układzie współrzędnych. Podczas zajęć odpowiem również na pytanie, tj.: czy człowiek jest w stanie oszukać poligraf ?&lt;/p&gt;
+"
+              speakers:
+                    - name: "Arkadiusz P. Szajna"
+                      bio: "&lt;p&gt;dr Arkadiusz Paweł Szajna – prawnik, kryminalistyk, kryminolog, nauczyciel akademicki oraz kierownik laboratorium badań poligraficznych w Wyższej Szkole Zarządzania Ochroną Pracy
+w Katowicach, ekspert z zakresu badań poligraficznych (wariograficznych). Pełni funkcję członka Zarządu oraz Komitetu Prawnego Polskiego Towarzystwa Badań Poligraficznych (PTBP). Jest również autorem publikacji naukowych z zakresu m.in. kryminalistyki i kryminologii oraz czynnym uczestnikiem konferencji naukowych o zasięgu ogólnopolskim i międzynarodowym. Pan Arkadiusz za zasługi w pracy związanej z więziennictwem został przez Ministra Sprawiedliwości uhonorowany specjalnym odznaczeniem, pt. „Za zasługi w pracy penitencjarnej”.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/arkadiusz-szajna/arek_szajna.png" 
+        "10:30":
+            - title: "Java 12, 13, 14. Nowości godne uwagi."
+              session: "Prezentacja"
+              seats: 16
+              abstract: "&lt;p&gt;Hej, czy zwróciłeś/aś uwagę, że od Javy 11 pojawiły się już trzy nowe wersje Javy?! Czyż to nie wspaniałe, że nie musimy czekać cztery lata na kolejne wydanie? ;-)&lt;/p&gt;
+
+&lt;p&gt;No dobrze, ale konkretnie wydarzyło się od Javy 11?&lt;/p&gt;
+
+&lt;p&gt;Wyrażenia switch?
+Bloki tekstowe?
+Pattern matching dla instanceof?
+Rekordy?
+Usprawnienia przy NullPointerException?
+O co chodzi z nowymi GCs: Shenandoah i ZGC?
+Jak uruchamiać aplikacje szybciej dzięki AppCDS?
+Jakie są najważniejsze zmiany w API?&lt;/p&gt;
+
+&lt;p&gt;Jeśli te tematy wydają Ci się ciekawe, sprawdźmy razem ile są warte.&lt;/p&gt;
+"
+              speakers:
+                    - name: "Piotr Przybył"
+                      bio: "&lt;p&gt;Notoryczny inżynier w pracy i poza nią, podążający za meandrami sztuki programowania. Zawodowo Remote Freelance Software Gardener, od kilku lat wyrywający chwasty w ogródkach webowych i zwykle przycinający Javę do kształtów pożądanych przez klientów. Miłośnik lekkości i zwinności, która powinna przejawiać się przede wszystkim w stosowaniu właściwych narzędzi. Lead developer, trener, prelegent.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/piotr-przybyl/me5.jpg"
+            - title: "Najważniejsza jest komunikacja – budowanie aplikacji i systemów heterogenicznych"
+              session: "Prezentacja"
+              seats: 16
+              abstract: "&lt;p&gt;Obecnie najbardziej popularnym sposobem łączenia różnych aplikacji jest tworzenie WebAPI. Niestety jest wiele sytuacji, w których nie możemy sobie pozwolić na taki komfort, np. gdy potrzebujemy użyć biblioteki w C z poziomu Pythona lub gdy chcemy użyć kodu C# lub JavaScript na Androidzie do tworzenia aplikacji mobilnej. Sytuacja taka ma miejsce również, kiedy chcemy wykorzystać JavaScript do programowania firmware urządzeń typu embeeded, uruchamiając bindingi w C lub kiedy chcemy z poziomu PHP wywołać kod Javy. Wiemy, że mieszanie technologii to nie jest do końca eleganckie rozwiązanie, ale nie zawsze przepisywanie na kolejny język wchodzi w grę. Chociażby z powodu kosztów. Czasem zupełnie nie ma takiej możliwości, a WebAPI w wielu z omawianych przypadków zwyczajnie nie można zastosować.&lt;/p&gt;
+
+&lt;p&gt;Podczas prezentacji przedstawię kilka sposobów na łączenie różnych platform czy języków. Posłużę się konkretnymi przykładami technologii oraz zaprezentuję ich architekturę. Dzięki temu będziecie mogli znacznie rozszerzyć spektrum wyboru dostępnych opcji, kiedy napotkacie taki problem. Omawiany temat pozwoli Wam zrozumieć, jak działają technologie, z których korzystacie bądź będziecie korzystać.&lt;/p&gt;
+"
+              speakers:
+                    - name: "Michał Zubkowicz"
+                      bio: "&lt;p&gt;Michał Zubkowicz pracuje w firmie Onwelo na stanowisku Full Stack Developer / Architect. Zajmuje się rozwojem aplikacji od 20 lat. Jego doświadczenie obejmuje pracę z większością popularnych języków programowania obecnych na rynku (JavaScript, TypeScript, Java, C#, Python, PHP). Zajmuje się także rozwojem infrastruktury chmurowej (Google Cloud, Kubernetes, Docker), jak i systemów CI/CD (opartych o GitLab, Jenkins, Pipelines, TeamCity). Aktualnie tworzy aplikacje głównie w React (TypeScript) oraz .Net Core.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/michal-zubkowicz/Micha%C5%82%20Zubkowicz.jpg" 
+        "11:30":
+            - title: "Java 12, 13, 14. Nowości godne uwagi."
+              session: "Prezentacja"
+              seats: 16
+              abstract: "&lt;p&gt;Hej, czy zwróciłeś/aś uwagę, że od Javy 11 pojawiły się już trzy nowe wersje Javy?! Czyż to nie wspaniałe, że nie musimy czekać cztery lata na kolejne wydanie? ;-)&lt;/p&gt;
+
+&lt;p&gt;No dobrze, ale konkretnie wydarzyło się od Javy 11?&lt;/p&gt;
+
+&lt;p&gt;Wyrażenia switch?
+Bloki tekstowe?
+Pattern matching dla instanceof?
+Rekordy?
+Usprawnienia przy NullPointerException?
+O co chodzi z nowymi GCs: Shenandoah i ZGC?
+Jak uruchamiać aplikacje szybciej dzięki AppCDS?
+Jakie są najważniejsze zmiany w API?&lt;/p&gt;
+
+&lt;p&gt;Jeśli te tematy wydają Ci się ciekawe, sprawdźmy razem ile są warte.&lt;/p&gt;
+"
+              speakers:
+                    - name: "Piotr Przybył"
+                      bio: "&lt;p&gt;Notoryczny inżynier w pracy i poza nią, podążający za meandrami sztuki programowania. Zawodowo Remote Freelance Software Gardener, od kilku lat wyrywający chwasty w ogródkach webowych i zwykle przycinający Javę do kształtów pożądanych przez klientów. Miłośnik lekkości i zwinności, która powinna przejawiać się przede wszystkim w stosowaniu właściwych narzędzi. Lead developer, trener, prelegent.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/piotr-przybyl/me5.jpg"
+            - title: "Modelowanie zdarzeń domenowych sterowanych czasem"
+              session: "Prezentacja"
+              seats: 16
+              abstract: "&lt;p&gt;Modelwanie zdarzeń domenowych sterowanych czasem może należyć do pewnej niszy, jednak zapewne istnieją one w wielu dziedzinach biznesowych. Celem tej prezentacji jest objaśnienie czym właściwie są zdarzenia domenowe sterowane czasem, jak je modelować oraz odnajdywać. Przedstawione zostaną przykłady z prawdziwej domeny, w której precyzyjnie określone punkty w czasie są istototą poprawnego działania biznesu.&lt;/p&gt;
+"
+              speakers:
+                    - name: "Konrad Jakubiec"
+                      bio: "&lt;p&gt;Entuzjasta Domain-driven Design specjalizujący się w budowaniu system rozproszonych szytych na miarę z wykorzystaniem reaktywnej architektury sterowanej zdarzeniami. Tech-lead wielofunkcyjnego zespołu inżynierów w VirtusLab. W wolnym czasie poświęca się grze na perkusji.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/konrad-jakubiec/konrad-jakubiec.png" 
+        "12:15":
+            - title: "Przerwa lunchowa"
+              session: "Serwis"
+              seats: 16
+              abstract: "" 
+        "13:00":
+            - title: "Lambda-driven business domains"
+              session: "Prezentacja"
+              seats: 16
+              abstract: "&lt;p&gt;Okazuje się, że bardzo często łatwiej jest myśleć o procesach i regułach biznesowych w kontekście funkcji i struktur danych. Postaram się udowodnić, że przy użyciu paru wzorców, funkcyjne podejście do programowania może być bardziej naturalne z punktu widzenia biznesowego, niż programowanie obiektowe.&lt;/p&gt;
+"
+              speakers:
+                    - name: "Krzysztof Kruczyński"
+                      bio: "&lt;p&gt;Miłośnik Kotlina, ewangelista DDD, pełnoetatowy backend developer w VirtusLabie. Główne obszary zainteresowań to architektury oprogramowania, w tym monitoring jakości architektur mikroserwisowych oraz łączenie OOP z podejściem funkcyjnym w implementacji logiki biznesowej. Hobby to wdrażanie pomysłów biznesowych na produkcję w jak najkrótszym czasie.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/krzysztof-kruczynski/krzysiek-kruczynski.png"
+            - title: "Ludzie i interakcje ponad procesy i narzędzia… Pogadajmy o tym drugim."
+              session: "Prezentacja"
+              seats: 16
+              abstract: "&lt;p&gt;Transfer wiedzy i identyfikowanie niewiedzy, komunikacja, zdobywanie informacji, dekompozycja. Nie ważne czy pracujemy przy jednym produkcie czy tworzymy różne projekty - by móc optymalnie planować pracę swoją i naszego zespołu, korzystać z wiedzy w Organizacji - potrzebujemy danych oraz dostępu do wiedzy. Do tego służą procesy i narzędzia. Opowiemy Wam o tych, które stosujemy i z których korzystamy na co dzień - User Story Mapping, Event Storming, Design Thinking oraz inne.&lt;/p&gt;
+"
+              speakers:
+                    - name: "Karolina Latos"
+                      bio: "&lt;p&gt;Agile Nuts / FreshMail&lt;/p&gt;
+
+&lt;p&gt;Praca HRowca to dla mnie przede wszystkim rozmowa i działanie.
+Wiele godzin przepracowanych zarówno z pojedynczymi osobami jak i z całymi
+zespołami. Bliskie są mi Agile i Scrum, z których czerpię i których wartości
+są dla mnie podstawą w mojej pracy. Jestem fanką talentów Gallupa i z chęcią
+dbam o ich rozwój zarówno u siebie, jak i u innych. W codziennej pracy
+facylituje spotkania, wspieram procesy scrumowe bezpośrednio współpracując ze
+Scrum Masterami, dbam o rozwój i rekrutację pracowników.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/karolina-latos/Karola_Gnat.jpg"
+                    - name: "Marcin Aks Grochowina"
+                      bio: "&lt;p&gt;Z internetem jestem związany od ponad 10 lat. Wcześniej zarządzałem projektami w agencjach interaktywnych, tworząc kampanie dla klientów takich jak Danone, Reckitt Benckiser czy General Motors. Obecnie jako Agile Coach rozwijam system do obsługi kampanii email marketingowych. Choć w Scrumie pracuję od ponad dekady, to przez wiele lat stosowałem go wybiórczo i narzędziowo. Przechodząc przy okazji przez wszystkie możliwe antywzorce. Dzięki temu dziś - bazując na własnych doświadczeniach - wspieram zespoły w zrozumieniu istoty zwinności w oparciu o wartości Agile Manifesto. Prywatnie: dużo jem, chodzę w czapkach i kolekcjonuję płyty, głównie winylowe. Nadużywam słowa „uszanowanko”.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/marcin-aks-grochowina/Marcin-Aks_Grochowina2.jpg" 
+        "14:00":
+            - title: "Web evolution, not revolution."
+              session: "Prezentacja"
+              seats: 16
+              abstract: "&lt;p&gt;Webassembly to obecnie &amp;ldquo;hype word&amp;rdquo;. Czy zastąpi JavaScript? Czy należy się go obawiać? Jednak od hype do adopcji daleko, nie ma się co narazie przejmować! W tej opowieści małe przypomnienie jak znaleźliśmy się w świecie zdominowanym przez JS i co nas czeka w przyszłości dzięki Webassembly.&lt;/p&gt;
+"
+              speakers:
+                    - name: "Joanna Lamch"
+                      bio: "&lt;p&gt;Koderka pełną piersią, fangir Microsoftu z iPadem w ręku, kociara. W branży IT od wielu lat zawsze w okolicach C# oraz technologi Microsoft.&lt;/p&gt;
+
+&lt;p&gt;Maruda i czarnowidz, zwolenniczka Defensive Coding, SOLID, uczenia poprzez mentoring, samorozwoju i kultury DevOps. Community lover, wspierająca Gruba.IT, Śląską Grupę Microsoft oraz Women in Technology Katowice. Blogger and speaker wannabe.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/joanna-lamch/IMG_1265.JPG"
+            - title: "TBD"
+              session: "Serwis"
+              seats: 16
+              abstract: "" 
+        "15:00":
+            - title: "Micro Frontends - raport z frontu"
+              session: "Prezentacja"
+              seats: 16
+              abstract: "&lt;p&gt;Pojęcie architektury micro frontends zdobywa rozgłos, ale rzadko mamy okazję zobaczyć, jak jest implementowana w praktyce. Podczas mojej prezentacji przedstawię nasze doświadczenia przy wprowadzaniu tej architektury do systemów dla największych banków w Polsce.&lt;/p&gt;
+"
+              speakers:
+                    - name: "Marcin Mendlik"
+                      bio: "&lt;p&gt;Marcin najswobodniej czuje się w tematach frontendowych, chociaż nie boi się zajrzeć od czasu do czasu pod maskę. Miał okazję przyglądać się i uczestniczyć w niecodziennej wymianie warstwy prezentacji w dwóch różnych, niezależnych systemach dla jednych z wiodących banków w Polsce. W wolnym czasie gra na konsolach, instrumentach strunowych szarpanych lub nerwach.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/marcin-mendlik/marcin-mendlik.png"
+            - title: "Nie mówisz - nie programujesz"
+              session: "Prezentacja"
+              seats: 16
+              abstract: "&lt;p&gt;Wbrew obiegowej opinii programowanie nie polega na pisaniu kodu. Kodowanie to wisienka na torcie, ostateczne ukoronowanie procesu rozwiązywania problemów.&lt;/p&gt;
+
+&lt;p&gt;W przypadku kodowania mamy: clean code, design patterns, code smells itd. W trakcie prezentacji skupię się na tym, co robisz zanim zaczynasz pisać kod.&lt;/p&gt;
+
+&lt;p&gt;Dowiesz się między innymi:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;jak bardzo umiejętność rozróżniania i nazywania pojęć poprawia jakość twojego kodu&lt;/li&gt;
+&lt;li&gt;jaka jest różnica między teorią a praktyką tworzenia oprogramowania&lt;/li&gt;
+&lt;li&gt;jak szybko i pragmatycznie identyfikować i rozwiązywać problemy inżynierskie&lt;/li&gt;
+&lt;li&gt;jak zidentyfikować to, czego klient ci nie mówi&lt;/li&gt;
+&lt;li&gt;a na koniec będzie porada i ćwiczenie domowe&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Zapraszam!&lt;/p&gt;
+"
+              speakers:
+                    - name: "Michał Bartyzel"
+                      bio: "&lt;p&gt;Cześć, nazywam się Michał Bartyzel.&lt;/p&gt;
+
+&lt;p&gt;Od 14 lat pracuję, z w różnych rolach, nad wytwarzaniem oprogramowania. Jako programista, architekt, agile konsultant.&lt;/p&gt;
+
+&lt;p&gt;Wynajmowano mnie jako analityka i zlecano zbieranie wymagań. Byłem również współwłaścicielem startupu i klientem dla IT.&lt;/p&gt;
+
+&lt;p&gt;Zajmuję się przede wszystkim ułatwianiem współpracy na linii IT – Biznes, uzwinnianiem organizacji, refaktoryzacją i efektywnością pracy.&lt;/p&gt;
+
+&lt;p&gt;Technikami, które opracowuję dzielę się w artykułach w magazynie Programista, portalu InfoQ, blogu, konferencjach. Jestem autorem książek: „Oprogramowanie szyte na miarę. Jak rozmawiać z klientem, który nie wie, czego chce?” (Helion, 2012 i 2015), „Getting Things Programmed” (Helion, 2016), „Conversation Patterns for Software Professionals” (InfoQ).&lt;/p&gt;
+
+&lt;p&gt;Moja praca w liczbach to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;~600 dni poprowadzonych szkoleń&lt;/li&gt;
+&lt;li&gt;9 projektów związanych ze zwinną transformacją&lt;/li&gt;
+&lt;li&gt;40&#43; artykułów w prasie branżowej&lt;/li&gt;
+&lt;li&gt;4 napisane książki&lt;/li&gt;
+&lt;li&gt;80&#43; klientów&lt;/li&gt;
+&lt;/ul&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/michal-bartyzel/bartyzel.png" 
+        "16:00":
+            - title: "TBD"
+              session: "Serwis"
+              seats: 16
+              abstract: ""
+            - title: "Jak działają autonomiczne pojazdy"
+              session: "Prezentacja"
+              seats: 16
+              abstract: "&lt;p&gt;Samochody jeżdżą bez kierowców, drony samodzielnie dostarczają paczki, roboty bez nadzoru poruszają się po domach i biurowcach. To rzeczywistość, w którą wkraczamy w niespotykanym tempie. Podczas spotkania opowiem o algorytmice związanej z autonomią pojazdów, a także o tym jak głębokie sieci neuronowe stopniowo zastępują tradycyjne podejścia. Zobaczymy, jak wdrażane są komponenty pojazdów autonomicznych i zobaczymy, jak to działa w praktyce.&lt;/p&gt;
+
+&lt;p&gt;Zapraszam, jeśli chcesz:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;zrozumieć, jak to działa,&lt;/li&gt;
+&lt;li&gt;dowiedzieć się jakie umiejętności inżynieryjne będą Ci potrzebne żeby wejść w temat,&lt;/li&gt;
+&lt;li&gt;po prostu bawić się dobrze oglądając filmiki demonstracyjne.&lt;/li&gt;
+&lt;/ul&gt;
+"
+              speakers:
+                    - name: "Krzysztof Kudryński"
+                      bio: "&lt;p&gt;Krzysztof Kudryński - Senior Deep Learning Engineer w NVIDIA&lt;/p&gt;
+
+&lt;p&gt;Krzysztof bardzo chciałby swobodnie rozmawiać z komputerem, na zakupy wysyłać robota, jeździć autonomicznym samochodem. Marzeniom trzeba pomagać. Krzysztof od ponad 10 lat pracuje jako inżynier algorytmów analizy danych, sztucznej inteligencji i robotyki. Krzysztof wierzy, że będzie dobrze.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/krzysztof-kudrynski/kudrynski.jpeg"
+    - 
+        "9:00":
+            - title: "Rejestracja uczestników"
+              session: "Serwis"
+              seats: 16
+              abstract: "" 
+        "10:00":
+            - title: "Funkcyjne podejście do złożonych domen biznesowych"
+              session: "Warsztat"
+              seats: 16
+              abstract: "&lt;p&gt;Nauczysz się jak aplikować programowanie funkcyjnie z technikami Domain-driven (DDD) aby stworzyć w pełni działący, utrzymywalny, testowalny oraz właściwie zdekomponowany system. Sam system pokrywa złożoną dziedzinę bizensową i jest tworzony w oparciu o wiedzę ekspertów domenowych. Uczestnicy warsztatu będą modelować oraz implementować przypadki użycia związane z lekcją szkolną w języku Kotlin oraz z użyciem technologii Cucumber do testowania.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Poziom:&lt;/b&gt;
+Średnio zaawansowany (znajomość języka Kotlin oraz technik DDD nie jest konieczna, lecz przydatna).&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Wymagania:&lt;/b&gt;
+Własny komputer z IDE wspierającym język Kotlin oraz narzędzie Cucumber np. Intelij&lt;/p&gt;
+"
+              speakers:
+                    - name: "Krzysztof Kruczyński"
+                      bio: "&lt;p&gt;Miłośnik Kotlina, ewangelista DDD, pełnoetatowy backend developer w VirtusLabie. Główne obszary zainteresowań to architektury oprogramowania, w tym monitoring jakości architektur mikroserwisowych oraz łączenie OOP z podejściem funkcyjnym w implementacji logiki biznesowej. Hobby to wdrażanie pomysłów biznesowych na produkcję w jak najkrótszym czasie.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/krzysztof-kruczynski/krzysiek-kruczynski.png"
+                    - name: "Szymon Gąsienica-Kotelnicki"
+                      bio: "&lt;p&gt;W VirtusLabie zajmuje się szukaniem sposobów na przeniesienie biznesu na produkcje. Lubi programowanie funkcyjne, infrastrukturę jako kod i rozkminy nad architekturą. Miłośnik robienia analizy przed kodowaniem i prostoty. W wolnym czasie ogląda The Office.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/szymon-gasienica-kotelnicki/szymon-gasienica-kotelnicki.png"
+            - title: "Jigsaw. Moduły w (nowej) Javie"
+              session: "Warsztat"
+              seats: 30
+              abstract: "&lt;p&gt;W Javie 9 pojawiły się moduły.
+Co to oznacza?
+Jak napisać aplikację modułową?
+Jakie są plusy, jakie są minusy?
+Jak moduły wpisują się w ekosystem Javy?
+Warsztaty będą składać się z części teoretycznej i praktycznej. Potrwają ok. 3h.
+Po wprowadzeniu teoretycznym, czeka Was własnoręczne napisanie i rozwijanie modułów w prostej aplikacji modułowej.&lt;/p&gt;
+
+&lt;p&gt;Wymagania:
+- własny komputer z zasilaczem,
+- preferowany system GNU/Linux lub MacOS. Windows też od biedy da radę.
+- zainstalowana Java 11 lub nowsza (&lt;a href=&#34;https://sdkman.io/&#34;&gt;https://sdkman.io/&lt;/a&gt;, ew. &lt;a href=&#34;https://adoptopenjdk.net/&#34;&gt;https://adoptopenjdk.net/&lt;/a&gt;)
+- zainstalowane ulubione IDE w najnowszej wersji (Uwaga: IntelliJ np. w Ubuntu 18.04 mało kiedy jest &amp;ldquo;najnowsze&amp;rdquo;, jeśli jest zainstalowane przez APT, nie bezpośrednio ze strony producenta.)&lt;/p&gt;
+
+&lt;p&gt;Warsztat zakłada, że uczestnicy mają już jakąś wiedzę z Javy, np. rok doświadczenia praktycznego.
+Na warsztatach korzystamy z Gradle, ale uczestnicy nie muszą go wcześniej znać czy instalować.
+(Tylko dla informacji, żeby nie było szoku &amp;ldquo;gdzie jest Maven&amp;rdquo; )&lt;/p&gt;
+"
+              speakers:
+                    - name: "Piotr Przybył"
+                      bio: "&lt;p&gt;Notoryczny inżynier w pracy i poza nią, podążający za meandrami sztuki programowania. Zawodowo Remote Freelance Software Gardener, od kilku lat wyrywający chwasty w ogródkach webowych i zwykle przycinający Javę do kształtów pożądanych przez klientów. Miłośnik lekkości i zwinności, która powinna przejawiać się przede wszystkim w stosowaniu właściwych narzędzi. Lead developer, trener, prelegent.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/piotr-przybyl/me5.jpg"
+            - title: "CQRS and Event Sourcing applied on JVM with Axon Framework"
+              session: "Warsztat"
+              seats: 12
+              abstract: "&lt;p&gt;Słyszałaś lub słyszałeś o wzorcach takich jak Events, Commands, Aggregates, Sagas, Domain-Driven Design, Command Query Responsibility Segregation oraz Event Sourcing?&lt;/p&gt;
+
+&lt;p&gt;Część z nich jest złożona i trudna w zrozumieniu oraz implementacji, podczas gdy inne dają się prosto wytłumaczyć za pomocą takich funkcji jak foldLeft().&lt;/p&gt;
+
+&lt;p&gt;Każdy z nich odpowiednio użyty dodaje wartość, ale dopiero umiejętne wykorzystanie ich kombinacji pozwala budować systemy tworzące strategiczną różnicę.&lt;/p&gt;
+
+&lt;p&gt;Przyjdź i zobacz, jak w prosty sposób można skupić się na Domenie, pozwalając by Axon Framework zajął się za nas powtarzalną infrastrukturą na JVM.&lt;/p&gt;
+"
+              speakers:
+                    - name: "Piotr Wyczesany"
+                      bio: "&lt;p&gt;Niezależny Domain-Driven Designer, konsultant i mentor. Specjalizuje się w modelowaniu złożonych dziedzin biznesowych z podejściem Domain-Driven Design oraz pracą z systemami odziedziczonymi.
+Z sukcesem wdrożył DDD w dużych i małych projektach komercyjnych - zarówno nadgryzionych zębem czasu, jak i całkiem nowych - wliczając w to swoje własne dwa startupy.
+Mieszka i pracuje w Krakowie, gdzie jest też założycielem grupy Domain-Driven Design Kraków.
+Po kilkuletniej przerwie wraca na konferencyjną scenę z bogatszą, empirycznie zdobytą wiedzą, popartą produkcyjnym doświadczeniem.
+W wolnym czasie tweetuje jako @pwyczes.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/piotr-wyczesany/piotrek_wyczesany.jpg"
+            - title: "Spójna komunikacja asynchroniczna w Chmurze. Jak budować niezawodne system z zawodnych komponentów."
+              session: "Warsztat"
+              seats: 30
+              abstract: "&lt;p&gt;Budowa systemów rozproszonych, które gwarantują spójność danych nie jest rzeczą łatwą. Wyzwanie staje się jeszcze większe, kiedy nie możemy bazować na stabilnych fundamentach, jakie dają transakcje rozproszone lub chociażby dobrze znane z baz danych transakcje obejmujące wiele rekordów.&lt;/p&gt;
+
+&lt;p&gt;Niestety w Chmurze często takie fundamenty są albo niedostępne, albo zbyt drogie albo się nie skalują. Zamiast tego musimy nauczyć się budować niezawodne systemy korzystając z tego, co oferuje nam Chmura &amp;ndash; tanich, ale zawodnych komponentów.&lt;/p&gt;
+
+&lt;p&gt;A w szczegółach:&lt;/p&gt;
+
+&lt;p&gt;Warsztaty skupiają się na budowie rozproszonych systemów line-of-business przeznaczonych do hostowania w Chmurze z wykorzystaniem jak największej ilości natywnych usług. W tego typu systemach zwykle nie możemy sobie pozwolić na utratę wiadomości (nikt by nie chciał, żeby jego zamówienie na świąteczne prezenty przepadło bez wieści). Nie chcielibyśmy także, aby wiadomości gdzieś pod drodze uległy duplikacji (kochanie, co robi to drugie Porsche przed garażem?). W zamierzchłej przeszłości tego typu systemy wykorzystywały transakcje rozproszone (XA lub DTC) oraz relacyjne bazy danych. Dzięki transakcjom rozproszonym mogliśmy być pewni, że albo wiadomość zostanie wysłana jednocześnie z modyfikacją rekordu.&lt;/p&gt;
+
+&lt;p&gt;Niestety w Chmurze często takie fundamenty są albo niedostępne, albo zbyt drogie albo się nie skalują. Podczas warsztatów pokażemy jak, bez użycia XA lub DTC, zapewnić te same (a nawet silniejsze!) gwarancje.&lt;/p&gt;
+
+&lt;p&gt;Warsztaty składają się z odrobiny teorii przeplatanej prostymi ćwiczeniami praktycznymi w C#. Ćwiczenia skupiają się na rozwiązywaniu problemów, a nie na składni języka, więc programiści używający na co dzień innych języków nie powinni być zagubieni. Każde ćwiczenie zaprojektowane jest tak, aby pokazać jeden z aspektów deduplikowania wiadomości. Każde rozwiązanie przybliży nas o jeden krok do ideału.&lt;/p&gt;
+"
+              speakers:
+                    - name: "Szymon Pobiega"
+                      bio: "&lt;p&gt;Szymon pracuje jako inżynier w Particular Software gdzie pomoga rozwijać NServiceBus &amp;ndash; najpopularniejszy framework do komunikacji asynchronicznej w .NET. W przeszłości Szymon specjalizował się w Domain-Driven Design oraz podejsciu event-driven. Aktualnie skupia architekturze systemów rozproszonych, w których komponenty komunikują się asynchronicznie.&lt;/p&gt;
+
+&lt;p&gt;Szymon jest współautorem &lt;a href=&#34;https://exactly-once.github.io/&#34;&gt;https://exactly-once.github.io/&lt;/a&gt;.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/szymon-pobiega/pobiega.jpg"
+                    - name: "Tomasz Masternak"
+                      bio: "&lt;p&gt;Tomek pracuje jako inżynier w Particular Software, gdzie rozwija platfromę do budowy stystemów opartych o wymianę wiadomości. Systemami rozproszonymi zajmuje się od kilkunastu lat, zarówno w teorii, jak i w praktyce. Lubi wiedzieć, dlaczego systemy się psują i dlaczego działają poprawie, i co to właściwie oznacza. Pisze na &lt;a href=&#34;https://exactly-once.github.io&#34;&gt;https://exactly-once.github.io&lt;/a&gt;.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/tomasz-masternak/tomek-masternak.jpg"
+            - title: "Java, microbenchmarki i kłamstwa"
+              session: "Warsztat"
+              seats: 16
+              abstract: "&lt;p&gt;Java i wydajność? Najpopularniejsza platforma ma opinie wolnej, niewydajnej i zasobożernej.
+Jak zawsze prawda się miesza z plotkami, domysłami, powtarzanymi półprawdami. Trudno oddzielić prawdę od mitów a mity od faktów.&lt;/p&gt;
+
+&lt;p&gt;Podczas tego warsztatu oddam wam w ręce narzędzie, które pozwoli wam walczyć z tymi mitami i zadać i kłam lub je potwierdzić. JHM (Java Microbenchmark Harness) to biblioteka, która pozwala nam pisać i uruchamiać testy wydajnościowe. Pozwala nam, dzięki profilerom, takim jak perfasm, async profiler czy Java Flight Recorded, zaglądnąć pod maskę JVM i naszej aplikacji i podjąć decyzję bazując danych a nie plotkach i pomówieniach.&lt;/p&gt;
+
+&lt;p&gt;Dowiemy się jak pisać testy, zarządzać stanem, wykorzystywać parametry w testach, czytać
+nagrania profilerów i uniknąć pułapek.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Poziom:&lt;/strong&gt; Jakakolwiek wiedza o benchmarkach jest zbędna. Wystarczy znajomość Java na poziomie przyzwoitym, w wersji co najmniej 8. Mile widziane choć strzępy wiedzy o budowie JVM (czym jest JIT, jak działa garbage collector).&lt;/p&gt;
+"
+              speakers:
+                    - name: "Jarek Pałka"
+                      bio: "&lt;p&gt;Od ponad 20 lat w branży IT jako administrator baz danych, programista, architekt, manager
+i „inżynier od spraw katastrof”.&lt;/p&gt;
+
+&lt;p&gt;Brałem udział w małych, średnich i nonsensownie dużych projektach, prowadzonych
+zgodnie zasadami „waterfall”, Agile oraz przy braku jakichkolwiek metodyk - z tym samym
+zawsze skutkiem. Wszystko to doprowadziło mnie do wniosku, że nieważne co robisz,
+ważne byś robił to dobrze, w najprostszy z możliwych sposobów i przy użyciu właściwych
+narzędzi, które wykonają pracę za Ciebie. W międzyczasie dałem się porwać ideom TDD
+oraz Software Craftmanship, do granic możliwości wyeksploatować tak piękne w swej
+prostocie pomysły jak REST i NoSQL. Porzuciłem je, by zgłębić tajniki „system thinking” i
+zachwycić się siłą, jaką niesie ze sobą „metafora” oraz by odkryć, że rządzą nami te same
+prawa „natury”.&lt;/p&gt;
+
+&lt;p&gt;Niepokorny wyznawca kościoła JVM, badacz bytecode’u i JIT oraz wszelkiej maści
+parserów, interpreterów i kompilatorów. Na co dzień walczący o lepszą wydajność w Neo4j.
+Od czasu do czasu można usłyszeć moje niskiej jakości żarty na temat architektury na
+konferencjach w Polsce.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/jarek-palka/jarek.png"
+            - title: "Event Storming: od idei do kodu w 5 godzin"
+              session: "Warsztat"
+              seats: 40
+              abstract: "&lt;p&gt;Analiza i projektowanie rozwiązań informatycznych niemal zawsze jest sporym wyzwaniem. Skomplikowane i niejasne procesy biznesowe, zmienność rządzących nimi reguł, czy dodatkowe wyzwania w postaci zagadnień infrastrukturalnych to tylko niektóre z rzeczy, z jakimi często zdarzamy się w codziennej pracy. W naszym developerskim toolboksie jest jednak szereg technik, które znajdują zastosowanie w takich sytuacjach.&lt;/p&gt;
+
+&lt;p&gt;Warsztat będzie podzielony na 2 części, podczas których rozpoczniemy od wspólnej analizy problemu z użyciem EventStormingu na poziomach BigPicture oraz ProcessLevel, a następnie przejdziemy do zagadnień modelowania rozwiązania z użyciem DesignLevel EventStorming oraz technik Domain Driven Design i OO. Wspólnie modelowane fragmenty domeny będą implementowane live z wykorzystaniem platformy .NET. Przejdziemy więc wspólnie przez dużą część cyklu analityczno-implementacyjnego, który ma zastosowanie w wielu projektach IT. Sesję poprowadzą Marcin Markowski, Kuba Pilimon oraz Mariusz Gil z Bottega IT Minds.&lt;/p&gt;
+"
+              speakers:
+                    - name: "Jakub Pilimon"
+                      bio: "&lt;p&gt;Programista, Trener, Konsultant. Aktualnie pracuję na stanowisku Principal Technologist w firmie Pivotal oraz jako konsultant w Bottega IT Minds. Interesuję się modelowaniem, architekturą, Domain-Driven Design i skracaniem dystansu pomiędzy światem biznesu a IT. Jestem wielkim fanem Event Stormingu oraz wytwarzania oprogramowania sterowanego testami.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/jakub-pilimon/jakub-pilimon.jpg"
+                    - name: "Marcin Markowski"
+                      bio: "&lt;p&gt;Deweloper, lider techniczny, zwolennik podejścia Software Creftsmanship i ścisłej współpracy z biznesem. Specjalizuje się w modelowaniu, implementacji Domain Driven Design i projektowaniu architektury systemów.&lt;/p&gt;
+
+&lt;p&gt;Zaczynał od consultingu biznesowego, później przeszedł do IT. Pracował zarówno nad systemami „enterprise”, jak i tworzył od podstaw rozwiązania dla małych firm. Próbował wejść w świat startupów z własnym produktem. Ostatecznie został jednak w IT, gdzie działa jako konsultant i trener.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/marcin-markowski/Marcin.png"
+                    - name: "Mariusz Gil"
+                      bio: "&lt;p&gt;Software architect, trener, ex-CTO, z branżą IT związany od ponad 20 lat. Pasjonuje się projektowaniem i implementacją systemów o złożonych wymaganiach biznesowych, machine-learningiem i procesami wytwarzania oprogramowania, które można przełożyć na realną wartość biznesową dla klienta. Speaker i współorganizator wielu otwartych spotkań dla developerów. Obecnie związany z Bottega IT Minds, gdzie ma okazję pracować z wieloma zespołami developerskimi w Polsce i Europie. Mocno zaangażowany w rozwój oraz praktyczne zastosowania EventStormingu.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/mariusz-gil/gil.png" 
+        "12:30":
+            - title: "Przerwa lunchowa"
+              session: "Serwis"
+              seats: 16
+              abstract: "" 
+        "13:30":
+            - title: "Architektury oparte na zdarzeniach w praktyce"
+              session: "Warsztat"
+              seats: 20
+              abstract: "&lt;p&gt;Architektury oparte na zdarzeniach zyskują coraz większą popularność. Dzięki swojej naturze nadają się bardzo dobrze do skalowalnych, rozproszonych systemów oraz pozwalają łatwiej modelować procesy biznesowe (np. przy pomocy Event Storming). Jednak systemy te niosą ze sobą ryzyka oraz skomplikowanie, które nie są wspominae w blogach czy wystąpieniach. W trakcie warsztatów przyjrzymy się pragmatycznie takim terminom jak Idempotency, Eventual i Causal Consistency, Events ordering itd, szyny zdarzeń (np. Kafka).. Wszystko to poparte konkretnymi zadaniami i praktycznymi przykładami opartymi na rzeczywistych systemach. Warsztaty będą prowadzone w C# i .NET Core, jego podstawowa znajmość jest konieczna do efektywnego przerobienia zadań, ale osoby znające Javę też po przygotowaniu powinny być w stanie wziąć w nich udział. Nacisk będzie położony na rozwiązywanie problemów systemów rozproszonych niż samą technologię.&lt;/p&gt;
+"
+              speakers:
+                    - name: "Oskar Dudycz"
+                      bio: "&lt;p&gt;Nieudany piłkarz oraz gitarzysta hobbysta. Przeszedł daleką drogę od Amigi 500 do Mac Booka. Programista pragmatyk z natury, szef zespołu z upodobania do ludzi. Jak ma czas to pisuje na swoim blogu: &lt;a href=&#34;http://oskar-dudycz.pl&#34;&gt;http://oskar-dudycz.pl&lt;/a&gt;, jak mu się nudzi to twittuje &lt;a href=&#34;https://twitter.com/oskar_at_net&#34;&gt;https://twitter.com/oskar_at_net&lt;/a&gt;. Karierę zaczynał gdy StackOverflow nie istniał. .Netowiec od ponad 10 lat ze skłonnością do technologicznych skoków w bok. Ostatnimi czasy najbardziej zainteresowany tematami Event Sourcingu, Domain Driven Design, modularności oraz skalowalności.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/oskar-dudycz/seg-fault.jpg"
+            - title: "Co robi twoja aplikacja, kiedy rodziców nie ma w domu. Kilka słów o Elastic APM"
+              session: "Warsztat"
+              seats: 16
+              abstract: "&lt;p&gt;Wielu z Was zapewne kojarzy Elasticsearcha, czy też grupę aplikacji pod wspólną nazwą Elastic (ELK) Stack. Te narzędzia od jakiegoś czasu dawały nam niezłą widoczność tego co robi nasza aplikacja, dzięki monitoringowi logów. Teraz jednak możemy pójść kawałek dalej - Od jakiegoś czasu Elastic Stack to też Elastic APM - czyli łatwe i otwartoźródłowe monitorowanie wydajności aplikacji. Na tych warsztatach przyjrzymy się temu rozwiązaniu, jaki i tym dostarczanymi przez Beats, po to, żeby spać bezpiecznie w nocy, wiedząc, że nic nam nie umknie.&lt;/p&gt;
+"
+              speakers:
+                    - name: "Zbyszko Papierski"
+                      bio: "&lt;p&gt;Inżynier, z silnym uzależnieniem od produktowej warstwy rozwiązania. Związany w przeszłości z Allegro, Jirą a ostatnio Dynatrace. Wszędzie gdzie się da szuka ciekawych danych, szczególnie takich bez struktury, Po godzinach zajmuje się inicjatywami trójmiejskiego JUGa, takimi jak Hackengarten, a także ostatnio próbuje nauczyć się swojego pierwszego (i najprawdopodobniej ostatniego) języka orientalnego.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/zbyszko-papierski/zbyszko-papierski.jpg"
+            - title: "Deep Learning dla programistów Javy"
+              session: "Warsztat"
+              seats: 10
+              abstract: "&lt;p&gt;Rozpoczęcie przygody z DeepLearning jest trudne z 2 powodów: z jednej strony technologia, czyli Python, a z drugiej strony teoria związana z uczeniem maszynowym. W zmniejszeniu trochę tych barier pomaga programistom Javy deeplearning4j - framework umożliwiający budowanie głębokich sieci neuronowych w Javie za pomocą wysokopoziomowych abstrakcji.&lt;/p&gt;
+
+&lt;p&gt;Dzięki temu warsztatowi będziesz w stanie samodzielnie poruszać się zarówno po przykładach dostarczonych z frameworkiem dl4j jak również samodzielnie budowanych sieciach.&lt;/p&gt;
+"
+              speakers:
+                    - name: "Marek Będkowski"
+                      bio: "&lt;p&gt;&amp;ldquo;Polyglot programmer z wieloletnim stażem oraz doświadczeniem w projektach dużych i małych. Jego ścieżka kariery wiodła prowadziła przez wiele języków programowania m.in. ActionScript, php, perl, C&#43;&#43;, python, CoffeeScript, JavaScript ostatnio Java i TypeScript. Uważa, że idealny programista powinien znać perfekcyjnie conajmniej jeden język dynamiczny i jeden statyczny. Do tej pory miał okazję realizować projekty m.in. z sektora publicznego, przetwarzania wideo w czasie rzeczywistym oraz analizy obrazów przy wykorzystaniu sieci neuronowych (również w Javie :))). Od czasu tego ostatniego dość sceptycznie nastawiony do możliwości przejęcia kontroli nad światem przez sztuczną inteligencję. Po godzinach próbuje dotrzymać tempa swojej trójce dzieci no i marzy o Tesli :)&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/marek-bedkowski/marek_bedkowski.jpg"
+            - title: "Dobrze wypaść w roli prelegenta"
+              session: "Warsztat"
+              seats: 20
+              abstract: "&lt;p&gt;Prelegenci dzielą się na tych, których słucha się z zaangażowaniem i tych, na których wykładach trudno skupić się na prezentowanej treści. Sposób w jaki podajemy informacje ma znaczący wpływ na to jak zostaną przyjęte, zrozumiane i zapamiętane. Wiedza jak dobrze zaprojektować prelekcję pozwala na prawidłowe odkodowanie przekazywanych treści przez słuchaczy, skraca czas przygotowania wystąpienia i utrzymuje uwagę audytorium.&lt;/p&gt;
+
+&lt;p&gt;Program warsztatów:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;projektowanie wystąpień publicznych&lt;/li&gt;
+&lt;li&gt;efektywne przekazywanie informacji&lt;/li&gt;
+&lt;li&gt;wzbudzanie zainteresowania i utrzymywanie uwagi słuchaczy&lt;/li&gt;
+&lt;li&gt;tonu głosu i postawy – jak za ich pomocą zbudować wizerunek na scenie&lt;/li&gt;
+&lt;li&gt;przekazywanie informacji z pasją i pewnością siebie&lt;/li&gt;
+&lt;li&gt;możliwość zaprezentowania krótkich prezentacji i otrzymanie indywidualnego feedbacku&lt;/li&gt;
+&lt;/ul&gt;
+"
+              speakers:
+                    - name: "Monika Malinowska"
+                      bio: "&lt;p&gt;Wykładowca akademicki emisji głosu i sztuki wystąpień publicznych na Uniwersytecie Warszawskim, z wieloletnim doświadczeniem i wiedzą zdobytą w UK i USA. Uczy swobodnej komunikacji, wygłaszania ciekawych prelekcji i zachęca do wyjścia na scenę jako prelegent. Jej szkolenia to duża dawka wiedzy i dobrej zabawy. Autorka serii artykułów w magazynie „Programista” na temat wystąpień publicznych. Pracuje głównie z programistami.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/monika-malinowska/monika_malinowska.png"
+            - title: "Data First: Building a board game"
+              session: "Warsztat"
+              seats: 25
+              abstract: "&lt;p&gt;Dużo ostatnio słyszy się o DDD oraz o Event Driven. Rzadziej się mówi głośno o komplementarnym podejściu: Data Driven Programming.
+Weźmiemy pod lupę prostą domenę: grę planszową i spróbujemy zaprogramować jej model.
+Na warsztacie przećwiczymy kilka pułapek podejścia Top-Down (albo Api First Design) i spróbujemy alternatywnego sposobu: Bottom-up (albo Data First).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Poziom:&lt;/strong&gt; coś tam trzeba wiedzieć (przynajmniej rozumieć niemutowalność)
+Wymagania: komputer z zainstalowaną nowożytną wersją javy z wybranym IDE (np. IntelliJ IDEA)&lt;/p&gt;
+"
+              speakers:
+                    - name: "Paweł Kapała"
+                      bio: "&lt;p&gt;Paweł jest programistą - generalistą z kilkunastoletnim komercyjnym stażem. Jego ikigai to dzielenie się wiedzą i rozwiązywanie problemów. Jest współorganizatorem Toruń JUG.
+Ostatnio, w swojej pracy, pomaga brytyjskim startupom jako konsultant.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/pawel-kapala/pawe%C5%82.jpg"
+            - title: "Event Storming: od idei do kodu w 5 godzin"
+              session: "Warsztat"
+              seats: 40
+              abstract: "&lt;p&gt;Analiza i projektowanie rozwiązań informatycznych niemal zawsze jest sporym wyzwaniem. Skomplikowane i niejasne procesy biznesowe, zmienność rządzących nimi reguł, czy dodatkowe wyzwania w postaci zagadnień infrastrukturalnych to tylko niektóre z rzeczy, z jakimi często zdarzamy się w codziennej pracy. W naszym developerskim toolboksie jest jednak szereg technik, które znajdują zastosowanie w takich sytuacjach.&lt;/p&gt;
+
+&lt;p&gt;Warsztat będzie podzielony na 2 części, podczas których rozpoczniemy od wspólnej analizy problemu z użyciem EventStormingu na poziomach BigPicture oraz ProcessLevel, a następnie przejdziemy do zagadnień modelowania rozwiązania z użyciem DesignLevel EventStorming oraz technik Domain Driven Design i OO. Wspólnie modelowane fragmenty domeny będą implementowane live z wykorzystaniem platformy .NET. Przejdziemy więc wspólnie przez dużą część cyklu analityczno-implementacyjnego, który ma zastosowanie w wielu projektach IT. Sesję poprowadzą Marcin Markowski, Kuba Pilimon oraz Mariusz Gil z Bottega IT Minds.&lt;/p&gt;
+"
+              speakers:
+                    - name: "Jakub Pilimon"
+                      bio: "&lt;p&gt;Programista, Trener, Konsultant. Aktualnie pracuję na stanowisku Principal Technologist w firmie Pivotal oraz jako konsultant w Bottega IT Minds. Interesuję się modelowaniem, architekturą, Domain-Driven Design i skracaniem dystansu pomiędzy światem biznesu a IT. Jestem wielkim fanem Event Stormingu oraz wytwarzania oprogramowania sterowanego testami.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/jakub-pilimon/jakub-pilimon.jpg"
+                    - name: "Marcin Markowski"
+                      bio: "&lt;p&gt;Deweloper, lider techniczny, zwolennik podejścia Software Creftsmanship i ścisłej współpracy z biznesem. Specjalizuje się w modelowaniu, implementacji Domain Driven Design i projektowaniu architektury systemów.&lt;/p&gt;
+
+&lt;p&gt;Zaczynał od consultingu biznesowego, później przeszedł do IT. Pracował zarówno nad systemami „enterprise”, jak i tworzył od podstaw rozwiązania dla małych firm. Próbował wejść w świat startupów z własnym produktem. Ostatecznie został jednak w IT, gdzie działa jako konsultant i trener.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/marcin-markowski/Marcin.png"
+                    - name: "Mariusz Gil"
+                      bio: "&lt;p&gt;Software architect, trener, ex-CTO, z branżą IT związany od ponad 20 lat. Pasjonuje się projektowaniem i implementacją systemów o złożonych wymaganiach biznesowych, machine-learningiem i procesami wytwarzania oprogramowania, które można przełożyć na realną wartość biznesową dla klienta. Speaker i współorganizator wielu otwartych spotkań dla developerów. Obecnie związany z Bottega IT Minds, gdzie ma okazję pracować z wieloma zespołami developerskimi w Polsce i Europie. Mocno zaangażowany w rozwój oraz praktyczne zastosowania EventStormingu.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/warszawa2020/speakers/mariusz-gil/gil.png"

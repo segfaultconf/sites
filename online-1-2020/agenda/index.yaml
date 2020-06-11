@@ -1,0 +1,91 @@
+
+
+agenda: 
+    - 
+        "2020.07.06 11:00 - 12:30":
+            - title: "Live refactoring towards solid code"
+              session: "Serwis"
+              seats: 16
+              abstract: "&lt;p&gt;Prezentacja będzie sesją programowania na żywo, podczas której poddamy refaktoryzacji część systemu legacy. Podejdziemy do zadania pragmatycznie, identyfikując w kodzie problemy i naprawiając je poprzez stosowanie reguł i wzorców związanych między innymi z modularnością, kohezją, testowalnością. Zobaczymy także jak Domain Driven Design pomaga nam zbudować czysty i solidny kod. Przykłady kodu pisane będą w języku Java.&lt;/p&gt;
+"
+              speakers:
+                    - name: "Bartłomiej Słota"
+                      bio: "&lt;p&gt;Programista z zawodu i zamiłowania. Konsultant i mentor w Bottega IT Minds. Speaker, autor bloga bartslota.blogspot.com. Zdobywał doświadczenie w branżach takich jak opieka zdrowotna, telekomunikacja, marketing, finanse, energetyka, pracując w firmach liczących od kilkudziesięciu do kilku tysięcy pracowników. Pasjonat OOP, Domain Driven Design, software craftsmanship, mikrousług i szeroko pojętej architektury systemów i aplikacji. Entuzjasta warsztatów Event Storming&amp;rsquo;u. W życiu prywatnym mąż i tata. W wolnych chwilach słucha ciężkiej muzyki, gra na gitarze, wędkuje, albo przemierza bezkresne szlaki Bieszczadów.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/online-1-2020/speakers/bartek-slota/IMGA9613.JPG" 
+        "2020.07.07 11:00 - 12:30":
+            - title: "Storming stormingiem, ale sprawiedliwość musi być po naszej stronie"
+              session: "Serwis"
+              seats: 16
+              abstract: "&lt;p&gt;Technika Event Storming zdobywa ostatnio dużą popularność.&lt;/p&gt;
+
+&lt;p&gt;Podchodząc jednak do modelowania aplikacji jest coś więcej. Nie tylko postit&amp;rsquo;ami żyje warsztat.&lt;/p&gt;
+
+&lt;p&gt;To ludzie, cel, psychologia i wiele innych powiązanych i pomocnych metod.&lt;/p&gt;
+
+&lt;p&gt;W trakcie prezentacji chcę przedstawić kilka porad i wniosków odpowiadając na pytania:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Jak wyznaczyć cel?&lt;/li&gt;
+&lt;li&gt;Jak prowadzić warsztat?&lt;/li&gt;
+&lt;li&gt;Kogo zaprosić na spotkanie?&lt;/li&gt;
+&lt;li&gt;Czy wszystkie elementy składowe Event Storming&amp;rsquo;u musz mieć miejsce na sesji?&lt;/li&gt;
+&lt;li&gt;Kto powinien prowadzić spotkanie?&lt;/li&gt;
+&lt;li&gt;Co zrobić dalej po sesji Event Storming?&lt;/li&gt;
+&lt;li&gt;Gdzie można wykorzystać?&lt;/li&gt;
+&lt;li&gt;Z czym powiązać?&lt;/li&gt;
+&lt;li&gt;Jak radzić sobie z ludźmi?&lt;/li&gt;
+&lt;/ul&gt;
+"
+              speakers:
+                    - name: "Krzysztof Owsiany"
+                      bio: "&lt;p&gt;Jako dzieciak zakochałem się w programowaniu, a było to już ponad ćwierć wieku temu. Od tego czasu miałem wiele różnych związków językowo-technologicznych.&lt;/p&gt;
+
+&lt;p&gt;Obecnie najmocniej rozwijam się w obszarach .NET w powiązaniu z DDD, Event Storming’iem, Event Modeling’iem, Clean Code, TDD. Continuous Development - tak można nazwać pasjonata IT dlatego ciągle się rozwijam i uwielbiam poznawać nowe technologie.&lt;/p&gt;
+
+&lt;p&gt;Wyszedłem też do ludzi i występuję na różnych Polskich konferencjach i meetup-ach. Dzieląc się swoją wiedzą i doświadczeniami.&lt;/p&gt;
+
+&lt;p&gt;Od 2017 roku prowadzę też blog MrDev.pl. Udało mi się też wystartować podcast o konferencjach i wystąpieniach publicznych After.conf.&lt;/p&gt;
+
+&lt;p&gt;Przeprowadziłem też kilkukrotnie warsztaty dotyczące: GIT Flow, TDD, Event Storming, Event Modeling.&lt;/p&gt;
+
+&lt;p&gt;Moja najświeższa działalność to modelowanie aplikacji z wykorzystaniem Event Storming i Event Modeling. Można śledzić te poczynania w daily vlog’u Moje 5 minut.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/online-1-2020/speakers/krzysztof-owsiany/IMG_9194-2.jpg" 
+        "2020.07.08 11:00 - 12:30":
+            - title: "Praca w wielokulturowych zespołach"
+              session: "Serwis"
+              seats: 16
+              abstract: "&lt;p&gt;Praca w międzynarodowym środowisku to praktycznie standard w obecnych czasach. Posiadanie w zespole dużego zróżnicowania ze względu na płeć, pochodzenie czy właśnie kulturę to bardzo duży zasób i atut. Niestety bardzo mało mówi się o tym, że różnice kulturowe bardzo mocno wpływają na to: jak pracujemy, rozwiązujemy konflikty czy nawet podchodzimy do relacji prywatnych w pracy. To generuje szereg wyzwań, z którymi nie zawsze jesteśmy w stanie poradzić sobie sami. Budowanie świadomości różnic kulturowych jest kluczowym aspektem efektywnej współpracy w międzynarodowych zespołach. Celem prezentacji jest zbudowanie tej świadomości i zachęcenie do zgłębienia tematu.&lt;/p&gt;
+
+&lt;p&gt;Podczas prelekcji odpowiemy sobie między innymi na kilka pytań:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dlaczego Polacy tak bardzo lubią zasady i dlaczego praca np. z Amerykanami może generować dodatkowe wyzwania&lt;/li&gt;
+&lt;li&gt;Dlaczego Niemcy nazywani są “naoliwioną maszyną” i co to oznacza w kontekście codziennej współpracy.&lt;/li&gt;
+&lt;li&gt;Jak to, gdzie zostaliśmy wychowani wpływa na naszą codzienną pracę i podejmowanie decyzji?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Oczywiście oprócz niezbędnej dawki wiedzy teoretycznej, przytoczymy i porozmawiamy o przykładach praktycznych. Dużą siłą tej tematyki jest dyskusja i wymiana doświadczeń - mam cichą nadzieję, że podczas prezentacji będziemy mieli okazji porozmawiać i wycisnąć z prelekcji jak najwięcej. Do zobaczenia!&lt;/p&gt;
+"
+              speakers:
+                    - name: "Mariusz Jasinski"
+                      bio: "&lt;p&gt;Obecnie Scrum Master z techniczną duszą. Kilka lat temu zainspirowany podejściem zwinnym postanowił przejść na ludzką stronę mocy i odstawić zera i jedynki na drugi plan. Zawodowo zajarany wpływem kultury na naszą pracę i życie codzienne oraz budowaniem “High-performance” zespołów. Na codzień mocno skoncentrowany na wdrażaniu mądrości Agile we wszystkich aspektach życia (możecie zapytać żony ;=) ).  Prywatnie mąż i ojciec. W wolnych chwilach lubi potańczyć i podróżować.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/online-1-2020/speakers/mariusz-jasinski/photo.png" 
+        "2020.07.09 11:00 - 12:30":
+            - title: "Krotki i relacje czyli dlaczego w relacyjnych bazach danych nie ma tabel a SQL kłamie."
+              session: "Serwis"
+              seats: 16
+              abstract: "&lt;p&gt;Wśród programistów i administratorów powszechnie pokutuje błędne przeświadczenie, że dane w relacyjnych bazach danych zorganizowane są w tabele. Błąd ten popełnia nawet sam język SQL. Z tego nieporozumienia wynika szereg problemów, które nigdy nie pojawiłyby się gdybyśmy od początku posługiwali się prawidłową terminologią. W czasie prelekcji postaram się odczarować terminologię związaną z bazami danych, wyjaśnić co tak naprawdę w nich przechowujemy i jakie są tego praktyczne konsekwencje.&lt;/p&gt;
+"
+              speakers:
+                    - name: "Rafał Pocztarski"
+                      bio: "&lt;p&gt;Rafał Pocztarski od dziecka interesuje się programowaniem i zgłębianiem zasad działania otaczającego go świata, czym chętnie dzieli się z każdym, kto nieopatrznie wykaże choćby cień zainteresowania. Podstawówka to Basic, Logo, Pascal, C, Assembler. Liceum to Perl i JavaScript. W Node.js programuje od 2009 roku czyli zaraz od jego powstania. Jako pierwszy w Polsce zdobył Złoty Medal Node.js na Stack Overflow. Od 2018 roku zaangażowany jest w rozwój projektu Deno, kolejnego po Node.js projektu Ryana Dahla.&lt;/p&gt;
+"
+                      photo: "http://test.segfault.events/sites/online-1-2020/speakers/rafal-pocztarski/rsp-photo-3.jpg" 
+        "2020.07.10 11:00 - 12:30":
+            - title: "TBD"
+              session: "Serwis"
+              seats: 16
+              abstract: ""

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pl-PL" class="js"><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>SegFault - Konferencje IT  &bull;&nbsp;Marta Musik
+     &bull;&nbsp;Software Crafstman - czysty kod i... obserwowalność
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="author" content="Symentis Events">
+  <meta name="description" content="">
+  <meta name="keywords" content="Architecture At Scale">
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@SegFaultConf">
+  <meta name="twitter:title" content="SegFault - wszyscy jesteśmy architektami">
+  <meta name="twitter:description" content="Segfault, ponieważ zrozumienie fundamentów umożliwia ciągły rozwój nie tylko branży IT, ale i nas samych.">
+  
+  <meta name="twitter:image:src" content="http://test.segfault.events/img/social_facebook_sf.jpg">
+  
+  
+  <meta property="og:title" content="" />
+<meta property="og:description" content="Jestem jednym z tych programistów, którzy chcą ze swojej pracy czerpać dumę i wstawać od komputera z poczuciem dobrze wykonanej roboty. W związku z tym zawsze blisko mi było do Software Craftsmanship, a co za tym idzie praktyk takich jak czysty kod i TDD. W rzemieślniczej metaforze pracy programisty jest jednak coś niepokojącego - wydaje się, że jako programiści rzemieślnicy skupiamy się przede wszystkim na utrzymaniu porządku w warsztacie i tym samym na ułatwianiu pracy sobie i swoim kolegom." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://test.segfault.events/sites/katowice2020/abstracts/observability/" />
+
+
+
+  <link rel="shortcut icon" href="/sites/img/favicon.png">
+
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:100,300,400">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Sedgwick+Ave">
+  <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" href="/sites/css/main.css?1591906455">
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script type="text/javascript" src="//stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/sites/js/main.js?1591906455"></script>
+
+  
+  
+<script async="async" src="https://www.googletagmanager.com/gtag/js?id=AW-868075068"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', "AW-868075068");
+</script>
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', "UA-113528014-1", 'auto');
+ga('require', 'linker');
+ga('linker:autoLink', ['konfeo.com'], false, true);
+ga('send', 'pageview');
+</script>
+
+
+
+  
+<script>
+  !function (f, b, e, v, n, t, s) {
+    if (f.fbq)
+      return;
+    n = f.fbq = function () {
+      n.callMethod
+        ? n.callMethod.apply(n, arguments)
+        : n.queue.push(arguments)
+    };
+    if (!f._fbq)
+      f._fbq = n;
+    n.push = n;
+    n.loaded = !0;
+    n.version = '2.0';
+    n.queue = [];
+    t = b.createElement(e);
+    t.async = !0;
+    t.src = v;
+    s = b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t, s)
+  }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init',  2039077633048325 );
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2039077633048325&ev=PageView&noscript=1"/></noscript>
+
+
+  
+</head>
+<body class="single-lecture single"><div class="body-overlay"></div>
+<div id="pagewrap" class="hfeed site">
+    <div id="headerwrap">
+        <header id="header" class="pagewidth clearfix" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+            <nav class="navbar fixed-top navbar-expand-lg" id="mainNav">
+                <div id="logo">
+                    <a class="navbar-brand" href="/">
+                        <img src="/sites/img/segfaultPoziomeLogoBiale.png" alt="Logo Segfault">
+                    </a>
+                </div>
+                <button id="myToggler">
+                    <span class="navbar-toggler-icon">&#9776;</span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <i class="fas fa-times" id="closeMenu"></i>
+                    
+                                        
+                    <ul class="navbar-nav ml-auto" >
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://test.segfault.events/katowice2020/#topics">Tematyka</span></a>
+                        </li>                        
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://test.segfault.events/katowice2020/#speakers">Prelegenci</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://test.segfault.events/katowice2020/#schedule">Agenda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://test.segfault.events/katowice2020/#partners">Partnerzy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://test.segfault.events/katowice2020/#venue">Miejsce</a>
+                        </li>                        
+                    </ul>
+
+                    <div class="register-button button-group">
+                        <a class="white-text no-decor" href="http://test.segfault.events/katowice2020/#register">
+                            <button type="button" class="btn blue">Rejestracja</button>
+                        </a>
+                    </div>
+            
+                </div>
+            </nav>
+        </header>
+    </div>
+    
+</div>
+<div id="body" class="clearfix">
+        
+        <div id="layout" class="pagewidth">
+            
+            <div id="content">
+                <div class="d-flex flex-column-reverse flex-md-row">
+                    <div class="speakers h-25 col-12 col-md-3 offset-md-1 d-flex flex-column flex-sm-row flex-md-column">
+                    
+                    
+                        <div class="speaker col-12 col-sm-6 col-md-12">
+                            <div class="photo">
+                            
+                                <img src="/sites/katowice2020/speakers/marta-musik/DSC_0405.JPG" alt="" />
+                            
+                            </div>
+                            <div class="text-center name">
+                                <a href="/sites/katowice2020/speakers/marta-musik/">
+                                    <h3 class="text-center">
+                                        <em>Marta Musik</em>
+                                    </h3>
+                                </a>        
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="abstract col-12 col-md-6">
+                            <h2> Software Crafstman - czysty kod i... obserwowalność </h2>
+                            <div>
+                                <p><p>Jestem jednym z tych programistów, którzy chcą ze swojej pracy czerpać dumę i wstawać od komputera z poczuciem dobrze wykonanej roboty. W związku z tym zawsze blisko mi było do Software Craftsmanship, a co za tym idzie praktyk takich jak czysty kod i TDD. W rzemieślniczej metaforze pracy programisty jest jednak coś niepokojącego - wydaje się, że jako programiści rzemieślnicy skupiamy się przede wszystkim na utrzymaniu porządku w warsztacie i tym samym na ułatwianiu pracy sobie i swoim kolegom. W efekcie, w niektórych przypadkach, rzeczywiście zajmujemy się sztuką dla sztuki bez realnego przełożenia na efekt końcowy widziany przez użytkownika - dopasowanie do jego oczekiwań i możliwości realizacji jego celów. Czy w rozmowie o wytwarzaniu oprogramowania jako o rzemiośle czegoś przypadkiem nie brakuje?
+Z perspektywy programisty zaciekawionego rozbieżnościami między deklaracjami dobrych praktyk a ich faktycznym stosowaniem, chciałabym opowiedzieć o obserwowalności (&ldquo;observability&rdquo;). Powiem, dlaczego uważam, że obserwowalność to cecha i praktyka, o której powinniśmy w środowisku Software Craftsmen dyskutować przynajmniej tak samo często jak o TDD czy Clean Code. Co więcej, oprócz dyskutowania, powinniśmy ją nawet implementować.</p>
+</p>
+                            </div>
+                            
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        
+                        <div class="col-md-12">
+                            <a href="/katowice2020/#speakers" class="back">
+                                <i class="fas fa-arrow-circle-left"></i>
+                                <span>Zobacz wszystkich prelegentów</span>
+                            </a>
+                            <a href="/katowice2020/#schedule" class="back">
+                                <i class="fas fa-arrow-circle-left"></i>
+                                <span>Przejdź do agendy</span>
+                            </a>
+                        </div>
+                    </div>
+                
+
+                </div>
+
+            </div><footer>
+    <div class="container-fluid dark-gray">
+        <div class="col-md-12">
+            <a href="#pagewrap" id="up"><i class="fas fa-chevron-up"></i></a>
+        </div>
+        <div class="social-widgets col-md-12">
+            <a href="https://twitter.com/segfaultevents"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/segfaultevents/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/segfaultevents/"><i class="fab fa-instagram"></i></a>
+            <a href="http://www.youtube.com/c/KonferencjeSegFault"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg" id="bottomNav">
+                <div class="navbar-collapse justify-content-center" id="navbarNav">
+                     
+
+                    
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/docs/RegulaminV2.pdf">Regulamin konferencji</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/docs/PolitykaPrywatnosciV2.pdf">Polityka prywatności</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/sites/katowice2020/faqs/">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="" target="_blank">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:partnerzy@segfault.events">Zostań partnerem</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:media@segfault.events">Media</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+        <div class="col-md-12">
+            <span id="copyright">Copyright © SegFault</span>
+        </div>
+    </div>
+</footer>
+</div>
+    </div>
+</body>
+</html>
