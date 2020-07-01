@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/committee/</loc>
+  </url>
+  
+  <url>
+    <loc>/committee/jarek-palka/</loc>
+  </url>
+  
+  <url>
+    <loc>/committee/justyna-bien/</loc>
+  </url>
+  
+  <url>
+    <loc>/committee/kuba-marchwicki/</loc>
+  </url>
+  
+  <url>
+    <loc>/committee/wiktor-sztajerowski/</loc>
+  </url>
+  
+  <url>
+    <loc>/faqs/</loc>
+  </url>
+  
+  <url>
+    <loc>/legal/dataprotection/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/charbusters/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/cloud-ha/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/continuous-delivery/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/deep-learning-in-computer-vision/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/deep-learning-issues/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/deep-learning-practice/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/docker-devops/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/docker-internals/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/docker-kontra-developer/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/event-storming-ddd/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/event-storming/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/frameworkless-javascript/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/jak-wytresowac-basha/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/jpa/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/kickstart-perf-testing/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/kotlin-for-java-developers/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/kotlin-spring/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/kubernetes-101/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/legacy-java/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/machine-learning-dla-programistow/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/machine-learning/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/ml-jak-zaczac/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/post-spring-cloud-netflix/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/safety-critical/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/senior-developer/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/serverless-oczami-bezpiecznika/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/abstracts/shipkit/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/agenda/index.yaml</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/faqs/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/adam-dudczak/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/arkadiusz-kondas/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/eliza-stasinska/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/grzegorz-kocur/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/jakub-pilimon/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/jakub-pokrywka/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/karol-lyskawinski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/konrad-marszalek/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/krzysztof-borowa/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/krzysztof-kudrynski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/lukasz-luczak/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/maciej-gajdzica/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/macin-grzejszczak/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/marcin-hoppe/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/marcin-moskala/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/marcin-stachniuk/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/marcin-stozek/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/mariusz-domzalski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/michal-gryko/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/michal-jonko/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/olga-maciaszek-sharma/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/pawel-wlodarski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/piotr-struzik/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/rafal-sztwiorok/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/tomek-nurkiewicz/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/wojciech-oczkowski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/speakers/wojtek-ptak/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/topics/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/katowice2020/abstracts/eventstorming/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/katowice2020/abstracts/krotki-i-relacje/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/katowice2020/abstracts/live-refactoring-solid-code/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/katowice2020/abstracts/multicultural-teams/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/katowice2020/abstracts/observability/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/katowice2020/agenda/index.yaml</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/katowice2020/faqs/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/katowice2020/speakers/bartek-slota/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/katowice2020/speakers/krzysztof-owsiany/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/katowice2020/speakers/mariusz-jasinski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/katowice2020/speakers/marta-musik/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/katowice2020/speakers/piotr-wyczesany/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/katowice2020/speakers/rafal-pocztarski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/katowice2020/topics/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/kielce2019/abstracts/database-reliability/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/kielce2019/abstracts/event-sourcing/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/kielce2019/abstracts/immutable-infrastructure-as-code/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/kielce2019/abstracts/komunikacja-w-systemach-rozproszonych/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/kielce2019/abstracts/przychodzi-frontend-do-backenda/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/kielce2019/abstracts/solid-frontend/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/kielce2019/abstracts/web-performance/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/kielce2019/speakers/daniel-pokusa/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/kielce2019/speakers/karolina-czopka/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/kielce2019/speakers/kuba-kubrynski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/kielce2019/speakers/lukasz-luczak/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/kielce2019/speakers/maciej-lasyk/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/kielce2019/speakers/mateusz-kwasniewski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/kielce2019/speakers/pawel-prazak/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/kielce2019/speakers/slawomir-sobotka/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/kielce2019/topics/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/abstracts/aeszcz/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/abstracts/boiling-water-the-hard-way/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/abstracts/cienie-i-blaski-event-driven-design/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/abstracts/code-review/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/abstracts/eventsourcing-cqrs-zima-nadchodzi/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/abstracts/immutable-tests/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/abstracts/is-your-feedback-meeting-about-money/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/abstracts/jak-ddd-ma-sie-do-architektury/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/abstracts/jestem-oszustem/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/abstracts/loosely-coupled-architecture-jak-pozbyc-sie-efektu-domina/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/abstracts/mikroserwisy-od-http-do-kafki/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/abstracts/mow-do-mnie-czule-jak-sie-komunikowac-i-przyspieszyc-swoja-kariere/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/abstracts/nie-tylko-dla-ojcow-jak-wychowujac-dzieci-nauczylem-sie-byc-lepszym-programista/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/abstracts/pies-stres-i-wypalenie/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/abstracts/produktywny-programista/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/abstracts/relatywizm-jezykow-programowania/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/abstracts/shell-tmux-vim-krotka-historia-o-ostrzeniu-pily/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/abstracts/sr9kra-6-boot-nr-65536/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/speakers/alicja-kubera/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/speakers/grzegorz-miejski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/speakers/iwona-kubowicz/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/speakers/joanna-lamch/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/speakers/krzysztof-seroka/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/speakers/marcin-markowski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/speakers/marek-bedkowski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/speakers/michal-borkowski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/speakers/nowak-drobik-martyniak/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/speakers/oskar-dudycz/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/speakers/piotr-nabielec/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/speakers/piotr-przybyl/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/speakers/piotr-stawirej/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/speakers/radoslaw-maziarka/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/speakers/rafal-makara/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/speakers/sebastian-rabiej/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/speakers/slawomir-jachowicz/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/speakers/wojciech-rzasa/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2019/topics/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2020/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/krakow2020/topics/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/abstracts/contract-tests-in-enterprise/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/abstracts/czy-sprzedawcy-sqlowych-baz-nas-oszukali/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/abstracts/datalog-nosql-event-sourcing-acid-and-web-scale/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/abstracts/deep-learning-in-computer-vision/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/abstracts/from-events-to-business-and-back/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/abstracts/illogical-engineers/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/abstracts/impostor-syndrome-czyli-dlaczego-moje-konto-na-githubie-jest-puste/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/abstracts/kryzys-wieku-sredniego-w-it/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/abstracts/nadeszla-era-funkcyjnego-serwera/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/abstracts/nie-ma-nic-prostszego-niz-napisanie-wolnego-regexpa/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/abstracts/poradnik-nie-tylko-dla-jedi/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/abstracts/you-are-using-the-wrong-database/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/abstracts/zycie-po-batchu-treaming-i-jego-oblicza/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/faqs/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/speakers/grzegorz-rozniecki/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/speakers/jarek-ratajski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/speakers/kubiak-kudrynski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/speakers/m.gil-w.ptak/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/speakers/maciej-rzasa/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/speakers/marcin-grzejszczak/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/speakers/michal-gruca/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/speakers/norbert-wojtowicz/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/speakers/pawel-szulc/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/speakers/robert-pankowiecki/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/speakers/szymon-warda/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/speakers/tomasz-szymanski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/speakers/tomek-kogut/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/topics/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/abstracts/a-ktoz-testowac-bedzie-same-testy/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/abstracts/architecture-toolkit/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/abstracts/ci-cd-devops/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/abstracts/legacy-supremacy/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/abstracts/monolity-mikroserwisy/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/abstracts/najlepszy-czas-na-przygode-z-ai/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/abstracts/poszly-konie-po-betonie/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/abstracts/rest/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/abstracts/right-tool-for-the-job/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/abstracts/wycieczka-od-gory-do-dolu/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/abstracts/zwinna-podroz/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/speakers/alex-fortune/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/speakers/arek-benedykt/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/speakers/bartek-kuczynski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/speakers/jarek-palka/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/speakers/karolina-gnat/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/speakers/marcin-grochownia/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/speakers/michal-ostruszka/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/speakers/rafal-sztwiorok/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/speakers/robert-pankowiecki/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/speakers/tomasz-borek/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/speakers/tomasz-cejner/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/speakers/wojtek-ptak/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/topics/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/online-1-2020/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/online-1-2020/abstracts/eventstorming/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/online-1-2020/abstracts/krotki-i-relacje/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/online-1-2020/abstracts/live-refactoring-solid-code/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/online-1-2020/abstracts/multicultural-teams/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/online-1-2020/abstracts/observability/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/online-1-2020/agenda/index.yaml</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/online-1-2020/faqs/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/online-1-2020/speakers/bartek-slota/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/online-1-2020/speakers/krzysztof-owsiany/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/online-1-2020/speakers/mariusz-jasinski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/online-1-2020/speakers/rafal-pocztarski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/online-1-2020/topics/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2019/abstracts/mowiac-jezykiem-uzytkownika-o-zastosowaniach-nlp-w-systemie-rekomendacyjnym/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2019/abstracts/skazani-na-pythona/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2019/abstracts/wyszukiwanie-wizualne-uczenie-maszynowe-i-pokemony/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2019/speakers/joanna-misztal-radecka/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2019/speakers/krzysztof-kudrynski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2019/speakers/marek-bedkowski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2019/speakers/ola-kunysz/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2019/speakers/przemek-maciolek/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2019/speakers/wojtek-ptak/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2019/topics/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/architektury-oparte-na-zdarzeniach-w-praktyce/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/co-robi-twoja-aplikacja-kiedy-rodzicow-nie-ma-w-domu-kilka-slow-o-elastic-apm/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/cqrs-and-event-sourcing-applied-on-jvm-with-axon-framework/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/data-first-building-a-board-game/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/deeplearning-dla-programistow-javy/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/dobrze-wypasc-w-roli-prelegenta/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/event-storming-od-idei-do-kodu-w-5-godzin/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/funkcyjne-podejscie-do-zlozonych-domen-biznesowych/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/jak-dzialaja-autonomiczne-pojazdy/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/java-12-13-14-nowosci-godne-uwagi/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/java-microbenchmarki-i-klamstwa/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/jigsaw-moduly-w-nowej-javie/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/lambda-driven-business-domains/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/ludzie-i-interakcje-ponad-procesy-i-narzedzia-pogadajmy-o-tym-drugim/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/micro-frontends-raport-z-frontu/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/modelowanie-zdarzen-domenowych-sterowanych-czasem/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/najwazniejsza-jest-komunikacja-budowanie-aplikacji-i-systemow-heterogenicznych/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/nie-mowisz-nie-programujesz/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/poligraf-wariograf-wykrywacz-klamstw/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/spojna-komunikacja-asynchroniczna-w-chmurze-jak-budowac-niezawodne-system-z-zawodnych-komponentow/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/abstracts/web-evolution-not-revolution/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/agenda/index.yaml</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/faqs/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/arkadiusz-szajna/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/jakub-pilimon/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/jarek-palka/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/joanna-lamch/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/karolina-latos/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/konrad-jakubiec/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/krzysztof-kruczynski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/krzysztof-kudrynski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/marcin-aks-grochowina/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/marcin-markowski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/marcin-mendlik/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/marek-bedkowski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/mariusz-gil/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/michal-bartyzel/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/michal-zubkowicz/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/monika-malinowska/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/oskar-dudycz/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/pawel-kapala/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/piotr-przybyl/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/piotr-wyczesany/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/szymon-gasienica-kotelnicki/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/szymon-pobiega/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/tomasz-masternak/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/speakers/zbyszko-papierski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/topics/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/abstracts/10-rzeczy-ktore-chcialbym-wiedziec-10-lat-temu/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/abstracts/curry-howard-w-praktyce/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/abstracts/driven-niczego-naprawde-nie-zmienia/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/abstracts/event-sourcing/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/abstracts/kroczac-dolina-ciemnosci-mikroserwisow-sie-nie-ulekne/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/abstracts/praca-z-kodem-zastanym-nadchodzi-wielka-fala/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/abstracts/programowanie-reaktywne-czego-sie-nauczylem/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/abstracts/przewidywanie-zmian-wydajnosci-aplikacji-rozproszonych/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/abstracts/wykorzystanie-podejscia-domain-driven-design-w-systemach-legacy/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/abstracts/wzorce-komunikacyjne-w-sieciach-organicznych/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/abstracts/zatrudniamy-tylko-najlepszych-powiedzial-kazdy-zawsze/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/faqs/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/speakers/andrzej-ludwikowski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/speakers/daniel-pokusa/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/speakers/dominik-boszko/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/speakers/jan-pustelnik/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/speakers/krzysztof-kaczmarek/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/speakers/michal-bartyzel/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/speakers/piotr-wyczesany/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/speakers/tomek-nurkiewicz/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/speakers/wojtek-erbetowski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/speakers/wojtek-rzasa/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/speakers/zbyszko-papierski/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/topics/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2019/abstracts/data-science-nie-dziala/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2019/abstracts/deep-learning-in-computer-vision/</loc>
+  </url>
+  
+  <url>
+    <loc>/legal/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2019/abstracts/najlepszy-czas-na-przygode-z-ai/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/polityka-prywatnosci/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/katowice2020/polityka-prywatnosci/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/kielce2019/polityka-prywatnosci/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/polityka-prywatnosci/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/polityka-prywatnosci/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/online-1-2020/polityka-prywatnosci/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/polityka-prywatnosci/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/polityka-prywatnosci/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/gdansk2019/regulamin/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/katowice2020/regulamin/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/kielce2019/regulamin/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2018/regulamin/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/lodz2019/regulamin/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/online-1-2020/regulamin/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2020/regulamin/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/wroclaw2018/regulamin/</loc>
+  </url>
+  
+  <url>
+    <loc>/kielce2019/</loc>
+  </url>
+  
+  <url>
+    <loc>/lodz2018/</loc>
+  </url>
+  
+  <url>
+    <loc>/lodz2019/</loc>
+  </url>
+  
+  <url>
+    <loc>/warszawa2019/</loc>
+  </url>
+  
+  <url>
+    <loc>/wroclaw2018/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/</loc>
+  </url>
+  
+  <url>
+    <loc>/katowice2020/</loc>
+  </url>
+  
+  <url>
+    <loc>/online-1-2020/</loc>
+  </url>
+  
+  <url>
+    <loc>/krakow2019/</loc>
+  </url>
+  
+  <url>
+    <loc>/krakow2020/</loc>
+  </url>
+  
+  <url>
+    <loc>/gdansk2019/</loc>
+  </url>
+  
+  <url>
+    <loc>/warszawa2020/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>/sites/warszawa2019/abstracts/phishing-spam-ml-streams/</loc>
+  </url>
+  
+</urlset>
